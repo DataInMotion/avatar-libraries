@@ -1,0 +1,15 @@
+*.bak
+/.metadata/
+/.recommenders/
+Archive
+.DS_Store
+.*.swp
+/.gradle/
+/reports/
+/generated/
+.to
+bin_test/
+cnf/cache/
+/build/
+generated/
+bin/
