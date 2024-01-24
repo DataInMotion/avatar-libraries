@@ -4,14 +4,19 @@
 #	Jacoco Support - gecko-jacoco
 -library: \
 	geckoDIMC,\
-	geckoOSGi-Test,\
-	geckoJacoco,\
 	geckoEMF,\
-	jakartaREST
+	geckoEMFUtil,\
+	geckoEMFRepository,\
+	jakartaREST,\
+	geckoOSGi-Test,\
+	geckoJacoco
+	
 
 # Needed because we enabled library 'gecko-dimc'
 # Activate baselining
-dimcBaselining: true
+dimcBaselining: false
+mavenCentral: false
+github-group: DataInMotion
 github-project: avatar-libraries
 base-version: 1.0.0
 
@@ -19,10 +24,10 @@ base-version: 1.0.0
 # For Geckoprojects the groupid must start with org.geckoprojects
 -groupid: org.geckoprojects.avatar.libraries
 
-javac.source: 11
-javac.target: 11
+javac.source: 17
+javac.target: 17
 
--require-bnd "(version>=6.3.1)"
+-require-bnd "(version>=7.0.0)"
 
 -jpms-module-info:
 

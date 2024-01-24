@@ -2,7 +2,7 @@ pipeline  {
     agent any
 
     tools {
-        jdk 'OpenJDK11'
+        jdk 'OpenJDK17'
     }
     options {
         buildDiscarder(logRotator(numToKeepStr: '5'))
@@ -15,7 +15,7 @@ pipeline  {
             }
             steps {
                 echo "I am building on ${env.BRANCH_NAME}"
-                sh "./gradlew clean build release -Drelease.dir=$JENKINS_HOME/repo.gecko/release/avatar-libraries --info --stacktrace -Dmaven.repo.local=${WORKSPACE}/.m2"
+                sh "./gradlew clean build release -Drelease.dir=$JENKINS_HOME/repo.gecko/release/org.gecko.foo --info --stacktrace -Dmaven.repo.local=${WORKSPACE}/.m2"
             }
         }
         stage('Snapshot branch release') {
@@ -25,9 +25,9 @@ pipeline  {
             steps  {
                 echo "I am building on ${env.JOB_NAME}"
                 sh "./gradlew clean release --info --stacktrace -Dmaven.repo.local=${WORKSPACE}/.m2"
-                sh "mkdir -p $JENKINS_HOME/repo.gecko/snapshot/avatar-libraries"
-                sh "rm -rf $JENKINS_HOME/repo.gecko/snapshot/avatar-libraries/*"
-                sh "cp -r cnf/release/* $JENKINS_HOME/repo.gecko/snapshot/avatar-libraries"
+                sh "mkdir -p $JENKINS_HOME/repo.gecko/snapshot/org.gecko.foo"
+                sh "rm -rf $JENKINS_HOME/repo.gecko/snapshot/org.gecko.foo/*"
+                sh "cp -r cnf/release/* $JENKINS_HOME/repo.gecko/snapshot/org.gecko.foo"
             }
         }
     }

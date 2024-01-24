@@ -137,13 +137,10 @@ org.slf4j:slf4j-simple:1.7.36
 org.slf4j:slf4j-api:1.7.36
 org.freemarker:freemarker:2.3.32
 
-org.geckoprojects.bnd:org.gecko.bnd.dimc.library:1.4.1
-org.geckoprojects.bnd:org.gecko.bnd.jacoco.library:1.4.1
-org.geckoprojects.bnd:org.gecko.bnd.osgitest.library:1.4.1
-org.geckoprojects.emf:org.gecko.emf.osgi.bnd.library.workspace:5.0.0
-
-org.geckoprojects.emf.utils:org.gecko.emf.rest.jakartars:2.1.0
-org.geckoprojects.emf.utils:org.gecko.emf.rest.jaxrs:2.1.0
-org.geckoprojects.emf.utils:org.gecko.emf.json:1.4.3
-
-org.eclipse.osgi-technology.rest:org.eclipse.osgitech.rest.bnd.library:1.0.0-SNAPSHOT
+org.geckoprojects.bnd:org.gecko.bnd.dimc.library:1.5.0
+org.geckoprojects.bnd:org.gecko.bnd.jacoco.library:1.5.0
+org.geckoprojects.bnd:org.gecko.bnd.osgitest.library:1.5.0
+org.geckoprojects.emf:org.gecko.emf.osgi.bnd.library.workspace:6.0.1
+org.geckoprojects.emf.utils:org.gecko.emf.util.jakartars.bnd.library.workspace:2.3.0
+org.geckoprojects.persistence:org.gecko.emf.repository.bnd.library.workspace:6.1.0-SNAPSHOT
+org.eclipse.osgi-technology.rest:org.eclipse.osgitech.rest.bnd.library:1.2.2

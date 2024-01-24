@@ -1,0 +1,25 @@
+{
+  ":configurator:resource-version": 1,
+  
+	"org.apache.felix.http~httpHL7":
+	{
+		"org.osgi.service.http.port": "8088",
+		"org.osgi.service.http.host": "localhost",
+		"org.apache.felix.http.context_path": "/fhir",
+		"org.apache.felix.http.name": "HL7HTTP",
+		"org.apache.felix.http.runtime.init.id": "httpHL7"
+	},
+	"JakartarsServletWhiteboardRuntimeComponent~restHL7":
+	{
+		"jersey.jakartars.whiteboard.name" : "HL7REST",
+		"jersey.context.path" : "rest",
+		"osgi.http.whiteboard.target" : "(id=httpHL7)"
+	},
+	"EMFMongoRepositoryConfigurator": 
+    {
+ 		"mongo.instances": "test1",
+	    "test1.baseUris": "mongodb://localhost:27017",
+	    "test1.databases": "test",
+	    "test1.test.repoType": "PROTOTYPE"
+  	}
+}
