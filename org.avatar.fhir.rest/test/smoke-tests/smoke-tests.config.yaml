@@ -1,0 +1,28 @@
+generatorName: k6
+
+# NOTE: paths are relative to Docker volume mount path; see 'generate-smoke-tests.sh'
+# OpenAPI / Swagger spec - as file (spec generated at buildtime via gradle) ..
+inputSpec: /local/openapi/AvatarLibrariesAPI.yaml
+
+# directory with custom templates
+templateDir: /local/test/smoke-tests/templates
+
+# directory where generated tests will be written to
+outputDir: /local/test/smoke-tests
+
+# templates used and how they map to files which will be generated
+files:
+  script.mustache:
+    templateType: SupportingFiles
+    destinationFilename: smoke-tests.script.js
+
+  README.mustache:
+    templateType: SupportingFiles
+    destinationFilename: README.md
+
+# workaround for some of the EMF model components embedded in spec being recognized as invalid
+validateSpec: false
+
+# additional properties which will be passed directly to template
+additionalProperties:
+  testDataScriptPath: '"../common/testdata.js"'

@@ -1,0 +1,9 @@
+eclipse.preferences.version=1
+encoding//fhir-codegen-xsd/account.xsd=UTF8
+encoding//fhir-codegen-xsd/capabilitystatement.xsd=UTF8
+encoding//fhir-codegen-xsd/fhir-all.xsd=UTF8
+encoding//fhir-codegen-xsd/fhir-base.xsd=UTF8
+encoding//fhir-codegen-xsd/fhir-single.xsd=UTF8
+encoding//fhir-codegen-xsd/graphdefinition.xsd=UTF8
+encoding//fhir-codegen-xsd/patient.xsd=UTF8
+encoding/<project>=UTF-8

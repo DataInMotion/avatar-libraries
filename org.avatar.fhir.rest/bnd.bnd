@@ -1,0 +1,36 @@
+-library: \
+	enableJakartaREST,\
+	enable-emf
+
+Bundle-Version: 1.0.0.SNAPSHOT
+
+-buildpath: \
+	org.osgi.service.component.annotations;version=latest,\
+	org.osgi.service.servlet;version=latest,\
+	org.gecko.emf.json;version=latest,\
+	org.gecko.emf.rest.jakartars;version=latest,\
+	org.avatar.fhir.model.patient;version=project,\
+	org.avatar.fhir.service.patient.api;version=snapshot,\
+	jakarta.validation.jakarta.validation-api
+
+# additional dependencies required by 'generateOpenApiSpec' gradle task	(see 'build.gradle')
+-buildpath.generateOpenApiSpec: \
+	io.swagger.core.v3.swagger-core.jakarta,\
+	io.swagger.core.v3.swagger-jaxrs2.jakarta,\
+	io.swagger.core.v3.swagger-annotations.jakarta,\
+	io.swagger.core.v3.swagger-integration.jakarta,\
+	io.swagger.core.v3.swagger-models.jakarta,\
+	org.apache.commons.lang3;version='3.13.0',\
+	slf4j.api,\
+	slf4j.simple,\
+	com.fasterxml.jackson.core.jackson-databind;version='2.16.0',\
+	com.fasterxml.jackson.core.jackson-core;version='2.16.0',\
+	com.fasterxml.jackson.core.jackson-core;version='2.16.0',\
+	com.fasterxml.jackson.datatype.jackson-datatype-jsr310;version='2.16.0',\
+	com.fasterxml.jackson.dataformat.jackson-dataformat-yaml;version='2.16.0',\
+	com.fasterxml.jackson.core.jackson-annotations;version='2.16.0',\
+	io.github.classgraph.classgraph,\
+	jakarta.xml.bind-api,\
+	org.yaml.snakeyaml;version='2.2.0',\
+	org.avatar.fhir.model.xhtml;version=project,\
+	org.avatar.fhir.model.namespace;version=project

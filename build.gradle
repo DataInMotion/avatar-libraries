@@ -27,8 +27,8 @@ subprojects {
 // Sonar setup
 sonarqube {
   properties {
-    property "sonar.projectName", "org.gecko.foo"
-    property "sonar.projectKey", "geckoprojects-org_org.gecko.foo"
+    property "sonar.projectName", "avatar-libraries"
+    property "sonar.projectKey", "geckoprojects-org_avatar-libraries"
     property "sonar.organization", "geckoprojects-org"
     property "sonar.host.url", "https://sonarcloud.io"
     property "sonar.coverage.jacoco.xmlReportPaths", "${rootDir}/build/reports/jacoco/codeCoverageReport/codeCoverageReport.xml"
@@ -57,5 +57,26 @@ task codeCoverageReport(type: JacocoReport) {
 
 tasks.named("sonar") {
     dependsOn(codeCoverageReport)
+}
+
+// Disable bnd plugin built-in task 'testOSGi' and register custom task for testing
+gradle.startParameter.excludedTaskNames += "testOSGi"
+
+tasks.register('itest'){
+  subprojects.each { sp ->
+    sp.tasks.each { t ->
+      if(t.name ==~ "resolve\\.test(.*)?"){
+        dependsOn t
+      }
+    }
+  }
+  
+  subprojects.each { sp ->
+    sp.tasks.each { t ->
+      if(t.name ==~ "testrun\\.test(.*)?"){
+        dependsOn t
+      }
+    }
+  }
 }
 
