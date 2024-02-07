@@ -18,7 +18,6 @@ org.apache.felix:org.apache.felix.converter:1.0.18
 org.apache.felix:org.apache.felix.coordinator:1.0.2
 org.apache.felix:org.apache.felix.gogo.command:1.1.2
 org.apache.felix:org.apache.felix.gogo.shell:1.1.4
-org.apache.felix:org.apache.felix.gogo.shell:1.1.4
 org.apache.felix:org.apache.felix.http.jetty:4.2.8
 org.apache.felix:org.apache.felix.http.jetty:5.0.4
 org.apache.felix:org.apache.felix.http.servlet-api:2.1.0
@@ -133,8 +132,15 @@ org.bouncycastle:bcpkix-jdk15on:1.70
 org.bouncycastle:bcprov-jdk15on:1.70
 org.bouncycastle:bctls-jdk15on:1.70
 org.bouncycastle:bcutil-jdk15on:1.70
+
 org.slf4j:slf4j-simple:1.7.36
 org.slf4j:slf4j-api:1.7.36
+org.slf4j:jul-to-slf4j:1.7.36
+org.slf4j:log4j-over-slf4j:1.7.36
+org.slf4j:osgi-over-slf4j:1.7.36
+org.slf4j:slf4j-ext:1.7.36
+org.slf4j:slf4j-jcl:1.7.36
+
 org.freemarker:freemarker:2.3.32
 
 org.geckoprojects.bnd:org.gecko.bnd.dimc.library:1.5.0
@@ -144,3 +150,11 @@ org.geckoprojects.emf:org.gecko.emf.osgi.bnd.library.workspace:6.0.1
 org.geckoprojects.emf.utils:org.gecko.emf.util.jakartars.bnd.library.workspace:2.3.0
 org.geckoprojects.persistence:org.gecko.emf.repository.bnd.library.workspace:6.1.0-SNAPSHOT
 org.eclipse.osgi-technology.rest:org.eclipse.osgitech.rest.bnd.library:1.2.2
+org.geckoprojects.search:org.gecko.search.bnd.library:1.4.0
+
+org.gecko.addons:org.gecko.util.pushstream:6.0.0
+org.gecko.addons:org.gecko.util.common:2.0.0
+
+commons-fileupload:commons-fileupload:1.5
+commons-io:commons-io:2.11.0
+org.apache.commons:commons-text:1.11.0

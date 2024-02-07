@@ -15,11 +15,20 @@
 		"jersey.context.path" : "rest",
 		"osgi.http.whiteboard.target" : "(id=httpHL7)"
 	},
-	"EMFMongoRepositoryConfigurator": 
-    {
- 		"mongo.instances": "test1",
-	    "test1.baseUris": "mongodb://localhost:27017",
-	    "test1.databases": "test",
-	    "test1.test.repoType": "PROTOTYPE"
-  	}
+	"EMFMongoRepositoryConfigurator~fhir": {
+		"mongo.instances": "fhir",
+		"fhir.baseUris": "mongodb://localhost",
+		"fhir.databases": "fhir",
+		"fhir.fhir.repoType": "PROTOTYPE"
+	},
+	"EMFLuceneIndex~patientIndex": 
+  	{
+  	    "id": "patient",
+  	    "directory.type": "ByteBuffer"
+	},
+	"org.apache.felix.webconsole.internal.servlet.OsgiManager": {
+		"username": "avadmin",
+		"password": "avadmin",
+		"http.service.filter": "id=httpHL7"
+	}
 }

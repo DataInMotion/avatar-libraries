@@ -1,0 +1,17 @@
+/*
+ * Generate OpenAPI spec
+ */
+ 
+import io.swagger.v3.plugins.gradle.tasks.ResolveTask
+
+tasks.register('generateOpenApiSpec', io.swagger.v3.plugins.gradle.tasks.ResolveTask) {
+    openApiFile = file('openapi-meta.yaml')
+    outputFileName = 'AvatarLibrariesAPI'
+    outputFormat = 'JSONANDYAML'
+    prettyPrint = 'TRUE'
+    sortOutput = 'TRUE'
+    classpath = sourceSets.main.runtimeClasspath
+    buildClasspath = classpath
+    resourcePackages = ['org.avatar.fhir.rest']
+    outputDir = file('openapi')
+}

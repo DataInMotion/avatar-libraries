@@ -1,6 +1,7 @@
 pluginManagement {
   plugins {
     id 'biz.aQute.bnd.workspace' version bnd_version
+    id 'io.swagger.core.v3.swagger-gradle-plugin' version '2.2.20' 
   }
   repositories {
     maven {
@@ -13,9 +14,9 @@ pluginManagement {
     }
     mavenCentral()
     gradlePluginPortal()
-    rootProject.name="org.gecko.foo"
   }
 }
 plugins {
   id 'biz.aQute.bnd.workspace'
+  id 'io.swagger.core.v3.swagger-gradle-plugin' apply false
 }

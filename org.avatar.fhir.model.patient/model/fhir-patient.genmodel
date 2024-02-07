@@ -1,0 +1,926 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<genmodel:GenModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore"
+    xmlns:genmodel="http://www.eclipse.org/emf/2002/GenModel" modelDirectory="/org.avatar.fhir.model.patient/src" modelPluginID="org.avatar.fhir.model.patient"
+    modelName="Fhir_Patient" rootExtendsClass="org.eclipse.emf.ecore.impl.MinimalEObjectImpl$Container"
+    importerID="org.eclipse.emf.importer.ecore" complianceLevel="17.0" suppressGenModelAnnotations="false"
+    copyrightFields="false" usedGenPackages="../../org.avatar.fhir.model.xhtml/model/xhtml.genmodel#//xhtml ../../org.avatar.fhir.model.namespace/model/namespace.genmodel#//namespace"
+    operationReflection="true" importOrganizing="true" oSGiCompatible="true">
+  <foreignModel>fhir-patient.ecore</foreignModel>
+  <genPackages prefix="Fhir_Patient" basePackage="org.hl7" resource="XMI" disposableProviderFactory="true"
+      ecorePackage="fhir-patient.ecore#/">
+    <genEnums typeSafeEnumCompatible="false" ecoreEnum="fhir-patient.ecore#//AddressTypeEnum">
+      <genEnumLiterals ecoreEnumLiteral="fhir-patient.ecore#//AddressTypeEnum/postal"/>
+      <genEnumLiterals ecoreEnumLiteral="fhir-patient.ecore#//AddressTypeEnum/physical"/>
+      <genEnumLiterals ecoreEnumLiteral="fhir-patient.ecore#//AddressTypeEnum/both"/>
+    </genEnums>
+    <genEnums typeSafeEnumCompatible="false" ecoreEnum="fhir-patient.ecore#//AddressUseEnum">
+      <genEnumLiterals ecoreEnumLiteral="fhir-patient.ecore#//AddressUseEnum/home"/>
+      <genEnumLiterals ecoreEnumLiteral="fhir-patient.ecore#//AddressUseEnum/work"/>
+      <genEnumLiterals ecoreEnumLiteral="fhir-patient.ecore#//AddressUseEnum/temp"/>
+      <genEnumLiterals ecoreEnumLiteral="fhir-patient.ecore#//AddressUseEnum/old"/>
+      <genEnumLiterals ecoreEnumLiteral="fhir-patient.ecore#//AddressUseEnum/billing"/>
+    </genEnums>
+    <genEnums typeSafeEnumCompatible="false" ecoreEnum="fhir-patient.ecore#//AdministrativeGenderEnum">
+      <genEnumLiterals ecoreEnumLiteral="fhir-patient.ecore#//AdministrativeGenderEnum/male"/>
+      <genEnumLiterals ecoreEnumLiteral="fhir-patient.ecore#//AdministrativeGenderEnum/female"/>
+      <genEnumLiterals ecoreEnumLiteral="fhir-patient.ecore#//AdministrativeGenderEnum/other"/>
+      <genEnumLiterals ecoreEnumLiteral="fhir-patient.ecore#//AdministrativeGenderEnum/unknown"/>
+    </genEnums>
+    <genEnums typeSafeEnumCompatible="false" ecoreEnum="fhir-patient.ecore#//BundleTypeEnum">
+      <genEnumLiterals ecoreEnumLiteral="fhir-patient.ecore#//BundleTypeEnum/document"/>
+      <genEnumLiterals ecoreEnumLiteral="fhir-patient.ecore#//BundleTypeEnum/message"/>
+      <genEnumLiterals ecoreEnumLiteral="fhir-patient.ecore#//BundleTypeEnum/transaction"/>
+      <genEnumLiterals ecoreEnumLiteral="fhir-patient.ecore#//BundleTypeEnum/transactionResponse"/>
+      <genEnumLiterals ecoreEnumLiteral="fhir-patient.ecore#//BundleTypeEnum/batch"/>
+      <genEnumLiterals ecoreEnumLiteral="fhir-patient.ecore#//BundleTypeEnum/batchResponse"/>
+      <genEnumLiterals ecoreEnumLiteral="fhir-patient.ecore#//BundleTypeEnum/history"/>
+      <genEnumLiterals ecoreEnumLiteral="fhir-patient.ecore#//BundleTypeEnum/searchset"/>
+      <genEnumLiterals ecoreEnumLiteral="fhir-patient.ecore#//BundleTypeEnum/collection"/>
+      <genEnumLiterals ecoreEnumLiteral="fhir-patient.ecore#//BundleTypeEnum/subscriptionNotification"/>
+    </genEnums>
+    <genEnums typeSafeEnumCompatible="false" ecoreEnum="fhir-patient.ecore#//ContactPointSystemEnum">
+      <genEnumLiterals ecoreEnumLiteral="fhir-patient.ecore#//ContactPointSystemEnum/phone"/>
+      <genEnumLiterals ecoreEnumLiteral="fhir-patient.ecore#//ContactPointSystemEnum/fax"/>
+      <genEnumLiterals ecoreEnumLiteral="fhir-patient.ecore#//ContactPointSystemEnum/email"/>
+      <genEnumLiterals ecoreEnumLiteral="fhir-patient.ecore#//ContactPointSystemEnum/pager"/>
+      <genEnumLiterals ecoreEnumLiteral="fhir-patient.ecore#//ContactPointSystemEnum/url"/>
+      <genEnumLiterals ecoreEnumLiteral="fhir-patient.ecore#//ContactPointSystemEnum/sms"/>
+      <genEnumLiterals ecoreEnumLiteral="fhir-patient.ecore#//ContactPointSystemEnum/other"/>
+    </genEnums>
+    <genEnums typeSafeEnumCompatible="false" ecoreEnum="fhir-patient.ecore#//ContactPointUseEnum">
+      <genEnumLiterals ecoreEnumLiteral="fhir-patient.ecore#//ContactPointUseEnum/home"/>
+      <genEnumLiterals ecoreEnumLiteral="fhir-patient.ecore#//ContactPointUseEnum/work"/>
+      <genEnumLiterals ecoreEnumLiteral="fhir-patient.ecore#//ContactPointUseEnum/temp"/>
+      <genEnumLiterals ecoreEnumLiteral="fhir-patient.ecore#//ContactPointUseEnum/old"/>
+      <genEnumLiterals ecoreEnumLiteral="fhir-patient.ecore#//ContactPointUseEnum/mobile"/>
+    </genEnums>
+    <genEnums typeSafeEnumCompatible="false" ecoreEnum="fhir-patient.ecore#//EventTimingEnum">
+      <genEnumLiterals ecoreEnumLiteral="fhir-patient.ecore#//EventTimingEnum/MORN"/>
+      <genEnumLiterals ecoreEnumLiteral="fhir-patient.ecore#//EventTimingEnum/MORNEarly"/>
+      <genEnumLiterals ecoreEnumLiteral="fhir-patient.ecore#//EventTimingEnum/MORNLate"/>
+      <genEnumLiterals ecoreEnumLiteral="fhir-patient.ecore#//EventTimingEnum/NOON"/>
+      <genEnumLiterals ecoreEnumLiteral="fhir-patient.ecore#//EventTimingEnum/AFT"/>
+      <genEnumLiterals ecoreEnumLiteral="fhir-patient.ecore#//EventTimingEnum/AFTEarly"/>
+      <genEnumLiterals ecoreEnumLiteral="fhir-patient.ecore#//EventTimingEnum/AFTLate"/>
+      <genEnumLiterals ecoreEnumLiteral="fhir-patient.ecore#//EventTimingEnum/EVE"/>
+      <genEnumLiterals ecoreEnumLiteral="fhir-patient.ecore#//EventTimingEnum/EVEEarly"/>
+      <genEnumLiterals ecoreEnumLiteral="fhir-patient.ecore#//EventTimingEnum/EVELate"/>
+      <genEnumLiterals ecoreEnumLiteral="fhir-patient.ecore#//EventTimingEnum/NIGHT"/>
+      <genEnumLiterals ecoreEnumLiteral="fhir-patient.ecore#//EventTimingEnum/PHS"/>
+      <genEnumLiterals ecoreEnumLiteral="fhir-patient.ecore#//EventTimingEnum/IMD"/>
+      <genEnumLiterals ecoreEnumLiteral="fhir-patient.ecore#//EventTimingEnum/HS"/>
+      <genEnumLiterals ecoreEnumLiteral="fhir-patient.ecore#//EventTimingEnum/WAKE"/>
+      <genEnumLiterals ecoreEnumLiteral="fhir-patient.ecore#//EventTimingEnum/C"/>
+      <genEnumLiterals ecoreEnumLiteral="fhir-patient.ecore#//EventTimingEnum/CM"/>
+      <genEnumLiterals ecoreEnumLiteral="fhir-patient.ecore#//EventTimingEnum/CD"/>
+      <genEnumLiterals ecoreEnumLiteral="fhir-patient.ecore#//EventTimingEnum/CV"/>
+      <genEnumLiterals ecoreEnumLiteral="fhir-patient.ecore#//EventTimingEnum/AC"/>
+      <genEnumLiterals ecoreEnumLiteral="fhir-patient.ecore#//EventTimingEnum/ACM"/>
+      <genEnumLiterals ecoreEnumLiteral="fhir-patient.ecore#//EventTimingEnum/ACD"/>
+      <genEnumLiterals ecoreEnumLiteral="fhir-patient.ecore#//EventTimingEnum/ACV"/>
+      <genEnumLiterals ecoreEnumLiteral="fhir-patient.ecore#//EventTimingEnum/PC"/>
+      <genEnumLiterals ecoreEnumLiteral="fhir-patient.ecore#//EventTimingEnum/PCM"/>
+      <genEnumLiterals ecoreEnumLiteral="fhir-patient.ecore#//EventTimingEnum/PCD"/>
+      <genEnumLiterals ecoreEnumLiteral="fhir-patient.ecore#//EventTimingEnum/PCV"/>
+    </genEnums>
+    <genEnums typeSafeEnumCompatible="false" ecoreEnum="fhir-patient.ecore#//HTTPVerbEnum">
+      <genEnumLiterals ecoreEnumLiteral="fhir-patient.ecore#//HTTPVerbEnum/GET"/>
+      <genEnumLiterals ecoreEnumLiteral="fhir-patient.ecore#//HTTPVerbEnum/HEAD"/>
+      <genEnumLiterals ecoreEnumLiteral="fhir-patient.ecore#//HTTPVerbEnum/POST"/>
+      <genEnumLiterals ecoreEnumLiteral="fhir-patient.ecore#//HTTPVerbEnum/PUT"/>
+      <genEnumLiterals ecoreEnumLiteral="fhir-patient.ecore#//HTTPVerbEnum/DELETE"/>
+      <genEnumLiterals ecoreEnumLiteral="fhir-patient.ecore#//HTTPVerbEnum/PATCH"/>
+    </genEnums>
+    <genEnums typeSafeEnumCompatible="false" ecoreEnum="fhir-patient.ecore#//IdentifierUseEnum">
+      <genEnumLiterals ecoreEnumLiteral="fhir-patient.ecore#//IdentifierUseEnum/usual"/>
+      <genEnumLiterals ecoreEnumLiteral="fhir-patient.ecore#//IdentifierUseEnum/official"/>
+      <genEnumLiterals ecoreEnumLiteral="fhir-patient.ecore#//IdentifierUseEnum/temp"/>
+      <genEnumLiterals ecoreEnumLiteral="fhir-patient.ecore#//IdentifierUseEnum/secondary"/>
+      <genEnumLiterals ecoreEnumLiteral="fhir-patient.ecore#//IdentifierUseEnum/old"/>
+    </genEnums>
+    <genEnums typeSafeEnumCompatible="false" ecoreEnum="fhir-patient.ecore#//LinkRelationTypesEnum">
+      <genEnumLiterals ecoreEnumLiteral="fhir-patient.ecore#//LinkRelationTypesEnum/about"/>
+      <genEnumLiterals ecoreEnumLiteral="fhir-patient.ecore#//LinkRelationTypesEnum/acl"/>
+      <genEnumLiterals ecoreEnumLiteral="fhir-patient.ecore#//LinkRelationTypesEnum/alternate"/>
+      <genEnumLiterals ecoreEnumLiteral="fhir-patient.ecore#//LinkRelationTypesEnum/amphtml"/>
+      <genEnumLiterals ecoreEnumLiteral="fhir-patient.ecore#//LinkRelationTypesEnum/appendix"/>
+      <genEnumLiterals ecoreEnumLiteral="fhir-patient.ecore#//LinkRelationTypesEnum/appleTouchIcon"/>
+      <genEnumLiterals ecoreEnumLiteral="fhir-patient.ecore#//LinkRelationTypesEnum/appleTouchStartupImage"/>
+      <genEnumLiterals ecoreEnumLiteral="fhir-patient.ecore#//LinkRelationTypesEnum/archives"/>
+      <genEnumLiterals ecoreEnumLiteral="fhir-patient.ecore#//LinkRelationTypesEnum/author"/>
+      <genEnumLiterals ecoreEnumLiteral="fhir-patient.ecore#//LinkRelationTypesEnum/blockedBy"/>
+      <genEnumLiterals ecoreEnumLiteral="fhir-patient.ecore#//LinkRelationTypesEnum/bookmark"/>
+      <genEnumLiterals ecoreEnumLiteral="fhir-patient.ecore#//LinkRelationTypesEnum/canonical"/>
+      <genEnumLiterals ecoreEnumLiteral="fhir-patient.ecore#//LinkRelationTypesEnum/chapter"/>
+      <genEnumLiterals ecoreEnumLiteral="fhir-patient.ecore#//LinkRelationTypesEnum/citeAs"/>
+      <genEnumLiterals ecoreEnumLiteral="fhir-patient.ecore#//LinkRelationTypesEnum/collection"/>
+      <genEnumLiterals ecoreEnumLiteral="fhir-patient.ecore#//LinkRelationTypesEnum/contents"/>
+      <genEnumLiterals ecoreEnumLiteral="fhir-patient.ecore#//LinkRelationTypesEnum/convertedFrom"/>
+      <genEnumLiterals ecoreEnumLiteral="fhir-patient.ecore#//LinkRelationTypesEnum/copyright"/>
+      <genEnumLiterals ecoreEnumLiteral="fhir-patient.ecore#//LinkRelationTypesEnum/createForm"/>
+      <genEnumLiterals ecoreEnumLiteral="fhir-patient.ecore#//LinkRelationTypesEnum/current"/>
+      <genEnumLiterals ecoreEnumLiteral="fhir-patient.ecore#//LinkRelationTypesEnum/describedby"/>
+      <genEnumLiterals ecoreEnumLiteral="fhir-patient.ecore#//LinkRelationTypesEnum/describes"/>
+      <genEnumLiterals ecoreEnumLiteral="fhir-patient.ecore#//LinkRelationTypesEnum/disclosure"/>
+      <genEnumLiterals ecoreEnumLiteral="fhir-patient.ecore#//LinkRelationTypesEnum/dnsPrefetch"/>
+      <genEnumLiterals ecoreEnumLiteral="fhir-patient.ecore#//LinkRelationTypesEnum/duplicate"/>
+      <genEnumLiterals ecoreEnumLiteral="fhir-patient.ecore#//LinkRelationTypesEnum/edit"/>
+      <genEnumLiterals ecoreEnumLiteral="fhir-patient.ecore#//LinkRelationTypesEnum/editForm"/>
+      <genEnumLiterals ecoreEnumLiteral="fhir-patient.ecore#//LinkRelationTypesEnum/editMedia"/>
+      <genEnumLiterals ecoreEnumLiteral="fhir-patient.ecore#//LinkRelationTypesEnum/enclosure"/>
+      <genEnumLiterals ecoreEnumLiteral="fhir-patient.ecore#//LinkRelationTypesEnum/external"/>
+      <genEnumLiterals ecoreEnumLiteral="fhir-patient.ecore#//LinkRelationTypesEnum/first"/>
+      <genEnumLiterals ecoreEnumLiteral="fhir-patient.ecore#//LinkRelationTypesEnum/glossary"/>
+      <genEnumLiterals ecoreEnumLiteral="fhir-patient.ecore#//LinkRelationTypesEnum/help"/>
+      <genEnumLiterals ecoreEnumLiteral="fhir-patient.ecore#//LinkRelationTypesEnum/hosts"/>
+      <genEnumLiterals ecoreEnumLiteral="fhir-patient.ecore#//LinkRelationTypesEnum/hub"/>
+      <genEnumLiterals ecoreEnumLiteral="fhir-patient.ecore#//LinkRelationTypesEnum/icon"/>
+      <genEnumLiterals ecoreEnumLiteral="fhir-patient.ecore#//LinkRelationTypesEnum/index"/>
+      <genEnumLiterals ecoreEnumLiteral="fhir-patient.ecore#//LinkRelationTypesEnum/intervalAfter"/>
+      <genEnumLiterals ecoreEnumLiteral="fhir-patient.ecore#//LinkRelationTypesEnum/intervalBefore"/>
+      <genEnumLiterals ecoreEnumLiteral="fhir-patient.ecore#//LinkRelationTypesEnum/intervalContains"/>
+      <genEnumLiterals ecoreEnumLiteral="fhir-patient.ecore#//LinkRelationTypesEnum/intervalDisjoint"/>
+      <genEnumLiterals ecoreEnumLiteral="fhir-patient.ecore#//LinkRelationTypesEnum/intervalDuring"/>
+      <genEnumLiterals ecoreEnumLiteral="fhir-patient.ecore#//LinkRelationTypesEnum/intervalEquals"/>
+      <genEnumLiterals ecoreEnumLiteral="fhir-patient.ecore#//LinkRelationTypesEnum/intervalFinishedBy"/>
+      <genEnumLiterals ecoreEnumLiteral="fhir-patient.ecore#//LinkRelationTypesEnum/intervalFinishes"/>
+      <genEnumLiterals ecoreEnumLiteral="fhir-patient.ecore#//LinkRelationTypesEnum/intervalIn"/>
+      <genEnumLiterals ecoreEnumLiteral="fhir-patient.ecore#//LinkRelationTypesEnum/intervalMeets"/>
+      <genEnumLiterals ecoreEnumLiteral="fhir-patient.ecore#//LinkRelationTypesEnum/intervalMetBy"/>
+      <genEnumLiterals ecoreEnumLiteral="fhir-patient.ecore#//LinkRelationTypesEnum/intervalOverlappedBy"/>
+      <genEnumLiterals ecoreEnumLiteral="fhir-patient.ecore#//LinkRelationTypesEnum/intervalOverlaps"/>
+      <genEnumLiterals ecoreEnumLiteral="fhir-patient.ecore#//LinkRelationTypesEnum/intervalStartedBy"/>
+      <genEnumLiterals ecoreEnumLiteral="fhir-patient.ecore#//LinkRelationTypesEnum/intervalStarts"/>
+      <genEnumLiterals ecoreEnumLiteral="fhir-patient.ecore#//LinkRelationTypesEnum/item"/>
+      <genEnumLiterals ecoreEnumLiteral="fhir-patient.ecore#//LinkRelationTypesEnum/last"/>
+      <genEnumLiterals ecoreEnumLiteral="fhir-patient.ecore#//LinkRelationTypesEnum/latestVersion"/>
+      <genEnumLiterals ecoreEnumLiteral="fhir-patient.ecore#//LinkRelationTypesEnum/license"/>
+      <genEnumLiterals ecoreEnumLiteral="fhir-patient.ecore#//LinkRelationTypesEnum/linkset"/>
+      <genEnumLiterals ecoreEnumLiteral="fhir-patient.ecore#//LinkRelationTypesEnum/lrdd"/>
+      <genEnumLiterals ecoreEnumLiteral="fhir-patient.ecore#//LinkRelationTypesEnum/manifest"/>
+      <genEnumLiterals ecoreEnumLiteral="fhir-patient.ecore#//LinkRelationTypesEnum/maskIcon"/>
+      <genEnumLiterals ecoreEnumLiteral="fhir-patient.ecore#//LinkRelationTypesEnum/mediaFeed"/>
+      <genEnumLiterals ecoreEnumLiteral="fhir-patient.ecore#//LinkRelationTypesEnum/memento"/>
+      <genEnumLiterals ecoreEnumLiteral="fhir-patient.ecore#//LinkRelationTypesEnum/micropub"/>
+      <genEnumLiterals ecoreEnumLiteral="fhir-patient.ecore#//LinkRelationTypesEnum/modulepreload"/>
+      <genEnumLiterals ecoreEnumLiteral="fhir-patient.ecore#//LinkRelationTypesEnum/monitor"/>
+      <genEnumLiterals ecoreEnumLiteral="fhir-patient.ecore#//LinkRelationTypesEnum/monitorGroup"/>
+      <genEnumLiterals ecoreEnumLiteral="fhir-patient.ecore#//LinkRelationTypesEnum/next"/>
+      <genEnumLiterals ecoreEnumLiteral="fhir-patient.ecore#//LinkRelationTypesEnum/nextArchive"/>
+      <genEnumLiterals ecoreEnumLiteral="fhir-patient.ecore#//LinkRelationTypesEnum/nofollow"/>
+      <genEnumLiterals ecoreEnumLiteral="fhir-patient.ecore#//LinkRelationTypesEnum/noopener"/>
+      <genEnumLiterals ecoreEnumLiteral="fhir-patient.ecore#//LinkRelationTypesEnum/noreferrer"/>
+      <genEnumLiterals ecoreEnumLiteral="fhir-patient.ecore#//LinkRelationTypesEnum/opener"/>
+      <genEnumLiterals ecoreEnumLiteral="fhir-patient.ecore#//LinkRelationTypesEnum/openid2LocalId"/>
+      <genEnumLiterals ecoreEnumLiteral="fhir-patient.ecore#//LinkRelationTypesEnum/openid2Provider"/>
+      <genEnumLiterals ecoreEnumLiteral="fhir-patient.ecore#//LinkRelationTypesEnum/original"/>
+      <genEnumLiterals ecoreEnumLiteral="fhir-patient.ecore#//LinkRelationTypesEnum/P3Pv1"/>
+      <genEnumLiterals ecoreEnumLiteral="fhir-patient.ecore#//LinkRelationTypesEnum/payment"/>
+      <genEnumLiterals ecoreEnumLiteral="fhir-patient.ecore#//LinkRelationTypesEnum/pingback"/>
+      <genEnumLiterals ecoreEnumLiteral="fhir-patient.ecore#//LinkRelationTypesEnum/preconnect"/>
+      <genEnumLiterals ecoreEnumLiteral="fhir-patient.ecore#//LinkRelationTypesEnum/predecessorVersion"/>
+      <genEnumLiterals ecoreEnumLiteral="fhir-patient.ecore#//LinkRelationTypesEnum/prefetch"/>
+      <genEnumLiterals ecoreEnumLiteral="fhir-patient.ecore#//LinkRelationTypesEnum/preload"/>
+      <genEnumLiterals ecoreEnumLiteral="fhir-patient.ecore#//LinkRelationTypesEnum/prerender"/>
+      <genEnumLiterals ecoreEnumLiteral="fhir-patient.ecore#//LinkRelationTypesEnum/prev"/>
+      <genEnumLiterals ecoreEnumLiteral="fhir-patient.ecore#//LinkRelationTypesEnum/preview"/>
+      <genEnumLiterals ecoreEnumLiteral="fhir-patient.ecore#//LinkRelationTypesEnum/previous"/>
+      <genEnumLiterals ecoreEnumLiteral="fhir-patient.ecore#//LinkRelationTypesEnum/prevArchive"/>
+      <genEnumLiterals ecoreEnumLiteral="fhir-patient.ecore#//LinkRelationTypesEnum/privacyPolicy"/>
+      <genEnumLiterals ecoreEnumLiteral="fhir-patient.ecore#//LinkRelationTypesEnum/profile"/>
+      <genEnumLiterals ecoreEnumLiteral="fhir-patient.ecore#//LinkRelationTypesEnum/publication"/>
+      <genEnumLiterals ecoreEnumLiteral="fhir-patient.ecore#//LinkRelationTypesEnum/related"/>
+      <genEnumLiterals ecoreEnumLiteral="fhir-patient.ecore#//LinkRelationTypesEnum/restconf"/>
+      <genEnumLiterals ecoreEnumLiteral="fhir-patient.ecore#//LinkRelationTypesEnum/replies"/>
+      <genEnumLiterals ecoreEnumLiteral="fhir-patient.ecore#//LinkRelationTypesEnum/ruleinput"/>
+      <genEnumLiterals ecoreEnumLiteral="fhir-patient.ecore#//LinkRelationTypesEnum/search"/>
+      <genEnumLiterals ecoreEnumLiteral="fhir-patient.ecore#//LinkRelationTypesEnum/section"/>
+      <genEnumLiterals ecoreEnumLiteral="fhir-patient.ecore#//LinkRelationTypesEnum/self"/>
+      <genEnumLiterals ecoreEnumLiteral="fhir-patient.ecore#//LinkRelationTypesEnum/service"/>
+      <genEnumLiterals ecoreEnumLiteral="fhir-patient.ecore#//LinkRelationTypesEnum/serviceDesc"/>
+      <genEnumLiterals ecoreEnumLiteral="fhir-patient.ecore#//LinkRelationTypesEnum/serviceDoc"/>
+      <genEnumLiterals ecoreEnumLiteral="fhir-patient.ecore#//LinkRelationTypesEnum/serviceMeta"/>
+      <genEnumLiterals ecoreEnumLiteral="fhir-patient.ecore#//LinkRelationTypesEnum/sponsored"/>
+      <genEnumLiterals ecoreEnumLiteral="fhir-patient.ecore#//LinkRelationTypesEnum/start"/>
+      <genEnumLiterals ecoreEnumLiteral="fhir-patient.ecore#//LinkRelationTypesEnum/status"/>
+      <genEnumLiterals ecoreEnumLiteral="fhir-patient.ecore#//LinkRelationTypesEnum/stylesheet"/>
+      <genEnumLiterals ecoreEnumLiteral="fhir-patient.ecore#//LinkRelationTypesEnum/subsection"/>
+      <genEnumLiterals ecoreEnumLiteral="fhir-patient.ecore#//LinkRelationTypesEnum/successorVersion"/>
+      <genEnumLiterals ecoreEnumLiteral="fhir-patient.ecore#//LinkRelationTypesEnum/sunset"/>
+      <genEnumLiterals ecoreEnumLiteral="fhir-patient.ecore#//LinkRelationTypesEnum/tag"/>
+      <genEnumLiterals ecoreEnumLiteral="fhir-patient.ecore#//LinkRelationTypesEnum/termsOfService"/>
+      <genEnumLiterals ecoreEnumLiteral="fhir-patient.ecore#//LinkRelationTypesEnum/timegate"/>
+      <genEnumLiterals ecoreEnumLiteral="fhir-patient.ecore#//LinkRelationTypesEnum/timemap"/>
+      <genEnumLiterals ecoreEnumLiteral="fhir-patient.ecore#//LinkRelationTypesEnum/type"/>
+      <genEnumLiterals ecoreEnumLiteral="fhir-patient.ecore#//LinkRelationTypesEnum/ugc"/>
+      <genEnumLiterals ecoreEnumLiteral="fhir-patient.ecore#//LinkRelationTypesEnum/up"/>
+      <genEnumLiterals ecoreEnumLiteral="fhir-patient.ecore#//LinkRelationTypesEnum/versionHistory"/>
+      <genEnumLiterals ecoreEnumLiteral="fhir-patient.ecore#//LinkRelationTypesEnum/via"/>
+      <genEnumLiterals ecoreEnumLiteral="fhir-patient.ecore#//LinkRelationTypesEnum/webmention"/>
+      <genEnumLiterals ecoreEnumLiteral="fhir-patient.ecore#//LinkRelationTypesEnum/workingCopy"/>
+      <genEnumLiterals ecoreEnumLiteral="fhir-patient.ecore#//LinkRelationTypesEnum/workingCopyOf"/>
+    </genEnums>
+    <genEnums typeSafeEnumCompatible="false" ecoreEnum="fhir-patient.ecore#//LinkTypeEnum">
+      <genEnumLiterals ecoreEnumLiteral="fhir-patient.ecore#//LinkTypeEnum/replacedBy"/>
+      <genEnumLiterals ecoreEnumLiteral="fhir-patient.ecore#//LinkTypeEnum/replaces"/>
+      <genEnumLiterals ecoreEnumLiteral="fhir-patient.ecore#//LinkTypeEnum/refer"/>
+      <genEnumLiterals ecoreEnumLiteral="fhir-patient.ecore#//LinkTypeEnum/seealso"/>
+    </genEnums>
+    <genEnums typeSafeEnumCompatible="false" ecoreEnum="fhir-patient.ecore#//NameUseEnum">
+      <genEnumLiterals ecoreEnumLiteral="fhir-patient.ecore#//NameUseEnum/usual"/>
+      <genEnumLiterals ecoreEnumLiteral="fhir-patient.ecore#//NameUseEnum/official"/>
+      <genEnumLiterals ecoreEnumLiteral="fhir-patient.ecore#//NameUseEnum/temp"/>
+      <genEnumLiterals ecoreEnumLiteral="fhir-patient.ecore#//NameUseEnum/nickname"/>
+      <genEnumLiterals ecoreEnumLiteral="fhir-patient.ecore#//NameUseEnum/anonymous"/>
+      <genEnumLiterals ecoreEnumLiteral="fhir-patient.ecore#//NameUseEnum/old"/>
+      <genEnumLiterals ecoreEnumLiteral="fhir-patient.ecore#//NameUseEnum/maiden"/>
+    </genEnums>
+    <genEnums typeSafeEnumCompatible="false" ecoreEnum="fhir-patient.ecore#//NarrativeStatusEnum">
+      <genEnumLiterals ecoreEnumLiteral="fhir-patient.ecore#//NarrativeStatusEnum/generated"/>
+      <genEnumLiterals ecoreEnumLiteral="fhir-patient.ecore#//NarrativeStatusEnum/extensions"/>
+      <genEnumLiterals ecoreEnumLiteral="fhir-patient.ecore#//NarrativeStatusEnum/additional"/>
+      <genEnumLiterals ecoreEnumLiteral="fhir-patient.ecore#//NarrativeStatusEnum/empty"/>
+    </genEnums>
+    <genEnums typeSafeEnumCompatible="false" ecoreEnum="fhir-patient.ecore#//QuantityComparatorEnum">
+      <genEnumLiterals ecoreEnumLiteral="fhir-patient.ecore#//QuantityComparatorEnum/_"/>
+      <genEnumLiterals ecoreEnumLiteral="fhir-patient.ecore#//QuantityComparatorEnum/_1"/>
+      <genEnumLiterals ecoreEnumLiteral="fhir-patient.ecore#//QuantityComparatorEnum/_2"/>
+      <genEnumLiterals ecoreEnumLiteral="fhir-patient.ecore#//QuantityComparatorEnum/_3"/>
+      <genEnumLiterals ecoreEnumLiteral="fhir-patient.ecore#//QuantityComparatorEnum/ad"/>
+    </genEnums>
+    <genEnums typeSafeEnumCompatible="false" ecoreEnum="fhir-patient.ecore#//RelatedArtifactTypeEnum">
+      <genEnumLiterals ecoreEnumLiteral="fhir-patient.ecore#//RelatedArtifactTypeEnum/documentation"/>
+      <genEnumLiterals ecoreEnumLiteral="fhir-patient.ecore#//RelatedArtifactTypeEnum/justification"/>
+      <genEnumLiterals ecoreEnumLiteral="fhir-patient.ecore#//RelatedArtifactTypeEnum/citation"/>
+      <genEnumLiterals ecoreEnumLiteral="fhir-patient.ecore#//RelatedArtifactTypeEnum/predecessor"/>
+      <genEnumLiterals ecoreEnumLiteral="fhir-patient.ecore#//RelatedArtifactTypeEnum/successor"/>
+      <genEnumLiterals ecoreEnumLiteral="fhir-patient.ecore#//RelatedArtifactTypeEnum/derivedFrom"/>
+      <genEnumLiterals ecoreEnumLiteral="fhir-patient.ecore#//RelatedArtifactTypeEnum/dependsOn"/>
+      <genEnumLiterals ecoreEnumLiteral="fhir-patient.ecore#//RelatedArtifactTypeEnum/composedOf"/>
+      <genEnumLiterals ecoreEnumLiteral="fhir-patient.ecore#//RelatedArtifactTypeEnum/partOf"/>
+      <genEnumLiterals ecoreEnumLiteral="fhir-patient.ecore#//RelatedArtifactTypeEnum/amends"/>
+      <genEnumLiterals ecoreEnumLiteral="fhir-patient.ecore#//RelatedArtifactTypeEnum/amendedWith"/>
+      <genEnumLiterals ecoreEnumLiteral="fhir-patient.ecore#//RelatedArtifactTypeEnum/appends"/>
+      <genEnumLiterals ecoreEnumLiteral="fhir-patient.ecore#//RelatedArtifactTypeEnum/appendedWith"/>
+      <genEnumLiterals ecoreEnumLiteral="fhir-patient.ecore#//RelatedArtifactTypeEnum/cites"/>
+      <genEnumLiterals ecoreEnumLiteral="fhir-patient.ecore#//RelatedArtifactTypeEnum/citedBy"/>
+      <genEnumLiterals ecoreEnumLiteral="fhir-patient.ecore#//RelatedArtifactTypeEnum/commentsOn"/>
+      <genEnumLiterals ecoreEnumLiteral="fhir-patient.ecore#//RelatedArtifactTypeEnum/commentIn"/>
+      <genEnumLiterals ecoreEnumLiteral="fhir-patient.ecore#//RelatedArtifactTypeEnum/contains"/>
+      <genEnumLiterals ecoreEnumLiteral="fhir-patient.ecore#//RelatedArtifactTypeEnum/containedIn"/>
+      <genEnumLiterals ecoreEnumLiteral="fhir-patient.ecore#//RelatedArtifactTypeEnum/corrects"/>
+      <genEnumLiterals ecoreEnumLiteral="fhir-patient.ecore#//RelatedArtifactTypeEnum/correctionIn"/>
+      <genEnumLiterals ecoreEnumLiteral="fhir-patient.ecore#//RelatedArtifactTypeEnum/replaces"/>
+      <genEnumLiterals ecoreEnumLiteral="fhir-patient.ecore#//RelatedArtifactTypeEnum/replacedWith"/>
+      <genEnumLiterals ecoreEnumLiteral="fhir-patient.ecore#//RelatedArtifactTypeEnum/retracts"/>
+      <genEnumLiterals ecoreEnumLiteral="fhir-patient.ecore#//RelatedArtifactTypeEnum/retractedBy"/>
+      <genEnumLiterals ecoreEnumLiteral="fhir-patient.ecore#//RelatedArtifactTypeEnum/signs"/>
+      <genEnumLiterals ecoreEnumLiteral="fhir-patient.ecore#//RelatedArtifactTypeEnum/similarTo"/>
+      <genEnumLiterals ecoreEnumLiteral="fhir-patient.ecore#//RelatedArtifactTypeEnum/supports"/>
+      <genEnumLiterals ecoreEnumLiteral="fhir-patient.ecore#//RelatedArtifactTypeEnum/supportedWith"/>
+      <genEnumLiterals ecoreEnumLiteral="fhir-patient.ecore#//RelatedArtifactTypeEnum/transforms"/>
+      <genEnumLiterals ecoreEnumLiteral="fhir-patient.ecore#//RelatedArtifactTypeEnum/transformedInto"/>
+      <genEnumLiterals ecoreEnumLiteral="fhir-patient.ecore#//RelatedArtifactTypeEnum/transformedWith"/>
+      <genEnumLiterals ecoreEnumLiteral="fhir-patient.ecore#//RelatedArtifactTypeEnum/documents"/>
+      <genEnumLiterals ecoreEnumLiteral="fhir-patient.ecore#//RelatedArtifactTypeEnum/specificationOf"/>
+      <genEnumLiterals ecoreEnumLiteral="fhir-patient.ecore#//RelatedArtifactTypeEnum/createdWith"/>
+      <genEnumLiterals ecoreEnumLiteral="fhir-patient.ecore#//RelatedArtifactTypeEnum/citeAs"/>
+    </genEnums>
+    <genEnums typeSafeEnumCompatible="false" ecoreEnum="fhir-patient.ecore#//SearchEntryModeEnum">
+      <genEnumLiterals ecoreEnumLiteral="fhir-patient.ecore#//SearchEntryModeEnum/match"/>
+      <genEnumLiterals ecoreEnumLiteral="fhir-patient.ecore#//SearchEntryModeEnum/include"/>
+      <genEnumLiterals ecoreEnumLiteral="fhir-patient.ecore#//SearchEntryModeEnum/outcome"/>
+    </genEnums>
+    <genEnums typeSafeEnumCompatible="false" ecoreEnum="fhir-patient.ecore#//SortDirectionEnum">
+      <genEnumLiterals ecoreEnumLiteral="fhir-patient.ecore#//SortDirectionEnum/ascending"/>
+      <genEnumLiterals ecoreEnumLiteral="fhir-patient.ecore#//SortDirectionEnum/descending"/>
+    </genEnums>
+    <genEnums typeSafeEnumCompatible="false" ecoreEnum="fhir-patient.ecore#//TriggerTypeEnum">
+      <genEnumLiterals ecoreEnumLiteral="fhir-patient.ecore#//TriggerTypeEnum/namedEvent"/>
+      <genEnumLiterals ecoreEnumLiteral="fhir-patient.ecore#//TriggerTypeEnum/periodic"/>
+      <genEnumLiterals ecoreEnumLiteral="fhir-patient.ecore#//TriggerTypeEnum/dataChanged"/>
+      <genEnumLiterals ecoreEnumLiteral="fhir-patient.ecore#//TriggerTypeEnum/dataAdded"/>
+      <genEnumLiterals ecoreEnumLiteral="fhir-patient.ecore#//TriggerTypeEnum/dataModified"/>
+      <genEnumLiterals ecoreEnumLiteral="fhir-patient.ecore#//TriggerTypeEnum/dataRemoved"/>
+      <genEnumLiterals ecoreEnumLiteral="fhir-patient.ecore#//TriggerTypeEnum/dataAccessed"/>
+      <genEnumLiterals ecoreEnumLiteral="fhir-patient.ecore#//TriggerTypeEnum/dataAccessEnded"/>
+    </genEnums>
+    <genEnums typeSafeEnumCompatible="false" ecoreEnum="fhir-patient.ecore#//UnitsOfTimeEnum">
+      <genEnumLiterals ecoreEnumLiteral="fhir-patient.ecore#//UnitsOfTimeEnum/s"/>
+      <genEnumLiterals ecoreEnumLiteral="fhir-patient.ecore#//UnitsOfTimeEnum/min"/>
+      <genEnumLiterals ecoreEnumLiteral="fhir-patient.ecore#//UnitsOfTimeEnum/h"/>
+      <genEnumLiterals ecoreEnumLiteral="fhir-patient.ecore#//UnitsOfTimeEnum/d"/>
+      <genEnumLiterals ecoreEnumLiteral="fhir-patient.ecore#//UnitsOfTimeEnum/wk"/>
+      <genEnumLiterals ecoreEnumLiteral="fhir-patient.ecore#//UnitsOfTimeEnum/mo"/>
+      <genEnumLiterals ecoreEnumLiteral="fhir-patient.ecore#//UnitsOfTimeEnum/a"/>
+    </genEnums>
+    <genDataTypes ecoreDataType="fhir-patient.ecore#//Base64BinaryPrimitive"/>
+    <genDataTypes ecoreDataType="fhir-patient.ecore#//BooleanPrimitive"/>
+    <genDataTypes ecoreDataType="fhir-patient.ecore#//BooleanPrimitiveObject"/>
+    <genDataTypes ecoreDataType="fhir-patient.ecore#//CanonicalPrimitive"/>
+    <genDataTypes ecoreDataType="fhir-patient.ecore#//CodePrimitive"/>
+    <genDataTypes ecoreDataType="fhir-patient.ecore#//DatePrimitive"/>
+    <genDataTypes ecoreDataType="fhir-patient.ecore#//DatePrimitiveBase"/>
+    <genDataTypes ecoreDataType="fhir-patient.ecore#//DateTimePrimitive"/>
+    <genDataTypes ecoreDataType="fhir-patient.ecore#//DateTimePrimitiveBase"/>
+    <genDataTypes ecoreDataType="fhir-patient.ecore#//DecimalPrimitive"/>
+    <genDataTypes ecoreDataType="fhir-patient.ecore#//IdPrimitive"/>
+    <genDataTypes ecoreDataType="fhir-patient.ecore#//InstantPrimitive"/>
+    <genDataTypes ecoreDataType="fhir-patient.ecore#//Integer64Primitive"/>
+    <genDataTypes ecoreDataType="fhir-patient.ecore#//Integer64PrimitiveObject"/>
+    <genDataTypes ecoreDataType="fhir-patient.ecore#//IntegerPrimitive"/>
+    <genDataTypes ecoreDataType="fhir-patient.ecore#//IntegerPrimitiveObject"/>
+    <genDataTypes ecoreDataType="fhir-patient.ecore#//MarkdownPrimitive"/>
+    <genDataTypes ecoreDataType="fhir-patient.ecore#//OidPrimitive"/>
+    <genDataTypes ecoreDataType="fhir-patient.ecore#//PositiveIntPrimitive"/>
+    <genDataTypes ecoreDataType="fhir-patient.ecore#//SampledDataDataTypePrimitive"/>
+    <genDataTypes ecoreDataType="fhir-patient.ecore#//StringPrimitive"/>
+    <genDataTypes ecoreDataType="fhir-patient.ecore#//TimePrimitive"/>
+    <genDataTypes ecoreDataType="fhir-patient.ecore#//UnsignedIntPrimitive"/>
+    <genDataTypes ecoreDataType="fhir-patient.ecore#//UriPrimitive"/>
+    <genDataTypes ecoreDataType="fhir-patient.ecore#//UrlPrimitive"/>
+    <genDataTypes ecoreDataType="fhir-patient.ecore#//UuidPrimitive"/>
+    <genClasses ecoreClass="fhir-patient.ecore#//Address">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference fhir-patient.ecore#//Address/use"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference fhir-patient.ecore#//Address/type"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference fhir-patient.ecore#//Address/text"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference fhir-patient.ecore#//Address/line"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference fhir-patient.ecore#//Address/city"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference fhir-patient.ecore#//Address/district"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference fhir-patient.ecore#//Address/state"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference fhir-patient.ecore#//Address/postalCode"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference fhir-patient.ecore#//Address/country"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference fhir-patient.ecore#//Address/period"/>
+    </genClasses>
+    <genClasses ecoreClass="fhir-patient.ecore#//AddressType">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute fhir-patient.ecore#//AddressType/value"/>
+    </genClasses>
+    <genClasses ecoreClass="fhir-patient.ecore#//AddressUse">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute fhir-patient.ecore#//AddressUse/value"/>
+    </genClasses>
+    <genClasses ecoreClass="fhir-patient.ecore#//AdministrativeGender">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute fhir-patient.ecore#//AdministrativeGender/value"/>
+    </genClasses>
+    <genClasses ecoreClass="fhir-patient.ecore#//Age"/>
+    <genClasses ecoreClass="fhir-patient.ecore#//Annotation">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference fhir-patient.ecore#//Annotation/authorReference"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference fhir-patient.ecore#//Annotation/authorString"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference fhir-patient.ecore#//Annotation/time"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference fhir-patient.ecore#//Annotation/text"/>
+    </genClasses>
+    <genClasses ecoreClass="fhir-patient.ecore#//Attachment">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference fhir-patient.ecore#//Attachment/contentType"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference fhir-patient.ecore#//Attachment/language"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference fhir-patient.ecore#//Attachment/data"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference fhir-patient.ecore#//Attachment/url"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference fhir-patient.ecore#//Attachment/size"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference fhir-patient.ecore#//Attachment/hash"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference fhir-patient.ecore#//Attachment/title"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference fhir-patient.ecore#//Attachment/creation"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference fhir-patient.ecore#//Attachment/height"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference fhir-patient.ecore#//Attachment/width"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference fhir-patient.ecore#//Attachment/frames"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference fhir-patient.ecore#//Attachment/duration"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference fhir-patient.ecore#//Attachment/pages"/>
+    </genClasses>
+    <genClasses ecoreClass="fhir-patient.ecore#//Availability">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference fhir-patient.ecore#//Availability/availableTime"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference fhir-patient.ecore#//Availability/notAvailableTime"/>
+    </genClasses>
+    <genClasses ecoreClass="fhir-patient.ecore#//AvailabilityAvailableTime">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference fhir-patient.ecore#//AvailabilityAvailableTime/daysOfWeek"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference fhir-patient.ecore#//AvailabilityAvailableTime/allDay"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference fhir-patient.ecore#//AvailabilityAvailableTime/availableStartTime"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference fhir-patient.ecore#//AvailabilityAvailableTime/availableEndTime"/>
+    </genClasses>
+    <genClasses ecoreClass="fhir-patient.ecore#//AvailabilityNotAvailableTime">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference fhir-patient.ecore#//AvailabilityNotAvailableTime/description"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference fhir-patient.ecore#//AvailabilityNotAvailableTime/during"/>
+    </genClasses>
+    <genClasses ecoreClass="fhir-patient.ecore#//BackboneElement">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference fhir-patient.ecore#//BackboneElement/modifierExtension"/>
+    </genClasses>
+    <genClasses ecoreClass="fhir-patient.ecore#//BackboneType">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference fhir-patient.ecore#//BackboneType/modifierExtension"/>
+    </genClasses>
+    <genClasses ecoreClass="fhir-patient.ecore#//Base"/>
+    <genClasses ecoreClass="fhir-patient.ecore#//Base64Binary">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute fhir-patient.ecore#//Base64Binary/value"/>
+    </genClasses>
+    <genClasses ecoreClass="fhir-patient.ecore#//Binary">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference fhir-patient.ecore#//Binary/contentType"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference fhir-patient.ecore#//Binary/securityContext"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference fhir-patient.ecore#//Binary/data"/>
+    </genClasses>
+    <genClasses ecoreClass="fhir-patient.ecore#//Boolean">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute fhir-patient.ecore#//Boolean/value"/>
+    </genClasses>
+    <genClasses ecoreClass="fhir-patient.ecore#//Bundle">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference fhir-patient.ecore#//Bundle/identifier"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference fhir-patient.ecore#//Bundle/type"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference fhir-patient.ecore#//Bundle/timestamp"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference fhir-patient.ecore#//Bundle/total"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference fhir-patient.ecore#//Bundle/link"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference fhir-patient.ecore#//Bundle/entry"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference fhir-patient.ecore#//Bundle/signature"/>
+    </genClasses>
+    <genClasses ecoreClass="fhir-patient.ecore#//BundleEntry">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference fhir-patient.ecore#//BundleEntry/link"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference fhir-patient.ecore#//BundleEntry/fullUrl"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference fhir-patient.ecore#//BundleEntry/search"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference fhir-patient.ecore#//BundleEntry/request"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference fhir-patient.ecore#//BundleEntry/response"/>
+    </genClasses>
+    <genClasses ecoreClass="fhir-patient.ecore#//BundleLink">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference fhir-patient.ecore#//BundleLink/relation"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference fhir-patient.ecore#//BundleLink/url"/>
+    </genClasses>
+    <genClasses ecoreClass="fhir-patient.ecore#//BundleRequest">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference fhir-patient.ecore#//BundleRequest/method"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference fhir-patient.ecore#//BundleRequest/url"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference fhir-patient.ecore#//BundleRequest/ifNoneMatch"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference fhir-patient.ecore#//BundleRequest/ifModifiedSince"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference fhir-patient.ecore#//BundleRequest/ifMatch"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference fhir-patient.ecore#//BundleRequest/ifNoneExist"/>
+    </genClasses>
+    <genClasses ecoreClass="fhir-patient.ecore#//BundleResponse">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference fhir-patient.ecore#//BundleResponse/status"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference fhir-patient.ecore#//BundleResponse/location"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference fhir-patient.ecore#//BundleResponse/etag"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference fhir-patient.ecore#//BundleResponse/lastModified"/>
+    </genClasses>
+    <genClasses ecoreClass="fhir-patient.ecore#//BundleSearch">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference fhir-patient.ecore#//BundleSearch/mode"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference fhir-patient.ecore#//BundleSearch/score"/>
+    </genClasses>
+    <genClasses ecoreClass="fhir-patient.ecore#//BundleType">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute fhir-patient.ecore#//BundleType/value"/>
+    </genClasses>
+    <genClasses ecoreClass="fhir-patient.ecore#//Canonical">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute fhir-patient.ecore#//Canonical/value"/>
+    </genClasses>
+    <genClasses ecoreClass="fhir-patient.ecore#//Code">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute fhir-patient.ecore#//Code/value"/>
+    </genClasses>
+    <genClasses ecoreClass="fhir-patient.ecore#//CodeableConcept">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference fhir-patient.ecore#//CodeableConcept/coding"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference fhir-patient.ecore#//CodeableConcept/text"/>
+    </genClasses>
+    <genClasses ecoreClass="fhir-patient.ecore#//CodeableReference">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference fhir-patient.ecore#//CodeableReference/concept"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference fhir-patient.ecore#//CodeableReference/reference"/>
+    </genClasses>
+    <genClasses ecoreClass="fhir-patient.ecore#//Coding">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference fhir-patient.ecore#//Coding/system"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference fhir-patient.ecore#//Coding/version"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference fhir-patient.ecore#//Coding/code"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference fhir-patient.ecore#//Coding/display"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference fhir-patient.ecore#//Coding/userSelected"/>
+    </genClasses>
+    <genClasses ecoreClass="fhir-patient.ecore#//ContactDetail">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference fhir-patient.ecore#//ContactDetail/name"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference fhir-patient.ecore#//ContactDetail/telecom"/>
+    </genClasses>
+    <genClasses ecoreClass="fhir-patient.ecore#//ContactPoint">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference fhir-patient.ecore#//ContactPoint/system"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference fhir-patient.ecore#//ContactPoint/value"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference fhir-patient.ecore#//ContactPoint/use"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference fhir-patient.ecore#//ContactPoint/rank"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference fhir-patient.ecore#//ContactPoint/period"/>
+    </genClasses>
+    <genClasses ecoreClass="fhir-patient.ecore#//ContactPointSystem">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute fhir-patient.ecore#//ContactPointSystem/value"/>
+    </genClasses>
+    <genClasses ecoreClass="fhir-patient.ecore#//ContactPointUse">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute fhir-patient.ecore#//ContactPointUse/value"/>
+    </genClasses>
+    <genClasses ecoreClass="fhir-patient.ecore#//Count"/>
+    <genClasses ecoreClass="fhir-patient.ecore#//DataRequirement">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference fhir-patient.ecore#//DataRequirement/type"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference fhir-patient.ecore#//DataRequirement/profile"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference fhir-patient.ecore#//DataRequirement/subjectCodeableConcept"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference fhir-patient.ecore#//DataRequirement/subjectReference"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference fhir-patient.ecore#//DataRequirement/mustSupport"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference fhir-patient.ecore#//DataRequirement/codeFilter"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference fhir-patient.ecore#//DataRequirement/dateFilter"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference fhir-patient.ecore#//DataRequirement/valueFilter"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference fhir-patient.ecore#//DataRequirement/limit"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference fhir-patient.ecore#//DataRequirement/sort"/>
+    </genClasses>
+    <genClasses ecoreClass="fhir-patient.ecore#//DataRequirementCodeFilter">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference fhir-patient.ecore#//DataRequirementCodeFilter/path"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference fhir-patient.ecore#//DataRequirementCodeFilter/searchParam"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference fhir-patient.ecore#//DataRequirementCodeFilter/valueSet"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference fhir-patient.ecore#//DataRequirementCodeFilter/code"/>
+    </genClasses>
+    <genClasses ecoreClass="fhir-patient.ecore#//DataRequirementDateFilter">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference fhir-patient.ecore#//DataRequirementDateFilter/path"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference fhir-patient.ecore#//DataRequirementDateFilter/searchParam"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference fhir-patient.ecore#//DataRequirementDateFilter/valueDateTime"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference fhir-patient.ecore#//DataRequirementDateFilter/valuePeriod"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference fhir-patient.ecore#//DataRequirementDateFilter/valueDuration"/>
+    </genClasses>
+    <genClasses ecoreClass="fhir-patient.ecore#//DataRequirementSort">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference fhir-patient.ecore#//DataRequirementSort/path"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference fhir-patient.ecore#//DataRequirementSort/direction"/>
+    </genClasses>
+    <genClasses ecoreClass="fhir-patient.ecore#//DataRequirementValueFilter">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference fhir-patient.ecore#//DataRequirementValueFilter/path"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference fhir-patient.ecore#//DataRequirementValueFilter/searchParam"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference fhir-patient.ecore#//DataRequirementValueFilter/comparator"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference fhir-patient.ecore#//DataRequirementValueFilter/valueDateTime"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference fhir-patient.ecore#//DataRequirementValueFilter/valuePeriod"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference fhir-patient.ecore#//DataRequirementValueFilter/valueDuration"/>
+    </genClasses>
+    <genClasses ecoreClass="fhir-patient.ecore#//DataType"/>
+    <genClasses ecoreClass="fhir-patient.ecore#//Date">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute fhir-patient.ecore#//Date/value"/>
+    </genClasses>
+    <genClasses ecoreClass="fhir-patient.ecore#//DateTime">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute fhir-patient.ecore#//DateTime/value"/>
+    </genClasses>
+    <genClasses ecoreClass="fhir-patient.ecore#//Decimal">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute fhir-patient.ecore#//Decimal/value"/>
+    </genClasses>
+    <genClasses ecoreClass="fhir-patient.ecore#//Distance"/>
+    <genClasses ecoreClass="fhir-patient.ecore#//DomainResource">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference fhir-patient.ecore#//DomainResource/text"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference fhir-patient.ecore#//DomainResource/extension"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference fhir-patient.ecore#//DomainResource/modifierExtension"/>
+    </genClasses>
+    <genClasses ecoreClass="fhir-patient.ecore#//Dosage">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference fhir-patient.ecore#//Dosage/sequence"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference fhir-patient.ecore#//Dosage/text"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference fhir-patient.ecore#//Dosage/additionalInstruction"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference fhir-patient.ecore#//Dosage/patientInstruction"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference fhir-patient.ecore#//Dosage/timing"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference fhir-patient.ecore#//Dosage/asNeeded"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference fhir-patient.ecore#//Dosage/asNeededFor"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference fhir-patient.ecore#//Dosage/site"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference fhir-patient.ecore#//Dosage/route"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference fhir-patient.ecore#//Dosage/method"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference fhir-patient.ecore#//Dosage/doseAndRate"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference fhir-patient.ecore#//Dosage/maxDosePerPeriod"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference fhir-patient.ecore#//Dosage/maxDosePerAdministration"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference fhir-patient.ecore#//Dosage/maxDosePerLifetime"/>
+    </genClasses>
+    <genClasses ecoreClass="fhir-patient.ecore#//DosageDoseAndRate">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference fhir-patient.ecore#//DosageDoseAndRate/type"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference fhir-patient.ecore#//DosageDoseAndRate/doseRange"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference fhir-patient.ecore#//DosageDoseAndRate/doseQuantity"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference fhir-patient.ecore#//DosageDoseAndRate/rateRatio"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference fhir-patient.ecore#//DosageDoseAndRate/rateRange"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference fhir-patient.ecore#//DosageDoseAndRate/rateQuantity"/>
+    </genClasses>
+    <genClasses ecoreClass="fhir-patient.ecore#//Duration"/>
+    <genClasses ecoreClass="fhir-patient.ecore#//Element">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference fhir-patient.ecore#//Element/extension"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute fhir-patient.ecore#//Element/id"/>
+    </genClasses>
+    <genClasses ecoreClass="fhir-patient.ecore#//EventTiming">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute fhir-patient.ecore#//EventTiming/value"/>
+    </genClasses>
+    <genClasses ecoreClass="fhir-patient.ecore#//Expression">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference fhir-patient.ecore#//Expression/description"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference fhir-patient.ecore#//Expression/name"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference fhir-patient.ecore#//Expression/language"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference fhir-patient.ecore#//Expression/expression"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference fhir-patient.ecore#//Expression/reference"/>
+    </genClasses>
+    <genClasses ecoreClass="fhir-patient.ecore#//ExtendedContactDetail">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference fhir-patient.ecore#//ExtendedContactDetail/purpose"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference fhir-patient.ecore#//ExtendedContactDetail/name"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference fhir-patient.ecore#//ExtendedContactDetail/telecom"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference fhir-patient.ecore#//ExtendedContactDetail/address"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference fhir-patient.ecore#//ExtendedContactDetail/organization"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference fhir-patient.ecore#//ExtendedContactDetail/period"/>
+    </genClasses>
+    <genClasses ecoreClass="fhir-patient.ecore#//Extension">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference fhir-patient.ecore#//Extension/valueBase64Binary"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference fhir-patient.ecore#//Extension/valueBoolean"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference fhir-patient.ecore#//Extension/valueCanonical"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference fhir-patient.ecore#//Extension/valueCode"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference fhir-patient.ecore#//Extension/valueDate"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference fhir-patient.ecore#//Extension/valueDateTime"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference fhir-patient.ecore#//Extension/valueDecimal"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference fhir-patient.ecore#//Extension/valueId"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference fhir-patient.ecore#//Extension/valueInstant"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference fhir-patient.ecore#//Extension/valueInteger"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference fhir-patient.ecore#//Extension/valueInteger64"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference fhir-patient.ecore#//Extension/valueMarkdown"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference fhir-patient.ecore#//Extension/valueOid"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference fhir-patient.ecore#//Extension/valuePositiveInt"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference fhir-patient.ecore#//Extension/valueString"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference fhir-patient.ecore#//Extension/valueTime"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference fhir-patient.ecore#//Extension/valueUnsignedInt"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference fhir-patient.ecore#//Extension/valueUri"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference fhir-patient.ecore#//Extension/valueUrl"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference fhir-patient.ecore#//Extension/valueUuid"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference fhir-patient.ecore#//Extension/valueAddress"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference fhir-patient.ecore#//Extension/valueAge"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference fhir-patient.ecore#//Extension/valueAnnotation"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference fhir-patient.ecore#//Extension/valueAttachment"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference fhir-patient.ecore#//Extension/valueCodeableConcept"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference fhir-patient.ecore#//Extension/valueCodeableReference"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference fhir-patient.ecore#//Extension/valueCoding"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference fhir-patient.ecore#//Extension/valueContactPoint"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference fhir-patient.ecore#//Extension/valueCount"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference fhir-patient.ecore#//Extension/valueDistance"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference fhir-patient.ecore#//Extension/valueDuration"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference fhir-patient.ecore#//Extension/valueHumanName"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference fhir-patient.ecore#//Extension/valueIdentifier"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference fhir-patient.ecore#//Extension/valueMoney"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference fhir-patient.ecore#//Extension/valuePeriod"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference fhir-patient.ecore#//Extension/valueQuantity"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference fhir-patient.ecore#//Extension/valueRange"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference fhir-patient.ecore#//Extension/valueRatio"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference fhir-patient.ecore#//Extension/valueRatioRange"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference fhir-patient.ecore#//Extension/valueReference"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference fhir-patient.ecore#//Extension/valueSampledData"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference fhir-patient.ecore#//Extension/valueSignature"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference fhir-patient.ecore#//Extension/valueTiming"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference fhir-patient.ecore#//Extension/valueContactDetail"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference fhir-patient.ecore#//Extension/valueDataRequirement"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference fhir-patient.ecore#//Extension/valueExpression"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference fhir-patient.ecore#//Extension/valueParameterDefinition"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference fhir-patient.ecore#//Extension/valueRelatedArtifact"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference fhir-patient.ecore#//Extension/valueTriggerDefinition"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference fhir-patient.ecore#//Extension/valueUsageContext"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference fhir-patient.ecore#//Extension/valueAvailability"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference fhir-patient.ecore#//Extension/valueExtendedContactDetail"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference fhir-patient.ecore#//Extension/valueDosage"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference fhir-patient.ecore#//Extension/valueMeta"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute fhir-patient.ecore#//Extension/url"/>
+    </genClasses>
+    <genClasses ecoreClass="fhir-patient.ecore#//HTTPVerb">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute fhir-patient.ecore#//HTTPVerb/value"/>
+    </genClasses>
+    <genClasses ecoreClass="fhir-patient.ecore#//HumanName">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference fhir-patient.ecore#//HumanName/use"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference fhir-patient.ecore#//HumanName/text"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference fhir-patient.ecore#//HumanName/family"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference fhir-patient.ecore#//HumanName/given"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference fhir-patient.ecore#//HumanName/prefix"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference fhir-patient.ecore#//HumanName/suffix"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference fhir-patient.ecore#//HumanName/period"/>
+    </genClasses>
+    <genClasses ecoreClass="fhir-patient.ecore#//Id">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute fhir-patient.ecore#//Id/value"/>
+    </genClasses>
+    <genClasses ecoreClass="fhir-patient.ecore#//Identifier">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference fhir-patient.ecore#//Identifier/use"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference fhir-patient.ecore#//Identifier/type"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference fhir-patient.ecore#//Identifier/system"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference fhir-patient.ecore#//Identifier/value"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference fhir-patient.ecore#//Identifier/period"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference fhir-patient.ecore#//Identifier/assigner"/>
+    </genClasses>
+    <genClasses ecoreClass="fhir-patient.ecore#//IdentifierUse">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute fhir-patient.ecore#//IdentifierUse/value"/>
+    </genClasses>
+    <genClasses ecoreClass="fhir-patient.ecore#//Instant">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute fhir-patient.ecore#//Instant/value"/>
+    </genClasses>
+    <genClasses ecoreClass="fhir-patient.ecore#//Integer">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute fhir-patient.ecore#//Integer/value"/>
+    </genClasses>
+    <genClasses ecoreClass="fhir-patient.ecore#//Integer64">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute fhir-patient.ecore#//Integer64/value"/>
+    </genClasses>
+    <genClasses ecoreClass="fhir-patient.ecore#//LinkRelationTypes">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute fhir-patient.ecore#//LinkRelationTypes/value"/>
+    </genClasses>
+    <genClasses ecoreClass="fhir-patient.ecore#//LinkType">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute fhir-patient.ecore#//LinkType/value"/>
+    </genClasses>
+    <genClasses ecoreClass="fhir-patient.ecore#//Markdown">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute fhir-patient.ecore#//Markdown/value"/>
+    </genClasses>
+    <genClasses ecoreClass="fhir-patient.ecore#//Meta">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference fhir-patient.ecore#//Meta/versionId"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference fhir-patient.ecore#//Meta/lastUpdated"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference fhir-patient.ecore#//Meta/source"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference fhir-patient.ecore#//Meta/profile"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference fhir-patient.ecore#//Meta/security"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference fhir-patient.ecore#//Meta/tag"/>
+    </genClasses>
+    <genClasses ecoreClass="fhir-patient.ecore#//Money">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference fhir-patient.ecore#//Money/value"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference fhir-patient.ecore#//Money/currency"/>
+    </genClasses>
+    <genClasses ecoreClass="fhir-patient.ecore#//NameUse">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute fhir-patient.ecore#//NameUse/value"/>
+    </genClasses>
+    <genClasses ecoreClass="fhir-patient.ecore#//Narrative">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference fhir-patient.ecore#//Narrative/status"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference fhir-patient.ecore#//Narrative/div"/>
+    </genClasses>
+    <genClasses ecoreClass="fhir-patient.ecore#//NarrativeStatus">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute fhir-patient.ecore#//NarrativeStatus/value"/>
+    </genClasses>
+    <genClasses ecoreClass="fhir-patient.ecore#//Oid">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute fhir-patient.ecore#//Oid/value"/>
+    </genClasses>
+    <genClasses ecoreClass="fhir-patient.ecore#//ParameterDefinition">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference fhir-patient.ecore#//ParameterDefinition/name"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference fhir-patient.ecore#//ParameterDefinition/use"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference fhir-patient.ecore#//ParameterDefinition/min"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference fhir-patient.ecore#//ParameterDefinition/max"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference fhir-patient.ecore#//ParameterDefinition/documentation"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference fhir-patient.ecore#//ParameterDefinition/type"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference fhir-patient.ecore#//ParameterDefinition/profile"/>
+    </genClasses>
+    <genClasses ecoreClass="fhir-patient.ecore#//Patient">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference fhir-patient.ecore#//Patient/identifier"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference fhir-patient.ecore#//Patient/active"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference fhir-patient.ecore#//Patient/name"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference fhir-patient.ecore#//Patient/telecom"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference fhir-patient.ecore#//Patient/gender"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference fhir-patient.ecore#//Patient/birthDate"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference fhir-patient.ecore#//Patient/deceasedBoolean"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference fhir-patient.ecore#//Patient/deceasedDateTime"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference fhir-patient.ecore#//Patient/address"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference fhir-patient.ecore#//Patient/maritalStatus"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference fhir-patient.ecore#//Patient/multipleBirthBoolean"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference fhir-patient.ecore#//Patient/multipleBirthInteger"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference fhir-patient.ecore#//Patient/photo"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference fhir-patient.ecore#//Patient/contact"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference fhir-patient.ecore#//Patient/communication"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference fhir-patient.ecore#//Patient/generalPractitioner"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference fhir-patient.ecore#//Patient/managingOrganization"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference fhir-patient.ecore#//Patient/link"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute fhir-patient.ecore#//Patient/fakeId"/>
+    </genClasses>
+    <genClasses ecoreClass="fhir-patient.ecore#//PatientCommunication">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference fhir-patient.ecore#//PatientCommunication/language"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference fhir-patient.ecore#//PatientCommunication/preferred"/>
+    </genClasses>
+    <genClasses ecoreClass="fhir-patient.ecore#//PatientContact">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference fhir-patient.ecore#//PatientContact/relationship"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference fhir-patient.ecore#//PatientContact/name"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference fhir-patient.ecore#//PatientContact/telecom"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference fhir-patient.ecore#//PatientContact/address"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference fhir-patient.ecore#//PatientContact/gender"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference fhir-patient.ecore#//PatientContact/organization"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference fhir-patient.ecore#//PatientContact/period"/>
+    </genClasses>
+    <genClasses ecoreClass="fhir-patient.ecore#//PatientLink">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference fhir-patient.ecore#//PatientLink/other"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference fhir-patient.ecore#//PatientLink/type"/>
+    </genClasses>
+    <genClasses ecoreClass="fhir-patient.ecore#//Period">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference fhir-patient.ecore#//Period/start"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference fhir-patient.ecore#//Period/end"/>
+    </genClasses>
+    <genClasses ecoreClass="fhir-patient.ecore#//PositiveInt">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute fhir-patient.ecore#//PositiveInt/value"/>
+    </genClasses>
+    <genClasses ecoreClass="fhir-patient.ecore#//Quantity">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference fhir-patient.ecore#//Quantity/value"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference fhir-patient.ecore#//Quantity/comparator"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference fhir-patient.ecore#//Quantity/unit"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference fhir-patient.ecore#//Quantity/system"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference fhir-patient.ecore#//Quantity/code"/>
+    </genClasses>
+    <genClasses ecoreClass="fhir-patient.ecore#//QuantityComparator">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute fhir-patient.ecore#//QuantityComparator/value"/>
+    </genClasses>
+    <genClasses ecoreClass="fhir-patient.ecore#//Range">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference fhir-patient.ecore#//Range/low"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference fhir-patient.ecore#//Range/high"/>
+    </genClasses>
+    <genClasses ecoreClass="fhir-patient.ecore#//Ratio">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference fhir-patient.ecore#//Ratio/numerator"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference fhir-patient.ecore#//Ratio/denominator"/>
+    </genClasses>
+    <genClasses ecoreClass="fhir-patient.ecore#//RatioRange">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference fhir-patient.ecore#//RatioRange/lowNumerator"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference fhir-patient.ecore#//RatioRange/highNumerator"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference fhir-patient.ecore#//RatioRange/denominator"/>
+    </genClasses>
+    <genClasses ecoreClass="fhir-patient.ecore#//Reference">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference fhir-patient.ecore#//Reference/reference"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference fhir-patient.ecore#//Reference/type"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference fhir-patient.ecore#//Reference/identifier"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference fhir-patient.ecore#//Reference/display"/>
+    </genClasses>
+    <genClasses ecoreClass="fhir-patient.ecore#//RelatedArtifact">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference fhir-patient.ecore#//RelatedArtifact/type"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference fhir-patient.ecore#//RelatedArtifact/classifier"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference fhir-patient.ecore#//RelatedArtifact/label"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference fhir-patient.ecore#//RelatedArtifact/display"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference fhir-patient.ecore#//RelatedArtifact/citation"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference fhir-patient.ecore#//RelatedArtifact/document"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference fhir-patient.ecore#//RelatedArtifact/resource"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference fhir-patient.ecore#//RelatedArtifact/resourceReference"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference fhir-patient.ecore#//RelatedArtifact/publicationStatus"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference fhir-patient.ecore#//RelatedArtifact/publicationDate"/>
+    </genClasses>
+    <genClasses ecoreClass="fhir-patient.ecore#//RelatedArtifactType">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute fhir-patient.ecore#//RelatedArtifactType/value"/>
+    </genClasses>
+    <genClasses ecoreClass="fhir-patient.ecore#//Resource">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference fhir-patient.ecore#//Resource/id"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference fhir-patient.ecore#//Resource/meta"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference fhir-patient.ecore#//Resource/implicitRules"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference fhir-patient.ecore#//Resource/language"/>
+    </genClasses>
+    <genClasses ecoreClass="fhir-patient.ecore#//SampledData">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference fhir-patient.ecore#//SampledData/origin"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference fhir-patient.ecore#//SampledData/interval"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference fhir-patient.ecore#//SampledData/intervalUnit"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference fhir-patient.ecore#//SampledData/factor"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference fhir-patient.ecore#//SampledData/lowerLimit"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference fhir-patient.ecore#//SampledData/upperLimit"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference fhir-patient.ecore#//SampledData/dimensions"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference fhir-patient.ecore#//SampledData/codeMap"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference fhir-patient.ecore#//SampledData/offsets"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference fhir-patient.ecore#//SampledData/data"/>
+    </genClasses>
+    <genClasses ecoreClass="fhir-patient.ecore#//SampledDataDataType">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute fhir-patient.ecore#//SampledDataDataType/value"/>
+    </genClasses>
+    <genClasses ecoreClass="fhir-patient.ecore#//SearchEntryMode">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute fhir-patient.ecore#//SearchEntryMode/value"/>
+    </genClasses>
+    <genClasses ecoreClass="fhir-patient.ecore#//Signature">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference fhir-patient.ecore#//Signature/type"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference fhir-patient.ecore#//Signature/when"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference fhir-patient.ecore#//Signature/who"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference fhir-patient.ecore#//Signature/onBehalfOf"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference fhir-patient.ecore#//Signature/targetFormat"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference fhir-patient.ecore#//Signature/sigFormat"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference fhir-patient.ecore#//Signature/data"/>
+    </genClasses>
+    <genClasses ecoreClass="fhir-patient.ecore#//SortDirection">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute fhir-patient.ecore#//SortDirection/value"/>
+    </genClasses>
+    <genClasses ecoreClass="fhir-patient.ecore#//String">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute fhir-patient.ecore#//String/value"/>
+    </genClasses>
+    <genClasses ecoreClass="fhir-patient.ecore#//Time">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute fhir-patient.ecore#//Time/value"/>
+    </genClasses>
+    <genClasses ecoreClass="fhir-patient.ecore#//Timing">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference fhir-patient.ecore#//Timing/event"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference fhir-patient.ecore#//Timing/repeat"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference fhir-patient.ecore#//Timing/code"/>
+    </genClasses>
+    <genClasses ecoreClass="fhir-patient.ecore#//TimingRepeat">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference fhir-patient.ecore#//TimingRepeat/boundsDuration"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference fhir-patient.ecore#//TimingRepeat/boundsRange"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference fhir-patient.ecore#//TimingRepeat/boundsPeriod"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference fhir-patient.ecore#//TimingRepeat/count"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference fhir-patient.ecore#//TimingRepeat/countMax"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference fhir-patient.ecore#//TimingRepeat/duration"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference fhir-patient.ecore#//TimingRepeat/durationMax"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference fhir-patient.ecore#//TimingRepeat/durationUnit"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference fhir-patient.ecore#//TimingRepeat/frequency"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference fhir-patient.ecore#//TimingRepeat/frequencyMax"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference fhir-patient.ecore#//TimingRepeat/period"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference fhir-patient.ecore#//TimingRepeat/periodMax"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference fhir-patient.ecore#//TimingRepeat/periodUnit"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference fhir-patient.ecore#//TimingRepeat/dayOfWeek"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference fhir-patient.ecore#//TimingRepeat/timeOfDay"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference fhir-patient.ecore#//TimingRepeat/when"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference fhir-patient.ecore#//TimingRepeat/offset"/>
+    </genClasses>
+    <genClasses ecoreClass="fhir-patient.ecore#//TriggerDefinition">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference fhir-patient.ecore#//TriggerDefinition/type"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference fhir-patient.ecore#//TriggerDefinition/name"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference fhir-patient.ecore#//TriggerDefinition/code"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference fhir-patient.ecore#//TriggerDefinition/subscriptionTopic"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference fhir-patient.ecore#//TriggerDefinition/timingTiming"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference fhir-patient.ecore#//TriggerDefinition/timingReference"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference fhir-patient.ecore#//TriggerDefinition/timingDate"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference fhir-patient.ecore#//TriggerDefinition/timingDateTime"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference fhir-patient.ecore#//TriggerDefinition/data"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference fhir-patient.ecore#//TriggerDefinition/condition"/>
+    </genClasses>
+    <genClasses ecoreClass="fhir-patient.ecore#//TriggerType">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute fhir-patient.ecore#//TriggerType/value"/>
+    </genClasses>
+    <genClasses ecoreClass="fhir-patient.ecore#//UnitsOfTime">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute fhir-patient.ecore#//UnitsOfTime/value"/>
+    </genClasses>
+    <genClasses ecoreClass="fhir-patient.ecore#//UnsignedInt">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute fhir-patient.ecore#//UnsignedInt/value"/>
+    </genClasses>
+    <genClasses ecoreClass="fhir-patient.ecore#//Uri">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute fhir-patient.ecore#//Uri/value"/>
+    </genClasses>
+    <genClasses ecoreClass="fhir-patient.ecore#//Url">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute fhir-patient.ecore#//Url/value"/>
+    </genClasses>
+    <genClasses ecoreClass="fhir-patient.ecore#//UsageContext">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference fhir-patient.ecore#//UsageContext/code"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference fhir-patient.ecore#//UsageContext/valueCodeableConcept"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference fhir-patient.ecore#//UsageContext/valueQuantity"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference fhir-patient.ecore#//UsageContext/valueRange"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference fhir-patient.ecore#//UsageContext/valueReference"/>
+    </genClasses>
+    <genClasses ecoreClass="fhir-patient.ecore#//Uuid">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute fhir-patient.ecore#//Uuid/value"/>
+    </genClasses>
+  </genPackages>
+</genmodel:GenModel>
