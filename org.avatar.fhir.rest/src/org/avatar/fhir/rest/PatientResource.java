@@ -60,7 +60,7 @@ public class PatientResource {
 	 * Basic implementation of {@link https://www.hl7.org/fhir/http.html#create}
 	 */
 	@POST
-	// FIXME: response is returned as JSON, despite having annotated REST API method and specified 'application/json' request header
+	// FIXME: response is returned as JSON, despite having annotated REST API method and specified 'application/xml' request header
 	@Produces({MediaType.APPLICATION_JSON, MediaType.APPLICATION_XML})
 	@Operation(responses = { @ApiResponse(responseCode = "200", content = {
 			@Content(mediaType = MediaType.APPLICATION_JSON, schema = @Schema(implementation = Patient.class)),
@@ -84,7 +84,7 @@ public class PatientResource {
 	 */
 	@GET
 	@Path("{patientId}")
-	// FIXME: response is returned as JSON, despite having annotated REST API method and specified 'application/json' request header
+	// FIXME: response is returned as JSON, despite having annotated REST API method and specified 'application/xml' request header
 	@Produces({MediaType.APPLICATION_JSON, MediaType.APPLICATION_XML})
 	@Operation(responses = { @ApiResponse(responseCode = "200", content = {
 			@Content(mediaType = MediaType.APPLICATION_JSON, schema = @Schema(implementation = Patient.class)),
@@ -107,7 +107,7 @@ public class PatientResource {
 	 */
 	@PUT
 	@Path("{patientId}")
-	// FIXME: response is returned as JSON, despite having annotated REST API method and specified 'application/json' request header
+	// FIXME: response is returned as JSON, despite having annotated REST API method and specified 'application/xml' request header
 	@Produces({MediaType.APPLICATION_JSON, MediaType.APPLICATION_XML})
 	@Operation(responses = { @ApiResponse(responseCode = "200", content = {
 			@Content(mediaType = MediaType.APPLICATION_JSON, schema = @Schema(implementation = Patient.class)),
@@ -135,7 +135,7 @@ public class PatientResource {
 	 */
 	@DELETE
 	@Path("{patientId}")
-	// FIXME: response is returned as JSON, despite having annotated REST API method and specified 'application/json' request header
+	// FIXME: response is returned as JSON, despite having annotated REST API method and specified 'application/xml' request header
 	@Produces({MediaType.APPLICATION_JSON, MediaType.APPLICATION_XML})
 	@Operation(responses = { @ApiResponse(responseCode = "200") }, tags = { "Patient" })
 	public Response delete(
