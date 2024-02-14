@@ -13,8 +13,9 @@
  */
 package org.avatar.fhir.rest.example;
 
-import org.avatar.fhir.model.examplePackageName.Example;
-import org.avatar.fhir.model.examplePackageName.ExamplePackageNameFactory;
+import org.hl7.fhir.FHIRFactory;
+import org.hl7.fhir.Id;
+import org.hl7.fhir.Patient;
 import org.osgi.service.component.annotations.Component;
 import org.osgi.service.component.annotations.Reference;
 import org.osgi.service.component.annotations.ServiceScope;
@@ -46,7 +47,7 @@ import jakarta.ws.rs.core.Response;
 public class DemoResource {
 	
 	@Reference
-	private ExamplePackageNameFactory modelFactory;
+	private FHIRFactory modelFactory;
 
 	/**
 	 * Please check http://localhost:8082/fhir/rest/hello
@@ -64,12 +65,14 @@ public class DemoResource {
 	 */
 	@GET
 	@Path("/example")
-	@Produces(MediaType.APPLICATION_JSON)
+	@Produces({MediaType.APPLICATION_JSON, MediaType.APPLICATION_XML} )
 	public Response example() {
-		Example e = modelFactory.createExample();
-		e.setHello("Michael");
-		e.setComment("Thank you for your work! ;-)");
-		return Response.ok(e).build();
+		Patient p = modelFactory.createPatient();
+		Id id = modelFactory.createId();
+		id.setId("test");
+		id.setValue("123");
+		p.setId(id);
+		return Response.ok(p).build();
 	}
 
 }

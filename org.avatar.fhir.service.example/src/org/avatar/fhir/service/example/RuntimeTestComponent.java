@@ -13,9 +13,9 @@
  */
 package org.avatar.fhir.service.example;
 
-import org.avatar.fhir.model.examplePackageName.ExamplePackageNameFactory;
-import org.avatar.fhir.model.examplePackageName.ExamplePackageNamePackage;
 import org.gecko.emf.repository.EMFRepository;
+import org.hl7.fhir.FHIRFactory;
+import org.hl7.fhir.FHIRPackage;
 import org.osgi.service.component.annotations.Activate;
 import org.osgi.service.component.annotations.Component;
 import org.osgi.service.component.annotations.Reference;
@@ -29,9 +29,9 @@ import org.osgi.service.component.annotations.Reference;
 public class RuntimeTestComponent {
 	
 	@Reference
-	private ExamplePackageNameFactory modelFactory;
+	private FHIRFactory modelFactory;
 	@Reference
-	private ExamplePackageNamePackage modelPackage;
+	private FHIRPackage modelPackage;
 	@Reference
 	private EMFRepository repo;
 	
