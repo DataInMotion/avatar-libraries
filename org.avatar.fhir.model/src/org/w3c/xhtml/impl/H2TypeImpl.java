@@ -199,7 +199,7 @@ public class H2TypeImpl extends InlineImpl implements H2Type {
 	 */
 	@Override
 	protected EClass eStaticClass() {
-		return XHTMLPackage.eINSTANCE.getH2Type();
+		return XHTMLPackage.Literals.H2_TYPE;
 	}
 
 	/**

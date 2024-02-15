@@ -199,7 +199,7 @@ public class H1TypeImpl extends InlineImpl implements H1Type {
 	 */
 	@Override
 	protected EClass eStaticClass() {
-		return XHTMLPackage.eINSTANCE.getH1Type();
+		return XHTMLPackage.Literals.H1_TYPE;
 	}
 
 	/**

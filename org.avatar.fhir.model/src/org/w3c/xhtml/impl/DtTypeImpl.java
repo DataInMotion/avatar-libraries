@@ -199,7 +199,7 @@ public class DtTypeImpl extends InlineImpl implements DtType {
 	 */
 	@Override
 	protected EClass eStaticClass() {
-		return XHTMLPackage.eINSTANCE.getDtType();
+		return XHTMLPackage.Literals.DT_TYPE;
 	}
 
 	/**

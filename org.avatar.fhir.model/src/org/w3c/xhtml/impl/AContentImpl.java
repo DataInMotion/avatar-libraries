@@ -107,7 +107,7 @@ public class AContentImpl extends MinimalEObjectImpl.Container implements AConte
 	 */
 	@Override
 	protected EClass eStaticClass() {
-		return XHTMLPackage.eINSTANCE.getAContent();
+		return XHTMLPackage.Literals.ACONTENT;
 	}
 
 	/**
@@ -130,7 +130,7 @@ public class AContentImpl extends MinimalEObjectImpl.Container implements AConte
 	 */
 	@Override
 	public FeatureMap getGroup() {
-		return (FeatureMap)getMixed().<FeatureMap.Entry>list(XHTMLPackage.eINSTANCE.getAContent_Group());
+		return (FeatureMap)getMixed().<FeatureMap.Entry>list(XHTMLPackage.Literals.ACONTENT__GROUP);
 	}
 
 	/**
@@ -140,7 +140,7 @@ public class AContentImpl extends MinimalEObjectImpl.Container implements AConte
 	 */
 	@Override
 	public EList<BrType> getBr() {
-		return getGroup().list(XHTMLPackage.eINSTANCE.getAContent_Br());
+		return getGroup().list(XHTMLPackage.Literals.ACONTENT__BR);
 	}
 
 	/**
@@ -150,7 +150,7 @@ public class AContentImpl extends MinimalEObjectImpl.Container implements AConte
 	 */
 	@Override
 	public EList<SpanType> getSpan() {
-		return getGroup().list(XHTMLPackage.eINSTANCE.getAContent_Span());
+		return getGroup().list(XHTMLPackage.Literals.ACONTENT__SPAN);
 	}
 
 	/**
@@ -160,7 +160,7 @@ public class AContentImpl extends MinimalEObjectImpl.Container implements AConte
 	 */
 	@Override
 	public EList<BdoType> getBdo() {
-		return getGroup().list(XHTMLPackage.eINSTANCE.getAContent_Bdo());
+		return getGroup().list(XHTMLPackage.Literals.ACONTENT__BDO);
 	}
 
 	/**
@@ -170,7 +170,7 @@ public class AContentImpl extends MinimalEObjectImpl.Container implements AConte
 	 */
 	@Override
 	public EList<MapType> getMap() {
-		return getGroup().list(XHTMLPackage.eINSTANCE.getAContent_Map());
+		return getGroup().list(XHTMLPackage.Literals.ACONTENT__MAP);
 	}
 
 	/**
@@ -180,7 +180,7 @@ public class AContentImpl extends MinimalEObjectImpl.Container implements AConte
 	 */
 	@Override
 	public EList<ImgType> getImg() {
-		return getGroup().list(XHTMLPackage.eINSTANCE.getAContent_Img());
+		return getGroup().list(XHTMLPackage.Literals.ACONTENT__IMG);
 	}
 
 	/**
@@ -190,7 +190,7 @@ public class AContentImpl extends MinimalEObjectImpl.Container implements AConte
 	 */
 	@Override
 	public EList<TtType> getTt() {
-		return getGroup().list(XHTMLPackage.eINSTANCE.getAContent_Tt());
+		return getGroup().list(XHTMLPackage.Literals.ACONTENT__TT);
 	}
 
 	/**
@@ -200,7 +200,7 @@ public class AContentImpl extends MinimalEObjectImpl.Container implements AConte
 	 */
 	@Override
 	public EList<IType> getI() {
-		return getGroup().list(XHTMLPackage.eINSTANCE.getAContent_I());
+		return getGroup().list(XHTMLPackage.Literals.ACONTENT__I);
 	}
 
 	/**
@@ -210,7 +210,7 @@ public class AContentImpl extends MinimalEObjectImpl.Container implements AConte
 	 */
 	@Override
 	public EList<BType> getB() {
-		return getGroup().list(XHTMLPackage.eINSTANCE.getAContent_B());
+		return getGroup().list(XHTMLPackage.Literals.ACONTENT__B);
 	}
 
 	/**
@@ -220,7 +220,7 @@ public class AContentImpl extends MinimalEObjectImpl.Container implements AConte
 	 */
 	@Override
 	public EList<BigType> getBig() {
-		return getGroup().list(XHTMLPackage.eINSTANCE.getAContent_Big());
+		return getGroup().list(XHTMLPackage.Literals.ACONTENT__BIG);
 	}
 
 	/**
@@ -230,7 +230,7 @@ public class AContentImpl extends MinimalEObjectImpl.Container implements AConte
 	 */
 	@Override
 	public EList<SmallType> getSmall() {
-		return getGroup().list(XHTMLPackage.eINSTANCE.getAContent_Small());
+		return getGroup().list(XHTMLPackage.Literals.ACONTENT__SMALL);
 	}
 
 	/**
@@ -240,7 +240,7 @@ public class AContentImpl extends MinimalEObjectImpl.Container implements AConte
 	 */
 	@Override
 	public EList<EmType> getEm() {
-		return getGroup().list(XHTMLPackage.eINSTANCE.getAContent_Em());
+		return getGroup().list(XHTMLPackage.Literals.ACONTENT__EM);
 	}
 
 	/**
@@ -250,7 +250,7 @@ public class AContentImpl extends MinimalEObjectImpl.Container implements AConte
 	 */
 	@Override
 	public EList<StrongType> getStrong() {
-		return getGroup().list(XHTMLPackage.eINSTANCE.getAContent_Strong());
+		return getGroup().list(XHTMLPackage.Literals.ACONTENT__STRONG);
 	}
 
 	/**
@@ -260,7 +260,7 @@ public class AContentImpl extends MinimalEObjectImpl.Container implements AConte
 	 */
 	@Override
 	public EList<DfnType> getDfn() {
-		return getGroup().list(XHTMLPackage.eINSTANCE.getAContent_Dfn());
+		return getGroup().list(XHTMLPackage.Literals.ACONTENT__DFN);
 	}
 
 	/**
@@ -270,7 +270,7 @@ public class AContentImpl extends MinimalEObjectImpl.Container implements AConte
 	 */
 	@Override
 	public EList<CodeType> getCode() {
-		return getGroup().list(XHTMLPackage.eINSTANCE.getAContent_Code());
+		return getGroup().list(XHTMLPackage.Literals.ACONTENT__CODE);
 	}
 
 	/**
@@ -280,7 +280,7 @@ public class AContentImpl extends MinimalEObjectImpl.Container implements AConte
 	 */
 	@Override
 	public EList<QType> getQ() {
-		return getGroup().list(XHTMLPackage.eINSTANCE.getAContent_Q());
+		return getGroup().list(XHTMLPackage.Literals.ACONTENT__Q);
 	}
 
 	/**
@@ -290,7 +290,7 @@ public class AContentImpl extends MinimalEObjectImpl.Container implements AConte
 	 */
 	@Override
 	public EList<SampType> getSamp() {
-		return getGroup().list(XHTMLPackage.eINSTANCE.getAContent_Samp());
+		return getGroup().list(XHTMLPackage.Literals.ACONTENT__SAMP);
 	}
 
 	/**
@@ -300,7 +300,7 @@ public class AContentImpl extends MinimalEObjectImpl.Container implements AConte
 	 */
 	@Override
 	public EList<KbdType> getKbd() {
-		return getGroup().list(XHTMLPackage.eINSTANCE.getAContent_Kbd());
+		return getGroup().list(XHTMLPackage.Literals.ACONTENT__KBD);
 	}
 
 	/**
@@ -310,7 +310,7 @@ public class AContentImpl extends MinimalEObjectImpl.Container implements AConte
 	 */
 	@Override
 	public EList<VarType> getVar() {
-		return getGroup().list(XHTMLPackage.eINSTANCE.getAContent_Var());
+		return getGroup().list(XHTMLPackage.Literals.ACONTENT__VAR);
 	}
 
 	/**
@@ -320,7 +320,7 @@ public class AContentImpl extends MinimalEObjectImpl.Container implements AConte
 	 */
 	@Override
 	public EList<CiteType> getCite() {
-		return getGroup().list(XHTMLPackage.eINSTANCE.getAContent_Cite());
+		return getGroup().list(XHTMLPackage.Literals.ACONTENT__CITE);
 	}
 
 	/**
@@ -330,7 +330,7 @@ public class AContentImpl extends MinimalEObjectImpl.Container implements AConte
 	 */
 	@Override
 	public EList<AbbrType> getAbbr() {
-		return getGroup().list(XHTMLPackage.eINSTANCE.getAContent_Abbr());
+		return getGroup().list(XHTMLPackage.Literals.ACONTENT__ABBR);
 	}
 
 	/**
@@ -340,7 +340,7 @@ public class AContentImpl extends MinimalEObjectImpl.Container implements AConte
 	 */
 	@Override
 	public EList<AcronymType> getAcronym() {
-		return getGroup().list(XHTMLPackage.eINSTANCE.getAContent_Acronym());
+		return getGroup().list(XHTMLPackage.Literals.ACONTENT__ACRONYM);
 	}
 
 	/**
@@ -350,7 +350,7 @@ public class AContentImpl extends MinimalEObjectImpl.Container implements AConte
 	 */
 	@Override
 	public EList<SubType> getSub() {
-		return getGroup().list(XHTMLPackage.eINSTANCE.getAContent_Sub());
+		return getGroup().list(XHTMLPackage.Literals.ACONTENT__SUB);
 	}
 
 	/**
@@ -360,7 +360,7 @@ public class AContentImpl extends MinimalEObjectImpl.Container implements AConte
 	 */
 	@Override
 	public EList<SupType> getSup() {
-		return getGroup().list(XHTMLPackage.eINSTANCE.getAContent_Sup());
+		return getGroup().list(XHTMLPackage.Literals.ACONTENT__SUP);
 	}
 
 	/**

@@ -220,7 +220,7 @@ public class UlTypeImpl extends MinimalEObjectImpl.Container implements UlType {
 	 */
 	@Override
 	protected EClass eStaticClass() {
-		return XHTMLPackage.eINSTANCE.getUlType();
+		return XHTMLPackage.Literals.UL_TYPE;
 	}
 
 	/**

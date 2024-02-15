@@ -220,7 +220,7 @@ public class BlockquoteTypeImpl extends BlockImpl implements BlockquoteType {
 	 */
 	@Override
 	protected EClass eStaticClass() {
-		return XHTMLPackage.eINSTANCE.getBlockquoteType();
+		return XHTMLPackage.Literals.BLOCKQUOTE_TYPE;
 	}
 
 	/**

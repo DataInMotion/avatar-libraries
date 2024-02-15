@@ -220,7 +220,7 @@ public class QTypeImpl extends InlineImpl implements QType {
 	 */
 	@Override
 	protected EClass eStaticClass() {
-		return XHTMLPackage.eINSTANCE.getQType();
+		return XHTMLPackage.Literals.QTYPE;
 	}
 
 	/**

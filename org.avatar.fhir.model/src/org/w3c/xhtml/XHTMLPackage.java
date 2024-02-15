@@ -26757,4 +26757,6450 @@ public interface XHTMLPackage extends EPackage {
 	 */
 	XHTMLFactory getXHTMLFactory();
 
+	/**
+	 * <!-- begin-user-doc -->
+	 * Defines literals for the meta objects that represent
+	 * <ul>
+	 *   <li>each class,</li>
+	 *   <li>each feature of each class,</li>
+	 *   <li>each operation of each class,</li>
+	 *   <li>each enum,</li>
+	 *   <li>and each data type</li>
+	 * </ul>
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	interface Literals {
+		/**
+		 * The meta object literal for the '{@link org.w3c.xhtml.impl.AbbrTypeImpl <em>Abbr Type</em>}' class.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @see org.w3c.xhtml.impl.AbbrTypeImpl
+		 * @see org.w3c.xhtml.impl.XHTMLPackageImpl#getAbbrType()
+		 * @generated
+		 */
+		EClass ABBR_TYPE = eINSTANCE.getAbbrType();
+
+		/**
+		 * The meta object literal for the '<em><b>Class</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute ABBR_TYPE__CLASS = eINSTANCE.getAbbrType_Class();
+
+		/**
+		 * The meta object literal for the '<em><b>Dir</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute ABBR_TYPE__DIR = eINSTANCE.getAbbrType_Dir();
+
+		/**
+		 * The meta object literal for the '<em><b>Id</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute ABBR_TYPE__ID = eINSTANCE.getAbbrType_Id();
+
+		/**
+		 * The meta object literal for the '<em><b>Lang</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute ABBR_TYPE__LANG = eINSTANCE.getAbbrType_Lang();
+
+		/**
+		 * The meta object literal for the '<em><b>Lang1</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute ABBR_TYPE__LANG1 = eINSTANCE.getAbbrType_Lang1();
+
+		/**
+		 * The meta object literal for the '<em><b>Style</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute ABBR_TYPE__STYLE = eINSTANCE.getAbbrType_Style();
+
+		/**
+		 * The meta object literal for the '<em><b>Title</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute ABBR_TYPE__TITLE = eINSTANCE.getAbbrType_Title();
+
+		/**
+		 * The meta object literal for the '{@link org.w3c.xhtml.impl.AContentImpl <em>AContent</em>}' class.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @see org.w3c.xhtml.impl.AContentImpl
+		 * @see org.w3c.xhtml.impl.XHTMLPackageImpl#getAContent()
+		 * @generated
+		 */
+		EClass ACONTENT = eINSTANCE.getAContent();
+
+		/**
+		 * The meta object literal for the '<em><b>Mixed</b></em>' attribute list feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute ACONTENT__MIXED = eINSTANCE.getAContent_Mixed();
+
+		/**
+		 * The meta object literal for the '<em><b>Group</b></em>' attribute list feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute ACONTENT__GROUP = eINSTANCE.getAContent_Group();
+
+		/**
+		 * The meta object literal for the '<em><b>Br</b></em>' containment reference list feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EReference ACONTENT__BR = eINSTANCE.getAContent_Br();
+
+		/**
+		 * The meta object literal for the '<em><b>Span</b></em>' containment reference list feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EReference ACONTENT__SPAN = eINSTANCE.getAContent_Span();
+
+		/**
+		 * The meta object literal for the '<em><b>Bdo</b></em>' containment reference list feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EReference ACONTENT__BDO = eINSTANCE.getAContent_Bdo();
+
+		/**
+		 * The meta object literal for the '<em><b>Map</b></em>' containment reference list feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EReference ACONTENT__MAP = eINSTANCE.getAContent_Map();
+
+		/**
+		 * The meta object literal for the '<em><b>Img</b></em>' containment reference list feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EReference ACONTENT__IMG = eINSTANCE.getAContent_Img();
+
+		/**
+		 * The meta object literal for the '<em><b>Tt</b></em>' containment reference list feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EReference ACONTENT__TT = eINSTANCE.getAContent_Tt();
+
+		/**
+		 * The meta object literal for the '<em><b>I</b></em>' containment reference list feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EReference ACONTENT__I = eINSTANCE.getAContent_I();
+
+		/**
+		 * The meta object literal for the '<em><b>B</b></em>' containment reference list feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EReference ACONTENT__B = eINSTANCE.getAContent_B();
+
+		/**
+		 * The meta object literal for the '<em><b>Big</b></em>' containment reference list feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EReference ACONTENT__BIG = eINSTANCE.getAContent_Big();
+
+		/**
+		 * The meta object literal for the '<em><b>Small</b></em>' containment reference list feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EReference ACONTENT__SMALL = eINSTANCE.getAContent_Small();
+
+		/**
+		 * The meta object literal for the '<em><b>Em</b></em>' containment reference list feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EReference ACONTENT__EM = eINSTANCE.getAContent_Em();
+
+		/**
+		 * The meta object literal for the '<em><b>Strong</b></em>' containment reference list feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EReference ACONTENT__STRONG = eINSTANCE.getAContent_Strong();
+
+		/**
+		 * The meta object literal for the '<em><b>Dfn</b></em>' containment reference list feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EReference ACONTENT__DFN = eINSTANCE.getAContent_Dfn();
+
+		/**
+		 * The meta object literal for the '<em><b>Code</b></em>' containment reference list feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EReference ACONTENT__CODE = eINSTANCE.getAContent_Code();
+
+		/**
+		 * The meta object literal for the '<em><b>Q</b></em>' containment reference list feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EReference ACONTENT__Q = eINSTANCE.getAContent_Q();
+
+		/**
+		 * The meta object literal for the '<em><b>Samp</b></em>' containment reference list feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EReference ACONTENT__SAMP = eINSTANCE.getAContent_Samp();
+
+		/**
+		 * The meta object literal for the '<em><b>Kbd</b></em>' containment reference list feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EReference ACONTENT__KBD = eINSTANCE.getAContent_Kbd();
+
+		/**
+		 * The meta object literal for the '<em><b>Var</b></em>' containment reference list feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EReference ACONTENT__VAR = eINSTANCE.getAContent_Var();
+
+		/**
+		 * The meta object literal for the '<em><b>Cite</b></em>' containment reference list feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EReference ACONTENT__CITE = eINSTANCE.getAContent_Cite();
+
+		/**
+		 * The meta object literal for the '<em><b>Abbr</b></em>' containment reference list feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EReference ACONTENT__ABBR = eINSTANCE.getAContent_Abbr();
+
+		/**
+		 * The meta object literal for the '<em><b>Acronym</b></em>' containment reference list feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EReference ACONTENT__ACRONYM = eINSTANCE.getAContent_Acronym();
+
+		/**
+		 * The meta object literal for the '<em><b>Sub</b></em>' containment reference list feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EReference ACONTENT__SUB = eINSTANCE.getAContent_Sub();
+
+		/**
+		 * The meta object literal for the '<em><b>Sup</b></em>' containment reference list feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EReference ACONTENT__SUP = eINSTANCE.getAContent_Sup();
+
+		/**
+		 * The meta object literal for the '{@link org.w3c.xhtml.impl.AcronymTypeImpl <em>Acronym Type</em>}' class.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @see org.w3c.xhtml.impl.AcronymTypeImpl
+		 * @see org.w3c.xhtml.impl.XHTMLPackageImpl#getAcronymType()
+		 * @generated
+		 */
+		EClass ACRONYM_TYPE = eINSTANCE.getAcronymType();
+
+		/**
+		 * The meta object literal for the '<em><b>Class</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute ACRONYM_TYPE__CLASS = eINSTANCE.getAcronymType_Class();
+
+		/**
+		 * The meta object literal for the '<em><b>Dir</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute ACRONYM_TYPE__DIR = eINSTANCE.getAcronymType_Dir();
+
+		/**
+		 * The meta object literal for the '<em><b>Id</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute ACRONYM_TYPE__ID = eINSTANCE.getAcronymType_Id();
+
+		/**
+		 * The meta object literal for the '<em><b>Lang</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute ACRONYM_TYPE__LANG = eINSTANCE.getAcronymType_Lang();
+
+		/**
+		 * The meta object literal for the '<em><b>Lang1</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute ACRONYM_TYPE__LANG1 = eINSTANCE.getAcronymType_Lang1();
+
+		/**
+		 * The meta object literal for the '<em><b>Style</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute ACRONYM_TYPE__STYLE = eINSTANCE.getAcronymType_Style();
+
+		/**
+		 * The meta object literal for the '<em><b>Title</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute ACRONYM_TYPE__TITLE = eINSTANCE.getAcronymType_Title();
+
+		/**
+		 * The meta object literal for the '{@link org.w3c.xhtml.impl.AddressTypeImpl <em>Address Type</em>}' class.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @see org.w3c.xhtml.impl.AddressTypeImpl
+		 * @see org.w3c.xhtml.impl.XHTMLPackageImpl#getAddressType()
+		 * @generated
+		 */
+		EClass ADDRESS_TYPE = eINSTANCE.getAddressType();
+
+		/**
+		 * The meta object literal for the '<em><b>Class</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute ADDRESS_TYPE__CLASS = eINSTANCE.getAddressType_Class();
+
+		/**
+		 * The meta object literal for the '<em><b>Dir</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute ADDRESS_TYPE__DIR = eINSTANCE.getAddressType_Dir();
+
+		/**
+		 * The meta object literal for the '<em><b>Id</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute ADDRESS_TYPE__ID = eINSTANCE.getAddressType_Id();
+
+		/**
+		 * The meta object literal for the '<em><b>Lang</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute ADDRESS_TYPE__LANG = eINSTANCE.getAddressType_Lang();
+
+		/**
+		 * The meta object literal for the '<em><b>Lang1</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute ADDRESS_TYPE__LANG1 = eINSTANCE.getAddressType_Lang1();
+
+		/**
+		 * The meta object literal for the '<em><b>Style</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute ADDRESS_TYPE__STYLE = eINSTANCE.getAddressType_Style();
+
+		/**
+		 * The meta object literal for the '<em><b>Title</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute ADDRESS_TYPE__TITLE = eINSTANCE.getAddressType_Title();
+
+		/**
+		 * The meta object literal for the '{@link org.w3c.xhtml.impl.AreaTypeImpl <em>Area Type</em>}' class.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @see org.w3c.xhtml.impl.AreaTypeImpl
+		 * @see org.w3c.xhtml.impl.XHTMLPackageImpl#getAreaType()
+		 * @generated
+		 */
+		EClass AREA_TYPE = eINSTANCE.getAreaType();
+
+		/**
+		 * The meta object literal for the '<em><b>Accesskey</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute AREA_TYPE__ACCESSKEY = eINSTANCE.getAreaType_Accesskey();
+
+		/**
+		 * The meta object literal for the '<em><b>Alt</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute AREA_TYPE__ALT = eINSTANCE.getAreaType_Alt();
+
+		/**
+		 * The meta object literal for the '<em><b>Class</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute AREA_TYPE__CLASS = eINSTANCE.getAreaType_Class();
+
+		/**
+		 * The meta object literal for the '<em><b>Coords</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute AREA_TYPE__COORDS = eINSTANCE.getAreaType_Coords();
+
+		/**
+		 * The meta object literal for the '<em><b>Dir</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute AREA_TYPE__DIR = eINSTANCE.getAreaType_Dir();
+
+		/**
+		 * The meta object literal for the '<em><b>Href</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute AREA_TYPE__HREF = eINSTANCE.getAreaType_Href();
+
+		/**
+		 * The meta object literal for the '<em><b>Id</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute AREA_TYPE__ID = eINSTANCE.getAreaType_Id();
+
+		/**
+		 * The meta object literal for the '<em><b>Lang</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute AREA_TYPE__LANG = eINSTANCE.getAreaType_Lang();
+
+		/**
+		 * The meta object literal for the '<em><b>Lang1</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute AREA_TYPE__LANG1 = eINSTANCE.getAreaType_Lang1();
+
+		/**
+		 * The meta object literal for the '<em><b>Nohref</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute AREA_TYPE__NOHREF = eINSTANCE.getAreaType_Nohref();
+
+		/**
+		 * The meta object literal for the '<em><b>Shape</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute AREA_TYPE__SHAPE = eINSTANCE.getAreaType_Shape();
+
+		/**
+		 * The meta object literal for the '<em><b>Style</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute AREA_TYPE__STYLE = eINSTANCE.getAreaType_Style();
+
+		/**
+		 * The meta object literal for the '<em><b>Tabindex</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute AREA_TYPE__TABINDEX = eINSTANCE.getAreaType_Tabindex();
+
+		/**
+		 * The meta object literal for the '<em><b>Title</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute AREA_TYPE__TITLE = eINSTANCE.getAreaType_Title();
+
+		/**
+		 * The meta object literal for the '{@link org.w3c.xhtml.impl.ATypeImpl <em>AType</em>}' class.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @see org.w3c.xhtml.impl.ATypeImpl
+		 * @see org.w3c.xhtml.impl.XHTMLPackageImpl#getAType()
+		 * @generated
+		 */
+		EClass ATYPE = eINSTANCE.getAType();
+
+		/**
+		 * The meta object literal for the '<em><b>Accesskey</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute ATYPE__ACCESSKEY = eINSTANCE.getAType_Accesskey();
+
+		/**
+		 * The meta object literal for the '<em><b>Charset</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute ATYPE__CHARSET = eINSTANCE.getAType_Charset();
+
+		/**
+		 * The meta object literal for the '<em><b>Class</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute ATYPE__CLASS = eINSTANCE.getAType_Class();
+
+		/**
+		 * The meta object literal for the '<em><b>Coords</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute ATYPE__COORDS = eINSTANCE.getAType_Coords();
+
+		/**
+		 * The meta object literal for the '<em><b>Dir</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute ATYPE__DIR = eINSTANCE.getAType_Dir();
+
+		/**
+		 * The meta object literal for the '<em><b>Href</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute ATYPE__HREF = eINSTANCE.getAType_Href();
+
+		/**
+		 * The meta object literal for the '<em><b>Hreflang</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute ATYPE__HREFLANG = eINSTANCE.getAType_Hreflang();
+
+		/**
+		 * The meta object literal for the '<em><b>Id</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute ATYPE__ID = eINSTANCE.getAType_Id();
+
+		/**
+		 * The meta object literal for the '<em><b>Lang</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute ATYPE__LANG = eINSTANCE.getAType_Lang();
+
+		/**
+		 * The meta object literal for the '<em><b>Lang1</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute ATYPE__LANG1 = eINSTANCE.getAType_Lang1();
+
+		/**
+		 * The meta object literal for the '<em><b>Name</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute ATYPE__NAME = eINSTANCE.getAType_Name();
+
+		/**
+		 * The meta object literal for the '<em><b>Rel</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute ATYPE__REL = eINSTANCE.getAType_Rel();
+
+		/**
+		 * The meta object literal for the '<em><b>Rev</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute ATYPE__REV = eINSTANCE.getAType_Rev();
+
+		/**
+		 * The meta object literal for the '<em><b>Shape</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute ATYPE__SHAPE = eINSTANCE.getAType_Shape();
+
+		/**
+		 * The meta object literal for the '<em><b>Style</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute ATYPE__STYLE = eINSTANCE.getAType_Style();
+
+		/**
+		 * The meta object literal for the '<em><b>Tabindex</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute ATYPE__TABINDEX = eINSTANCE.getAType_Tabindex();
+
+		/**
+		 * The meta object literal for the '<em><b>Title</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute ATYPE__TITLE = eINSTANCE.getAType_Title();
+
+		/**
+		 * The meta object literal for the '<em><b>Type</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute ATYPE__TYPE = eINSTANCE.getAType_Type();
+
+		/**
+		 * The meta object literal for the '{@link org.w3c.xhtml.impl.BdoTypeImpl <em>Bdo Type</em>}' class.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @see org.w3c.xhtml.impl.BdoTypeImpl
+		 * @see org.w3c.xhtml.impl.XHTMLPackageImpl#getBdoType()
+		 * @generated
+		 */
+		EClass BDO_TYPE = eINSTANCE.getBdoType();
+
+		/**
+		 * The meta object literal for the '<em><b>Class</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute BDO_TYPE__CLASS = eINSTANCE.getBdoType_Class();
+
+		/**
+		 * The meta object literal for the '<em><b>Dir</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute BDO_TYPE__DIR = eINSTANCE.getBdoType_Dir();
+
+		/**
+		 * The meta object literal for the '<em><b>Id</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute BDO_TYPE__ID = eINSTANCE.getBdoType_Id();
+
+		/**
+		 * The meta object literal for the '<em><b>Lang</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute BDO_TYPE__LANG = eINSTANCE.getBdoType_Lang();
+
+		/**
+		 * The meta object literal for the '<em><b>Lang1</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute BDO_TYPE__LANG1 = eINSTANCE.getBdoType_Lang1();
+
+		/**
+		 * The meta object literal for the '<em><b>Style</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute BDO_TYPE__STYLE = eINSTANCE.getBdoType_Style();
+
+		/**
+		 * The meta object literal for the '<em><b>Title</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute BDO_TYPE__TITLE = eINSTANCE.getBdoType_Title();
+
+		/**
+		 * The meta object literal for the '{@link org.w3c.xhtml.impl.BigTypeImpl <em>Big Type</em>}' class.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @see org.w3c.xhtml.impl.BigTypeImpl
+		 * @see org.w3c.xhtml.impl.XHTMLPackageImpl#getBigType()
+		 * @generated
+		 */
+		EClass BIG_TYPE = eINSTANCE.getBigType();
+
+		/**
+		 * The meta object literal for the '<em><b>Class</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute BIG_TYPE__CLASS = eINSTANCE.getBigType_Class();
+
+		/**
+		 * The meta object literal for the '<em><b>Dir</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute BIG_TYPE__DIR = eINSTANCE.getBigType_Dir();
+
+		/**
+		 * The meta object literal for the '<em><b>Id</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute BIG_TYPE__ID = eINSTANCE.getBigType_Id();
+
+		/**
+		 * The meta object literal for the '<em><b>Lang</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute BIG_TYPE__LANG = eINSTANCE.getBigType_Lang();
+
+		/**
+		 * The meta object literal for the '<em><b>Lang1</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute BIG_TYPE__LANG1 = eINSTANCE.getBigType_Lang1();
+
+		/**
+		 * The meta object literal for the '<em><b>Style</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute BIG_TYPE__STYLE = eINSTANCE.getBigType_Style();
+
+		/**
+		 * The meta object literal for the '<em><b>Title</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute BIG_TYPE__TITLE = eINSTANCE.getBigType_Title();
+
+		/**
+		 * The meta object literal for the '{@link org.w3c.xhtml.impl.BlockImpl <em>Block</em>}' class.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @see org.w3c.xhtml.impl.BlockImpl
+		 * @see org.w3c.xhtml.impl.XHTMLPackageImpl#getBlock()
+		 * @generated
+		 */
+		EClass BLOCK = eINSTANCE.getBlock();
+
+		/**
+		 * The meta object literal for the '<em><b>Block</b></em>' attribute list feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute BLOCK__BLOCK = eINSTANCE.getBlock_Block();
+
+		/**
+		 * The meta object literal for the '<em><b>P</b></em>' containment reference list feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EReference BLOCK__P = eINSTANCE.getBlock_P();
+
+		/**
+		 * The meta object literal for the '<em><b>H1</b></em>' containment reference list feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EReference BLOCK__H1 = eINSTANCE.getBlock_H1();
+
+		/**
+		 * The meta object literal for the '<em><b>H2</b></em>' containment reference list feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EReference BLOCK__H2 = eINSTANCE.getBlock_H2();
+
+		/**
+		 * The meta object literal for the '<em><b>H3</b></em>' containment reference list feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EReference BLOCK__H3 = eINSTANCE.getBlock_H3();
+
+		/**
+		 * The meta object literal for the '<em><b>H4</b></em>' containment reference list feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EReference BLOCK__H4 = eINSTANCE.getBlock_H4();
+
+		/**
+		 * The meta object literal for the '<em><b>H5</b></em>' containment reference list feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EReference BLOCK__H5 = eINSTANCE.getBlock_H5();
+
+		/**
+		 * The meta object literal for the '<em><b>H6</b></em>' containment reference list feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EReference BLOCK__H6 = eINSTANCE.getBlock_H6();
+
+		/**
+		 * The meta object literal for the '<em><b>Div</b></em>' containment reference list feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EReference BLOCK__DIV = eINSTANCE.getBlock_Div();
+
+		/**
+		 * The meta object literal for the '<em><b>Ul</b></em>' containment reference list feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EReference BLOCK__UL = eINSTANCE.getBlock_Ul();
+
+		/**
+		 * The meta object literal for the '<em><b>Ol</b></em>' containment reference list feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EReference BLOCK__OL = eINSTANCE.getBlock_Ol();
+
+		/**
+		 * The meta object literal for the '<em><b>Dl</b></em>' containment reference list feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EReference BLOCK__DL = eINSTANCE.getBlock_Dl();
+
+		/**
+		 * The meta object literal for the '<em><b>Pre</b></em>' containment reference list feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EReference BLOCK__PRE = eINSTANCE.getBlock_Pre();
+
+		/**
+		 * The meta object literal for the '<em><b>Hr</b></em>' containment reference list feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EReference BLOCK__HR = eINSTANCE.getBlock_Hr();
+
+		/**
+		 * The meta object literal for the '<em><b>Blockquote</b></em>' containment reference list feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EReference BLOCK__BLOCKQUOTE = eINSTANCE.getBlock_Blockquote();
+
+		/**
+		 * The meta object literal for the '<em><b>Address</b></em>' containment reference list feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EReference BLOCK__ADDRESS = eINSTANCE.getBlock_Address();
+
+		/**
+		 * The meta object literal for the '<em><b>Table</b></em>' containment reference list feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EReference BLOCK__TABLE = eINSTANCE.getBlock_Table();
+
+		/**
+		 * The meta object literal for the '{@link org.w3c.xhtml.impl.BlockquoteTypeImpl <em>Blockquote Type</em>}' class.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @see org.w3c.xhtml.impl.BlockquoteTypeImpl
+		 * @see org.w3c.xhtml.impl.XHTMLPackageImpl#getBlockquoteType()
+		 * @generated
+		 */
+		EClass BLOCKQUOTE_TYPE = eINSTANCE.getBlockquoteType();
+
+		/**
+		 * The meta object literal for the '<em><b>Cite</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute BLOCKQUOTE_TYPE__CITE = eINSTANCE.getBlockquoteType_Cite();
+
+		/**
+		 * The meta object literal for the '<em><b>Class</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute BLOCKQUOTE_TYPE__CLASS = eINSTANCE.getBlockquoteType_Class();
+
+		/**
+		 * The meta object literal for the '<em><b>Dir</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute BLOCKQUOTE_TYPE__DIR = eINSTANCE.getBlockquoteType_Dir();
+
+		/**
+		 * The meta object literal for the '<em><b>Id</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute BLOCKQUOTE_TYPE__ID = eINSTANCE.getBlockquoteType_Id();
+
+		/**
+		 * The meta object literal for the '<em><b>Lang</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute BLOCKQUOTE_TYPE__LANG = eINSTANCE.getBlockquoteType_Lang();
+
+		/**
+		 * The meta object literal for the '<em><b>Lang1</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute BLOCKQUOTE_TYPE__LANG1 = eINSTANCE.getBlockquoteType_Lang1();
+
+		/**
+		 * The meta object literal for the '<em><b>Style</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute BLOCKQUOTE_TYPE__STYLE = eINSTANCE.getBlockquoteType_Style();
+
+		/**
+		 * The meta object literal for the '<em><b>Title</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute BLOCKQUOTE_TYPE__TITLE = eINSTANCE.getBlockquoteType_Title();
+
+		/**
+		 * The meta object literal for the '{@link org.w3c.xhtml.impl.BrTypeImpl <em>Br Type</em>}' class.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @see org.w3c.xhtml.impl.BrTypeImpl
+		 * @see org.w3c.xhtml.impl.XHTMLPackageImpl#getBrType()
+		 * @generated
+		 */
+		EClass BR_TYPE = eINSTANCE.getBrType();
+
+		/**
+		 * The meta object literal for the '<em><b>Class</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute BR_TYPE__CLASS = eINSTANCE.getBrType_Class();
+
+		/**
+		 * The meta object literal for the '<em><b>Id</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute BR_TYPE__ID = eINSTANCE.getBrType_Id();
+
+		/**
+		 * The meta object literal for the '<em><b>Style</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute BR_TYPE__STYLE = eINSTANCE.getBrType_Style();
+
+		/**
+		 * The meta object literal for the '<em><b>Title</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute BR_TYPE__TITLE = eINSTANCE.getBrType_Title();
+
+		/**
+		 * The meta object literal for the '{@link org.w3c.xhtml.impl.BTypeImpl <em>BType</em>}' class.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @see org.w3c.xhtml.impl.BTypeImpl
+		 * @see org.w3c.xhtml.impl.XHTMLPackageImpl#getBType()
+		 * @generated
+		 */
+		EClass BTYPE = eINSTANCE.getBType();
+
+		/**
+		 * The meta object literal for the '<em><b>Class</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute BTYPE__CLASS = eINSTANCE.getBType_Class();
+
+		/**
+		 * The meta object literal for the '<em><b>Dir</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute BTYPE__DIR = eINSTANCE.getBType_Dir();
+
+		/**
+		 * The meta object literal for the '<em><b>Id</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute BTYPE__ID = eINSTANCE.getBType_Id();
+
+		/**
+		 * The meta object literal for the '<em><b>Lang</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute BTYPE__LANG = eINSTANCE.getBType_Lang();
+
+		/**
+		 * The meta object literal for the '<em><b>Lang1</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute BTYPE__LANG1 = eINSTANCE.getBType_Lang1();
+
+		/**
+		 * The meta object literal for the '<em><b>Style</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute BTYPE__STYLE = eINSTANCE.getBType_Style();
+
+		/**
+		 * The meta object literal for the '<em><b>Title</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute BTYPE__TITLE = eINSTANCE.getBType_Title();
+
+		/**
+		 * The meta object literal for the '{@link org.w3c.xhtml.impl.CaptionTypeImpl <em>Caption Type</em>}' class.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @see org.w3c.xhtml.impl.CaptionTypeImpl
+		 * @see org.w3c.xhtml.impl.XHTMLPackageImpl#getCaptionType()
+		 * @generated
+		 */
+		EClass CAPTION_TYPE = eINSTANCE.getCaptionType();
+
+		/**
+		 * The meta object literal for the '<em><b>Class</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute CAPTION_TYPE__CLASS = eINSTANCE.getCaptionType_Class();
+
+		/**
+		 * The meta object literal for the '<em><b>Dir</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute CAPTION_TYPE__DIR = eINSTANCE.getCaptionType_Dir();
+
+		/**
+		 * The meta object literal for the '<em><b>Id</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute CAPTION_TYPE__ID = eINSTANCE.getCaptionType_Id();
+
+		/**
+		 * The meta object literal for the '<em><b>Lang</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute CAPTION_TYPE__LANG = eINSTANCE.getCaptionType_Lang();
+
+		/**
+		 * The meta object literal for the '<em><b>Lang1</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute CAPTION_TYPE__LANG1 = eINSTANCE.getCaptionType_Lang1();
+
+		/**
+		 * The meta object literal for the '<em><b>Style</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute CAPTION_TYPE__STYLE = eINSTANCE.getCaptionType_Style();
+
+		/**
+		 * The meta object literal for the '<em><b>Title</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute CAPTION_TYPE__TITLE = eINSTANCE.getCaptionType_Title();
+
+		/**
+		 * The meta object literal for the '{@link org.w3c.xhtml.impl.CiteTypeImpl <em>Cite Type</em>}' class.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @see org.w3c.xhtml.impl.CiteTypeImpl
+		 * @see org.w3c.xhtml.impl.XHTMLPackageImpl#getCiteType()
+		 * @generated
+		 */
+		EClass CITE_TYPE = eINSTANCE.getCiteType();
+
+		/**
+		 * The meta object literal for the '<em><b>Class</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute CITE_TYPE__CLASS = eINSTANCE.getCiteType_Class();
+
+		/**
+		 * The meta object literal for the '<em><b>Dir</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute CITE_TYPE__DIR = eINSTANCE.getCiteType_Dir();
+
+		/**
+		 * The meta object literal for the '<em><b>Id</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute CITE_TYPE__ID = eINSTANCE.getCiteType_Id();
+
+		/**
+		 * The meta object literal for the '<em><b>Lang</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute CITE_TYPE__LANG = eINSTANCE.getCiteType_Lang();
+
+		/**
+		 * The meta object literal for the '<em><b>Lang1</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute CITE_TYPE__LANG1 = eINSTANCE.getCiteType_Lang1();
+
+		/**
+		 * The meta object literal for the '<em><b>Style</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute CITE_TYPE__STYLE = eINSTANCE.getCiteType_Style();
+
+		/**
+		 * The meta object literal for the '<em><b>Title</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute CITE_TYPE__TITLE = eINSTANCE.getCiteType_Title();
+
+		/**
+		 * The meta object literal for the '{@link org.w3c.xhtml.impl.CodeTypeImpl <em>Code Type</em>}' class.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @see org.w3c.xhtml.impl.CodeTypeImpl
+		 * @see org.w3c.xhtml.impl.XHTMLPackageImpl#getCodeType()
+		 * @generated
+		 */
+		EClass CODE_TYPE = eINSTANCE.getCodeType();
+
+		/**
+		 * The meta object literal for the '<em><b>Class</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute CODE_TYPE__CLASS = eINSTANCE.getCodeType_Class();
+
+		/**
+		 * The meta object literal for the '<em><b>Dir</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute CODE_TYPE__DIR = eINSTANCE.getCodeType_Dir();
+
+		/**
+		 * The meta object literal for the '<em><b>Id</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute CODE_TYPE__ID = eINSTANCE.getCodeType_Id();
+
+		/**
+		 * The meta object literal for the '<em><b>Lang</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute CODE_TYPE__LANG = eINSTANCE.getCodeType_Lang();
+
+		/**
+		 * The meta object literal for the '<em><b>Lang1</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute CODE_TYPE__LANG1 = eINSTANCE.getCodeType_Lang1();
+
+		/**
+		 * The meta object literal for the '<em><b>Style</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute CODE_TYPE__STYLE = eINSTANCE.getCodeType_Style();
+
+		/**
+		 * The meta object literal for the '<em><b>Title</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute CODE_TYPE__TITLE = eINSTANCE.getCodeType_Title();
+
+		/**
+		 * The meta object literal for the '{@link org.w3c.xhtml.impl.ColgroupTypeImpl <em>Colgroup Type</em>}' class.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @see org.w3c.xhtml.impl.ColgroupTypeImpl
+		 * @see org.w3c.xhtml.impl.XHTMLPackageImpl#getColgroupType()
+		 * @generated
+		 */
+		EClass COLGROUP_TYPE = eINSTANCE.getColgroupType();
+
+		/**
+		 * The meta object literal for the '<em><b>Col</b></em>' containment reference list feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EReference COLGROUP_TYPE__COL = eINSTANCE.getColgroupType_Col();
+
+		/**
+		 * The meta object literal for the '<em><b>Align</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute COLGROUP_TYPE__ALIGN = eINSTANCE.getColgroupType_Align();
+
+		/**
+		 * The meta object literal for the '<em><b>Char</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute COLGROUP_TYPE__CHAR = eINSTANCE.getColgroupType_Char();
+
+		/**
+		 * The meta object literal for the '<em><b>Charoff</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute COLGROUP_TYPE__CHAROFF = eINSTANCE.getColgroupType_Charoff();
+
+		/**
+		 * The meta object literal for the '<em><b>Class</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute COLGROUP_TYPE__CLASS = eINSTANCE.getColgroupType_Class();
+
+		/**
+		 * The meta object literal for the '<em><b>Dir</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute COLGROUP_TYPE__DIR = eINSTANCE.getColgroupType_Dir();
+
+		/**
+		 * The meta object literal for the '<em><b>Id</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute COLGROUP_TYPE__ID = eINSTANCE.getColgroupType_Id();
+
+		/**
+		 * The meta object literal for the '<em><b>Lang</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute COLGROUP_TYPE__LANG = eINSTANCE.getColgroupType_Lang();
+
+		/**
+		 * The meta object literal for the '<em><b>Lang1</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute COLGROUP_TYPE__LANG1 = eINSTANCE.getColgroupType_Lang1();
+
+		/**
+		 * The meta object literal for the '<em><b>Span</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute COLGROUP_TYPE__SPAN = eINSTANCE.getColgroupType_Span();
+
+		/**
+		 * The meta object literal for the '<em><b>Style</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute COLGROUP_TYPE__STYLE = eINSTANCE.getColgroupType_Style();
+
+		/**
+		 * The meta object literal for the '<em><b>Title</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute COLGROUP_TYPE__TITLE = eINSTANCE.getColgroupType_Title();
+
+		/**
+		 * The meta object literal for the '<em><b>Valign</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute COLGROUP_TYPE__VALIGN = eINSTANCE.getColgroupType_Valign();
+
+		/**
+		 * The meta object literal for the '<em><b>Width</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute COLGROUP_TYPE__WIDTH = eINSTANCE.getColgroupType_Width();
+
+		/**
+		 * The meta object literal for the '{@link org.w3c.xhtml.impl.ColTypeImpl <em>Col Type</em>}' class.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @see org.w3c.xhtml.impl.ColTypeImpl
+		 * @see org.w3c.xhtml.impl.XHTMLPackageImpl#getColType()
+		 * @generated
+		 */
+		EClass COL_TYPE = eINSTANCE.getColType();
+
+		/**
+		 * The meta object literal for the '<em><b>Align</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute COL_TYPE__ALIGN = eINSTANCE.getColType_Align();
+
+		/**
+		 * The meta object literal for the '<em><b>Char</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute COL_TYPE__CHAR = eINSTANCE.getColType_Char();
+
+		/**
+		 * The meta object literal for the '<em><b>Charoff</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute COL_TYPE__CHAROFF = eINSTANCE.getColType_Charoff();
+
+		/**
+		 * The meta object literal for the '<em><b>Class</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute COL_TYPE__CLASS = eINSTANCE.getColType_Class();
+
+		/**
+		 * The meta object literal for the '<em><b>Dir</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute COL_TYPE__DIR = eINSTANCE.getColType_Dir();
+
+		/**
+		 * The meta object literal for the '<em><b>Id</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute COL_TYPE__ID = eINSTANCE.getColType_Id();
+
+		/**
+		 * The meta object literal for the '<em><b>Lang</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute COL_TYPE__LANG = eINSTANCE.getColType_Lang();
+
+		/**
+		 * The meta object literal for the '<em><b>Lang1</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute COL_TYPE__LANG1 = eINSTANCE.getColType_Lang1();
+
+		/**
+		 * The meta object literal for the '<em><b>Span</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute COL_TYPE__SPAN = eINSTANCE.getColType_Span();
+
+		/**
+		 * The meta object literal for the '<em><b>Style</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute COL_TYPE__STYLE = eINSTANCE.getColType_Style();
+
+		/**
+		 * The meta object literal for the '<em><b>Title</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute COL_TYPE__TITLE = eINSTANCE.getColType_Title();
+
+		/**
+		 * The meta object literal for the '<em><b>Valign</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute COL_TYPE__VALIGN = eINSTANCE.getColType_Valign();
+
+		/**
+		 * The meta object literal for the '<em><b>Width</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute COL_TYPE__WIDTH = eINSTANCE.getColType_Width();
+
+		/**
+		 * The meta object literal for the '{@link org.w3c.xhtml.impl.DdTypeImpl <em>Dd Type</em>}' class.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @see org.w3c.xhtml.impl.DdTypeImpl
+		 * @see org.w3c.xhtml.impl.XHTMLPackageImpl#getDdType()
+		 * @generated
+		 */
+		EClass DD_TYPE = eINSTANCE.getDdType();
+
+		/**
+		 * The meta object literal for the '<em><b>Class</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute DD_TYPE__CLASS = eINSTANCE.getDdType_Class();
+
+		/**
+		 * The meta object literal for the '<em><b>Dir</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute DD_TYPE__DIR = eINSTANCE.getDdType_Dir();
+
+		/**
+		 * The meta object literal for the '<em><b>Id</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute DD_TYPE__ID = eINSTANCE.getDdType_Id();
+
+		/**
+		 * The meta object literal for the '<em><b>Lang</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute DD_TYPE__LANG = eINSTANCE.getDdType_Lang();
+
+		/**
+		 * The meta object literal for the '<em><b>Lang1</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute DD_TYPE__LANG1 = eINSTANCE.getDdType_Lang1();
+
+		/**
+		 * The meta object literal for the '<em><b>Style</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute DD_TYPE__STYLE = eINSTANCE.getDdType_Style();
+
+		/**
+		 * The meta object literal for the '<em><b>Title</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute DD_TYPE__TITLE = eINSTANCE.getDdType_Title();
+
+		/**
+		 * The meta object literal for the '{@link org.w3c.xhtml.impl.DfnTypeImpl <em>Dfn Type</em>}' class.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @see org.w3c.xhtml.impl.DfnTypeImpl
+		 * @see org.w3c.xhtml.impl.XHTMLPackageImpl#getDfnType()
+		 * @generated
+		 */
+		EClass DFN_TYPE = eINSTANCE.getDfnType();
+
+		/**
+		 * The meta object literal for the '<em><b>Class</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute DFN_TYPE__CLASS = eINSTANCE.getDfnType_Class();
+
+		/**
+		 * The meta object literal for the '<em><b>Dir</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute DFN_TYPE__DIR = eINSTANCE.getDfnType_Dir();
+
+		/**
+		 * The meta object literal for the '<em><b>Id</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute DFN_TYPE__ID = eINSTANCE.getDfnType_Id();
+
+		/**
+		 * The meta object literal for the '<em><b>Lang</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute DFN_TYPE__LANG = eINSTANCE.getDfnType_Lang();
+
+		/**
+		 * The meta object literal for the '<em><b>Lang1</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute DFN_TYPE__LANG1 = eINSTANCE.getDfnType_Lang1();
+
+		/**
+		 * The meta object literal for the '<em><b>Style</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute DFN_TYPE__STYLE = eINSTANCE.getDfnType_Style();
+
+		/**
+		 * The meta object literal for the '<em><b>Title</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute DFN_TYPE__TITLE = eINSTANCE.getDfnType_Title();
+
+		/**
+		 * The meta object literal for the '{@link org.w3c.xhtml.impl.DivTypeImpl <em>Div Type</em>}' class.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @see org.w3c.xhtml.impl.DivTypeImpl
+		 * @see org.w3c.xhtml.impl.XHTMLPackageImpl#getDivType()
+		 * @generated
+		 */
+		EClass DIV_TYPE = eINSTANCE.getDivType();
+
+		/**
+		 * The meta object literal for the '<em><b>Class</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute DIV_TYPE__CLASS = eINSTANCE.getDivType_Class();
+
+		/**
+		 * The meta object literal for the '<em><b>Dir</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute DIV_TYPE__DIR = eINSTANCE.getDivType_Dir();
+
+		/**
+		 * The meta object literal for the '<em><b>Id</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute DIV_TYPE__ID = eINSTANCE.getDivType_Id();
+
+		/**
+		 * The meta object literal for the '<em><b>Lang</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute DIV_TYPE__LANG = eINSTANCE.getDivType_Lang();
+
+		/**
+		 * The meta object literal for the '<em><b>Lang1</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute DIV_TYPE__LANG1 = eINSTANCE.getDivType_Lang1();
+
+		/**
+		 * The meta object literal for the '<em><b>Style</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute DIV_TYPE__STYLE = eINSTANCE.getDivType_Style();
+
+		/**
+		 * The meta object literal for the '<em><b>Title</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute DIV_TYPE__TITLE = eINSTANCE.getDivType_Title();
+
+		/**
+		 * The meta object literal for the '{@link org.w3c.xhtml.impl.DlTypeImpl <em>Dl Type</em>}' class.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @see org.w3c.xhtml.impl.DlTypeImpl
+		 * @see org.w3c.xhtml.impl.XHTMLPackageImpl#getDlType()
+		 * @generated
+		 */
+		EClass DL_TYPE = eINSTANCE.getDlType();
+
+		/**
+		 * The meta object literal for the '<em><b>Group</b></em>' attribute list feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute DL_TYPE__GROUP = eINSTANCE.getDlType_Group();
+
+		/**
+		 * The meta object literal for the '<em><b>Dt</b></em>' containment reference list feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EReference DL_TYPE__DT = eINSTANCE.getDlType_Dt();
+
+		/**
+		 * The meta object literal for the '<em><b>Dd</b></em>' containment reference list feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EReference DL_TYPE__DD = eINSTANCE.getDlType_Dd();
+
+		/**
+		 * The meta object literal for the '<em><b>Class</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute DL_TYPE__CLASS = eINSTANCE.getDlType_Class();
+
+		/**
+		 * The meta object literal for the '<em><b>Dir</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute DL_TYPE__DIR = eINSTANCE.getDlType_Dir();
+
+		/**
+		 * The meta object literal for the '<em><b>Id</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute DL_TYPE__ID = eINSTANCE.getDlType_Id();
+
+		/**
+		 * The meta object literal for the '<em><b>Lang</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute DL_TYPE__LANG = eINSTANCE.getDlType_Lang();
+
+		/**
+		 * The meta object literal for the '<em><b>Lang1</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute DL_TYPE__LANG1 = eINSTANCE.getDlType_Lang1();
+
+		/**
+		 * The meta object literal for the '<em><b>Style</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute DL_TYPE__STYLE = eINSTANCE.getDlType_Style();
+
+		/**
+		 * The meta object literal for the '<em><b>Title</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute DL_TYPE__TITLE = eINSTANCE.getDlType_Title();
+
+		/**
+		 * The meta object literal for the '{@link org.w3c.xhtml.impl.DocumentRootImpl <em>Document Root</em>}' class.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @see org.w3c.xhtml.impl.DocumentRootImpl
+		 * @see org.w3c.xhtml.impl.XHTMLPackageImpl#getDocumentRoot()
+		 * @generated
+		 */
+		EClass DOCUMENT_ROOT = eINSTANCE.getDocumentRoot();
+
+		/**
+		 * The meta object literal for the '<em><b>Mixed</b></em>' attribute list feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute DOCUMENT_ROOT__MIXED = eINSTANCE.getDocumentRoot_Mixed();
+
+		/**
+		 * The meta object literal for the '<em><b>XMLNS Prefix Map</b></em>' map feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EReference DOCUMENT_ROOT__XMLNS_PREFIX_MAP = eINSTANCE.getDocumentRoot_XMLNSPrefixMap();
+
+		/**
+		 * The meta object literal for the '<em><b>XSI Schema Location</b></em>' map feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EReference DOCUMENT_ROOT__XSI_SCHEMA_LOCATION = eINSTANCE.getDocumentRoot_XSISchemaLocation();
+
+		/**
+		 * The meta object literal for the '<em><b>A</b></em>' containment reference feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EReference DOCUMENT_ROOT__A = eINSTANCE.getDocumentRoot_A();
+
+		/**
+		 * The meta object literal for the '<em><b>Abbr</b></em>' containment reference feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EReference DOCUMENT_ROOT__ABBR = eINSTANCE.getDocumentRoot_Abbr();
+
+		/**
+		 * The meta object literal for the '<em><b>Acronym</b></em>' containment reference feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EReference DOCUMENT_ROOT__ACRONYM = eINSTANCE.getDocumentRoot_Acronym();
+
+		/**
+		 * The meta object literal for the '<em><b>Address</b></em>' containment reference feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EReference DOCUMENT_ROOT__ADDRESS = eINSTANCE.getDocumentRoot_Address();
+
+		/**
+		 * The meta object literal for the '<em><b>Area</b></em>' containment reference feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EReference DOCUMENT_ROOT__AREA = eINSTANCE.getDocumentRoot_Area();
+
+		/**
+		 * The meta object literal for the '<em><b>B</b></em>' containment reference feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EReference DOCUMENT_ROOT__B = eINSTANCE.getDocumentRoot_B();
+
+		/**
+		 * The meta object literal for the '<em><b>Bdo</b></em>' containment reference feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EReference DOCUMENT_ROOT__BDO = eINSTANCE.getDocumentRoot_Bdo();
+
+		/**
+		 * The meta object literal for the '<em><b>Big</b></em>' containment reference feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EReference DOCUMENT_ROOT__BIG = eINSTANCE.getDocumentRoot_Big();
+
+		/**
+		 * The meta object literal for the '<em><b>Blockquote</b></em>' containment reference feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EReference DOCUMENT_ROOT__BLOCKQUOTE = eINSTANCE.getDocumentRoot_Blockquote();
+
+		/**
+		 * The meta object literal for the '<em><b>Br</b></em>' containment reference feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EReference DOCUMENT_ROOT__BR = eINSTANCE.getDocumentRoot_Br();
+
+		/**
+		 * The meta object literal for the '<em><b>Caption</b></em>' containment reference feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EReference DOCUMENT_ROOT__CAPTION = eINSTANCE.getDocumentRoot_Caption();
+
+		/**
+		 * The meta object literal for the '<em><b>Cite</b></em>' containment reference feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EReference DOCUMENT_ROOT__CITE = eINSTANCE.getDocumentRoot_Cite();
+
+		/**
+		 * The meta object literal for the '<em><b>Code</b></em>' containment reference feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EReference DOCUMENT_ROOT__CODE = eINSTANCE.getDocumentRoot_Code();
+
+		/**
+		 * The meta object literal for the '<em><b>Col</b></em>' containment reference feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EReference DOCUMENT_ROOT__COL = eINSTANCE.getDocumentRoot_Col();
+
+		/**
+		 * The meta object literal for the '<em><b>Colgroup</b></em>' containment reference feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EReference DOCUMENT_ROOT__COLGROUP = eINSTANCE.getDocumentRoot_Colgroup();
+
+		/**
+		 * The meta object literal for the '<em><b>Dd</b></em>' containment reference feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EReference DOCUMENT_ROOT__DD = eINSTANCE.getDocumentRoot_Dd();
+
+		/**
+		 * The meta object literal for the '<em><b>Dfn</b></em>' containment reference feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EReference DOCUMENT_ROOT__DFN = eINSTANCE.getDocumentRoot_Dfn();
+
+		/**
+		 * The meta object literal for the '<em><b>Div</b></em>' containment reference feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EReference DOCUMENT_ROOT__DIV = eINSTANCE.getDocumentRoot_Div();
+
+		/**
+		 * The meta object literal for the '<em><b>Dl</b></em>' containment reference feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EReference DOCUMENT_ROOT__DL = eINSTANCE.getDocumentRoot_Dl();
+
+		/**
+		 * The meta object literal for the '<em><b>Dt</b></em>' containment reference feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EReference DOCUMENT_ROOT__DT = eINSTANCE.getDocumentRoot_Dt();
+
+		/**
+		 * The meta object literal for the '<em><b>Em</b></em>' containment reference feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EReference DOCUMENT_ROOT__EM = eINSTANCE.getDocumentRoot_Em();
+
+		/**
+		 * The meta object literal for the '<em><b>H1</b></em>' containment reference feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EReference DOCUMENT_ROOT__H1 = eINSTANCE.getDocumentRoot_H1();
+
+		/**
+		 * The meta object literal for the '<em><b>H2</b></em>' containment reference feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EReference DOCUMENT_ROOT__H2 = eINSTANCE.getDocumentRoot_H2();
+
+		/**
+		 * The meta object literal for the '<em><b>H3</b></em>' containment reference feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EReference DOCUMENT_ROOT__H3 = eINSTANCE.getDocumentRoot_H3();
+
+		/**
+		 * The meta object literal for the '<em><b>H4</b></em>' containment reference feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EReference DOCUMENT_ROOT__H4 = eINSTANCE.getDocumentRoot_H4();
+
+		/**
+		 * The meta object literal for the '<em><b>H5</b></em>' containment reference feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EReference DOCUMENT_ROOT__H5 = eINSTANCE.getDocumentRoot_H5();
+
+		/**
+		 * The meta object literal for the '<em><b>H6</b></em>' containment reference feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EReference DOCUMENT_ROOT__H6 = eINSTANCE.getDocumentRoot_H6();
+
+		/**
+		 * The meta object literal for the '<em><b>Hr</b></em>' containment reference feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EReference DOCUMENT_ROOT__HR = eINSTANCE.getDocumentRoot_Hr();
+
+		/**
+		 * The meta object literal for the '<em><b>I</b></em>' containment reference feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EReference DOCUMENT_ROOT__I = eINSTANCE.getDocumentRoot_I();
+
+		/**
+		 * The meta object literal for the '<em><b>Img</b></em>' containment reference feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EReference DOCUMENT_ROOT__IMG = eINSTANCE.getDocumentRoot_Img();
+
+		/**
+		 * The meta object literal for the '<em><b>Kbd</b></em>' containment reference feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EReference DOCUMENT_ROOT__KBD = eINSTANCE.getDocumentRoot_Kbd();
+
+		/**
+		 * The meta object literal for the '<em><b>Li</b></em>' containment reference feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EReference DOCUMENT_ROOT__LI = eINSTANCE.getDocumentRoot_Li();
+
+		/**
+		 * The meta object literal for the '<em><b>Map</b></em>' containment reference feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EReference DOCUMENT_ROOT__MAP = eINSTANCE.getDocumentRoot_Map();
+
+		/**
+		 * The meta object literal for the '<em><b>Ol</b></em>' containment reference feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EReference DOCUMENT_ROOT__OL = eINSTANCE.getDocumentRoot_Ol();
+
+		/**
+		 * The meta object literal for the '<em><b>P</b></em>' containment reference feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EReference DOCUMENT_ROOT__P = eINSTANCE.getDocumentRoot_P();
+
+		/**
+		 * The meta object literal for the '<em><b>Pre</b></em>' containment reference feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EReference DOCUMENT_ROOT__PRE = eINSTANCE.getDocumentRoot_Pre();
+
+		/**
+		 * The meta object literal for the '<em><b>Q</b></em>' containment reference feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EReference DOCUMENT_ROOT__Q = eINSTANCE.getDocumentRoot_Q();
+
+		/**
+		 * The meta object literal for the '<em><b>Samp</b></em>' containment reference feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EReference DOCUMENT_ROOT__SAMP = eINSTANCE.getDocumentRoot_Samp();
+
+		/**
+		 * The meta object literal for the '<em><b>Small</b></em>' containment reference feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EReference DOCUMENT_ROOT__SMALL = eINSTANCE.getDocumentRoot_Small();
+
+		/**
+		 * The meta object literal for the '<em><b>Span</b></em>' containment reference feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EReference DOCUMENT_ROOT__SPAN = eINSTANCE.getDocumentRoot_Span();
+
+		/**
+		 * The meta object literal for the '<em><b>Strong</b></em>' containment reference feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EReference DOCUMENT_ROOT__STRONG = eINSTANCE.getDocumentRoot_Strong();
+
+		/**
+		 * The meta object literal for the '<em><b>Sub</b></em>' containment reference feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EReference DOCUMENT_ROOT__SUB = eINSTANCE.getDocumentRoot_Sub();
+
+		/**
+		 * The meta object literal for the '<em><b>Sup</b></em>' containment reference feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EReference DOCUMENT_ROOT__SUP = eINSTANCE.getDocumentRoot_Sup();
+
+		/**
+		 * The meta object literal for the '<em><b>Table</b></em>' containment reference feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EReference DOCUMENT_ROOT__TABLE = eINSTANCE.getDocumentRoot_Table();
+
+		/**
+		 * The meta object literal for the '<em><b>Tbody</b></em>' containment reference feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EReference DOCUMENT_ROOT__TBODY = eINSTANCE.getDocumentRoot_Tbody();
+
+		/**
+		 * The meta object literal for the '<em><b>Td</b></em>' containment reference feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EReference DOCUMENT_ROOT__TD = eINSTANCE.getDocumentRoot_Td();
+
+		/**
+		 * The meta object literal for the '<em><b>Tfoot</b></em>' containment reference feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EReference DOCUMENT_ROOT__TFOOT = eINSTANCE.getDocumentRoot_Tfoot();
+
+		/**
+		 * The meta object literal for the '<em><b>Th</b></em>' containment reference feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EReference DOCUMENT_ROOT__TH = eINSTANCE.getDocumentRoot_Th();
+
+		/**
+		 * The meta object literal for the '<em><b>Thead</b></em>' containment reference feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EReference DOCUMENT_ROOT__THEAD = eINSTANCE.getDocumentRoot_Thead();
+
+		/**
+		 * The meta object literal for the '<em><b>Tr</b></em>' containment reference feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EReference DOCUMENT_ROOT__TR = eINSTANCE.getDocumentRoot_Tr();
+
+		/**
+		 * The meta object literal for the '<em><b>Tt</b></em>' containment reference feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EReference DOCUMENT_ROOT__TT = eINSTANCE.getDocumentRoot_Tt();
+
+		/**
+		 * The meta object literal for the '<em><b>Ul</b></em>' containment reference feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EReference DOCUMENT_ROOT__UL = eINSTANCE.getDocumentRoot_Ul();
+
+		/**
+		 * The meta object literal for the '<em><b>Var</b></em>' containment reference feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EReference DOCUMENT_ROOT__VAR = eINSTANCE.getDocumentRoot_Var();
+
+		/**
+		 * The meta object literal for the '{@link org.w3c.xhtml.impl.DtTypeImpl <em>Dt Type</em>}' class.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @see org.w3c.xhtml.impl.DtTypeImpl
+		 * @see org.w3c.xhtml.impl.XHTMLPackageImpl#getDtType()
+		 * @generated
+		 */
+		EClass DT_TYPE = eINSTANCE.getDtType();
+
+		/**
+		 * The meta object literal for the '<em><b>Class</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute DT_TYPE__CLASS = eINSTANCE.getDtType_Class();
+
+		/**
+		 * The meta object literal for the '<em><b>Dir</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute DT_TYPE__DIR = eINSTANCE.getDtType_Dir();
+
+		/**
+		 * The meta object literal for the '<em><b>Id</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute DT_TYPE__ID = eINSTANCE.getDtType_Id();
+
+		/**
+		 * The meta object literal for the '<em><b>Lang</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute DT_TYPE__LANG = eINSTANCE.getDtType_Lang();
+
+		/**
+		 * The meta object literal for the '<em><b>Lang1</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute DT_TYPE__LANG1 = eINSTANCE.getDtType_Lang1();
+
+		/**
+		 * The meta object literal for the '<em><b>Style</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute DT_TYPE__STYLE = eINSTANCE.getDtType_Style();
+
+		/**
+		 * The meta object literal for the '<em><b>Title</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute DT_TYPE__TITLE = eINSTANCE.getDtType_Title();
+
+		/**
+		 * The meta object literal for the '{@link org.w3c.xhtml.impl.EmTypeImpl <em>Em Type</em>}' class.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @see org.w3c.xhtml.impl.EmTypeImpl
+		 * @see org.w3c.xhtml.impl.XHTMLPackageImpl#getEmType()
+		 * @generated
+		 */
+		EClass EM_TYPE = eINSTANCE.getEmType();
+
+		/**
+		 * The meta object literal for the '<em><b>Class</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute EM_TYPE__CLASS = eINSTANCE.getEmType_Class();
+
+		/**
+		 * The meta object literal for the '<em><b>Dir</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute EM_TYPE__DIR = eINSTANCE.getEmType_Dir();
+
+		/**
+		 * The meta object literal for the '<em><b>Id</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute EM_TYPE__ID = eINSTANCE.getEmType_Id();
+
+		/**
+		 * The meta object literal for the '<em><b>Lang</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute EM_TYPE__LANG = eINSTANCE.getEmType_Lang();
+
+		/**
+		 * The meta object literal for the '<em><b>Lang1</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute EM_TYPE__LANG1 = eINSTANCE.getEmType_Lang1();
+
+		/**
+		 * The meta object literal for the '<em><b>Style</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute EM_TYPE__STYLE = eINSTANCE.getEmType_Style();
+
+		/**
+		 * The meta object literal for the '<em><b>Title</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute EM_TYPE__TITLE = eINSTANCE.getEmType_Title();
+
+		/**
+		 * The meta object literal for the '{@link org.w3c.xhtml.impl.FlowImpl <em>Flow</em>}' class.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @see org.w3c.xhtml.impl.FlowImpl
+		 * @see org.w3c.xhtml.impl.XHTMLPackageImpl#getFlow()
+		 * @generated
+		 */
+		EClass FLOW = eINSTANCE.getFlow();
+
+		/**
+		 * The meta object literal for the '<em><b>Mixed</b></em>' attribute list feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute FLOW__MIXED = eINSTANCE.getFlow_Mixed();
+
+		/**
+		 * The meta object literal for the '<em><b>Group</b></em>' attribute list feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute FLOW__GROUP = eINSTANCE.getFlow_Group();
+
+		/**
+		 * The meta object literal for the '<em><b>P</b></em>' containment reference list feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EReference FLOW__P = eINSTANCE.getFlow_P();
+
+		/**
+		 * The meta object literal for the '<em><b>H1</b></em>' containment reference list feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EReference FLOW__H1 = eINSTANCE.getFlow_H1();
+
+		/**
+		 * The meta object literal for the '<em><b>H2</b></em>' containment reference list feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EReference FLOW__H2 = eINSTANCE.getFlow_H2();
+
+		/**
+		 * The meta object literal for the '<em><b>H3</b></em>' containment reference list feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EReference FLOW__H3 = eINSTANCE.getFlow_H3();
+
+		/**
+		 * The meta object literal for the '<em><b>H4</b></em>' containment reference list feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EReference FLOW__H4 = eINSTANCE.getFlow_H4();
+
+		/**
+		 * The meta object literal for the '<em><b>H5</b></em>' containment reference list feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EReference FLOW__H5 = eINSTANCE.getFlow_H5();
+
+		/**
+		 * The meta object literal for the '<em><b>H6</b></em>' containment reference list feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EReference FLOW__H6 = eINSTANCE.getFlow_H6();
+
+		/**
+		 * The meta object literal for the '<em><b>Div</b></em>' containment reference list feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EReference FLOW__DIV = eINSTANCE.getFlow_Div();
+
+		/**
+		 * The meta object literal for the '<em><b>Ul</b></em>' containment reference list feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EReference FLOW__UL = eINSTANCE.getFlow_Ul();
+
+		/**
+		 * The meta object literal for the '<em><b>Ol</b></em>' containment reference list feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EReference FLOW__OL = eINSTANCE.getFlow_Ol();
+
+		/**
+		 * The meta object literal for the '<em><b>Dl</b></em>' containment reference list feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EReference FLOW__DL = eINSTANCE.getFlow_Dl();
+
+		/**
+		 * The meta object literal for the '<em><b>Pre</b></em>' containment reference list feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EReference FLOW__PRE = eINSTANCE.getFlow_Pre();
+
+		/**
+		 * The meta object literal for the '<em><b>Hr</b></em>' containment reference list feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EReference FLOW__HR = eINSTANCE.getFlow_Hr();
+
+		/**
+		 * The meta object literal for the '<em><b>Blockquote</b></em>' containment reference list feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EReference FLOW__BLOCKQUOTE = eINSTANCE.getFlow_Blockquote();
+
+		/**
+		 * The meta object literal for the '<em><b>Address</b></em>' containment reference list feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EReference FLOW__ADDRESS = eINSTANCE.getFlow_Address();
+
+		/**
+		 * The meta object literal for the '<em><b>Table</b></em>' containment reference list feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EReference FLOW__TABLE = eINSTANCE.getFlow_Table();
+
+		/**
+		 * The meta object literal for the '<em><b>A</b></em>' containment reference list feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EReference FLOW__A = eINSTANCE.getFlow_A();
+
+		/**
+		 * The meta object literal for the '<em><b>Br</b></em>' containment reference list feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EReference FLOW__BR = eINSTANCE.getFlow_Br();
+
+		/**
+		 * The meta object literal for the '<em><b>Span</b></em>' containment reference list feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EReference FLOW__SPAN = eINSTANCE.getFlow_Span();
+
+		/**
+		 * The meta object literal for the '<em><b>Bdo</b></em>' containment reference list feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EReference FLOW__BDO = eINSTANCE.getFlow_Bdo();
+
+		/**
+		 * The meta object literal for the '<em><b>Map</b></em>' containment reference list feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EReference FLOW__MAP = eINSTANCE.getFlow_Map();
+
+		/**
+		 * The meta object literal for the '<em><b>Img</b></em>' containment reference list feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EReference FLOW__IMG = eINSTANCE.getFlow_Img();
+
+		/**
+		 * The meta object literal for the '<em><b>Tt</b></em>' containment reference list feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EReference FLOW__TT = eINSTANCE.getFlow_Tt();
+
+		/**
+		 * The meta object literal for the '<em><b>I</b></em>' containment reference list feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EReference FLOW__I = eINSTANCE.getFlow_I();
+
+		/**
+		 * The meta object literal for the '<em><b>B</b></em>' containment reference list feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EReference FLOW__B = eINSTANCE.getFlow_B();
+
+		/**
+		 * The meta object literal for the '<em><b>Big</b></em>' containment reference list feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EReference FLOW__BIG = eINSTANCE.getFlow_Big();
+
+		/**
+		 * The meta object literal for the '<em><b>Small</b></em>' containment reference list feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EReference FLOW__SMALL = eINSTANCE.getFlow_Small();
+
+		/**
+		 * The meta object literal for the '<em><b>Em</b></em>' containment reference list feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EReference FLOW__EM = eINSTANCE.getFlow_Em();
+
+		/**
+		 * The meta object literal for the '<em><b>Strong</b></em>' containment reference list feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EReference FLOW__STRONG = eINSTANCE.getFlow_Strong();
+
+		/**
+		 * The meta object literal for the '<em><b>Dfn</b></em>' containment reference list feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EReference FLOW__DFN = eINSTANCE.getFlow_Dfn();
+
+		/**
+		 * The meta object literal for the '<em><b>Code</b></em>' containment reference list feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EReference FLOW__CODE = eINSTANCE.getFlow_Code();
+
+		/**
+		 * The meta object literal for the '<em><b>Q</b></em>' containment reference list feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EReference FLOW__Q = eINSTANCE.getFlow_Q();
+
+		/**
+		 * The meta object literal for the '<em><b>Samp</b></em>' containment reference list feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EReference FLOW__SAMP = eINSTANCE.getFlow_Samp();
+
+		/**
+		 * The meta object literal for the '<em><b>Kbd</b></em>' containment reference list feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EReference FLOW__KBD = eINSTANCE.getFlow_Kbd();
+
+		/**
+		 * The meta object literal for the '<em><b>Var</b></em>' containment reference list feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EReference FLOW__VAR = eINSTANCE.getFlow_Var();
+
+		/**
+		 * The meta object literal for the '<em><b>Cite</b></em>' containment reference list feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EReference FLOW__CITE = eINSTANCE.getFlow_Cite();
+
+		/**
+		 * The meta object literal for the '<em><b>Abbr</b></em>' containment reference list feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EReference FLOW__ABBR = eINSTANCE.getFlow_Abbr();
+
+		/**
+		 * The meta object literal for the '<em><b>Acronym</b></em>' containment reference list feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EReference FLOW__ACRONYM = eINSTANCE.getFlow_Acronym();
+
+		/**
+		 * The meta object literal for the '<em><b>Sub</b></em>' containment reference list feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EReference FLOW__SUB = eINSTANCE.getFlow_Sub();
+
+		/**
+		 * The meta object literal for the '<em><b>Sup</b></em>' containment reference list feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EReference FLOW__SUP = eINSTANCE.getFlow_Sup();
+
+		/**
+		 * The meta object literal for the '{@link org.w3c.xhtml.impl.H1TypeImpl <em>H1 Type</em>}' class.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @see org.w3c.xhtml.impl.H1TypeImpl
+		 * @see org.w3c.xhtml.impl.XHTMLPackageImpl#getH1Type()
+		 * @generated
+		 */
+		EClass H1_TYPE = eINSTANCE.getH1Type();
+
+		/**
+		 * The meta object literal for the '<em><b>Class</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute H1_TYPE__CLASS = eINSTANCE.getH1Type_Class();
+
+		/**
+		 * The meta object literal for the '<em><b>Dir</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute H1_TYPE__DIR = eINSTANCE.getH1Type_Dir();
+
+		/**
+		 * The meta object literal for the '<em><b>Id</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute H1_TYPE__ID = eINSTANCE.getH1Type_Id();
+
+		/**
+		 * The meta object literal for the '<em><b>Lang</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute H1_TYPE__LANG = eINSTANCE.getH1Type_Lang();
+
+		/**
+		 * The meta object literal for the '<em><b>Lang1</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute H1_TYPE__LANG1 = eINSTANCE.getH1Type_Lang1();
+
+		/**
+		 * The meta object literal for the '<em><b>Style</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute H1_TYPE__STYLE = eINSTANCE.getH1Type_Style();
+
+		/**
+		 * The meta object literal for the '<em><b>Title</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute H1_TYPE__TITLE = eINSTANCE.getH1Type_Title();
+
+		/**
+		 * The meta object literal for the '{@link org.w3c.xhtml.impl.H2TypeImpl <em>H2 Type</em>}' class.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @see org.w3c.xhtml.impl.H2TypeImpl
+		 * @see org.w3c.xhtml.impl.XHTMLPackageImpl#getH2Type()
+		 * @generated
+		 */
+		EClass H2_TYPE = eINSTANCE.getH2Type();
+
+		/**
+		 * The meta object literal for the '<em><b>Class</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute H2_TYPE__CLASS = eINSTANCE.getH2Type_Class();
+
+		/**
+		 * The meta object literal for the '<em><b>Dir</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute H2_TYPE__DIR = eINSTANCE.getH2Type_Dir();
+
+		/**
+		 * The meta object literal for the '<em><b>Id</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute H2_TYPE__ID = eINSTANCE.getH2Type_Id();
+
+		/**
+		 * The meta object literal for the '<em><b>Lang</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute H2_TYPE__LANG = eINSTANCE.getH2Type_Lang();
+
+		/**
+		 * The meta object literal for the '<em><b>Lang1</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute H2_TYPE__LANG1 = eINSTANCE.getH2Type_Lang1();
+
+		/**
+		 * The meta object literal for the '<em><b>Style</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute H2_TYPE__STYLE = eINSTANCE.getH2Type_Style();
+
+		/**
+		 * The meta object literal for the '<em><b>Title</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute H2_TYPE__TITLE = eINSTANCE.getH2Type_Title();
+
+		/**
+		 * The meta object literal for the '{@link org.w3c.xhtml.impl.H3TypeImpl <em>H3 Type</em>}' class.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @see org.w3c.xhtml.impl.H3TypeImpl
+		 * @see org.w3c.xhtml.impl.XHTMLPackageImpl#getH3Type()
+		 * @generated
+		 */
+		EClass H3_TYPE = eINSTANCE.getH3Type();
+
+		/**
+		 * The meta object literal for the '<em><b>Class</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute H3_TYPE__CLASS = eINSTANCE.getH3Type_Class();
+
+		/**
+		 * The meta object literal for the '<em><b>Dir</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute H3_TYPE__DIR = eINSTANCE.getH3Type_Dir();
+
+		/**
+		 * The meta object literal for the '<em><b>Id</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute H3_TYPE__ID = eINSTANCE.getH3Type_Id();
+
+		/**
+		 * The meta object literal for the '<em><b>Lang</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute H3_TYPE__LANG = eINSTANCE.getH3Type_Lang();
+
+		/**
+		 * The meta object literal for the '<em><b>Lang1</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute H3_TYPE__LANG1 = eINSTANCE.getH3Type_Lang1();
+
+		/**
+		 * The meta object literal for the '<em><b>Style</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute H3_TYPE__STYLE = eINSTANCE.getH3Type_Style();
+
+		/**
+		 * The meta object literal for the '<em><b>Title</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute H3_TYPE__TITLE = eINSTANCE.getH3Type_Title();
+
+		/**
+		 * The meta object literal for the '{@link org.w3c.xhtml.impl.H4TypeImpl <em>H4 Type</em>}' class.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @see org.w3c.xhtml.impl.H4TypeImpl
+		 * @see org.w3c.xhtml.impl.XHTMLPackageImpl#getH4Type()
+		 * @generated
+		 */
+		EClass H4_TYPE = eINSTANCE.getH4Type();
+
+		/**
+		 * The meta object literal for the '<em><b>Class</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute H4_TYPE__CLASS = eINSTANCE.getH4Type_Class();
+
+		/**
+		 * The meta object literal for the '<em><b>Dir</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute H4_TYPE__DIR = eINSTANCE.getH4Type_Dir();
+
+		/**
+		 * The meta object literal for the '<em><b>Id</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute H4_TYPE__ID = eINSTANCE.getH4Type_Id();
+
+		/**
+		 * The meta object literal for the '<em><b>Lang</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute H4_TYPE__LANG = eINSTANCE.getH4Type_Lang();
+
+		/**
+		 * The meta object literal for the '<em><b>Lang1</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute H4_TYPE__LANG1 = eINSTANCE.getH4Type_Lang1();
+
+		/**
+		 * The meta object literal for the '<em><b>Style</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute H4_TYPE__STYLE = eINSTANCE.getH4Type_Style();
+
+		/**
+		 * The meta object literal for the '<em><b>Title</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute H4_TYPE__TITLE = eINSTANCE.getH4Type_Title();
+
+		/**
+		 * The meta object literal for the '{@link org.w3c.xhtml.impl.H5TypeImpl <em>H5 Type</em>}' class.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @see org.w3c.xhtml.impl.H5TypeImpl
+		 * @see org.w3c.xhtml.impl.XHTMLPackageImpl#getH5Type()
+		 * @generated
+		 */
+		EClass H5_TYPE = eINSTANCE.getH5Type();
+
+		/**
+		 * The meta object literal for the '<em><b>Class</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute H5_TYPE__CLASS = eINSTANCE.getH5Type_Class();
+
+		/**
+		 * The meta object literal for the '<em><b>Dir</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute H5_TYPE__DIR = eINSTANCE.getH5Type_Dir();
+
+		/**
+		 * The meta object literal for the '<em><b>Id</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute H5_TYPE__ID = eINSTANCE.getH5Type_Id();
+
+		/**
+		 * The meta object literal for the '<em><b>Lang</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute H5_TYPE__LANG = eINSTANCE.getH5Type_Lang();
+
+		/**
+		 * The meta object literal for the '<em><b>Lang1</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute H5_TYPE__LANG1 = eINSTANCE.getH5Type_Lang1();
+
+		/**
+		 * The meta object literal for the '<em><b>Style</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute H5_TYPE__STYLE = eINSTANCE.getH5Type_Style();
+
+		/**
+		 * The meta object literal for the '<em><b>Title</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute H5_TYPE__TITLE = eINSTANCE.getH5Type_Title();
+
+		/**
+		 * The meta object literal for the '{@link org.w3c.xhtml.impl.H6TypeImpl <em>H6 Type</em>}' class.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @see org.w3c.xhtml.impl.H6TypeImpl
+		 * @see org.w3c.xhtml.impl.XHTMLPackageImpl#getH6Type()
+		 * @generated
+		 */
+		EClass H6_TYPE = eINSTANCE.getH6Type();
+
+		/**
+		 * The meta object literal for the '<em><b>Class</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute H6_TYPE__CLASS = eINSTANCE.getH6Type_Class();
+
+		/**
+		 * The meta object literal for the '<em><b>Dir</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute H6_TYPE__DIR = eINSTANCE.getH6Type_Dir();
+
+		/**
+		 * The meta object literal for the '<em><b>Id</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute H6_TYPE__ID = eINSTANCE.getH6Type_Id();
+
+		/**
+		 * The meta object literal for the '<em><b>Lang</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute H6_TYPE__LANG = eINSTANCE.getH6Type_Lang();
+
+		/**
+		 * The meta object literal for the '<em><b>Lang1</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute H6_TYPE__LANG1 = eINSTANCE.getH6Type_Lang1();
+
+		/**
+		 * The meta object literal for the '<em><b>Style</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute H6_TYPE__STYLE = eINSTANCE.getH6Type_Style();
+
+		/**
+		 * The meta object literal for the '<em><b>Title</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute H6_TYPE__TITLE = eINSTANCE.getH6Type_Title();
+
+		/**
+		 * The meta object literal for the '{@link org.w3c.xhtml.impl.HrTypeImpl <em>Hr Type</em>}' class.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @see org.w3c.xhtml.impl.HrTypeImpl
+		 * @see org.w3c.xhtml.impl.XHTMLPackageImpl#getHrType()
+		 * @generated
+		 */
+		EClass HR_TYPE = eINSTANCE.getHrType();
+
+		/**
+		 * The meta object literal for the '<em><b>Class</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute HR_TYPE__CLASS = eINSTANCE.getHrType_Class();
+
+		/**
+		 * The meta object literal for the '<em><b>Dir</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute HR_TYPE__DIR = eINSTANCE.getHrType_Dir();
+
+		/**
+		 * The meta object literal for the '<em><b>Id</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute HR_TYPE__ID = eINSTANCE.getHrType_Id();
+
+		/**
+		 * The meta object literal for the '<em><b>Lang</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute HR_TYPE__LANG = eINSTANCE.getHrType_Lang();
+
+		/**
+		 * The meta object literal for the '<em><b>Lang1</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute HR_TYPE__LANG1 = eINSTANCE.getHrType_Lang1();
+
+		/**
+		 * The meta object literal for the '<em><b>Style</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute HR_TYPE__STYLE = eINSTANCE.getHrType_Style();
+
+		/**
+		 * The meta object literal for the '<em><b>Title</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute HR_TYPE__TITLE = eINSTANCE.getHrType_Title();
+
+		/**
+		 * The meta object literal for the '{@link org.w3c.xhtml.impl.ImgTypeImpl <em>Img Type</em>}' class.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @see org.w3c.xhtml.impl.ImgTypeImpl
+		 * @see org.w3c.xhtml.impl.XHTMLPackageImpl#getImgType()
+		 * @generated
+		 */
+		EClass IMG_TYPE = eINSTANCE.getImgType();
+
+		/**
+		 * The meta object literal for the '<em><b>Alt</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute IMG_TYPE__ALT = eINSTANCE.getImgType_Alt();
+
+		/**
+		 * The meta object literal for the '<em><b>Class</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute IMG_TYPE__CLASS = eINSTANCE.getImgType_Class();
+
+		/**
+		 * The meta object literal for the '<em><b>Dir</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute IMG_TYPE__DIR = eINSTANCE.getImgType_Dir();
+
+		/**
+		 * The meta object literal for the '<em><b>Height</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute IMG_TYPE__HEIGHT = eINSTANCE.getImgType_Height();
+
+		/**
+		 * The meta object literal for the '<em><b>Id</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute IMG_TYPE__ID = eINSTANCE.getImgType_Id();
+
+		/**
+		 * The meta object literal for the '<em><b>Ismap</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute IMG_TYPE__ISMAP = eINSTANCE.getImgType_Ismap();
+
+		/**
+		 * The meta object literal for the '<em><b>Lang</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute IMG_TYPE__LANG = eINSTANCE.getImgType_Lang();
+
+		/**
+		 * The meta object literal for the '<em><b>Lang1</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute IMG_TYPE__LANG1 = eINSTANCE.getImgType_Lang1();
+
+		/**
+		 * The meta object literal for the '<em><b>Longdesc</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute IMG_TYPE__LONGDESC = eINSTANCE.getImgType_Longdesc();
+
+		/**
+		 * The meta object literal for the '<em><b>Src</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute IMG_TYPE__SRC = eINSTANCE.getImgType_Src();
+
+		/**
+		 * The meta object literal for the '<em><b>Style</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute IMG_TYPE__STYLE = eINSTANCE.getImgType_Style();
+
+		/**
+		 * The meta object literal for the '<em><b>Title</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute IMG_TYPE__TITLE = eINSTANCE.getImgType_Title();
+
+		/**
+		 * The meta object literal for the '<em><b>Usemap</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute IMG_TYPE__USEMAP = eINSTANCE.getImgType_Usemap();
+
+		/**
+		 * The meta object literal for the '<em><b>Width</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute IMG_TYPE__WIDTH = eINSTANCE.getImgType_Width();
+
+		/**
+		 * The meta object literal for the '{@link org.w3c.xhtml.impl.InlineImpl <em>Inline</em>}' class.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @see org.w3c.xhtml.impl.InlineImpl
+		 * @see org.w3c.xhtml.impl.XHTMLPackageImpl#getInline()
+		 * @generated
+		 */
+		EClass INLINE = eINSTANCE.getInline();
+
+		/**
+		 * The meta object literal for the '<em><b>Mixed</b></em>' attribute list feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute INLINE__MIXED = eINSTANCE.getInline_Mixed();
+
+		/**
+		 * The meta object literal for the '<em><b>Inline</b></em>' attribute list feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute INLINE__INLINE = eINSTANCE.getInline_Inline();
+
+		/**
+		 * The meta object literal for the '<em><b>A</b></em>' containment reference list feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EReference INLINE__A = eINSTANCE.getInline_A();
+
+		/**
+		 * The meta object literal for the '<em><b>Br</b></em>' containment reference list feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EReference INLINE__BR = eINSTANCE.getInline_Br();
+
+		/**
+		 * The meta object literal for the '<em><b>Span</b></em>' containment reference list feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EReference INLINE__SPAN = eINSTANCE.getInline_Span();
+
+		/**
+		 * The meta object literal for the '<em><b>Bdo</b></em>' containment reference list feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EReference INLINE__BDO = eINSTANCE.getInline_Bdo();
+
+		/**
+		 * The meta object literal for the '<em><b>Map</b></em>' containment reference list feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EReference INLINE__MAP = eINSTANCE.getInline_Map();
+
+		/**
+		 * The meta object literal for the '<em><b>Img</b></em>' containment reference list feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EReference INLINE__IMG = eINSTANCE.getInline_Img();
+
+		/**
+		 * The meta object literal for the '<em><b>Tt</b></em>' containment reference list feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EReference INLINE__TT = eINSTANCE.getInline_Tt();
+
+		/**
+		 * The meta object literal for the '<em><b>I</b></em>' containment reference list feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EReference INLINE__I = eINSTANCE.getInline_I();
+
+		/**
+		 * The meta object literal for the '<em><b>B</b></em>' containment reference list feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EReference INLINE__B = eINSTANCE.getInline_B();
+
+		/**
+		 * The meta object literal for the '<em><b>Big</b></em>' containment reference list feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EReference INLINE__BIG = eINSTANCE.getInline_Big();
+
+		/**
+		 * The meta object literal for the '<em><b>Small</b></em>' containment reference list feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EReference INLINE__SMALL = eINSTANCE.getInline_Small();
+
+		/**
+		 * The meta object literal for the '<em><b>Em</b></em>' containment reference list feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EReference INLINE__EM = eINSTANCE.getInline_Em();
+
+		/**
+		 * The meta object literal for the '<em><b>Strong</b></em>' containment reference list feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EReference INLINE__STRONG = eINSTANCE.getInline_Strong();
+
+		/**
+		 * The meta object literal for the '<em><b>Dfn</b></em>' containment reference list feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EReference INLINE__DFN = eINSTANCE.getInline_Dfn();
+
+		/**
+		 * The meta object literal for the '<em><b>Code</b></em>' containment reference list feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EReference INLINE__CODE = eINSTANCE.getInline_Code();
+
+		/**
+		 * The meta object literal for the '<em><b>Q</b></em>' containment reference list feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EReference INLINE__Q = eINSTANCE.getInline_Q();
+
+		/**
+		 * The meta object literal for the '<em><b>Samp</b></em>' containment reference list feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EReference INLINE__SAMP = eINSTANCE.getInline_Samp();
+
+		/**
+		 * The meta object literal for the '<em><b>Kbd</b></em>' containment reference list feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EReference INLINE__KBD = eINSTANCE.getInline_Kbd();
+
+		/**
+		 * The meta object literal for the '<em><b>Var</b></em>' containment reference list feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EReference INLINE__VAR = eINSTANCE.getInline_Var();
+
+		/**
+		 * The meta object literal for the '<em><b>Cite</b></em>' containment reference list feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EReference INLINE__CITE = eINSTANCE.getInline_Cite();
+
+		/**
+		 * The meta object literal for the '<em><b>Abbr</b></em>' containment reference list feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EReference INLINE__ABBR = eINSTANCE.getInline_Abbr();
+
+		/**
+		 * The meta object literal for the '<em><b>Acronym</b></em>' containment reference list feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EReference INLINE__ACRONYM = eINSTANCE.getInline_Acronym();
+
+		/**
+		 * The meta object literal for the '<em><b>Sub</b></em>' containment reference list feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EReference INLINE__SUB = eINSTANCE.getInline_Sub();
+
+		/**
+		 * The meta object literal for the '<em><b>Sup</b></em>' containment reference list feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EReference INLINE__SUP = eINSTANCE.getInline_Sup();
+
+		/**
+		 * The meta object literal for the '{@link org.w3c.xhtml.impl.ITypeImpl <em>IType</em>}' class.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @see org.w3c.xhtml.impl.ITypeImpl
+		 * @see org.w3c.xhtml.impl.XHTMLPackageImpl#getIType()
+		 * @generated
+		 */
+		EClass ITYPE = eINSTANCE.getIType();
+
+		/**
+		 * The meta object literal for the '<em><b>Class</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute ITYPE__CLASS = eINSTANCE.getIType_Class();
+
+		/**
+		 * The meta object literal for the '<em><b>Dir</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute ITYPE__DIR = eINSTANCE.getIType_Dir();
+
+		/**
+		 * The meta object literal for the '<em><b>Id</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute ITYPE__ID = eINSTANCE.getIType_Id();
+
+		/**
+		 * The meta object literal for the '<em><b>Lang</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute ITYPE__LANG = eINSTANCE.getIType_Lang();
+
+		/**
+		 * The meta object literal for the '<em><b>Lang1</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute ITYPE__LANG1 = eINSTANCE.getIType_Lang1();
+
+		/**
+		 * The meta object literal for the '<em><b>Style</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute ITYPE__STYLE = eINSTANCE.getIType_Style();
+
+		/**
+		 * The meta object literal for the '<em><b>Title</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute ITYPE__TITLE = eINSTANCE.getIType_Title();
+
+		/**
+		 * The meta object literal for the '{@link org.w3c.xhtml.impl.KbdTypeImpl <em>Kbd Type</em>}' class.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @see org.w3c.xhtml.impl.KbdTypeImpl
+		 * @see org.w3c.xhtml.impl.XHTMLPackageImpl#getKbdType()
+		 * @generated
+		 */
+		EClass KBD_TYPE = eINSTANCE.getKbdType();
+
+		/**
+		 * The meta object literal for the '<em><b>Class</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute KBD_TYPE__CLASS = eINSTANCE.getKbdType_Class();
+
+		/**
+		 * The meta object literal for the '<em><b>Dir</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute KBD_TYPE__DIR = eINSTANCE.getKbdType_Dir();
+
+		/**
+		 * The meta object literal for the '<em><b>Id</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute KBD_TYPE__ID = eINSTANCE.getKbdType_Id();
+
+		/**
+		 * The meta object literal for the '<em><b>Lang</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute KBD_TYPE__LANG = eINSTANCE.getKbdType_Lang();
+
+		/**
+		 * The meta object literal for the '<em><b>Lang1</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute KBD_TYPE__LANG1 = eINSTANCE.getKbdType_Lang1();
+
+		/**
+		 * The meta object literal for the '<em><b>Style</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute KBD_TYPE__STYLE = eINSTANCE.getKbdType_Style();
+
+		/**
+		 * The meta object literal for the '<em><b>Title</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute KBD_TYPE__TITLE = eINSTANCE.getKbdType_Title();
+
+		/**
+		 * The meta object literal for the '{@link org.w3c.xhtml.impl.LiTypeImpl <em>Li Type</em>}' class.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @see org.w3c.xhtml.impl.LiTypeImpl
+		 * @see org.w3c.xhtml.impl.XHTMLPackageImpl#getLiType()
+		 * @generated
+		 */
+		EClass LI_TYPE = eINSTANCE.getLiType();
+
+		/**
+		 * The meta object literal for the '<em><b>Class</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute LI_TYPE__CLASS = eINSTANCE.getLiType_Class();
+
+		/**
+		 * The meta object literal for the '<em><b>Dir</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute LI_TYPE__DIR = eINSTANCE.getLiType_Dir();
+
+		/**
+		 * The meta object literal for the '<em><b>Id</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute LI_TYPE__ID = eINSTANCE.getLiType_Id();
+
+		/**
+		 * The meta object literal for the '<em><b>Lang</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute LI_TYPE__LANG = eINSTANCE.getLiType_Lang();
+
+		/**
+		 * The meta object literal for the '<em><b>Lang1</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute LI_TYPE__LANG1 = eINSTANCE.getLiType_Lang1();
+
+		/**
+		 * The meta object literal for the '<em><b>Style</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute LI_TYPE__STYLE = eINSTANCE.getLiType_Style();
+
+		/**
+		 * The meta object literal for the '<em><b>Title</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute LI_TYPE__TITLE = eINSTANCE.getLiType_Title();
+
+		/**
+		 * The meta object literal for the '{@link org.w3c.xhtml.impl.MapTypeImpl <em>Map Type</em>}' class.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @see org.w3c.xhtml.impl.MapTypeImpl
+		 * @see org.w3c.xhtml.impl.XHTMLPackageImpl#getMapType()
+		 * @generated
+		 */
+		EClass MAP_TYPE = eINSTANCE.getMapType();
+
+		/**
+		 * The meta object literal for the '<em><b>Block</b></em>' attribute list feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute MAP_TYPE__BLOCK = eINSTANCE.getMapType_Block();
+
+		/**
+		 * The meta object literal for the '<em><b>P</b></em>' containment reference list feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EReference MAP_TYPE__P = eINSTANCE.getMapType_P();
+
+		/**
+		 * The meta object literal for the '<em><b>H1</b></em>' containment reference list feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EReference MAP_TYPE__H1 = eINSTANCE.getMapType_H1();
+
+		/**
+		 * The meta object literal for the '<em><b>H2</b></em>' containment reference list feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EReference MAP_TYPE__H2 = eINSTANCE.getMapType_H2();
+
+		/**
+		 * The meta object literal for the '<em><b>H3</b></em>' containment reference list feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EReference MAP_TYPE__H3 = eINSTANCE.getMapType_H3();
+
+		/**
+		 * The meta object literal for the '<em><b>H4</b></em>' containment reference list feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EReference MAP_TYPE__H4 = eINSTANCE.getMapType_H4();
+
+		/**
+		 * The meta object literal for the '<em><b>H5</b></em>' containment reference list feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EReference MAP_TYPE__H5 = eINSTANCE.getMapType_H5();
+
+		/**
+		 * The meta object literal for the '<em><b>H6</b></em>' containment reference list feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EReference MAP_TYPE__H6 = eINSTANCE.getMapType_H6();
+
+		/**
+		 * The meta object literal for the '<em><b>Div</b></em>' containment reference list feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EReference MAP_TYPE__DIV = eINSTANCE.getMapType_Div();
+
+		/**
+		 * The meta object literal for the '<em><b>Ul</b></em>' containment reference list feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EReference MAP_TYPE__UL = eINSTANCE.getMapType_Ul();
+
+		/**
+		 * The meta object literal for the '<em><b>Ol</b></em>' containment reference list feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EReference MAP_TYPE__OL = eINSTANCE.getMapType_Ol();
+
+		/**
+		 * The meta object literal for the '<em><b>Dl</b></em>' containment reference list feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EReference MAP_TYPE__DL = eINSTANCE.getMapType_Dl();
+
+		/**
+		 * The meta object literal for the '<em><b>Pre</b></em>' containment reference list feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EReference MAP_TYPE__PRE = eINSTANCE.getMapType_Pre();
+
+		/**
+		 * The meta object literal for the '<em><b>Hr</b></em>' containment reference list feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EReference MAP_TYPE__HR = eINSTANCE.getMapType_Hr();
+
+		/**
+		 * The meta object literal for the '<em><b>Blockquote</b></em>' containment reference list feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EReference MAP_TYPE__BLOCKQUOTE = eINSTANCE.getMapType_Blockquote();
+
+		/**
+		 * The meta object literal for the '<em><b>Address</b></em>' containment reference list feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EReference MAP_TYPE__ADDRESS = eINSTANCE.getMapType_Address();
+
+		/**
+		 * The meta object literal for the '<em><b>Table</b></em>' containment reference list feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EReference MAP_TYPE__TABLE = eINSTANCE.getMapType_Table();
+
+		/**
+		 * The meta object literal for the '<em><b>Area</b></em>' containment reference list feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EReference MAP_TYPE__AREA = eINSTANCE.getMapType_Area();
+
+		/**
+		 * The meta object literal for the '<em><b>Class</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute MAP_TYPE__CLASS = eINSTANCE.getMapType_Class();
+
+		/**
+		 * The meta object literal for the '<em><b>Dir</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute MAP_TYPE__DIR = eINSTANCE.getMapType_Dir();
+
+		/**
+		 * The meta object literal for the '<em><b>Id</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute MAP_TYPE__ID = eINSTANCE.getMapType_Id();
+
+		/**
+		 * The meta object literal for the '<em><b>Lang</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute MAP_TYPE__LANG = eINSTANCE.getMapType_Lang();
+
+		/**
+		 * The meta object literal for the '<em><b>Lang1</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute MAP_TYPE__LANG1 = eINSTANCE.getMapType_Lang1();
+
+		/**
+		 * The meta object literal for the '<em><b>Name</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute MAP_TYPE__NAME = eINSTANCE.getMapType_Name();
+
+		/**
+		 * The meta object literal for the '<em><b>Style</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute MAP_TYPE__STYLE = eINSTANCE.getMapType_Style();
+
+		/**
+		 * The meta object literal for the '<em><b>Title</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute MAP_TYPE__TITLE = eINSTANCE.getMapType_Title();
+
+		/**
+		 * The meta object literal for the '{@link org.w3c.xhtml.impl.OlTypeImpl <em>Ol Type</em>}' class.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @see org.w3c.xhtml.impl.OlTypeImpl
+		 * @see org.w3c.xhtml.impl.XHTMLPackageImpl#getOlType()
+		 * @generated
+		 */
+		EClass OL_TYPE = eINSTANCE.getOlType();
+
+		/**
+		 * The meta object literal for the '<em><b>Li</b></em>' containment reference list feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EReference OL_TYPE__LI = eINSTANCE.getOlType_Li();
+
+		/**
+		 * The meta object literal for the '<em><b>Class</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute OL_TYPE__CLASS = eINSTANCE.getOlType_Class();
+
+		/**
+		 * The meta object literal for the '<em><b>Dir</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute OL_TYPE__DIR = eINSTANCE.getOlType_Dir();
+
+		/**
+		 * The meta object literal for the '<em><b>Id</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute OL_TYPE__ID = eINSTANCE.getOlType_Id();
+
+		/**
+		 * The meta object literal for the '<em><b>Lang</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute OL_TYPE__LANG = eINSTANCE.getOlType_Lang();
+
+		/**
+		 * The meta object literal for the '<em><b>Lang1</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute OL_TYPE__LANG1 = eINSTANCE.getOlType_Lang1();
+
+		/**
+		 * The meta object literal for the '<em><b>Style</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute OL_TYPE__STYLE = eINSTANCE.getOlType_Style();
+
+		/**
+		 * The meta object literal for the '<em><b>Title</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute OL_TYPE__TITLE = eINSTANCE.getOlType_Title();
+
+		/**
+		 * The meta object literal for the '{@link org.w3c.xhtml.impl.PreContentImpl <em>Pre Content</em>}' class.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @see org.w3c.xhtml.impl.PreContentImpl
+		 * @see org.w3c.xhtml.impl.XHTMLPackageImpl#getPreContent()
+		 * @generated
+		 */
+		EClass PRE_CONTENT = eINSTANCE.getPreContent();
+
+		/**
+		 * The meta object literal for the '<em><b>Mixed</b></em>' attribute list feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute PRE_CONTENT__MIXED = eINSTANCE.getPreContent_Mixed();
+
+		/**
+		 * The meta object literal for the '<em><b>Group</b></em>' attribute list feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute PRE_CONTENT__GROUP = eINSTANCE.getPreContent_Group();
+
+		/**
+		 * The meta object literal for the '<em><b>A</b></em>' containment reference list feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EReference PRE_CONTENT__A = eINSTANCE.getPreContent_A();
+
+		/**
+		 * The meta object literal for the '<em><b>Tt</b></em>' containment reference list feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EReference PRE_CONTENT__TT = eINSTANCE.getPreContent_Tt();
+
+		/**
+		 * The meta object literal for the '<em><b>I</b></em>' containment reference list feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EReference PRE_CONTENT__I = eINSTANCE.getPreContent_I();
+
+		/**
+		 * The meta object literal for the '<em><b>B</b></em>' containment reference list feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EReference PRE_CONTENT__B = eINSTANCE.getPreContent_B();
+
+		/**
+		 * The meta object literal for the '<em><b>Big</b></em>' containment reference list feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EReference PRE_CONTENT__BIG = eINSTANCE.getPreContent_Big();
+
+		/**
+		 * The meta object literal for the '<em><b>Small</b></em>' containment reference list feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EReference PRE_CONTENT__SMALL = eINSTANCE.getPreContent_Small();
+
+		/**
+		 * The meta object literal for the '<em><b>Em</b></em>' containment reference list feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EReference PRE_CONTENT__EM = eINSTANCE.getPreContent_Em();
+
+		/**
+		 * The meta object literal for the '<em><b>Strong</b></em>' containment reference list feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EReference PRE_CONTENT__STRONG = eINSTANCE.getPreContent_Strong();
+
+		/**
+		 * The meta object literal for the '<em><b>Dfn</b></em>' containment reference list feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EReference PRE_CONTENT__DFN = eINSTANCE.getPreContent_Dfn();
+
+		/**
+		 * The meta object literal for the '<em><b>Code</b></em>' containment reference list feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EReference PRE_CONTENT__CODE = eINSTANCE.getPreContent_Code();
+
+		/**
+		 * The meta object literal for the '<em><b>Q</b></em>' containment reference list feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EReference PRE_CONTENT__Q = eINSTANCE.getPreContent_Q();
+
+		/**
+		 * The meta object literal for the '<em><b>Samp</b></em>' containment reference list feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EReference PRE_CONTENT__SAMP = eINSTANCE.getPreContent_Samp();
+
+		/**
+		 * The meta object literal for the '<em><b>Kbd</b></em>' containment reference list feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EReference PRE_CONTENT__KBD = eINSTANCE.getPreContent_Kbd();
+
+		/**
+		 * The meta object literal for the '<em><b>Var</b></em>' containment reference list feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EReference PRE_CONTENT__VAR = eINSTANCE.getPreContent_Var();
+
+		/**
+		 * The meta object literal for the '<em><b>Cite</b></em>' containment reference list feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EReference PRE_CONTENT__CITE = eINSTANCE.getPreContent_Cite();
+
+		/**
+		 * The meta object literal for the '<em><b>Abbr</b></em>' containment reference list feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EReference PRE_CONTENT__ABBR = eINSTANCE.getPreContent_Abbr();
+
+		/**
+		 * The meta object literal for the '<em><b>Acronym</b></em>' containment reference list feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EReference PRE_CONTENT__ACRONYM = eINSTANCE.getPreContent_Acronym();
+
+		/**
+		 * The meta object literal for the '<em><b>Sub</b></em>' containment reference list feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EReference PRE_CONTENT__SUB = eINSTANCE.getPreContent_Sub();
+
+		/**
+		 * The meta object literal for the '<em><b>Sup</b></em>' containment reference list feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EReference PRE_CONTENT__SUP = eINSTANCE.getPreContent_Sup();
+
+		/**
+		 * The meta object literal for the '<em><b>Br</b></em>' containment reference list feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EReference PRE_CONTENT__BR = eINSTANCE.getPreContent_Br();
+
+		/**
+		 * The meta object literal for the '<em><b>Span</b></em>' containment reference list feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EReference PRE_CONTENT__SPAN = eINSTANCE.getPreContent_Span();
+
+		/**
+		 * The meta object literal for the '<em><b>Bdo</b></em>' containment reference list feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EReference PRE_CONTENT__BDO = eINSTANCE.getPreContent_Bdo();
+
+		/**
+		 * The meta object literal for the '<em><b>Map</b></em>' containment reference list feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EReference PRE_CONTENT__MAP = eINSTANCE.getPreContent_Map();
+
+		/**
+		 * The meta object literal for the '{@link org.w3c.xhtml.impl.PreTypeImpl <em>Pre Type</em>}' class.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @see org.w3c.xhtml.impl.PreTypeImpl
+		 * @see org.w3c.xhtml.impl.XHTMLPackageImpl#getPreType()
+		 * @generated
+		 */
+		EClass PRE_TYPE = eINSTANCE.getPreType();
+
+		/**
+		 * The meta object literal for the '<em><b>Class</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute PRE_TYPE__CLASS = eINSTANCE.getPreType_Class();
+
+		/**
+		 * The meta object literal for the '<em><b>Dir</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute PRE_TYPE__DIR = eINSTANCE.getPreType_Dir();
+
+		/**
+		 * The meta object literal for the '<em><b>Id</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute PRE_TYPE__ID = eINSTANCE.getPreType_Id();
+
+		/**
+		 * The meta object literal for the '<em><b>Lang</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute PRE_TYPE__LANG = eINSTANCE.getPreType_Lang();
+
+		/**
+		 * The meta object literal for the '<em><b>Lang1</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute PRE_TYPE__LANG1 = eINSTANCE.getPreType_Lang1();
+
+		/**
+		 * The meta object literal for the '<em><b>Space</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute PRE_TYPE__SPACE = eINSTANCE.getPreType_Space();
+
+		/**
+		 * The meta object literal for the '<em><b>Style</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute PRE_TYPE__STYLE = eINSTANCE.getPreType_Style();
+
+		/**
+		 * The meta object literal for the '<em><b>Title</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute PRE_TYPE__TITLE = eINSTANCE.getPreType_Title();
+
+		/**
+		 * The meta object literal for the '{@link org.w3c.xhtml.impl.PTypeImpl <em>PType</em>}' class.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @see org.w3c.xhtml.impl.PTypeImpl
+		 * @see org.w3c.xhtml.impl.XHTMLPackageImpl#getPType()
+		 * @generated
+		 */
+		EClass PTYPE = eINSTANCE.getPType();
+
+		/**
+		 * The meta object literal for the '<em><b>Class</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute PTYPE__CLASS = eINSTANCE.getPType_Class();
+
+		/**
+		 * The meta object literal for the '<em><b>Dir</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute PTYPE__DIR = eINSTANCE.getPType_Dir();
+
+		/**
+		 * The meta object literal for the '<em><b>Id</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute PTYPE__ID = eINSTANCE.getPType_Id();
+
+		/**
+		 * The meta object literal for the '<em><b>Lang</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute PTYPE__LANG = eINSTANCE.getPType_Lang();
+
+		/**
+		 * The meta object literal for the '<em><b>Lang1</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute PTYPE__LANG1 = eINSTANCE.getPType_Lang1();
+
+		/**
+		 * The meta object literal for the '<em><b>Style</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute PTYPE__STYLE = eINSTANCE.getPType_Style();
+
+		/**
+		 * The meta object literal for the '<em><b>Title</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute PTYPE__TITLE = eINSTANCE.getPType_Title();
+
+		/**
+		 * The meta object literal for the '{@link org.w3c.xhtml.impl.QTypeImpl <em>QType</em>}' class.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @see org.w3c.xhtml.impl.QTypeImpl
+		 * @see org.w3c.xhtml.impl.XHTMLPackageImpl#getQType()
+		 * @generated
+		 */
+		EClass QTYPE = eINSTANCE.getQType();
+
+		/**
+		 * The meta object literal for the '<em><b>Cite1</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute QTYPE__CITE1 = eINSTANCE.getQType_Cite1();
+
+		/**
+		 * The meta object literal for the '<em><b>Class</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute QTYPE__CLASS = eINSTANCE.getQType_Class();
+
+		/**
+		 * The meta object literal for the '<em><b>Dir</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute QTYPE__DIR = eINSTANCE.getQType_Dir();
+
+		/**
+		 * The meta object literal for the '<em><b>Id</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute QTYPE__ID = eINSTANCE.getQType_Id();
+
+		/**
+		 * The meta object literal for the '<em><b>Lang</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute QTYPE__LANG = eINSTANCE.getQType_Lang();
+
+		/**
+		 * The meta object literal for the '<em><b>Lang1</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute QTYPE__LANG1 = eINSTANCE.getQType_Lang1();
+
+		/**
+		 * The meta object literal for the '<em><b>Style</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute QTYPE__STYLE = eINSTANCE.getQType_Style();
+
+		/**
+		 * The meta object literal for the '<em><b>Title</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute QTYPE__TITLE = eINSTANCE.getQType_Title();
+
+		/**
+		 * The meta object literal for the '{@link org.w3c.xhtml.impl.SampTypeImpl <em>Samp Type</em>}' class.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @see org.w3c.xhtml.impl.SampTypeImpl
+		 * @see org.w3c.xhtml.impl.XHTMLPackageImpl#getSampType()
+		 * @generated
+		 */
+		EClass SAMP_TYPE = eINSTANCE.getSampType();
+
+		/**
+		 * The meta object literal for the '<em><b>Class</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute SAMP_TYPE__CLASS = eINSTANCE.getSampType_Class();
+
+		/**
+		 * The meta object literal for the '<em><b>Dir</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute SAMP_TYPE__DIR = eINSTANCE.getSampType_Dir();
+
+		/**
+		 * The meta object literal for the '<em><b>Id</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute SAMP_TYPE__ID = eINSTANCE.getSampType_Id();
+
+		/**
+		 * The meta object literal for the '<em><b>Lang</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute SAMP_TYPE__LANG = eINSTANCE.getSampType_Lang();
+
+		/**
+		 * The meta object literal for the '<em><b>Lang1</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute SAMP_TYPE__LANG1 = eINSTANCE.getSampType_Lang1();
+
+		/**
+		 * The meta object literal for the '<em><b>Style</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute SAMP_TYPE__STYLE = eINSTANCE.getSampType_Style();
+
+		/**
+		 * The meta object literal for the '<em><b>Title</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute SAMP_TYPE__TITLE = eINSTANCE.getSampType_Title();
+
+		/**
+		 * The meta object literal for the '{@link org.w3c.xhtml.impl.SmallTypeImpl <em>Small Type</em>}' class.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @see org.w3c.xhtml.impl.SmallTypeImpl
+		 * @see org.w3c.xhtml.impl.XHTMLPackageImpl#getSmallType()
+		 * @generated
+		 */
+		EClass SMALL_TYPE = eINSTANCE.getSmallType();
+
+		/**
+		 * The meta object literal for the '<em><b>Class</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute SMALL_TYPE__CLASS = eINSTANCE.getSmallType_Class();
+
+		/**
+		 * The meta object literal for the '<em><b>Dir</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute SMALL_TYPE__DIR = eINSTANCE.getSmallType_Dir();
+
+		/**
+		 * The meta object literal for the '<em><b>Id</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute SMALL_TYPE__ID = eINSTANCE.getSmallType_Id();
+
+		/**
+		 * The meta object literal for the '<em><b>Lang</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute SMALL_TYPE__LANG = eINSTANCE.getSmallType_Lang();
+
+		/**
+		 * The meta object literal for the '<em><b>Lang1</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute SMALL_TYPE__LANG1 = eINSTANCE.getSmallType_Lang1();
+
+		/**
+		 * The meta object literal for the '<em><b>Style</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute SMALL_TYPE__STYLE = eINSTANCE.getSmallType_Style();
+
+		/**
+		 * The meta object literal for the '<em><b>Title</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute SMALL_TYPE__TITLE = eINSTANCE.getSmallType_Title();
+
+		/**
+		 * The meta object literal for the '{@link org.w3c.xhtml.impl.SpanTypeImpl <em>Span Type</em>}' class.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @see org.w3c.xhtml.impl.SpanTypeImpl
+		 * @see org.w3c.xhtml.impl.XHTMLPackageImpl#getSpanType()
+		 * @generated
+		 */
+		EClass SPAN_TYPE = eINSTANCE.getSpanType();
+
+		/**
+		 * The meta object literal for the '<em><b>Class</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute SPAN_TYPE__CLASS = eINSTANCE.getSpanType_Class();
+
+		/**
+		 * The meta object literal for the '<em><b>Dir</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute SPAN_TYPE__DIR = eINSTANCE.getSpanType_Dir();
+
+		/**
+		 * The meta object literal for the '<em><b>Id</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute SPAN_TYPE__ID = eINSTANCE.getSpanType_Id();
+
+		/**
+		 * The meta object literal for the '<em><b>Lang</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute SPAN_TYPE__LANG = eINSTANCE.getSpanType_Lang();
+
+		/**
+		 * The meta object literal for the '<em><b>Lang1</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute SPAN_TYPE__LANG1 = eINSTANCE.getSpanType_Lang1();
+
+		/**
+		 * The meta object literal for the '<em><b>Style</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute SPAN_TYPE__STYLE = eINSTANCE.getSpanType_Style();
+
+		/**
+		 * The meta object literal for the '<em><b>Title</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute SPAN_TYPE__TITLE = eINSTANCE.getSpanType_Title();
+
+		/**
+		 * The meta object literal for the '{@link org.w3c.xhtml.impl.StrongTypeImpl <em>Strong Type</em>}' class.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @see org.w3c.xhtml.impl.StrongTypeImpl
+		 * @see org.w3c.xhtml.impl.XHTMLPackageImpl#getStrongType()
+		 * @generated
+		 */
+		EClass STRONG_TYPE = eINSTANCE.getStrongType();
+
+		/**
+		 * The meta object literal for the '<em><b>Class</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute STRONG_TYPE__CLASS = eINSTANCE.getStrongType_Class();
+
+		/**
+		 * The meta object literal for the '<em><b>Dir</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute STRONG_TYPE__DIR = eINSTANCE.getStrongType_Dir();
+
+		/**
+		 * The meta object literal for the '<em><b>Id</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute STRONG_TYPE__ID = eINSTANCE.getStrongType_Id();
+
+		/**
+		 * The meta object literal for the '<em><b>Lang</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute STRONG_TYPE__LANG = eINSTANCE.getStrongType_Lang();
+
+		/**
+		 * The meta object literal for the '<em><b>Lang1</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute STRONG_TYPE__LANG1 = eINSTANCE.getStrongType_Lang1();
+
+		/**
+		 * The meta object literal for the '<em><b>Style</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute STRONG_TYPE__STYLE = eINSTANCE.getStrongType_Style();
+
+		/**
+		 * The meta object literal for the '<em><b>Title</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute STRONG_TYPE__TITLE = eINSTANCE.getStrongType_Title();
+
+		/**
+		 * The meta object literal for the '{@link org.w3c.xhtml.impl.SubTypeImpl <em>Sub Type</em>}' class.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @see org.w3c.xhtml.impl.SubTypeImpl
+		 * @see org.w3c.xhtml.impl.XHTMLPackageImpl#getSubType()
+		 * @generated
+		 */
+		EClass SUB_TYPE = eINSTANCE.getSubType();
+
+		/**
+		 * The meta object literal for the '<em><b>Class</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute SUB_TYPE__CLASS = eINSTANCE.getSubType_Class();
+
+		/**
+		 * The meta object literal for the '<em><b>Dir</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute SUB_TYPE__DIR = eINSTANCE.getSubType_Dir();
+
+		/**
+		 * The meta object literal for the '<em><b>Id</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute SUB_TYPE__ID = eINSTANCE.getSubType_Id();
+
+		/**
+		 * The meta object literal for the '<em><b>Lang</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute SUB_TYPE__LANG = eINSTANCE.getSubType_Lang();
+
+		/**
+		 * The meta object literal for the '<em><b>Lang1</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute SUB_TYPE__LANG1 = eINSTANCE.getSubType_Lang1();
+
+		/**
+		 * The meta object literal for the '<em><b>Style</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute SUB_TYPE__STYLE = eINSTANCE.getSubType_Style();
+
+		/**
+		 * The meta object literal for the '<em><b>Title</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute SUB_TYPE__TITLE = eINSTANCE.getSubType_Title();
+
+		/**
+		 * The meta object literal for the '{@link org.w3c.xhtml.impl.SupTypeImpl <em>Sup Type</em>}' class.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @see org.w3c.xhtml.impl.SupTypeImpl
+		 * @see org.w3c.xhtml.impl.XHTMLPackageImpl#getSupType()
+		 * @generated
+		 */
+		EClass SUP_TYPE = eINSTANCE.getSupType();
+
+		/**
+		 * The meta object literal for the '<em><b>Class</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute SUP_TYPE__CLASS = eINSTANCE.getSupType_Class();
+
+		/**
+		 * The meta object literal for the '<em><b>Dir</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute SUP_TYPE__DIR = eINSTANCE.getSupType_Dir();
+
+		/**
+		 * The meta object literal for the '<em><b>Id</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute SUP_TYPE__ID = eINSTANCE.getSupType_Id();
+
+		/**
+		 * The meta object literal for the '<em><b>Lang</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute SUP_TYPE__LANG = eINSTANCE.getSupType_Lang();
+
+		/**
+		 * The meta object literal for the '<em><b>Lang1</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute SUP_TYPE__LANG1 = eINSTANCE.getSupType_Lang1();
+
+		/**
+		 * The meta object literal for the '<em><b>Style</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute SUP_TYPE__STYLE = eINSTANCE.getSupType_Style();
+
+		/**
+		 * The meta object literal for the '<em><b>Title</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute SUP_TYPE__TITLE = eINSTANCE.getSupType_Title();
+
+		/**
+		 * The meta object literal for the '{@link org.w3c.xhtml.impl.TableTypeImpl <em>Table Type</em>}' class.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @see org.w3c.xhtml.impl.TableTypeImpl
+		 * @see org.w3c.xhtml.impl.XHTMLPackageImpl#getTableType()
+		 * @generated
+		 */
+		EClass TABLE_TYPE = eINSTANCE.getTableType();
+
+		/**
+		 * The meta object literal for the '<em><b>Caption</b></em>' containment reference feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EReference TABLE_TYPE__CAPTION = eINSTANCE.getTableType_Caption();
+
+		/**
+		 * The meta object literal for the '<em><b>Col</b></em>' containment reference list feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EReference TABLE_TYPE__COL = eINSTANCE.getTableType_Col();
+
+		/**
+		 * The meta object literal for the '<em><b>Colgroup</b></em>' containment reference list feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EReference TABLE_TYPE__COLGROUP = eINSTANCE.getTableType_Colgroup();
+
+		/**
+		 * The meta object literal for the '<em><b>Thead</b></em>' containment reference feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EReference TABLE_TYPE__THEAD = eINSTANCE.getTableType_Thead();
+
+		/**
+		 * The meta object literal for the '<em><b>Tfoot</b></em>' containment reference feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EReference TABLE_TYPE__TFOOT = eINSTANCE.getTableType_Tfoot();
+
+		/**
+		 * The meta object literal for the '<em><b>Tbody</b></em>' containment reference list feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EReference TABLE_TYPE__TBODY = eINSTANCE.getTableType_Tbody();
+
+		/**
+		 * The meta object literal for the '<em><b>Tr</b></em>' containment reference list feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EReference TABLE_TYPE__TR = eINSTANCE.getTableType_Tr();
+
+		/**
+		 * The meta object literal for the '<em><b>Border</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute TABLE_TYPE__BORDER = eINSTANCE.getTableType_Border();
+
+		/**
+		 * The meta object literal for the '<em><b>Cellpadding</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute TABLE_TYPE__CELLPADDING = eINSTANCE.getTableType_Cellpadding();
+
+		/**
+		 * The meta object literal for the '<em><b>Cellspacing</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute TABLE_TYPE__CELLSPACING = eINSTANCE.getTableType_Cellspacing();
+
+		/**
+		 * The meta object literal for the '<em><b>Class</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute TABLE_TYPE__CLASS = eINSTANCE.getTableType_Class();
+
+		/**
+		 * The meta object literal for the '<em><b>Dir</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute TABLE_TYPE__DIR = eINSTANCE.getTableType_Dir();
+
+		/**
+		 * The meta object literal for the '<em><b>Frame</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute TABLE_TYPE__FRAME = eINSTANCE.getTableType_Frame();
+
+		/**
+		 * The meta object literal for the '<em><b>Id</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute TABLE_TYPE__ID = eINSTANCE.getTableType_Id();
+
+		/**
+		 * The meta object literal for the '<em><b>Lang</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute TABLE_TYPE__LANG = eINSTANCE.getTableType_Lang();
+
+		/**
+		 * The meta object literal for the '<em><b>Lang1</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute TABLE_TYPE__LANG1 = eINSTANCE.getTableType_Lang1();
+
+		/**
+		 * The meta object literal for the '<em><b>Rules</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute TABLE_TYPE__RULES = eINSTANCE.getTableType_Rules();
+
+		/**
+		 * The meta object literal for the '<em><b>Style</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute TABLE_TYPE__STYLE = eINSTANCE.getTableType_Style();
+
+		/**
+		 * The meta object literal for the '<em><b>Summary</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute TABLE_TYPE__SUMMARY = eINSTANCE.getTableType_Summary();
+
+		/**
+		 * The meta object literal for the '<em><b>Title</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute TABLE_TYPE__TITLE = eINSTANCE.getTableType_Title();
+
+		/**
+		 * The meta object literal for the '<em><b>Width</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute TABLE_TYPE__WIDTH = eINSTANCE.getTableType_Width();
+
+		/**
+		 * The meta object literal for the '{@link org.w3c.xhtml.impl.TbodyTypeImpl <em>Tbody Type</em>}' class.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @see org.w3c.xhtml.impl.TbodyTypeImpl
+		 * @see org.w3c.xhtml.impl.XHTMLPackageImpl#getTbodyType()
+		 * @generated
+		 */
+		EClass TBODY_TYPE = eINSTANCE.getTbodyType();
+
+		/**
+		 * The meta object literal for the '<em><b>Tr</b></em>' containment reference list feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EReference TBODY_TYPE__TR = eINSTANCE.getTbodyType_Tr();
+
+		/**
+		 * The meta object literal for the '<em><b>Align</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute TBODY_TYPE__ALIGN = eINSTANCE.getTbodyType_Align();
+
+		/**
+		 * The meta object literal for the '<em><b>Char</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute TBODY_TYPE__CHAR = eINSTANCE.getTbodyType_Char();
+
+		/**
+		 * The meta object literal for the '<em><b>Charoff</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute TBODY_TYPE__CHAROFF = eINSTANCE.getTbodyType_Charoff();
+
+		/**
+		 * The meta object literal for the '<em><b>Class</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute TBODY_TYPE__CLASS = eINSTANCE.getTbodyType_Class();
+
+		/**
+		 * The meta object literal for the '<em><b>Dir</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute TBODY_TYPE__DIR = eINSTANCE.getTbodyType_Dir();
+
+		/**
+		 * The meta object literal for the '<em><b>Id</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute TBODY_TYPE__ID = eINSTANCE.getTbodyType_Id();
+
+		/**
+		 * The meta object literal for the '<em><b>Lang</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute TBODY_TYPE__LANG = eINSTANCE.getTbodyType_Lang();
+
+		/**
+		 * The meta object literal for the '<em><b>Lang1</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute TBODY_TYPE__LANG1 = eINSTANCE.getTbodyType_Lang1();
+
+		/**
+		 * The meta object literal for the '<em><b>Style</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute TBODY_TYPE__STYLE = eINSTANCE.getTbodyType_Style();
+
+		/**
+		 * The meta object literal for the '<em><b>Title</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute TBODY_TYPE__TITLE = eINSTANCE.getTbodyType_Title();
+
+		/**
+		 * The meta object literal for the '<em><b>Valign</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute TBODY_TYPE__VALIGN = eINSTANCE.getTbodyType_Valign();
+
+		/**
+		 * The meta object literal for the '{@link org.w3c.xhtml.impl.TdTypeImpl <em>Td Type</em>}' class.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @see org.w3c.xhtml.impl.TdTypeImpl
+		 * @see org.w3c.xhtml.impl.XHTMLPackageImpl#getTdType()
+		 * @generated
+		 */
+		EClass TD_TYPE = eINSTANCE.getTdType();
+
+		/**
+		 * The meta object literal for the '<em><b>Abbr1</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute TD_TYPE__ABBR1 = eINSTANCE.getTdType_Abbr1();
+
+		/**
+		 * The meta object literal for the '<em><b>Align</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute TD_TYPE__ALIGN = eINSTANCE.getTdType_Align();
+
+		/**
+		 * The meta object literal for the '<em><b>Axis</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute TD_TYPE__AXIS = eINSTANCE.getTdType_Axis();
+
+		/**
+		 * The meta object literal for the '<em><b>Char</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute TD_TYPE__CHAR = eINSTANCE.getTdType_Char();
+
+		/**
+		 * The meta object literal for the '<em><b>Charoff</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute TD_TYPE__CHAROFF = eINSTANCE.getTdType_Charoff();
+
+		/**
+		 * The meta object literal for the '<em><b>Class</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute TD_TYPE__CLASS = eINSTANCE.getTdType_Class();
+
+		/**
+		 * The meta object literal for the '<em><b>Colspan</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute TD_TYPE__COLSPAN = eINSTANCE.getTdType_Colspan();
+
+		/**
+		 * The meta object literal for the '<em><b>Dir</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute TD_TYPE__DIR = eINSTANCE.getTdType_Dir();
+
+		/**
+		 * The meta object literal for the '<em><b>Headers</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute TD_TYPE__HEADERS = eINSTANCE.getTdType_Headers();
+
+		/**
+		 * The meta object literal for the '<em><b>Id</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute TD_TYPE__ID = eINSTANCE.getTdType_Id();
+
+		/**
+		 * The meta object literal for the '<em><b>Lang</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute TD_TYPE__LANG = eINSTANCE.getTdType_Lang();
+
+		/**
+		 * The meta object literal for the '<em><b>Lang1</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute TD_TYPE__LANG1 = eINSTANCE.getTdType_Lang1();
+
+		/**
+		 * The meta object literal for the '<em><b>Rowspan</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute TD_TYPE__ROWSPAN = eINSTANCE.getTdType_Rowspan();
+
+		/**
+		 * The meta object literal for the '<em><b>Scope</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute TD_TYPE__SCOPE = eINSTANCE.getTdType_Scope();
+
+		/**
+		 * The meta object literal for the '<em><b>Style</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute TD_TYPE__STYLE = eINSTANCE.getTdType_Style();
+
+		/**
+		 * The meta object literal for the '<em><b>Title</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute TD_TYPE__TITLE = eINSTANCE.getTdType_Title();
+
+		/**
+		 * The meta object literal for the '<em><b>Valign</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute TD_TYPE__VALIGN = eINSTANCE.getTdType_Valign();
+
+		/**
+		 * The meta object literal for the '{@link org.w3c.xhtml.impl.TfootTypeImpl <em>Tfoot Type</em>}' class.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @see org.w3c.xhtml.impl.TfootTypeImpl
+		 * @see org.w3c.xhtml.impl.XHTMLPackageImpl#getTfootType()
+		 * @generated
+		 */
+		EClass TFOOT_TYPE = eINSTANCE.getTfootType();
+
+		/**
+		 * The meta object literal for the '<em><b>Tr</b></em>' containment reference list feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EReference TFOOT_TYPE__TR = eINSTANCE.getTfootType_Tr();
+
+		/**
+		 * The meta object literal for the '<em><b>Align</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute TFOOT_TYPE__ALIGN = eINSTANCE.getTfootType_Align();
+
+		/**
+		 * The meta object literal for the '<em><b>Char</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute TFOOT_TYPE__CHAR = eINSTANCE.getTfootType_Char();
+
+		/**
+		 * The meta object literal for the '<em><b>Charoff</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute TFOOT_TYPE__CHAROFF = eINSTANCE.getTfootType_Charoff();
+
+		/**
+		 * The meta object literal for the '<em><b>Class</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute TFOOT_TYPE__CLASS = eINSTANCE.getTfootType_Class();
+
+		/**
+		 * The meta object literal for the '<em><b>Dir</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute TFOOT_TYPE__DIR = eINSTANCE.getTfootType_Dir();
+
+		/**
+		 * The meta object literal for the '<em><b>Id</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute TFOOT_TYPE__ID = eINSTANCE.getTfootType_Id();
+
+		/**
+		 * The meta object literal for the '<em><b>Lang</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute TFOOT_TYPE__LANG = eINSTANCE.getTfootType_Lang();
+
+		/**
+		 * The meta object literal for the '<em><b>Lang1</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute TFOOT_TYPE__LANG1 = eINSTANCE.getTfootType_Lang1();
+
+		/**
+		 * The meta object literal for the '<em><b>Style</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute TFOOT_TYPE__STYLE = eINSTANCE.getTfootType_Style();
+
+		/**
+		 * The meta object literal for the '<em><b>Title</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute TFOOT_TYPE__TITLE = eINSTANCE.getTfootType_Title();
+
+		/**
+		 * The meta object literal for the '<em><b>Valign</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute TFOOT_TYPE__VALIGN = eINSTANCE.getTfootType_Valign();
+
+		/**
+		 * The meta object literal for the '{@link org.w3c.xhtml.impl.TheadTypeImpl <em>Thead Type</em>}' class.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @see org.w3c.xhtml.impl.TheadTypeImpl
+		 * @see org.w3c.xhtml.impl.XHTMLPackageImpl#getTheadType()
+		 * @generated
+		 */
+		EClass THEAD_TYPE = eINSTANCE.getTheadType();
+
+		/**
+		 * The meta object literal for the '<em><b>Tr</b></em>' containment reference list feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EReference THEAD_TYPE__TR = eINSTANCE.getTheadType_Tr();
+
+		/**
+		 * The meta object literal for the '<em><b>Align</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute THEAD_TYPE__ALIGN = eINSTANCE.getTheadType_Align();
+
+		/**
+		 * The meta object literal for the '<em><b>Char</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute THEAD_TYPE__CHAR = eINSTANCE.getTheadType_Char();
+
+		/**
+		 * The meta object literal for the '<em><b>Charoff</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute THEAD_TYPE__CHAROFF = eINSTANCE.getTheadType_Charoff();
+
+		/**
+		 * The meta object literal for the '<em><b>Class</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute THEAD_TYPE__CLASS = eINSTANCE.getTheadType_Class();
+
+		/**
+		 * The meta object literal for the '<em><b>Dir</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute THEAD_TYPE__DIR = eINSTANCE.getTheadType_Dir();
+
+		/**
+		 * The meta object literal for the '<em><b>Id</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute THEAD_TYPE__ID = eINSTANCE.getTheadType_Id();
+
+		/**
+		 * The meta object literal for the '<em><b>Lang</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute THEAD_TYPE__LANG = eINSTANCE.getTheadType_Lang();
+
+		/**
+		 * The meta object literal for the '<em><b>Lang1</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute THEAD_TYPE__LANG1 = eINSTANCE.getTheadType_Lang1();
+
+		/**
+		 * The meta object literal for the '<em><b>Style</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute THEAD_TYPE__STYLE = eINSTANCE.getTheadType_Style();
+
+		/**
+		 * The meta object literal for the '<em><b>Title</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute THEAD_TYPE__TITLE = eINSTANCE.getTheadType_Title();
+
+		/**
+		 * The meta object literal for the '<em><b>Valign</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute THEAD_TYPE__VALIGN = eINSTANCE.getTheadType_Valign();
+
+		/**
+		 * The meta object literal for the '{@link org.w3c.xhtml.impl.ThTypeImpl <em>Th Type</em>}' class.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @see org.w3c.xhtml.impl.ThTypeImpl
+		 * @see org.w3c.xhtml.impl.XHTMLPackageImpl#getThType()
+		 * @generated
+		 */
+		EClass TH_TYPE = eINSTANCE.getThType();
+
+		/**
+		 * The meta object literal for the '<em><b>Abbr1</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute TH_TYPE__ABBR1 = eINSTANCE.getThType_Abbr1();
+
+		/**
+		 * The meta object literal for the '<em><b>Align</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute TH_TYPE__ALIGN = eINSTANCE.getThType_Align();
+
+		/**
+		 * The meta object literal for the '<em><b>Axis</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute TH_TYPE__AXIS = eINSTANCE.getThType_Axis();
+
+		/**
+		 * The meta object literal for the '<em><b>Char</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute TH_TYPE__CHAR = eINSTANCE.getThType_Char();
+
+		/**
+		 * The meta object literal for the '<em><b>Charoff</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute TH_TYPE__CHAROFF = eINSTANCE.getThType_Charoff();
+
+		/**
+		 * The meta object literal for the '<em><b>Class</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute TH_TYPE__CLASS = eINSTANCE.getThType_Class();
+
+		/**
+		 * The meta object literal for the '<em><b>Colspan</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute TH_TYPE__COLSPAN = eINSTANCE.getThType_Colspan();
+
+		/**
+		 * The meta object literal for the '<em><b>Dir</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute TH_TYPE__DIR = eINSTANCE.getThType_Dir();
+
+		/**
+		 * The meta object literal for the '<em><b>Headers</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute TH_TYPE__HEADERS = eINSTANCE.getThType_Headers();
+
+		/**
+		 * The meta object literal for the '<em><b>Id</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute TH_TYPE__ID = eINSTANCE.getThType_Id();
+
+		/**
+		 * The meta object literal for the '<em><b>Lang</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute TH_TYPE__LANG = eINSTANCE.getThType_Lang();
+
+		/**
+		 * The meta object literal for the '<em><b>Lang1</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute TH_TYPE__LANG1 = eINSTANCE.getThType_Lang1();
+
+		/**
+		 * The meta object literal for the '<em><b>Rowspan</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute TH_TYPE__ROWSPAN = eINSTANCE.getThType_Rowspan();
+
+		/**
+		 * The meta object literal for the '<em><b>Scope</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute TH_TYPE__SCOPE = eINSTANCE.getThType_Scope();
+
+		/**
+		 * The meta object literal for the '<em><b>Style</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute TH_TYPE__STYLE = eINSTANCE.getThType_Style();
+
+		/**
+		 * The meta object literal for the '<em><b>Title</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute TH_TYPE__TITLE = eINSTANCE.getThType_Title();
+
+		/**
+		 * The meta object literal for the '<em><b>Valign</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute TH_TYPE__VALIGN = eINSTANCE.getThType_Valign();
+
+		/**
+		 * The meta object literal for the '{@link org.w3c.xhtml.impl.TrTypeImpl <em>Tr Type</em>}' class.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @see org.w3c.xhtml.impl.TrTypeImpl
+		 * @see org.w3c.xhtml.impl.XHTMLPackageImpl#getTrType()
+		 * @generated
+		 */
+		EClass TR_TYPE = eINSTANCE.getTrType();
+
+		/**
+		 * The meta object literal for the '<em><b>Group</b></em>' attribute list feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute TR_TYPE__GROUP = eINSTANCE.getTrType_Group();
+
+		/**
+		 * The meta object literal for the '<em><b>Th</b></em>' containment reference list feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EReference TR_TYPE__TH = eINSTANCE.getTrType_Th();
+
+		/**
+		 * The meta object literal for the '<em><b>Td</b></em>' containment reference list feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EReference TR_TYPE__TD = eINSTANCE.getTrType_Td();
+
+		/**
+		 * The meta object literal for the '<em><b>Align</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute TR_TYPE__ALIGN = eINSTANCE.getTrType_Align();
+
+		/**
+		 * The meta object literal for the '<em><b>Char</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute TR_TYPE__CHAR = eINSTANCE.getTrType_Char();
+
+		/**
+		 * The meta object literal for the '<em><b>Charoff</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute TR_TYPE__CHAROFF = eINSTANCE.getTrType_Charoff();
+
+		/**
+		 * The meta object literal for the '<em><b>Class</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute TR_TYPE__CLASS = eINSTANCE.getTrType_Class();
+
+		/**
+		 * The meta object literal for the '<em><b>Dir</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute TR_TYPE__DIR = eINSTANCE.getTrType_Dir();
+
+		/**
+		 * The meta object literal for the '<em><b>Id</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute TR_TYPE__ID = eINSTANCE.getTrType_Id();
+
+		/**
+		 * The meta object literal for the '<em><b>Lang</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute TR_TYPE__LANG = eINSTANCE.getTrType_Lang();
+
+		/**
+		 * The meta object literal for the '<em><b>Lang1</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute TR_TYPE__LANG1 = eINSTANCE.getTrType_Lang1();
+
+		/**
+		 * The meta object literal for the '<em><b>Style</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute TR_TYPE__STYLE = eINSTANCE.getTrType_Style();
+
+		/**
+		 * The meta object literal for the '<em><b>Title</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute TR_TYPE__TITLE = eINSTANCE.getTrType_Title();
+
+		/**
+		 * The meta object literal for the '<em><b>Valign</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute TR_TYPE__VALIGN = eINSTANCE.getTrType_Valign();
+
+		/**
+		 * The meta object literal for the '{@link org.w3c.xhtml.impl.TtTypeImpl <em>Tt Type</em>}' class.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @see org.w3c.xhtml.impl.TtTypeImpl
+		 * @see org.w3c.xhtml.impl.XHTMLPackageImpl#getTtType()
+		 * @generated
+		 */
+		EClass TT_TYPE = eINSTANCE.getTtType();
+
+		/**
+		 * The meta object literal for the '<em><b>Class</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute TT_TYPE__CLASS = eINSTANCE.getTtType_Class();
+
+		/**
+		 * The meta object literal for the '<em><b>Dir</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute TT_TYPE__DIR = eINSTANCE.getTtType_Dir();
+
+		/**
+		 * The meta object literal for the '<em><b>Id</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute TT_TYPE__ID = eINSTANCE.getTtType_Id();
+
+		/**
+		 * The meta object literal for the '<em><b>Lang</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute TT_TYPE__LANG = eINSTANCE.getTtType_Lang();
+
+		/**
+		 * The meta object literal for the '<em><b>Lang1</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute TT_TYPE__LANG1 = eINSTANCE.getTtType_Lang1();
+
+		/**
+		 * The meta object literal for the '<em><b>Style</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute TT_TYPE__STYLE = eINSTANCE.getTtType_Style();
+
+		/**
+		 * The meta object literal for the '<em><b>Title</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute TT_TYPE__TITLE = eINSTANCE.getTtType_Title();
+
+		/**
+		 * The meta object literal for the '{@link org.w3c.xhtml.impl.UlTypeImpl <em>Ul Type</em>}' class.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @see org.w3c.xhtml.impl.UlTypeImpl
+		 * @see org.w3c.xhtml.impl.XHTMLPackageImpl#getUlType()
+		 * @generated
+		 */
+		EClass UL_TYPE = eINSTANCE.getUlType();
+
+		/**
+		 * The meta object literal for the '<em><b>Li</b></em>' containment reference list feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EReference UL_TYPE__LI = eINSTANCE.getUlType_Li();
+
+		/**
+		 * The meta object literal for the '<em><b>Class</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute UL_TYPE__CLASS = eINSTANCE.getUlType_Class();
+
+		/**
+		 * The meta object literal for the '<em><b>Dir</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute UL_TYPE__DIR = eINSTANCE.getUlType_Dir();
+
+		/**
+		 * The meta object literal for the '<em><b>Id</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute UL_TYPE__ID = eINSTANCE.getUlType_Id();
+
+		/**
+		 * The meta object literal for the '<em><b>Lang</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute UL_TYPE__LANG = eINSTANCE.getUlType_Lang();
+
+		/**
+		 * The meta object literal for the '<em><b>Lang1</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute UL_TYPE__LANG1 = eINSTANCE.getUlType_Lang1();
+
+		/**
+		 * The meta object literal for the '<em><b>Style</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute UL_TYPE__STYLE = eINSTANCE.getUlType_Style();
+
+		/**
+		 * The meta object literal for the '<em><b>Title</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute UL_TYPE__TITLE = eINSTANCE.getUlType_Title();
+
+		/**
+		 * The meta object literal for the '{@link org.w3c.xhtml.impl.VarTypeImpl <em>Var Type</em>}' class.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @see org.w3c.xhtml.impl.VarTypeImpl
+		 * @see org.w3c.xhtml.impl.XHTMLPackageImpl#getVarType()
+		 * @generated
+		 */
+		EClass VAR_TYPE = eINSTANCE.getVarType();
+
+		/**
+		 * The meta object literal for the '<em><b>Class</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute VAR_TYPE__CLASS = eINSTANCE.getVarType_Class();
+
+		/**
+		 * The meta object literal for the '<em><b>Dir</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute VAR_TYPE__DIR = eINSTANCE.getVarType_Dir();
+
+		/**
+		 * The meta object literal for the '<em><b>Id</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute VAR_TYPE__ID = eINSTANCE.getVarType_Id();
+
+		/**
+		 * The meta object literal for the '<em><b>Lang</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute VAR_TYPE__LANG = eINSTANCE.getVarType_Lang();
+
+		/**
+		 * The meta object literal for the '<em><b>Lang1</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute VAR_TYPE__LANG1 = eINSTANCE.getVarType_Lang1();
+
+		/**
+		 * The meta object literal for the '<em><b>Style</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute VAR_TYPE__STYLE = eINSTANCE.getVarType_Style();
+
+		/**
+		 * The meta object literal for the '<em><b>Title</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute VAR_TYPE__TITLE = eINSTANCE.getVarType_Title();
+
+		/**
+		 * The meta object literal for the '{@link org.w3c.xhtml.AlignType <em>Align Type</em>}' enum.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @see org.w3c.xhtml.AlignType
+		 * @see org.w3c.xhtml.impl.XHTMLPackageImpl#getAlignType()
+		 * @generated
+		 */
+		EEnum ALIGN_TYPE = eINSTANCE.getAlignType();
+
+		/**
+		 * The meta object literal for the '{@link org.w3c.xhtml.DirType <em>Dir Type</em>}' enum.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @see org.w3c.xhtml.DirType
+		 * @see org.w3c.xhtml.impl.XHTMLPackageImpl#getDirType()
+		 * @generated
+		 */
+		EEnum DIR_TYPE = eINSTANCE.getDirType();
+
+		/**
+		 * The meta object literal for the '{@link org.w3c.xhtml.DirType1 <em>Dir Type1</em>}' enum.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @see org.w3c.xhtml.DirType1
+		 * @see org.w3c.xhtml.impl.XHTMLPackageImpl#getDirType1()
+		 * @generated
+		 */
+		EEnum DIR_TYPE1 = eINSTANCE.getDirType1();
+
+		/**
+		 * The meta object literal for the '{@link org.w3c.xhtml.IsmapType <em>Ismap Type</em>}' enum.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @see org.w3c.xhtml.IsmapType
+		 * @see org.w3c.xhtml.impl.XHTMLPackageImpl#getIsmapType()
+		 * @generated
+		 */
+		EEnum ISMAP_TYPE = eINSTANCE.getIsmapType();
+
+		/**
+		 * The meta object literal for the '{@link org.w3c.xhtml.NohrefType <em>Nohref Type</em>}' enum.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @see org.w3c.xhtml.NohrefType
+		 * @see org.w3c.xhtml.impl.XHTMLPackageImpl#getNohrefType()
+		 * @generated
+		 */
+		EEnum NOHREF_TYPE = eINSTANCE.getNohrefType();
+
+		/**
+		 * The meta object literal for the '{@link org.w3c.xhtml.Scope <em>Scope</em>}' enum.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @see org.w3c.xhtml.Scope
+		 * @see org.w3c.xhtml.impl.XHTMLPackageImpl#getScope()
+		 * @generated
+		 */
+		EEnum SCOPE = eINSTANCE.getScope();
+
+		/**
+		 * The meta object literal for the '{@link org.w3c.xhtml.Shape <em>Shape</em>}' enum.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @see org.w3c.xhtml.Shape
+		 * @see org.w3c.xhtml.impl.XHTMLPackageImpl#getShape()
+		 * @generated
+		 */
+		EEnum SHAPE = eINSTANCE.getShape();
+
+		/**
+		 * The meta object literal for the '{@link org.w3c.xhtml.TFrame <em>TFrame</em>}' enum.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @see org.w3c.xhtml.TFrame
+		 * @see org.w3c.xhtml.impl.XHTMLPackageImpl#getTFrame()
+		 * @generated
+		 */
+		EEnum TFRAME = eINSTANCE.getTFrame();
+
+		/**
+		 * The meta object literal for the '{@link org.w3c.xhtml.TRules <em>TRules</em>}' enum.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @see org.w3c.xhtml.TRules
+		 * @see org.w3c.xhtml.impl.XHTMLPackageImpl#getTRules()
+		 * @generated
+		 */
+		EEnum TRULES = eINSTANCE.getTRules();
+
+		/**
+		 * The meta object literal for the '{@link org.w3c.xhtml.ValignType <em>Valign Type</em>}' enum.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @see org.w3c.xhtml.ValignType
+		 * @see org.w3c.xhtml.impl.XHTMLPackageImpl#getValignType()
+		 * @generated
+		 */
+		EEnum VALIGN_TYPE = eINSTANCE.getValignType();
+
+		/**
+		 * The meta object literal for the '<em>Align Type Object</em>' data type.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @see org.w3c.xhtml.AlignType
+		 * @see org.w3c.xhtml.impl.XHTMLPackageImpl#getAlignTypeObject()
+		 * @generated
+		 */
+		EDataType ALIGN_TYPE_OBJECT = eINSTANCE.getAlignTypeObject();
+
+		/**
+		 * The meta object literal for the '<em>Character</em>' data type.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @see java.lang.String
+		 * @see org.w3c.xhtml.impl.XHTMLPackageImpl#getCharacter()
+		 * @generated
+		 */
+		EDataType CHARACTER = eINSTANCE.getCharacter();
+
+		/**
+		 * The meta object literal for the '<em>Charset</em>' data type.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @see java.lang.String
+		 * @see org.w3c.xhtml.impl.XHTMLPackageImpl#getCharset()
+		 * @generated
+		 */
+		EDataType CHARSET = eINSTANCE.getCharset();
+
+		/**
+		 * The meta object literal for the '<em>Charsets</em>' data type.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @see java.lang.String
+		 * @see org.w3c.xhtml.impl.XHTMLPackageImpl#getCharsets()
+		 * @generated
+		 */
+		EDataType CHARSETS = eINSTANCE.getCharsets();
+
+		/**
+		 * The meta object literal for the '<em>Content Type</em>' data type.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @see java.lang.String
+		 * @see org.w3c.xhtml.impl.XHTMLPackageImpl#getContentType()
+		 * @generated
+		 */
+		EDataType CONTENT_TYPE = eINSTANCE.getContentType();
+
+		/**
+		 * The meta object literal for the '<em>Content Types</em>' data type.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @see java.lang.String
+		 * @see org.w3c.xhtml.impl.XHTMLPackageImpl#getContentTypes()
+		 * @generated
+		 */
+		EDataType CONTENT_TYPES = eINSTANCE.getContentTypes();
+
+		/**
+		 * The meta object literal for the '<em>Coords</em>' data type.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @see java.lang.String
+		 * @see org.w3c.xhtml.impl.XHTMLPackageImpl#getCoords()
+		 * @generated
+		 */
+		EDataType COORDS = eINSTANCE.getCoords();
+
+		/**
+		 * The meta object literal for the '<em>Datetime</em>' data type.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @see javax.xml.datatype.XMLGregorianCalendar
+		 * @see org.w3c.xhtml.impl.XHTMLPackageImpl#getDatetime()
+		 * @generated
+		 */
+		EDataType DATETIME = eINSTANCE.getDatetime();
+
+		/**
+		 * The meta object literal for the '<em>Dir Type Object</em>' data type.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @see org.w3c.xhtml.DirType
+		 * @see org.w3c.xhtml.impl.XHTMLPackageImpl#getDirTypeObject()
+		 * @generated
+		 */
+		EDataType DIR_TYPE_OBJECT = eINSTANCE.getDirTypeObject();
+
+		/**
+		 * The meta object literal for the '<em>Dir Type Object1</em>' data type.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @see org.w3c.xhtml.DirType1
+		 * @see org.w3c.xhtml.impl.XHTMLPackageImpl#getDirTypeObject1()
+		 * @generated
+		 */
+		EDataType DIR_TYPE_OBJECT1 = eINSTANCE.getDirTypeObject1();
+
+		/**
+		 * The meta object literal for the '<em>Ismap Type Object</em>' data type.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @see org.w3c.xhtml.IsmapType
+		 * @see org.w3c.xhtml.impl.XHTMLPackageImpl#getIsmapTypeObject()
+		 * @generated
+		 */
+		EDataType ISMAP_TYPE_OBJECT = eINSTANCE.getIsmapTypeObject();
+
+		/**
+		 * The meta object literal for the '<em>Language Code</em>' data type.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @see java.lang.String
+		 * @see org.w3c.xhtml.impl.XHTMLPackageImpl#getLanguageCode()
+		 * @generated
+		 */
+		EDataType LANGUAGE_CODE = eINSTANCE.getLanguageCode();
+
+		/**
+		 * The meta object literal for the '<em>Length</em>' data type.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @see java.lang.String
+		 * @see org.w3c.xhtml.impl.XHTMLPackageImpl#getLength()
+		 * @generated
+		 */
+		EDataType LENGTH = eINSTANCE.getLength();
+
+		/**
+		 * The meta object literal for the '<em>Link Types</em>' data type.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @see java.util.List
+		 * @see org.w3c.xhtml.impl.XHTMLPackageImpl#getLinkTypes()
+		 * @generated
+		 */
+		EDataType LINK_TYPES = eINSTANCE.getLinkTypes();
+
+		/**
+		 * The meta object literal for the '<em>Media Desc</em>' data type.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @see java.lang.String
+		 * @see org.w3c.xhtml.impl.XHTMLPackageImpl#getMediaDesc()
+		 * @generated
+		 */
+		EDataType MEDIA_DESC = eINSTANCE.getMediaDesc();
+
+		/**
+		 * The meta object literal for the '<em>Multi Length</em>' data type.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @see java.lang.String
+		 * @see org.w3c.xhtml.impl.XHTMLPackageImpl#getMultiLength()
+		 * @generated
+		 */
+		EDataType MULTI_LENGTH = eINSTANCE.getMultiLength();
+
+		/**
+		 * The meta object literal for the '<em>Nohref Type Object</em>' data type.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @see org.w3c.xhtml.NohrefType
+		 * @see org.w3c.xhtml.impl.XHTMLPackageImpl#getNohrefTypeObject()
+		 * @generated
+		 */
+		EDataType NOHREF_TYPE_OBJECT = eINSTANCE.getNohrefTypeObject();
+
+		/**
+		 * The meta object literal for the '<em>Number</em>' data type.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @see java.math.BigInteger
+		 * @see org.w3c.xhtml.impl.XHTMLPackageImpl#getNumber()
+		 * @generated
+		 */
+		EDataType NUMBER = eINSTANCE.getNumber();
+
+		/**
+		 * The meta object literal for the '<em>Pixels</em>' data type.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @see java.math.BigInteger
+		 * @see org.w3c.xhtml.impl.XHTMLPackageImpl#getPixels()
+		 * @generated
+		 */
+		EDataType PIXELS = eINSTANCE.getPixels();
+
+		/**
+		 * The meta object literal for the '<em>Scope Object</em>' data type.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @see org.w3c.xhtml.Scope
+		 * @see org.w3c.xhtml.impl.XHTMLPackageImpl#getScopeObject()
+		 * @generated
+		 */
+		EDataType SCOPE_OBJECT = eINSTANCE.getScopeObject();
+
+		/**
+		 * The meta object literal for the '<em>Script</em>' data type.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @see java.lang.String
+		 * @see org.w3c.xhtml.impl.XHTMLPackageImpl#getScript()
+		 * @generated
+		 */
+		EDataType SCRIPT = eINSTANCE.getScript();
+
+		/**
+		 * The meta object literal for the '<em>Shape Object</em>' data type.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @see org.w3c.xhtml.Shape
+		 * @see org.w3c.xhtml.impl.XHTMLPackageImpl#getShapeObject()
+		 * @generated
+		 */
+		EDataType SHAPE_OBJECT = eINSTANCE.getShapeObject();
+
+		/**
+		 * The meta object literal for the '<em>Style Sheet</em>' data type.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @see java.lang.String
+		 * @see org.w3c.xhtml.impl.XHTMLPackageImpl#getStyleSheet()
+		 * @generated
+		 */
+		EDataType STYLE_SHEET = eINSTANCE.getStyleSheet();
+
+		/**
+		 * The meta object literal for the '<em>Tabindex Number</em>' data type.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @see java.math.BigInteger
+		 * @see org.w3c.xhtml.impl.XHTMLPackageImpl#getTabindexNumber()
+		 * @generated
+		 */
+		EDataType TABINDEX_NUMBER = eINSTANCE.getTabindexNumber();
+
+		/**
+		 * The meta object literal for the '<em>Text</em>' data type.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @see java.lang.String
+		 * @see org.w3c.xhtml.impl.XHTMLPackageImpl#getText()
+		 * @generated
+		 */
+		EDataType TEXT = eINSTANCE.getText();
+
+		/**
+		 * The meta object literal for the '<em>TFrame Object</em>' data type.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @see org.w3c.xhtml.TFrame
+		 * @see org.w3c.xhtml.impl.XHTMLPackageImpl#getTFrameObject()
+		 * @generated
+		 */
+		EDataType TFRAME_OBJECT = eINSTANCE.getTFrameObject();
+
+		/**
+		 * The meta object literal for the '<em>TRules Object</em>' data type.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @see org.w3c.xhtml.TRules
+		 * @see org.w3c.xhtml.impl.XHTMLPackageImpl#getTRulesObject()
+		 * @generated
+		 */
+		EDataType TRULES_OBJECT = eINSTANCE.getTRulesObject();
+
+		/**
+		 * The meta object literal for the '<em>URI</em>' data type.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @see java.lang.String
+		 * @see org.w3c.xhtml.impl.XHTMLPackageImpl#getURI()
+		 * @generated
+		 */
+		EDataType URI = eINSTANCE.getURI();
+
+		/**
+		 * The meta object literal for the '<em>Uri List</em>' data type.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @see java.lang.String
+		 * @see org.w3c.xhtml.impl.XHTMLPackageImpl#getUriList()
+		 * @generated
+		 */
+		EDataType URI_LIST = eINSTANCE.getUriList();
+
+		/**
+		 * The meta object literal for the '<em>Valign Type Object</em>' data type.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @see org.w3c.xhtml.ValignType
+		 * @see org.w3c.xhtml.impl.XHTMLPackageImpl#getValignTypeObject()
+		 * @generated
+		 */
+		EDataType VALIGN_TYPE_OBJECT = eINSTANCE.getValignTypeObject();
+
+	}
+
 } //XHTMLPackage

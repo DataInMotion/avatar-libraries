@@ -199,7 +199,7 @@ public class SubTypeImpl extends InlineImpl implements SubType {
 	 */
 	@Override
 	protected EClass eStaticClass() {
-		return XHTMLPackage.eINSTANCE.getSubType();
+		return XHTMLPackage.Literals.SUB_TYPE;
 	}
 
 	/**

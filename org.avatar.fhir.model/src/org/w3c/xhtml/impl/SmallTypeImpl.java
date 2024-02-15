@@ -199,7 +199,7 @@ public class SmallTypeImpl extends InlineImpl implements SmallType {
 	 */
 	@Override
 	protected EClass eStaticClass() {
-		return XHTMLPackage.eINSTANCE.getSmallType();
+		return XHTMLPackage.Literals.SMALL_TYPE;
 	}
 
 	/**

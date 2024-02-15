@@ -1,3 +1,4 @@
+-library: enable-emf
 -buildpath: \
 	org.gecko.emf.repository.mongo;version=latest,\
 	org.gecko.emf.repository.api;version=latest,\

@@ -2,6 +2,8 @@
  */
 package org.hl7.fhir.impl;
 
+import java.lang.String;
+
 import org.eclipse.emf.common.notify.Notification;
 import org.eclipse.emf.common.notify.NotificationChain;
 
@@ -29,6 +31,7 @@ import org.hl7.fhir.Uri;
  *   <li>{@link org.hl7.fhir.impl.ResourceImpl#getMeta <em>Meta</em>}</li>
  *   <li>{@link org.hl7.fhir.impl.ResourceImpl#getImplicitRules <em>Implicit Rules</em>}</li>
  *   <li>{@link org.hl7.fhir.impl.ResourceImpl#getLanguage <em>Language</em>}</li>
+ *   <li>{@link org.hl7.fhir.impl.ResourceImpl#getExtId <em>Ext Id</em>}</li>
  * </ul>
  *
  * @generated
@@ -73,6 +76,26 @@ public class ResourceImpl extends BaseImpl implements Resource {
 	 * @ordered
 	 */
 	protected Code language;
+
+	/**
+	 * The default value of the '{@link #getExtId() <em>Ext Id</em>}' attribute.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @see #getExtId()
+	 * @generated
+	 * @ordered
+	 */
+	protected static final String EXT_ID_EDEFAULT = null;
+
+	/**
+	 * The cached value of the '{@link #getExtId() <em>Ext Id</em>}' attribute.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @see #getExtId()
+	 * @generated
+	 * @ordered
+	 */
+	protected String extId = EXT_ID_EDEFAULT;
 
 	/**
 	 * <!-- begin-user-doc -->
@@ -279,6 +302,29 @@ public class ResourceImpl extends BaseImpl implements Resource {
 	 * @generated
 	 */
 	@Override
+	public String getExtId() {
+		return extId;
+	}
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public void setExtId(String newExtId) {
+		String oldExtId = extId;
+		extId = newExtId;
+		if (eNotificationRequired())
+			eNotify(new ENotificationImpl(this, Notification.SET, FHIRPackage.RESOURCE__EXT_ID, oldExtId, extId));
+	}
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
 	public NotificationChain eInverseRemove(InternalEObject otherEnd, int featureID, NotificationChain msgs) {
 		switch (featureID) {
 			case FHIRPackage.RESOURCE__ID:
@@ -309,6 +355,8 @@ public class ResourceImpl extends BaseImpl implements Resource {
 				return getImplicitRules();
 			case FHIRPackage.RESOURCE__LANGUAGE:
 				return getLanguage();
+			case FHIRPackage.RESOURCE__EXT_ID:
+				return getExtId();
 		}
 		return super.eGet(featureID, resolve, coreType);
 	}
@@ -332,6 +380,9 @@ public class ResourceImpl extends BaseImpl implements Resource {
 				return;
 			case FHIRPackage.RESOURCE__LANGUAGE:
 				setLanguage((Code)newValue);
+				return;
+			case FHIRPackage.RESOURCE__EXT_ID:
+				setExtId((String)newValue);
 				return;
 		}
 		super.eSet(featureID, newValue);
@@ -357,6 +408,9 @@ public class ResourceImpl extends BaseImpl implements Resource {
 			case FHIRPackage.RESOURCE__LANGUAGE:
 				setLanguage((Code)null);
 				return;
+			case FHIRPackage.RESOURCE__EXT_ID:
+				setExtId(EXT_ID_EDEFAULT);
+				return;
 		}
 		super.eUnset(featureID);
 	}
@@ -377,8 +431,26 @@ public class ResourceImpl extends BaseImpl implements Resource {
 				return implicitRules != null;
 			case FHIRPackage.RESOURCE__LANGUAGE:
 				return language != null;
+			case FHIRPackage.RESOURCE__EXT_ID:
+				return EXT_ID_EDEFAULT == null ? extId != null : !EXT_ID_EDEFAULT.equals(extId);
 		}
 		return super.eIsSet(featureID);
+	}
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public String toString() {
+		if (eIsProxy()) return super.toString();
+
+		StringBuilder result = new StringBuilder(super.toString());
+		result.append(" (extId: ");
+		result.append(extId);
+		result.append(')');
+		return result.toString();
 	}
 
 } //ResourceImpl

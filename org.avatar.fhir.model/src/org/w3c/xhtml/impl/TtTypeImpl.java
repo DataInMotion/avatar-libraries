@@ -199,7 +199,7 @@ public class TtTypeImpl extends InlineImpl implements TtType {
 	 */
 	@Override
 	protected EClass eStaticClass() {
-		return XHTMLPackage.eINSTANCE.getTtType();
+		return XHTMLPackage.Literals.TT_TYPE;
 	}
 
 	/**

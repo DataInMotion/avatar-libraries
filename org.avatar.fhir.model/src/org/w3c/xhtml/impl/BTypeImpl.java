@@ -199,7 +199,7 @@ public class BTypeImpl extends InlineImpl implements BType {
 	 */
 	@Override
 	protected EClass eStaticClass() {
-		return XHTMLPackage.eINSTANCE.getBType();
+		return XHTMLPackage.Literals.BTYPE;
 	}
 
 	/**

@@ -199,7 +199,7 @@ public class DivTypeImpl extends FlowImpl implements DivType {
 	 */
 	@Override
 	protected EClass eStaticClass() {
-		return XHTMLPackage.eINSTANCE.getDivType();
+		return XHTMLPackage.Literals.DIV_TYPE;
 	}
 
 	/**

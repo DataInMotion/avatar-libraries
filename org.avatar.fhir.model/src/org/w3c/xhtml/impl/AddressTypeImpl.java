@@ -199,7 +199,7 @@ public class AddressTypeImpl extends InlineImpl implements AddressType {
 	 */
 	@Override
 	protected EClass eStaticClass() {
-		return XHTMLPackage.eINSTANCE.getAddressType();
+		return XHTMLPackage.Literals.ADDRESS_TYPE;
 	}
 
 	/**

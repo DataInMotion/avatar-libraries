@@ -199,7 +199,7 @@ public class H5TypeImpl extends InlineImpl implements H5Type {
 	 */
 	@Override
 	protected EClass eStaticClass() {
-		return XHTMLPackage.eINSTANCE.getH5Type();
+		return XHTMLPackage.Literals.H5_TYPE;
 	}
 
 	/**

@@ -377,7 +377,7 @@ public class ColgroupTypeImpl extends MinimalEObjectImpl.Container implements Co
 	 */
 	@Override
 	protected EClass eStaticClass() {
-		return XHTMLPackage.eINSTANCE.getColgroupType();
+		return XHTMLPackage.Literals.COLGROUP_TYPE;
 	}
 
 	/**

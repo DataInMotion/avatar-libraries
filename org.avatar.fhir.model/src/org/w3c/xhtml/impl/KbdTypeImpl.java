@@ -199,7 +199,7 @@ public class KbdTypeImpl extends InlineImpl implements KbdType {
 	 */
 	@Override
 	protected EClass eStaticClass() {
-		return XHTMLPackage.eINSTANCE.getKbdType();
+		return XHTMLPackage.Literals.KBD_TYPE;
 	}
 
 	/**

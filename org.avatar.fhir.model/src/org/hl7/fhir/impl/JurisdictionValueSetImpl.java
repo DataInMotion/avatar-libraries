@@ -34,7 +34,7 @@ public class JurisdictionValueSetImpl extends ElementImpl implements Jurisdictio
 	 * @generated
 	 * @ordered
 	 */
-	protected static final JurisdictionValueSetEnum VALUE_EDEFAULT = JurisdictionValueSetEnum._001;
+	protected static final JurisdictionValueSetEnum VALUE_EDEFAULT = JurisdictionValueSetEnum.AD;
 
 	/**
 	 * The cached value of the '{@link #getValue() <em>Value</em>}' attribute.

@@ -459,7 +459,7 @@ public class ThTypeImpl extends FlowImpl implements ThType {
 	 */
 	@Override
 	protected EClass eStaticClass() {
-		return XHTMLPackage.eINSTANCE.getThType();
+		return XHTMLPackage.Literals.TH_TYPE;
 	}
 
 	/**

@@ -328,7 +328,7 @@ public class TrTypeImpl extends MinimalEObjectImpl.Container implements TrType {
 	 */
 	@Override
 	protected EClass eStaticClass() {
-		return XHTMLPackage.eINSTANCE.getTrType();
+		return XHTMLPackage.Literals.TR_TYPE;
 	}
 
 	/**
@@ -351,7 +351,7 @@ public class TrTypeImpl extends MinimalEObjectImpl.Container implements TrType {
 	 */
 	@Override
 	public EList<ThType> getTh() {
-		return getGroup().list(XHTMLPackage.eINSTANCE.getTrType_Th());
+		return getGroup().list(XHTMLPackage.Literals.TR_TYPE__TH);
 	}
 
 	/**
@@ -361,7 +361,7 @@ public class TrTypeImpl extends MinimalEObjectImpl.Container implements TrType {
 	 */
 	@Override
 	public EList<TdType> getTd() {
-		return getGroup().list(XHTMLPackage.eINSTANCE.getTrType_Td());
+		return getGroup().list(XHTMLPackage.Literals.TR_TYPE__TD);
 	}
 
 	/**

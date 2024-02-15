@@ -442,7 +442,7 @@ public class ATypeImpl extends AContentImpl implements AType {
 	 */
 	@Override
 	protected EClass eStaticClass() {
-		return XHTMLPackage.eINSTANCE.getAType();
+		return XHTMLPackage.Literals.ATYPE;
 	}
 
 	/**

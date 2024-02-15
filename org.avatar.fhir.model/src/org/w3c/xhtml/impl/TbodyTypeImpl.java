@@ -324,7 +324,7 @@ public class TbodyTypeImpl extends MinimalEObjectImpl.Container implements Tbody
 	 */
 	@Override
 	protected EClass eStaticClass() {
-		return XHTMLPackage.eINSTANCE.getTbodyType();
+		return XHTMLPackage.Literals.TBODY_TYPE;
 	}
 
 	/**

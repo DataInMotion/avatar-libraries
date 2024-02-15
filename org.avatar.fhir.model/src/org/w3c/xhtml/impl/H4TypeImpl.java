@@ -199,7 +199,7 @@ public class H4TypeImpl extends InlineImpl implements H4Type {
 	 */
 	@Override
 	protected EClass eStaticClass() {
-		return XHTMLPackage.eINSTANCE.getH4Type();
+		return XHTMLPackage.Literals.H4_TYPE;
 	}
 
 	/**

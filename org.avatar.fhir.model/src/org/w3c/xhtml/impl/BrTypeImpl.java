@@ -127,7 +127,7 @@ public class BrTypeImpl extends MinimalEObjectImpl.Container implements BrType {
 	 */
 	@Override
 	protected EClass eStaticClass() {
-		return XHTMLPackage.eINSTANCE.getBrType();
+		return XHTMLPackage.Literals.BR_TYPE;
 	}
 
 	/**

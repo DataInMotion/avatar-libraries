@@ -357,7 +357,7 @@ public class ColTypeImpl extends MinimalEObjectImpl.Container implements ColType
 	 */
 	@Override
 	protected EClass eStaticClass() {
-		return XHTMLPackage.eINSTANCE.getColType();
+		return XHTMLPackage.Literals.COL_TYPE;
 	}
 
 	/**

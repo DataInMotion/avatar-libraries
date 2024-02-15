@@ -956,7 +956,7 @@ public class XHTMLValidator extends EObjectValidator {
 		int length = character.length();
 		boolean result = length >= 1;
 		if (!result && diagnostics != null)
-			reportMinLengthViolation(XHTMLPackage.eINSTANCE.getCharacter(), character, length, 1, diagnostics, context);
+			reportMinLengthViolation(XHTMLPackage.Literals.CHARACTER, character, length, 1, diagnostics, context);
 		return result;
 	}
 
@@ -970,7 +970,7 @@ public class XHTMLValidator extends EObjectValidator {
 		int length = character.length();
 		boolean result = length <= 1;
 		if (!result && diagnostics != null)
-			reportMaxLengthViolation(XHTMLPackage.eINSTANCE.getCharacter(), character, length, 1, diagnostics, context);
+			reportMaxLengthViolation(XHTMLPackage.Literals.CHARACTER, character, length, 1, diagnostics, context);
 		return result;
 	}
 
@@ -1040,7 +1040,7 @@ public class XHTMLValidator extends EObjectValidator {
 	 * @generated
 	 */
 	public boolean validateCoords_Pattern(String coords, DiagnosticChain diagnostics, Map<Object, Object> context) {
-		return validatePattern(XHTMLPackage.eINSTANCE.getCoords(), coords, COORDS__PATTERN__VALUES, diagnostics, context);
+		return validatePattern(XHTMLPackage.Literals.COORDS, coords, COORDS__PATTERN__VALUES, diagnostics, context);
 	}
 
 	/**
@@ -1119,7 +1119,7 @@ public class XHTMLValidator extends EObjectValidator {
 	 * @generated
 	 */
 	public boolean validateLength_Pattern(String length, DiagnosticChain diagnostics, Map<Object, Object> context) {
-		return validatePattern(XHTMLPackage.eINSTANCE.getLength(), length, LENGTH__PATTERN__VALUES, diagnostics, context);
+		return validatePattern(XHTMLPackage.Literals.LENGTH, length, LENGTH__PATTERN__VALUES, diagnostics, context);
 	}
 
 	/**
@@ -1163,7 +1163,7 @@ public class XHTMLValidator extends EObjectValidator {
 	 * @generated
 	 */
 	public boolean validateMediaDesc_Pattern(String mediaDesc, DiagnosticChain diagnostics, Map<Object, Object> context) {
-		return validatePattern(XHTMLPackage.eINSTANCE.getMediaDesc(), mediaDesc, MEDIA_DESC__PATTERN__VALUES, diagnostics, context);
+		return validatePattern(XHTMLPackage.Literals.MEDIA_DESC, mediaDesc, MEDIA_DESC__PATTERN__VALUES, diagnostics, context);
 	}
 
 	/**
@@ -1196,7 +1196,7 @@ public class XHTMLValidator extends EObjectValidator {
 	 * @generated
 	 */
 	public boolean validateMultiLength_Pattern(String multiLength, DiagnosticChain diagnostics, Map<Object, Object> context) {
-		return validatePattern(XHTMLPackage.eINSTANCE.getMultiLength(), multiLength, MULTI_LENGTH__PATTERN__VALUES, diagnostics, context);
+		return validatePattern(XHTMLPackage.Literals.MULTI_LENGTH, multiLength, MULTI_LENGTH__PATTERN__VALUES, diagnostics, context);
 	}
 
 	/**
@@ -1239,7 +1239,7 @@ public class XHTMLValidator extends EObjectValidator {
 	 * @generated
 	 */
 	public boolean validateNumber_Pattern(BigInteger number, DiagnosticChain diagnostics, Map<Object, Object> context) {
-		return validatePattern(XHTMLPackage.eINSTANCE.getNumber(), number, NUMBER__PATTERN__VALUES, diagnostics, context);
+		return validatePattern(XHTMLPackage.Literals.NUMBER, number, NUMBER__PATTERN__VALUES, diagnostics, context);
 	}
 
 	/**
@@ -1317,7 +1317,7 @@ public class XHTMLValidator extends EObjectValidator {
 	public boolean validateTabindexNumber_Min(BigInteger tabindexNumber, DiagnosticChain diagnostics, Map<Object, Object> context) {
 		boolean result = tabindexNumber.compareTo(TABINDEX_NUMBER__MIN__VALUE) >= 0;
 		if (!result && diagnostics != null)
-			reportMinViolation(XHTMLPackage.eINSTANCE.getTabindexNumber(), tabindexNumber, TABINDEX_NUMBER__MIN__VALUE, true, diagnostics, context);
+			reportMinViolation(XHTMLPackage.Literals.TABINDEX_NUMBER, tabindexNumber, TABINDEX_NUMBER__MIN__VALUE, true, diagnostics, context);
 		return result;
 	}
 
@@ -1338,7 +1338,7 @@ public class XHTMLValidator extends EObjectValidator {
 	public boolean validateTabindexNumber_Max(BigInteger tabindexNumber, DiagnosticChain diagnostics, Map<Object, Object> context) {
 		boolean result = tabindexNumber.compareTo(TABINDEX_NUMBER__MAX__VALUE) <= 0;
 		if (!result && diagnostics != null)
-			reportMaxViolation(XHTMLPackage.eINSTANCE.getTabindexNumber(), tabindexNumber, TABINDEX_NUMBER__MAX__VALUE, true, diagnostics, context);
+			reportMaxViolation(XHTMLPackage.Literals.TABINDEX_NUMBER, tabindexNumber, TABINDEX_NUMBER__MAX__VALUE, true, diagnostics, context);
 		return result;
 	}
 

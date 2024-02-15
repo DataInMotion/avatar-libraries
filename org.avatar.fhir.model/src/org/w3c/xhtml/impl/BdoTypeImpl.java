@@ -199,7 +199,7 @@ public class BdoTypeImpl extends InlineImpl implements BdoType {
 	 */
 	@Override
 	protected EClass eStaticClass() {
-		return XHTMLPackage.eINSTANCE.getBdoType();
+		return XHTMLPackage.Literals.BDO_TYPE;
 	}
 
 	/**

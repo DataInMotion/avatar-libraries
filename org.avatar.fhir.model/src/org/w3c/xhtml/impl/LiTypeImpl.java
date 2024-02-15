@@ -199,7 +199,7 @@ public class LiTypeImpl extends FlowImpl implements LiType {
 	 */
 	@Override
 	protected EClass eStaticClass() {
-		return XHTMLPackage.eINSTANCE.getLiType();
+		return XHTMLPackage.Literals.LI_TYPE;
 	}
 
 	/**

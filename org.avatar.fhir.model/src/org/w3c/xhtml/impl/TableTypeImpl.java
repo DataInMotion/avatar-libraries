@@ -461,7 +461,7 @@ public class TableTypeImpl extends MinimalEObjectImpl.Container implements Table
 	 */
 	@Override
 	protected EClass eStaticClass() {
-		return XHTMLPackage.eINSTANCE.getTableType();
+		return XHTMLPackage.Literals.TABLE_TYPE;
 	}
 
 	/**

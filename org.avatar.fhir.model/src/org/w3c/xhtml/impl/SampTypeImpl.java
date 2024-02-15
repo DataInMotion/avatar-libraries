@@ -199,7 +199,7 @@ public class SampTypeImpl extends InlineImpl implements SampType {
 	 */
 	@Override
 	protected EClass eStaticClass() {
-		return XHTMLPackage.eINSTANCE.getSampType();
+		return XHTMLPackage.Literals.SAMP_TYPE;
 	}
 
 	/**

@@ -459,7 +459,7 @@ public class TdTypeImpl extends FlowImpl implements TdType {
 	 */
 	@Override
 	protected EClass eStaticClass() {
-		return XHTMLPackage.eINSTANCE.getTdType();
+		return XHTMLPackage.Literals.TD_TYPE;
 	}
 
 	/**

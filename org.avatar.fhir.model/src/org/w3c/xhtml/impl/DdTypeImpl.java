@@ -199,7 +199,7 @@ public class DdTypeImpl extends FlowImpl implements DdType {
 	 */
 	@Override
 	protected EClass eStaticClass() {
-		return XHTMLPackage.eINSTANCE.getDdType();
+		return XHTMLPackage.Literals.DD_TYPE;
 	}
 
 	/**

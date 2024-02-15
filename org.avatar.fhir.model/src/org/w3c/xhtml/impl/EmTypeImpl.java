@@ -199,7 +199,7 @@ public class EmTypeImpl extends InlineImpl implements EmType {
 	 */
 	@Override
 	protected EClass eStaticClass() {
-		return XHTMLPackage.eINSTANCE.getEmType();
+		return XHTMLPackage.Literals.EM_TYPE;
 	}
 
 	/**

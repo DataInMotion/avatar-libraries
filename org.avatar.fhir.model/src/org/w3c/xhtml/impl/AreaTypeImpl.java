@@ -369,7 +369,7 @@ public class AreaTypeImpl extends MinimalEObjectImpl.Container implements AreaTy
 	 */
 	@Override
 	protected EClass eStaticClass() {
-		return XHTMLPackage.eINSTANCE.getAreaType();
+		return XHTMLPackage.Literals.AREA_TYPE;
 	}
 
 	/**

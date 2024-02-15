@@ -2,6 +2,7 @@
  */
 package org.hl7.fhir;
 
+import java.lang.String;
 
 /**
  * <!-- begin-user-doc -->
@@ -20,6 +21,7 @@ package org.hl7.fhir;
  *   <li>{@link org.hl7.fhir.Resource#getMeta <em>Meta</em>}</li>
  *   <li>{@link org.hl7.fhir.Resource#getImplicitRules <em>Implicit Rules</em>}</li>
  *   <li>{@link org.hl7.fhir.Resource#getLanguage <em>Language</em>}</li>
+ *   <li>{@link org.hl7.fhir.Resource#getExtId <em>Ext Id</em>}</li>
  * </ul>
  *
  * @see org.hl7.fhir.FHIRPackage#getResource()
@@ -130,5 +132,27 @@ public interface Resource extends Base {
 	 * @generated
 	 */
 	void setLanguage(Code value);
+
+	/**
+	 * Returns the value of the '<em><b>Ext Id</b></em>' attribute.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return the value of the '<em>Ext Id</em>' attribute.
+	 * @see #setExtId(String)
+	 * @see org.hl7.fhir.FHIRPackage#getResource_ExtId()
+	 * @model id="true"
+	 * @generated
+	 */
+	String getExtId();
+
+	/**
+	 * Sets the value of the '{@link org.hl7.fhir.Resource#getExtId <em>Ext Id</em>}' attribute.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @param value the new value of the '<em>Ext Id</em>' attribute.
+	 * @see #getExtId()
+	 * @generated
+	 */
+	void setExtId(String value);
 
 } // Resource

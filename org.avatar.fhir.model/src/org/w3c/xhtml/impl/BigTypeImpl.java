@@ -199,7 +199,7 @@ public class BigTypeImpl extends InlineImpl implements BigType {
 	 */
 	@Override
 	protected EClass eStaticClass() {
-		return XHTMLPackage.eINSTANCE.getBigType();
+		return XHTMLPackage.Literals.BIG_TYPE;
 	}
 
 	/**

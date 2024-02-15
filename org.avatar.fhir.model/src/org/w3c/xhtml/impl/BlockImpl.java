@@ -92,7 +92,7 @@ public class BlockImpl extends MinimalEObjectImpl.Container implements Block {
 	 */
 	@Override
 	protected EClass eStaticClass() {
-		return XHTMLPackage.eINSTANCE.getBlock();
+		return XHTMLPackage.Literals.BLOCK;
 	}
 
 	/**
@@ -115,7 +115,7 @@ public class BlockImpl extends MinimalEObjectImpl.Container implements Block {
 	 */
 	@Override
 	public EList<PType> getP() {
-		return getBlock().list(XHTMLPackage.eINSTANCE.getBlock_P());
+		return getBlock().list(XHTMLPackage.Literals.BLOCK__P);
 	}
 
 	/**
@@ -125,7 +125,7 @@ public class BlockImpl extends MinimalEObjectImpl.Container implements Block {
 	 */
 	@Override
 	public EList<H1Type> getH1() {
-		return getBlock().list(XHTMLPackage.eINSTANCE.getBlock_H1());
+		return getBlock().list(XHTMLPackage.Literals.BLOCK__H1);
 	}
 
 	/**
@@ -135,7 +135,7 @@ public class BlockImpl extends MinimalEObjectImpl.Container implements Block {
 	 */
 	@Override
 	public EList<H2Type> getH2() {
-		return getBlock().list(XHTMLPackage.eINSTANCE.getBlock_H2());
+		return getBlock().list(XHTMLPackage.Literals.BLOCK__H2);
 	}
 
 	/**
@@ -145,7 +145,7 @@ public class BlockImpl extends MinimalEObjectImpl.Container implements Block {
 	 */
 	@Override
 	public EList<H3Type> getH3() {
-		return getBlock().list(XHTMLPackage.eINSTANCE.getBlock_H3());
+		return getBlock().list(XHTMLPackage.Literals.BLOCK__H3);
 	}
 
 	/**
@@ -155,7 +155,7 @@ public class BlockImpl extends MinimalEObjectImpl.Container implements Block {
 	 */
 	@Override
 	public EList<H4Type> getH4() {
-		return getBlock().list(XHTMLPackage.eINSTANCE.getBlock_H4());
+		return getBlock().list(XHTMLPackage.Literals.BLOCK__H4);
 	}
 
 	/**
@@ -165,7 +165,7 @@ public class BlockImpl extends MinimalEObjectImpl.Container implements Block {
 	 */
 	@Override
 	public EList<H5Type> getH5() {
-		return getBlock().list(XHTMLPackage.eINSTANCE.getBlock_H5());
+		return getBlock().list(XHTMLPackage.Literals.BLOCK__H5);
 	}
 
 	/**
@@ -175,7 +175,7 @@ public class BlockImpl extends MinimalEObjectImpl.Container implements Block {
 	 */
 	@Override
 	public EList<H6Type> getH6() {
-		return getBlock().list(XHTMLPackage.eINSTANCE.getBlock_H6());
+		return getBlock().list(XHTMLPackage.Literals.BLOCK__H6);
 	}
 
 	/**
@@ -185,7 +185,7 @@ public class BlockImpl extends MinimalEObjectImpl.Container implements Block {
 	 */
 	@Override
 	public EList<DivType> getDiv() {
-		return getBlock().list(XHTMLPackage.eINSTANCE.getBlock_Div());
+		return getBlock().list(XHTMLPackage.Literals.BLOCK__DIV);
 	}
 
 	/**
@@ -195,7 +195,7 @@ public class BlockImpl extends MinimalEObjectImpl.Container implements Block {
 	 */
 	@Override
 	public EList<UlType> getUl() {
-		return getBlock().list(XHTMLPackage.eINSTANCE.getBlock_Ul());
+		return getBlock().list(XHTMLPackage.Literals.BLOCK__UL);
 	}
 
 	/**
@@ -205,7 +205,7 @@ public class BlockImpl extends MinimalEObjectImpl.Container implements Block {
 	 */
 	@Override
 	public EList<OlType> getOl() {
-		return getBlock().list(XHTMLPackage.eINSTANCE.getBlock_Ol());
+		return getBlock().list(XHTMLPackage.Literals.BLOCK__OL);
 	}
 
 	/**
@@ -215,7 +215,7 @@ public class BlockImpl extends MinimalEObjectImpl.Container implements Block {
 	 */
 	@Override
 	public EList<DlType> getDl() {
-		return getBlock().list(XHTMLPackage.eINSTANCE.getBlock_Dl());
+		return getBlock().list(XHTMLPackage.Literals.BLOCK__DL);
 	}
 
 	/**
@@ -225,7 +225,7 @@ public class BlockImpl extends MinimalEObjectImpl.Container implements Block {
 	 */
 	@Override
 	public EList<PreType> getPre() {
-		return getBlock().list(XHTMLPackage.eINSTANCE.getBlock_Pre());
+		return getBlock().list(XHTMLPackage.Literals.BLOCK__PRE);
 	}
 
 	/**
@@ -235,7 +235,7 @@ public class BlockImpl extends MinimalEObjectImpl.Container implements Block {
 	 */
 	@Override
 	public EList<HrType> getHr() {
-		return getBlock().list(XHTMLPackage.eINSTANCE.getBlock_Hr());
+		return getBlock().list(XHTMLPackage.Literals.BLOCK__HR);
 	}
 
 	/**
@@ -245,7 +245,7 @@ public class BlockImpl extends MinimalEObjectImpl.Container implements Block {
 	 */
 	@Override
 	public EList<BlockquoteType> getBlockquote() {
-		return getBlock().list(XHTMLPackage.eINSTANCE.getBlock_Blockquote());
+		return getBlock().list(XHTMLPackage.Literals.BLOCK__BLOCKQUOTE);
 	}
 
 	/**
@@ -255,7 +255,7 @@ public class BlockImpl extends MinimalEObjectImpl.Container implements Block {
 	 */
 	@Override
 	public EList<AddressType> getAddress() {
-		return getBlock().list(XHTMLPackage.eINSTANCE.getBlock_Address());
+		return getBlock().list(XHTMLPackage.Literals.BLOCK__ADDRESS);
 	}
 
 	/**
@@ -265,7 +265,7 @@ public class BlockImpl extends MinimalEObjectImpl.Container implements Block {
 	 */
 	@Override
 	public EList<TableType> getTable() {
-		return getBlock().list(XHTMLPackage.eINSTANCE.getBlock_Table());
+		return getBlock().list(XHTMLPackage.Literals.BLOCK__TABLE);
 	}
 
 	/**

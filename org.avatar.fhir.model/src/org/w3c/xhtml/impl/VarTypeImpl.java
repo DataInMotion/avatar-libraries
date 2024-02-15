@@ -199,7 +199,7 @@ public class VarTypeImpl extends InlineImpl implements VarType {
 	 */
 	@Override
 	protected EClass eStaticClass() {
-		return XHTMLPackage.eINSTANCE.getVarType();
+		return XHTMLPackage.Literals.VAR_TYPE;
 	}
 
 	/**

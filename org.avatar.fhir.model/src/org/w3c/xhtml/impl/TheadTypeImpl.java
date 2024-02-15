@@ -324,7 +324,7 @@ public class TheadTypeImpl extends MinimalEObjectImpl.Container implements Thead
 	 */
 	@Override
 	protected EClass eStaticClass() {
-		return XHTMLPackage.eINSTANCE.getTheadType();
+		return XHTMLPackage.Literals.THEAD_TYPE;
 	}
 
 	/**

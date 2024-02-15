@@ -199,7 +199,7 @@ public class CiteTypeImpl extends InlineImpl implements CiteType {
 	 */
 	@Override
 	protected EClass eStaticClass() {
-		return XHTMLPackage.eINSTANCE.getCiteType();
+		return XHTMLPackage.Literals.CITE_TYPE;
 	}
 
 	/**

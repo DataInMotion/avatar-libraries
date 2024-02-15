@@ -199,7 +199,7 @@ public class DfnTypeImpl extends InlineImpl implements DfnType {
 	 */
 	@Override
 	protected EClass eStaticClass() {
-		return XHTMLPackage.eINSTANCE.getDfnType();
+		return XHTMLPackage.Literals.DFN_TYPE;
 	}
 
 	/**

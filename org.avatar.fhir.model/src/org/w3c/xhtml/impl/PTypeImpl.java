@@ -199,7 +199,7 @@ public class PTypeImpl extends InlineImpl implements PType {
 	 */
 	@Override
 	protected EClass eStaticClass() {
-		return XHTMLPackage.eINSTANCE.getPType();
+		return XHTMLPackage.Literals.PTYPE;
 	}
 
 	/**

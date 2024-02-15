@@ -357,7 +357,7 @@ public class ImgTypeImpl extends MinimalEObjectImpl.Container implements ImgType
 	 */
 	@Override
 	protected EClass eStaticClass() {
-		return XHTMLPackage.eINSTANCE.getImgType();
+		return XHTMLPackage.Literals.IMG_TYPE;
 	}
 
 	/**

@@ -199,7 +199,7 @@ public class SpanTypeImpl extends InlineImpl implements SpanType {
 	 */
 	@Override
 	protected EClass eStaticClass() {
-		return XHTMLPackage.eINSTANCE.getSpanType();
+		return XHTMLPackage.Literals.SPAN_TYPE;
 	}
 
 	/**

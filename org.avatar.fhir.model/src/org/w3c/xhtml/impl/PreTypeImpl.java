@@ -231,7 +231,7 @@ public class PreTypeImpl extends PreContentImpl implements PreType {
 	 */
 	@Override
 	protected EClass eStaticClass() {
-		return XHTMLPackage.eINSTANCE.getPreType();
+		return XHTMLPackage.Literals.PRE_TYPE;
 	}
 
 	/**

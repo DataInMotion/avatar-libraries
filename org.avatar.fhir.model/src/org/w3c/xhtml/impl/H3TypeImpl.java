@@ -199,7 +199,7 @@ public class H3TypeImpl extends InlineImpl implements H3Type {
 	 */
 	@Override
 	protected EClass eStaticClass() {
-		return XHTMLPackage.eINSTANCE.getH3Type();
+		return XHTMLPackage.Literals.H3_TYPE;
 	}
 
 	/**

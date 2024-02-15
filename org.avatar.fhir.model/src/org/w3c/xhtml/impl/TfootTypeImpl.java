@@ -324,7 +324,7 @@ public class TfootTypeImpl extends MinimalEObjectImpl.Container implements Tfoot
 	 */
 	@Override
 	protected EClass eStaticClass() {
-		return XHTMLPackage.eINSTANCE.getTfootType();
+		return XHTMLPackage.Literals.TFOOT_TYPE;
 	}
 
 	/**

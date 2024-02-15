@@ -141,7 +141,7 @@ public class FlowImpl extends MinimalEObjectImpl.Container implements Flow {
 	 */
 	@Override
 	protected EClass eStaticClass() {
-		return XHTMLPackage.eINSTANCE.getFlow();
+		return XHTMLPackage.Literals.FLOW;
 	}
 
 	/**
@@ -164,7 +164,7 @@ public class FlowImpl extends MinimalEObjectImpl.Container implements Flow {
 	 */
 	@Override
 	public FeatureMap getGroup() {
-		return (FeatureMap)getMixed().<FeatureMap.Entry>list(XHTMLPackage.eINSTANCE.getFlow_Group());
+		return (FeatureMap)getMixed().<FeatureMap.Entry>list(XHTMLPackage.Literals.FLOW__GROUP);
 	}
 
 	/**
@@ -174,7 +174,7 @@ public class FlowImpl extends MinimalEObjectImpl.Container implements Flow {
 	 */
 	@Override
 	public EList<PType> getP() {
-		return getGroup().list(XHTMLPackage.eINSTANCE.getFlow_P());
+		return getGroup().list(XHTMLPackage.Literals.FLOW__P);
 	}
 
 	/**
@@ -184,7 +184,7 @@ public class FlowImpl extends MinimalEObjectImpl.Container implements Flow {
 	 */
 	@Override
 	public EList<H1Type> getH1() {
-		return getGroup().list(XHTMLPackage.eINSTANCE.getFlow_H1());
+		return getGroup().list(XHTMLPackage.Literals.FLOW__H1);
 	}
 
 	/**
@@ -194,7 +194,7 @@ public class FlowImpl extends MinimalEObjectImpl.Container implements Flow {
 	 */
 	@Override
 	public EList<H2Type> getH2() {
-		return getGroup().list(XHTMLPackage.eINSTANCE.getFlow_H2());
+		return getGroup().list(XHTMLPackage.Literals.FLOW__H2);
 	}
 
 	/**
@@ -204,7 +204,7 @@ public class FlowImpl extends MinimalEObjectImpl.Container implements Flow {
 	 */
 	@Override
 	public EList<H3Type> getH3() {
-		return getGroup().list(XHTMLPackage.eINSTANCE.getFlow_H3());
+		return getGroup().list(XHTMLPackage.Literals.FLOW__H3);
 	}
 
 	/**
@@ -214,7 +214,7 @@ public class FlowImpl extends MinimalEObjectImpl.Container implements Flow {
 	 */
 	@Override
 	public EList<H4Type> getH4() {
-		return getGroup().list(XHTMLPackage.eINSTANCE.getFlow_H4());
+		return getGroup().list(XHTMLPackage.Literals.FLOW__H4);
 	}
 
 	/**
@@ -224,7 +224,7 @@ public class FlowImpl extends MinimalEObjectImpl.Container implements Flow {
 	 */
 	@Override
 	public EList<H5Type> getH5() {
-		return getGroup().list(XHTMLPackage.eINSTANCE.getFlow_H5());
+		return getGroup().list(XHTMLPackage.Literals.FLOW__H5);
 	}
 
 	/**
@@ -234,7 +234,7 @@ public class FlowImpl extends MinimalEObjectImpl.Container implements Flow {
 	 */
 	@Override
 	public EList<H6Type> getH6() {
-		return getGroup().list(XHTMLPackage.eINSTANCE.getFlow_H6());
+		return getGroup().list(XHTMLPackage.Literals.FLOW__H6);
 	}
 
 	/**
@@ -244,7 +244,7 @@ public class FlowImpl extends MinimalEObjectImpl.Container implements Flow {
 	 */
 	@Override
 	public EList<DivType> getDiv() {
-		return getGroup().list(XHTMLPackage.eINSTANCE.getFlow_Div());
+		return getGroup().list(XHTMLPackage.Literals.FLOW__DIV);
 	}
 
 	/**
@@ -254,7 +254,7 @@ public class FlowImpl extends MinimalEObjectImpl.Container implements Flow {
 	 */
 	@Override
 	public EList<UlType> getUl() {
-		return getGroup().list(XHTMLPackage.eINSTANCE.getFlow_Ul());
+		return getGroup().list(XHTMLPackage.Literals.FLOW__UL);
 	}
 
 	/**
@@ -264,7 +264,7 @@ public class FlowImpl extends MinimalEObjectImpl.Container implements Flow {
 	 */
 	@Override
 	public EList<OlType> getOl() {
-		return getGroup().list(XHTMLPackage.eINSTANCE.getFlow_Ol());
+		return getGroup().list(XHTMLPackage.Literals.FLOW__OL);
 	}
 
 	/**
@@ -274,7 +274,7 @@ public class FlowImpl extends MinimalEObjectImpl.Container implements Flow {
 	 */
 	@Override
 	public EList<DlType> getDl() {
-		return getGroup().list(XHTMLPackage.eINSTANCE.getFlow_Dl());
+		return getGroup().list(XHTMLPackage.Literals.FLOW__DL);
 	}
 
 	/**
@@ -284,7 +284,7 @@ public class FlowImpl extends MinimalEObjectImpl.Container implements Flow {
 	 */
 	@Override
 	public EList<PreType> getPre() {
-		return getGroup().list(XHTMLPackage.eINSTANCE.getFlow_Pre());
+		return getGroup().list(XHTMLPackage.Literals.FLOW__PRE);
 	}
 
 	/**
@@ -294,7 +294,7 @@ public class FlowImpl extends MinimalEObjectImpl.Container implements Flow {
 	 */
 	@Override
 	public EList<HrType> getHr() {
-		return getGroup().list(XHTMLPackage.eINSTANCE.getFlow_Hr());
+		return getGroup().list(XHTMLPackage.Literals.FLOW__HR);
 	}
 
 	/**
@@ -304,7 +304,7 @@ public class FlowImpl extends MinimalEObjectImpl.Container implements Flow {
 	 */
 	@Override
 	public EList<BlockquoteType> getBlockquote() {
-		return getGroup().list(XHTMLPackage.eINSTANCE.getFlow_Blockquote());
+		return getGroup().list(XHTMLPackage.Literals.FLOW__BLOCKQUOTE);
 	}
 
 	/**
@@ -314,7 +314,7 @@ public class FlowImpl extends MinimalEObjectImpl.Container implements Flow {
 	 */
 	@Override
 	public EList<AddressType> getAddress() {
-		return getGroup().list(XHTMLPackage.eINSTANCE.getFlow_Address());
+		return getGroup().list(XHTMLPackage.Literals.FLOW__ADDRESS);
 	}
 
 	/**
@@ -324,7 +324,7 @@ public class FlowImpl extends MinimalEObjectImpl.Container implements Flow {
 	 */
 	@Override
 	public EList<TableType> getTable() {
-		return getGroup().list(XHTMLPackage.eINSTANCE.getFlow_Table());
+		return getGroup().list(XHTMLPackage.Literals.FLOW__TABLE);
 	}
 
 	/**
@@ -334,7 +334,7 @@ public class FlowImpl extends MinimalEObjectImpl.Container implements Flow {
 	 */
 	@Override
 	public EList<AType> getA() {
-		return getGroup().list(XHTMLPackage.eINSTANCE.getFlow_A());
+		return getGroup().list(XHTMLPackage.Literals.FLOW__A);
 	}
 
 	/**
@@ -344,7 +344,7 @@ public class FlowImpl extends MinimalEObjectImpl.Container implements Flow {
 	 */
 	@Override
 	public EList<BrType> getBr() {
-		return getGroup().list(XHTMLPackage.eINSTANCE.getFlow_Br());
+		return getGroup().list(XHTMLPackage.Literals.FLOW__BR);
 	}
 
 	/**
@@ -354,7 +354,7 @@ public class FlowImpl extends MinimalEObjectImpl.Container implements Flow {
 	 */
 	@Override
 	public EList<SpanType> getSpan() {
-		return getGroup().list(XHTMLPackage.eINSTANCE.getFlow_Span());
+		return getGroup().list(XHTMLPackage.Literals.FLOW__SPAN);
 	}
 
 	/**
@@ -364,7 +364,7 @@ public class FlowImpl extends MinimalEObjectImpl.Container implements Flow {
 	 */
 	@Override
 	public EList<BdoType> getBdo() {
-		return getGroup().list(XHTMLPackage.eINSTANCE.getFlow_Bdo());
+		return getGroup().list(XHTMLPackage.Literals.FLOW__BDO);
 	}
 
 	/**
@@ -374,7 +374,7 @@ public class FlowImpl extends MinimalEObjectImpl.Container implements Flow {
 	 */
 	@Override
 	public EList<MapType> getMap() {
-		return getGroup().list(XHTMLPackage.eINSTANCE.getFlow_Map());
+		return getGroup().list(XHTMLPackage.Literals.FLOW__MAP);
 	}
 
 	/**
@@ -384,7 +384,7 @@ public class FlowImpl extends MinimalEObjectImpl.Container implements Flow {
 	 */
 	@Override
 	public EList<ImgType> getImg() {
-		return getGroup().list(XHTMLPackage.eINSTANCE.getFlow_Img());
+		return getGroup().list(XHTMLPackage.Literals.FLOW__IMG);
 	}
 
 	/**
@@ -394,7 +394,7 @@ public class FlowImpl extends MinimalEObjectImpl.Container implements Flow {
 	 */
 	@Override
 	public EList<TtType> getTt() {
-		return getGroup().list(XHTMLPackage.eINSTANCE.getFlow_Tt());
+		return getGroup().list(XHTMLPackage.Literals.FLOW__TT);
 	}
 
 	/**
@@ -404,7 +404,7 @@ public class FlowImpl extends MinimalEObjectImpl.Container implements Flow {
 	 */
 	@Override
 	public EList<IType> getI() {
-		return getGroup().list(XHTMLPackage.eINSTANCE.getFlow_I());
+		return getGroup().list(XHTMLPackage.Literals.FLOW__I);
 	}
 
 	/**
@@ -414,7 +414,7 @@ public class FlowImpl extends MinimalEObjectImpl.Container implements Flow {
 	 */
 	@Override
 	public EList<BType> getB() {
-		return getGroup().list(XHTMLPackage.eINSTANCE.getFlow_B());
+		return getGroup().list(XHTMLPackage.Literals.FLOW__B);
 	}
 
 	/**
@@ -424,7 +424,7 @@ public class FlowImpl extends MinimalEObjectImpl.Container implements Flow {
 	 */
 	@Override
 	public EList<BigType> getBig() {
-		return getGroup().list(XHTMLPackage.eINSTANCE.getFlow_Big());
+		return getGroup().list(XHTMLPackage.Literals.FLOW__BIG);
 	}
 
 	/**
@@ -434,7 +434,7 @@ public class FlowImpl extends MinimalEObjectImpl.Container implements Flow {
 	 */
 	@Override
 	public EList<SmallType> getSmall() {
-		return getGroup().list(XHTMLPackage.eINSTANCE.getFlow_Small());
+		return getGroup().list(XHTMLPackage.Literals.FLOW__SMALL);
 	}
 
 	/**
@@ -444,7 +444,7 @@ public class FlowImpl extends MinimalEObjectImpl.Container implements Flow {
 	 */
 	@Override
 	public EList<EmType> getEm() {
-		return getGroup().list(XHTMLPackage.eINSTANCE.getFlow_Em());
+		return getGroup().list(XHTMLPackage.Literals.FLOW__EM);
 	}
 
 	/**
@@ -454,7 +454,7 @@ public class FlowImpl extends MinimalEObjectImpl.Container implements Flow {
 	 */
 	@Override
 	public EList<StrongType> getStrong() {
-		return getGroup().list(XHTMLPackage.eINSTANCE.getFlow_Strong());
+		return getGroup().list(XHTMLPackage.Literals.FLOW__STRONG);
 	}
 
 	/**
@@ -464,7 +464,7 @@ public class FlowImpl extends MinimalEObjectImpl.Container implements Flow {
 	 */
 	@Override
 	public EList<DfnType> getDfn() {
-		return getGroup().list(XHTMLPackage.eINSTANCE.getFlow_Dfn());
+		return getGroup().list(XHTMLPackage.Literals.FLOW__DFN);
 	}
 
 	/**
@@ -474,7 +474,7 @@ public class FlowImpl extends MinimalEObjectImpl.Container implements Flow {
 	 */
 	@Override
 	public EList<CodeType> getCode() {
-		return getGroup().list(XHTMLPackage.eINSTANCE.getFlow_Code());
+		return getGroup().list(XHTMLPackage.Literals.FLOW__CODE);
 	}
 
 	/**
@@ -484,7 +484,7 @@ public class FlowImpl extends MinimalEObjectImpl.Container implements Flow {
 	 */
 	@Override
 	public EList<QType> getQ() {
-		return getGroup().list(XHTMLPackage.eINSTANCE.getFlow_Q());
+		return getGroup().list(XHTMLPackage.Literals.FLOW__Q);
 	}
 
 	/**
@@ -494,7 +494,7 @@ public class FlowImpl extends MinimalEObjectImpl.Container implements Flow {
 	 */
 	@Override
 	public EList<SampType> getSamp() {
-		return getGroup().list(XHTMLPackage.eINSTANCE.getFlow_Samp());
+		return getGroup().list(XHTMLPackage.Literals.FLOW__SAMP);
 	}
 
 	/**
@@ -504,7 +504,7 @@ public class FlowImpl extends MinimalEObjectImpl.Container implements Flow {
 	 */
 	@Override
 	public EList<KbdType> getKbd() {
-		return getGroup().list(XHTMLPackage.eINSTANCE.getFlow_Kbd());
+		return getGroup().list(XHTMLPackage.Literals.FLOW__KBD);
 	}
 
 	/**
@@ -514,7 +514,7 @@ public class FlowImpl extends MinimalEObjectImpl.Container implements Flow {
 	 */
 	@Override
 	public EList<VarType> getVar() {
-		return getGroup().list(XHTMLPackage.eINSTANCE.getFlow_Var());
+		return getGroup().list(XHTMLPackage.Literals.FLOW__VAR);
 	}
 
 	/**
@@ -524,7 +524,7 @@ public class FlowImpl extends MinimalEObjectImpl.Container implements Flow {
 	 */
 	@Override
 	public EList<CiteType> getCite() {
-		return getGroup().list(XHTMLPackage.eINSTANCE.getFlow_Cite());
+		return getGroup().list(XHTMLPackage.Literals.FLOW__CITE);
 	}
 
 	/**
@@ -534,7 +534,7 @@ public class FlowImpl extends MinimalEObjectImpl.Container implements Flow {
 	 */
 	@Override
 	public EList<AbbrType> getAbbr() {
-		return getGroup().list(XHTMLPackage.eINSTANCE.getFlow_Abbr());
+		return getGroup().list(XHTMLPackage.Literals.FLOW__ABBR);
 	}
 
 	/**
@@ -544,7 +544,7 @@ public class FlowImpl extends MinimalEObjectImpl.Container implements Flow {
 	 */
 	@Override
 	public EList<AcronymType> getAcronym() {
-		return getGroup().list(XHTMLPackage.eINSTANCE.getFlow_Acronym());
+		return getGroup().list(XHTMLPackage.Literals.FLOW__ACRONYM);
 	}
 
 	/**
@@ -554,7 +554,7 @@ public class FlowImpl extends MinimalEObjectImpl.Container implements Flow {
 	 */
 	@Override
 	public EList<SubType> getSub() {
-		return getGroup().list(XHTMLPackage.eINSTANCE.getFlow_Sub());
+		return getGroup().list(XHTMLPackage.Literals.FLOW__SUB);
 	}
 
 	/**
@@ -564,7 +564,7 @@ public class FlowImpl extends MinimalEObjectImpl.Container implements Flow {
 	 */
 	@Override
 	public EList<SupType> getSup() {
-		return getGroup().list(XHTMLPackage.eINSTANCE.getFlow_Sup());
+		return getGroup().list(XHTMLPackage.Literals.FLOW__SUP);
 	}
 
 	/**

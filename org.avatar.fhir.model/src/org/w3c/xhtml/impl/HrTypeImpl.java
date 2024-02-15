@@ -200,7 +200,7 @@ public class HrTypeImpl extends MinimalEObjectImpl.Container implements HrType {
 	 */
 	@Override
 	protected EClass eStaticClass() {
-		return XHTMLPackage.eINSTANCE.getHrType();
+		return XHTMLPackage.Literals.HR_TYPE;
 	}
 
 	/**

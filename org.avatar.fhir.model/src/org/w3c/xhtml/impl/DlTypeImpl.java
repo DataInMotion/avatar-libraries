@@ -224,7 +224,7 @@ public class DlTypeImpl extends MinimalEObjectImpl.Container implements DlType {
 	 */
 	@Override
 	protected EClass eStaticClass() {
-		return XHTMLPackage.eINSTANCE.getDlType();
+		return XHTMLPackage.Literals.DL_TYPE;
 	}
 
 	/**
@@ -247,7 +247,7 @@ public class DlTypeImpl extends MinimalEObjectImpl.Container implements DlType {
 	 */
 	@Override
 	public EList<DtType> getDt() {
-		return getGroup().list(XHTMLPackage.eINSTANCE.getDlType_Dt());
+		return getGroup().list(XHTMLPackage.Literals.DL_TYPE__DT);
 	}
 
 	/**
@@ -257,7 +257,7 @@ public class DlTypeImpl extends MinimalEObjectImpl.Container implements DlType {
 	 */
 	@Override
 	public EList<DdType> getDd() {
-		return getGroup().list(XHTMLPackage.eINSTANCE.getDlType_Dd());
+		return getGroup().list(XHTMLPackage.Literals.DL_TYPE__DD);
 	}
 
 	/**

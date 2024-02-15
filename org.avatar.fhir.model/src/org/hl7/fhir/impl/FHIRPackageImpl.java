@@ -30,6 +30,8 @@ import org.hl7.fhir.util.FHIRValidator;
 
 import org.w3c.xhtml.XHTMLPackage;
 
+import org.w3c.xhtml.impl.XHTMLPackageImpl;
+
 /**
  * <!-- begin-user-doc -->
  * An implementation of the model <b>Package</b>.
@@ -11492,11 +11494,20 @@ public class FHIRPackageImpl extends EPackageImpl implements FHIRPackage {
 		isInited = true;
 
 		// Initialize simple dependencies
-		XHTMLPackage.eINSTANCE.eClass();
 		XMLNamespacePackage.eINSTANCE.eClass();
+
+		// Obtain or create and register interdependencies
+		Object registeredPackage = EPackage.Registry.INSTANCE.getEPackage(XHTMLPackage.eNS_URI);
+		XHTMLPackageImpl theXHTMLPackage = (XHTMLPackageImpl)(registeredPackage instanceof XHTMLPackageImpl ? registeredPackage : XHTMLPackage.eINSTANCE);
 
 		// Load packages
 		theFHIRPackage.loadPackage();
+
+		// Create package meta-data objects
+		theXHTMLPackage.createPackageContents();
+
+		// Initialize created meta-data
+		theXHTMLPackage.initializePackageContents();
 
 		// Fix loaded packages
 		theFHIRPackage.fixPackageContents();
@@ -82838,6 +82849,16 @@ public class FHIRPackageImpl extends EPackageImpl implements FHIRPackage {
 	@Override
 	public EReference getResource_Language() {
         return (EReference)getResource().getEStructuralFeatures().get(3);
+	}
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public EAttribute getResource_ExtId() {
+        return (EAttribute)getResource().getEStructuralFeatures().get(4);
 	}
 
 	/**

@@ -199,7 +199,7 @@ public class SupTypeImpl extends InlineImpl implements SupType {
 	 */
 	@Override
 	protected EClass eStaticClass() {
-		return XHTMLPackage.eINSTANCE.getSupType();
+		return XHTMLPackage.Literals.SUP_TYPE;
 	}
 
 	/**

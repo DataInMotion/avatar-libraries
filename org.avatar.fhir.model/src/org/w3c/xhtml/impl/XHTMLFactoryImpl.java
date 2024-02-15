@@ -1171,7 +1171,7 @@ public class XHTMLFactoryImpl extends EFactoryImpl implements XHTMLFactory {
 	 * @generated
 	 */
 	public AlignType createAlignTypeObjectFromString(EDataType eDataType, String initialValue) {
-		return createAlignTypeFromString(XHTMLPackage.eINSTANCE.getAlignType(), initialValue);
+		return createAlignTypeFromString(XHTMLPackage.Literals.ALIGN_TYPE, initialValue);
 	}
 
 	/**
@@ -1180,7 +1180,7 @@ public class XHTMLFactoryImpl extends EFactoryImpl implements XHTMLFactory {
 	 * @generated
 	 */
 	public String convertAlignTypeObjectToString(EDataType eDataType, Object instanceValue) {
-		return convertAlignTypeToString(XHTMLPackage.eINSTANCE.getAlignType(), instanceValue);
+		return convertAlignTypeToString(XHTMLPackage.Literals.ALIGN_TYPE, instanceValue);
 	}
 
 	/**
@@ -1315,7 +1315,7 @@ public class XHTMLFactoryImpl extends EFactoryImpl implements XHTMLFactory {
 	 * @generated
 	 */
 	public DirType createDirTypeObjectFromString(EDataType eDataType, String initialValue) {
-		return createDirTypeFromString(XHTMLPackage.eINSTANCE.getDirType(), initialValue);
+		return createDirTypeFromString(XHTMLPackage.Literals.DIR_TYPE, initialValue);
 	}
 
 	/**
@@ -1324,7 +1324,7 @@ public class XHTMLFactoryImpl extends EFactoryImpl implements XHTMLFactory {
 	 * @generated
 	 */
 	public String convertDirTypeObjectToString(EDataType eDataType, Object instanceValue) {
-		return convertDirTypeToString(XHTMLPackage.eINSTANCE.getDirType(), instanceValue);
+		return convertDirTypeToString(XHTMLPackage.Literals.DIR_TYPE, instanceValue);
 	}
 
 	/**
@@ -1333,7 +1333,7 @@ public class XHTMLFactoryImpl extends EFactoryImpl implements XHTMLFactory {
 	 * @generated
 	 */
 	public DirType1 createDirTypeObject1FromString(EDataType eDataType, String initialValue) {
-		return createDirType1FromString(XHTMLPackage.eINSTANCE.getDirType1(), initialValue);
+		return createDirType1FromString(XHTMLPackage.Literals.DIR_TYPE1, initialValue);
 	}
 
 	/**
@@ -1342,7 +1342,7 @@ public class XHTMLFactoryImpl extends EFactoryImpl implements XHTMLFactory {
 	 * @generated
 	 */
 	public String convertDirTypeObject1ToString(EDataType eDataType, Object instanceValue) {
-		return convertDirType1ToString(XHTMLPackage.eINSTANCE.getDirType1(), instanceValue);
+		return convertDirType1ToString(XHTMLPackage.Literals.DIR_TYPE1, instanceValue);
 	}
 
 	/**
@@ -1351,7 +1351,7 @@ public class XHTMLFactoryImpl extends EFactoryImpl implements XHTMLFactory {
 	 * @generated
 	 */
 	public IsmapType createIsmapTypeObjectFromString(EDataType eDataType, String initialValue) {
-		return createIsmapTypeFromString(XHTMLPackage.eINSTANCE.getIsmapType(), initialValue);
+		return createIsmapTypeFromString(XHTMLPackage.Literals.ISMAP_TYPE, initialValue);
 	}
 
 	/**
@@ -1360,7 +1360,7 @@ public class XHTMLFactoryImpl extends EFactoryImpl implements XHTMLFactory {
 	 * @generated
 	 */
 	public String convertIsmapTypeObjectToString(EDataType eDataType, Object instanceValue) {
-		return convertIsmapTypeToString(XHTMLPackage.eINSTANCE.getIsmapType(), instanceValue);
+		return convertIsmapTypeToString(XHTMLPackage.Literals.ISMAP_TYPE, instanceValue);
 	}
 
 	/**
@@ -1459,7 +1459,7 @@ public class XHTMLFactoryImpl extends EFactoryImpl implements XHTMLFactory {
 	 * @generated
 	 */
 	public NohrefType createNohrefTypeObjectFromString(EDataType eDataType, String initialValue) {
-		return createNohrefTypeFromString(XHTMLPackage.eINSTANCE.getNohrefType(), initialValue);
+		return createNohrefTypeFromString(XHTMLPackage.Literals.NOHREF_TYPE, initialValue);
 	}
 
 	/**
@@ -1468,7 +1468,7 @@ public class XHTMLFactoryImpl extends EFactoryImpl implements XHTMLFactory {
 	 * @generated
 	 */
 	public String convertNohrefTypeObjectToString(EDataType eDataType, Object instanceValue) {
-		return convertNohrefTypeToString(XHTMLPackage.eINSTANCE.getNohrefType(), instanceValue);
+		return convertNohrefTypeToString(XHTMLPackage.Literals.NOHREF_TYPE, instanceValue);
 	}
 
 	/**
@@ -1513,7 +1513,7 @@ public class XHTMLFactoryImpl extends EFactoryImpl implements XHTMLFactory {
 	 * @generated
 	 */
 	public Scope createScopeObjectFromString(EDataType eDataType, String initialValue) {
-		return createScopeFromString(XHTMLPackage.eINSTANCE.getScope(), initialValue);
+		return createScopeFromString(XHTMLPackage.Literals.SCOPE, initialValue);
 	}
 
 	/**
@@ -1522,7 +1522,7 @@ public class XHTMLFactoryImpl extends EFactoryImpl implements XHTMLFactory {
 	 * @generated
 	 */
 	public String convertScopeObjectToString(EDataType eDataType, Object instanceValue) {
-		return convertScopeToString(XHTMLPackage.eINSTANCE.getScope(), instanceValue);
+		return convertScopeToString(XHTMLPackage.Literals.SCOPE, instanceValue);
 	}
 
 	/**
@@ -1549,7 +1549,7 @@ public class XHTMLFactoryImpl extends EFactoryImpl implements XHTMLFactory {
 	 * @generated
 	 */
 	public Shape createShapeObjectFromString(EDataType eDataType, String initialValue) {
-		return createShapeFromString(XHTMLPackage.eINSTANCE.getShape(), initialValue);
+		return createShapeFromString(XHTMLPackage.Literals.SHAPE, initialValue);
 	}
 
 	/**
@@ -1558,7 +1558,7 @@ public class XHTMLFactoryImpl extends EFactoryImpl implements XHTMLFactory {
 	 * @generated
 	 */
 	public String convertShapeObjectToString(EDataType eDataType, Object instanceValue) {
-		return convertShapeToString(XHTMLPackage.eINSTANCE.getShape(), instanceValue);
+		return convertShapeToString(XHTMLPackage.Literals.SHAPE, instanceValue);
 	}
 
 	/**
@@ -1585,7 +1585,7 @@ public class XHTMLFactoryImpl extends EFactoryImpl implements XHTMLFactory {
 	 * @generated
 	 */
 	public BigInteger createTabindexNumberFromString(EDataType eDataType, String initialValue) {
-		return createNumberFromString(XHTMLPackage.eINSTANCE.getNumber(), initialValue);
+		return createNumberFromString(XHTMLPackage.Literals.NUMBER, initialValue);
 	}
 
 	/**
@@ -1594,7 +1594,7 @@ public class XHTMLFactoryImpl extends EFactoryImpl implements XHTMLFactory {
 	 * @generated
 	 */
 	public String convertTabindexNumberToString(EDataType eDataType, Object instanceValue) {
-		return convertNumberToString(XHTMLPackage.eINSTANCE.getNumber(), instanceValue);
+		return convertNumberToString(XHTMLPackage.Literals.NUMBER, instanceValue);
 	}
 
 	/**
@@ -1621,7 +1621,7 @@ public class XHTMLFactoryImpl extends EFactoryImpl implements XHTMLFactory {
 	 * @generated
 	 */
 	public TFrame createTFrameObjectFromString(EDataType eDataType, String initialValue) {
-		return createTFrameFromString(XHTMLPackage.eINSTANCE.getTFrame(), initialValue);
+		return createTFrameFromString(XHTMLPackage.Literals.TFRAME, initialValue);
 	}
 
 	/**
@@ -1630,7 +1630,7 @@ public class XHTMLFactoryImpl extends EFactoryImpl implements XHTMLFactory {
 	 * @generated
 	 */
 	public String convertTFrameObjectToString(EDataType eDataType, Object instanceValue) {
-		return convertTFrameToString(XHTMLPackage.eINSTANCE.getTFrame(), instanceValue);
+		return convertTFrameToString(XHTMLPackage.Literals.TFRAME, instanceValue);
 	}
 
 	/**
@@ -1639,7 +1639,7 @@ public class XHTMLFactoryImpl extends EFactoryImpl implements XHTMLFactory {
 	 * @generated
 	 */
 	public TRules createTRulesObjectFromString(EDataType eDataType, String initialValue) {
-		return createTRulesFromString(XHTMLPackage.eINSTANCE.getTRules(), initialValue);
+		return createTRulesFromString(XHTMLPackage.Literals.TRULES, initialValue);
 	}
 
 	/**
@@ -1648,7 +1648,7 @@ public class XHTMLFactoryImpl extends EFactoryImpl implements XHTMLFactory {
 	 * @generated
 	 */
 	public String convertTRulesObjectToString(EDataType eDataType, Object instanceValue) {
-		return convertTRulesToString(XHTMLPackage.eINSTANCE.getTRules(), instanceValue);
+		return convertTRulesToString(XHTMLPackage.Literals.TRULES, instanceValue);
 	}
 
 	/**
@@ -1693,7 +1693,7 @@ public class XHTMLFactoryImpl extends EFactoryImpl implements XHTMLFactory {
 	 * @generated
 	 */
 	public ValignType createValignTypeObjectFromString(EDataType eDataType, String initialValue) {
-		return createValignTypeFromString(XHTMLPackage.eINSTANCE.getValignType(), initialValue);
+		return createValignTypeFromString(XHTMLPackage.Literals.VALIGN_TYPE, initialValue);
 	}
 
 	/**
@@ -1702,7 +1702,7 @@ public class XHTMLFactoryImpl extends EFactoryImpl implements XHTMLFactory {
 	 * @generated
 	 */
 	public String convertValignTypeObjectToString(EDataType eDataType, Object instanceValue) {
-		return convertValignTypeToString(XHTMLPackage.eINSTANCE.getValignType(), instanceValue);
+		return convertValignTypeToString(XHTMLPackage.Literals.VALIGN_TYPE, instanceValue);
 	}
 
 	/**

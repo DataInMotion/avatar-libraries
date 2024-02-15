@@ -107,7 +107,7 @@ public class PreContentImpl extends MinimalEObjectImpl.Container implements PreC
 	 */
 	@Override
 	protected EClass eStaticClass() {
-		return XHTMLPackage.eINSTANCE.getPreContent();
+		return XHTMLPackage.Literals.PRE_CONTENT;
 	}
 
 	/**
@@ -130,7 +130,7 @@ public class PreContentImpl extends MinimalEObjectImpl.Container implements PreC
 	 */
 	@Override
 	public FeatureMap getGroup() {
-		return (FeatureMap)getMixed().<FeatureMap.Entry>list(XHTMLPackage.eINSTANCE.getPreContent_Group());
+		return (FeatureMap)getMixed().<FeatureMap.Entry>list(XHTMLPackage.Literals.PRE_CONTENT__GROUP);
 	}
 
 	/**
@@ -140,7 +140,7 @@ public class PreContentImpl extends MinimalEObjectImpl.Container implements PreC
 	 */
 	@Override
 	public EList<AType> getA() {
-		return getGroup().list(XHTMLPackage.eINSTANCE.getPreContent_A());
+		return getGroup().list(XHTMLPackage.Literals.PRE_CONTENT__A);
 	}
 
 	/**
@@ -150,7 +150,7 @@ public class PreContentImpl extends MinimalEObjectImpl.Container implements PreC
 	 */
 	@Override
 	public EList<TtType> getTt() {
-		return getGroup().list(XHTMLPackage.eINSTANCE.getPreContent_Tt());
+		return getGroup().list(XHTMLPackage.Literals.PRE_CONTENT__TT);
 	}
 
 	/**
@@ -160,7 +160,7 @@ public class PreContentImpl extends MinimalEObjectImpl.Container implements PreC
 	 */
 	@Override
 	public EList<IType> getI() {
-		return getGroup().list(XHTMLPackage.eINSTANCE.getPreContent_I());
+		return getGroup().list(XHTMLPackage.Literals.PRE_CONTENT__I);
 	}
 
 	/**
@@ -170,7 +170,7 @@ public class PreContentImpl extends MinimalEObjectImpl.Container implements PreC
 	 */
 	@Override
 	public EList<BType> getB() {
-		return getGroup().list(XHTMLPackage.eINSTANCE.getPreContent_B());
+		return getGroup().list(XHTMLPackage.Literals.PRE_CONTENT__B);
 	}
 
 	/**
@@ -180,7 +180,7 @@ public class PreContentImpl extends MinimalEObjectImpl.Container implements PreC
 	 */
 	@Override
 	public EList<BigType> getBig() {
-		return getGroup().list(XHTMLPackage.eINSTANCE.getPreContent_Big());
+		return getGroup().list(XHTMLPackage.Literals.PRE_CONTENT__BIG);
 	}
 
 	/**
@@ -190,7 +190,7 @@ public class PreContentImpl extends MinimalEObjectImpl.Container implements PreC
 	 */
 	@Override
 	public EList<SmallType> getSmall() {
-		return getGroup().list(XHTMLPackage.eINSTANCE.getPreContent_Small());
+		return getGroup().list(XHTMLPackage.Literals.PRE_CONTENT__SMALL);
 	}
 
 	/**
@@ -200,7 +200,7 @@ public class PreContentImpl extends MinimalEObjectImpl.Container implements PreC
 	 */
 	@Override
 	public EList<EmType> getEm() {
-		return getGroup().list(XHTMLPackage.eINSTANCE.getPreContent_Em());
+		return getGroup().list(XHTMLPackage.Literals.PRE_CONTENT__EM);
 	}
 
 	/**
@@ -210,7 +210,7 @@ public class PreContentImpl extends MinimalEObjectImpl.Container implements PreC
 	 */
 	@Override
 	public EList<StrongType> getStrong() {
-		return getGroup().list(XHTMLPackage.eINSTANCE.getPreContent_Strong());
+		return getGroup().list(XHTMLPackage.Literals.PRE_CONTENT__STRONG);
 	}
 
 	/**
@@ -220,7 +220,7 @@ public class PreContentImpl extends MinimalEObjectImpl.Container implements PreC
 	 */
 	@Override
 	public EList<DfnType> getDfn() {
-		return getGroup().list(XHTMLPackage.eINSTANCE.getPreContent_Dfn());
+		return getGroup().list(XHTMLPackage.Literals.PRE_CONTENT__DFN);
 	}
 
 	/**
@@ -230,7 +230,7 @@ public class PreContentImpl extends MinimalEObjectImpl.Container implements PreC
 	 */
 	@Override
 	public EList<CodeType> getCode() {
-		return getGroup().list(XHTMLPackage.eINSTANCE.getPreContent_Code());
+		return getGroup().list(XHTMLPackage.Literals.PRE_CONTENT__CODE);
 	}
 
 	/**
@@ -240,7 +240,7 @@ public class PreContentImpl extends MinimalEObjectImpl.Container implements PreC
 	 */
 	@Override
 	public EList<QType> getQ() {
-		return getGroup().list(XHTMLPackage.eINSTANCE.getPreContent_Q());
+		return getGroup().list(XHTMLPackage.Literals.PRE_CONTENT__Q);
 	}
 
 	/**
@@ -250,7 +250,7 @@ public class PreContentImpl extends MinimalEObjectImpl.Container implements PreC
 	 */
 	@Override
 	public EList<SampType> getSamp() {
-		return getGroup().list(XHTMLPackage.eINSTANCE.getPreContent_Samp());
+		return getGroup().list(XHTMLPackage.Literals.PRE_CONTENT__SAMP);
 	}
 
 	/**
@@ -260,7 +260,7 @@ public class PreContentImpl extends MinimalEObjectImpl.Container implements PreC
 	 */
 	@Override
 	public EList<KbdType> getKbd() {
-		return getGroup().list(XHTMLPackage.eINSTANCE.getPreContent_Kbd());
+		return getGroup().list(XHTMLPackage.Literals.PRE_CONTENT__KBD);
 	}
 
 	/**
@@ -270,7 +270,7 @@ public class PreContentImpl extends MinimalEObjectImpl.Container implements PreC
 	 */
 	@Override
 	public EList<VarType> getVar() {
-		return getGroup().list(XHTMLPackage.eINSTANCE.getPreContent_Var());
+		return getGroup().list(XHTMLPackage.Literals.PRE_CONTENT__VAR);
 	}
 
 	/**
@@ -280,7 +280,7 @@ public class PreContentImpl extends MinimalEObjectImpl.Container implements PreC
 	 */
 	@Override
 	public EList<CiteType> getCite() {
-		return getGroup().list(XHTMLPackage.eINSTANCE.getPreContent_Cite());
+		return getGroup().list(XHTMLPackage.Literals.PRE_CONTENT__CITE);
 	}
 
 	/**
@@ -290,7 +290,7 @@ public class PreContentImpl extends MinimalEObjectImpl.Container implements PreC
 	 */
 	@Override
 	public EList<AbbrType> getAbbr() {
-		return getGroup().list(XHTMLPackage.eINSTANCE.getPreContent_Abbr());
+		return getGroup().list(XHTMLPackage.Literals.PRE_CONTENT__ABBR);
 	}
 
 	/**
@@ -300,7 +300,7 @@ public class PreContentImpl extends MinimalEObjectImpl.Container implements PreC
 	 */
 	@Override
 	public EList<AcronymType> getAcronym() {
-		return getGroup().list(XHTMLPackage.eINSTANCE.getPreContent_Acronym());
+		return getGroup().list(XHTMLPackage.Literals.PRE_CONTENT__ACRONYM);
 	}
 
 	/**
@@ -310,7 +310,7 @@ public class PreContentImpl extends MinimalEObjectImpl.Container implements PreC
 	 */
 	@Override
 	public EList<SubType> getSub() {
-		return getGroup().list(XHTMLPackage.eINSTANCE.getPreContent_Sub());
+		return getGroup().list(XHTMLPackage.Literals.PRE_CONTENT__SUB);
 	}
 
 	/**
@@ -320,7 +320,7 @@ public class PreContentImpl extends MinimalEObjectImpl.Container implements PreC
 	 */
 	@Override
 	public EList<SupType> getSup() {
-		return getGroup().list(XHTMLPackage.eINSTANCE.getPreContent_Sup());
+		return getGroup().list(XHTMLPackage.Literals.PRE_CONTENT__SUP);
 	}
 
 	/**
@@ -330,7 +330,7 @@ public class PreContentImpl extends MinimalEObjectImpl.Container implements PreC
 	 */
 	@Override
 	public EList<BrType> getBr() {
-		return getGroup().list(XHTMLPackage.eINSTANCE.getPreContent_Br());
+		return getGroup().list(XHTMLPackage.Literals.PRE_CONTENT__BR);
 	}
 
 	/**
@@ -340,7 +340,7 @@ public class PreContentImpl extends MinimalEObjectImpl.Container implements PreC
 	 */
 	@Override
 	public EList<SpanType> getSpan() {
-		return getGroup().list(XHTMLPackage.eINSTANCE.getPreContent_Span());
+		return getGroup().list(XHTMLPackage.Literals.PRE_CONTENT__SPAN);
 	}
 
 	/**
@@ -350,7 +350,7 @@ public class PreContentImpl extends MinimalEObjectImpl.Container implements PreC
 	 */
 	@Override
 	public EList<BdoType> getBdo() {
-		return getGroup().list(XHTMLPackage.eINSTANCE.getPreContent_Bdo());
+		return getGroup().list(XHTMLPackage.Literals.PRE_CONTENT__BDO);
 	}
 
 	/**
@@ -360,7 +360,7 @@ public class PreContentImpl extends MinimalEObjectImpl.Container implements PreC
 	 */
 	@Override
 	public EList<MapType> getMap() {
-		return getGroup().list(XHTMLPackage.eINSTANCE.getPreContent_Map());
+		return getGroup().list(XHTMLPackage.Literals.PRE_CONTENT__MAP);
 	}
 
 	/**

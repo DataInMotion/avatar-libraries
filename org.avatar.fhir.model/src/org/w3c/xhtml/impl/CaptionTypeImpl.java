@@ -199,7 +199,7 @@ public class CaptionTypeImpl extends InlineImpl implements CaptionType {
 	 */
 	@Override
 	protected EClass eStaticClass() {
-		return XHTMLPackage.eINSTANCE.getCaptionType();
+		return XHTMLPackage.Literals.CAPTION_TYPE;
 	}
 
 	/**

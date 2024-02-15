@@ -199,7 +199,7 @@ public class StrongTypeImpl extends InlineImpl implements StrongType {
 	 */
 	@Override
 	protected EClass eStaticClass() {
-		return XHTMLPackage.eINSTANCE.getStrongType();
+		return XHTMLPackage.Literals.STRONG_TYPE;
 	}
 
 	/**

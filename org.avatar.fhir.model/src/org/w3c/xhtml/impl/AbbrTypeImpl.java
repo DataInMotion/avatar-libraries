@@ -199,7 +199,7 @@ public class AbbrTypeImpl extends InlineImpl implements AbbrType {
 	 */
 	@Override
 	protected EClass eStaticClass() {
-		return XHTMLPackage.eINSTANCE.getAbbrType();
+		return XHTMLPackage.Literals.ABBR_TYPE;
 	}
 
 	/**

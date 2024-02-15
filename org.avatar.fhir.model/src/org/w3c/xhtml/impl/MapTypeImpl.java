@@ -285,7 +285,7 @@ public class MapTypeImpl extends MinimalEObjectImpl.Container implements MapType
 	 */
 	@Override
 	protected EClass eStaticClass() {
-		return XHTMLPackage.eINSTANCE.getMapType();
+		return XHTMLPackage.Literals.MAP_TYPE;
 	}
 
 	/**
@@ -308,7 +308,7 @@ public class MapTypeImpl extends MinimalEObjectImpl.Container implements MapType
 	 */
 	@Override
 	public EList<PType> getP() {
-		return getBlock().list(XHTMLPackage.eINSTANCE.getMapType_P());
+		return getBlock().list(XHTMLPackage.Literals.MAP_TYPE__P);
 	}
 
 	/**
@@ -318,7 +318,7 @@ public class MapTypeImpl extends MinimalEObjectImpl.Container implements MapType
 	 */
 	@Override
 	public EList<H1Type> getH1() {
-		return getBlock().list(XHTMLPackage.eINSTANCE.getMapType_H1());
+		return getBlock().list(XHTMLPackage.Literals.MAP_TYPE__H1);
 	}
 
 	/**
@@ -328,7 +328,7 @@ public class MapTypeImpl extends MinimalEObjectImpl.Container implements MapType
 	 */
 	@Override
 	public EList<H2Type> getH2() {
-		return getBlock().list(XHTMLPackage.eINSTANCE.getMapType_H2());
+		return getBlock().list(XHTMLPackage.Literals.MAP_TYPE__H2);
 	}
 
 	/**
@@ -338,7 +338,7 @@ public class MapTypeImpl extends MinimalEObjectImpl.Container implements MapType
 	 */
 	@Override
 	public EList<H3Type> getH3() {
-		return getBlock().list(XHTMLPackage.eINSTANCE.getMapType_H3());
+		return getBlock().list(XHTMLPackage.Literals.MAP_TYPE__H3);
 	}
 
 	/**
@@ -348,7 +348,7 @@ public class MapTypeImpl extends MinimalEObjectImpl.Container implements MapType
 	 */
 	@Override
 	public EList<H4Type> getH4() {
-		return getBlock().list(XHTMLPackage.eINSTANCE.getMapType_H4());
+		return getBlock().list(XHTMLPackage.Literals.MAP_TYPE__H4);
 	}
 
 	/**
@@ -358,7 +358,7 @@ public class MapTypeImpl extends MinimalEObjectImpl.Container implements MapType
 	 */
 	@Override
 	public EList<H5Type> getH5() {
-		return getBlock().list(XHTMLPackage.eINSTANCE.getMapType_H5());
+		return getBlock().list(XHTMLPackage.Literals.MAP_TYPE__H5);
 	}
 
 	/**
@@ -368,7 +368,7 @@ public class MapTypeImpl extends MinimalEObjectImpl.Container implements MapType
 	 */
 	@Override
 	public EList<H6Type> getH6() {
-		return getBlock().list(XHTMLPackage.eINSTANCE.getMapType_H6());
+		return getBlock().list(XHTMLPackage.Literals.MAP_TYPE__H6);
 	}
 
 	/**
@@ -378,7 +378,7 @@ public class MapTypeImpl extends MinimalEObjectImpl.Container implements MapType
 	 */
 	@Override
 	public EList<DivType> getDiv() {
-		return getBlock().list(XHTMLPackage.eINSTANCE.getMapType_Div());
+		return getBlock().list(XHTMLPackage.Literals.MAP_TYPE__DIV);
 	}
 
 	/**
@@ -388,7 +388,7 @@ public class MapTypeImpl extends MinimalEObjectImpl.Container implements MapType
 	 */
 	@Override
 	public EList<UlType> getUl() {
-		return getBlock().list(XHTMLPackage.eINSTANCE.getMapType_Ul());
+		return getBlock().list(XHTMLPackage.Literals.MAP_TYPE__UL);
 	}
 
 	/**
@@ -398,7 +398,7 @@ public class MapTypeImpl extends MinimalEObjectImpl.Container implements MapType
 	 */
 	@Override
 	public EList<OlType> getOl() {
-		return getBlock().list(XHTMLPackage.eINSTANCE.getMapType_Ol());
+		return getBlock().list(XHTMLPackage.Literals.MAP_TYPE__OL);
 	}
 
 	/**
@@ -408,7 +408,7 @@ public class MapTypeImpl extends MinimalEObjectImpl.Container implements MapType
 	 */
 	@Override
 	public EList<DlType> getDl() {
-		return getBlock().list(XHTMLPackage.eINSTANCE.getMapType_Dl());
+		return getBlock().list(XHTMLPackage.Literals.MAP_TYPE__DL);
 	}
 
 	/**
@@ -418,7 +418,7 @@ public class MapTypeImpl extends MinimalEObjectImpl.Container implements MapType
 	 */
 	@Override
 	public EList<PreType> getPre() {
-		return getBlock().list(XHTMLPackage.eINSTANCE.getMapType_Pre());
+		return getBlock().list(XHTMLPackage.Literals.MAP_TYPE__PRE);
 	}
 
 	/**
@@ -428,7 +428,7 @@ public class MapTypeImpl extends MinimalEObjectImpl.Container implements MapType
 	 */
 	@Override
 	public EList<HrType> getHr() {
-		return getBlock().list(XHTMLPackage.eINSTANCE.getMapType_Hr());
+		return getBlock().list(XHTMLPackage.Literals.MAP_TYPE__HR);
 	}
 
 	/**
@@ -438,7 +438,7 @@ public class MapTypeImpl extends MinimalEObjectImpl.Container implements MapType
 	 */
 	@Override
 	public EList<BlockquoteType> getBlockquote() {
-		return getBlock().list(XHTMLPackage.eINSTANCE.getMapType_Blockquote());
+		return getBlock().list(XHTMLPackage.Literals.MAP_TYPE__BLOCKQUOTE);
 	}
 
 	/**
@@ -448,7 +448,7 @@ public class MapTypeImpl extends MinimalEObjectImpl.Container implements MapType
 	 */
 	@Override
 	public EList<AddressType> getAddress() {
-		return getBlock().list(XHTMLPackage.eINSTANCE.getMapType_Address());
+		return getBlock().list(XHTMLPackage.Literals.MAP_TYPE__ADDRESS);
 	}
 
 	/**
@@ -458,7 +458,7 @@ public class MapTypeImpl extends MinimalEObjectImpl.Container implements MapType
 	 */
 	@Override
 	public EList<TableType> getTable() {
-		return getBlock().list(XHTMLPackage.eINSTANCE.getMapType_Table());
+		return getBlock().list(XHTMLPackage.Literals.MAP_TYPE__TABLE);
 	}
 
 	/**

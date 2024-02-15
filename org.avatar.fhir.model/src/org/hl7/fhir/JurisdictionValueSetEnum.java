@@ -20,6 +20,2346 @@ import org.eclipse.emf.common.util.Enumerator;
  * @generated
  */
 public enum JurisdictionValueSetEnum implements Enumerator {
+	/**
+	 * The '<em><b>AD</b></em>' literal object.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * <!-- begin-model-doc -->
+	 * Andorra
+	 * <!-- end-model-doc -->
+	 * @see #AD_VALUE
+	 * @generated
+	 * @ordered
+	 */
+	AD(0, "AD", "AD"),
+
+
+	/**
+	 * The '<em><b>ABW</b></em>' literal object.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * <!-- begin-model-doc -->
+	 * Aruba
+	 * <!-- end-model-doc -->
+	 * @see #ABW_VALUE
+	 * @generated
+	 * @ordered
+	 */
+	ABW(249, "ABW", "ABW"),
+
+	/**
+	 * The '<em><b>AFG</b></em>' literal object.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * <!-- begin-model-doc -->
+	 * Afghanistan
+	 * <!-- end-model-doc -->
+	 * @see #AFG_VALUE
+	 * @generated
+	 * @ordered
+	 */
+	AFG(250, "AFG", "AFG"),
+
+	/**
+	 * The '<em><b>AGO</b></em>' literal object.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * <!-- begin-model-doc -->
+	 * Angola
+	 * <!-- end-model-doc -->
+	 * @see #AGO_VALUE
+	 * @generated
+	 * @ordered
+	 */
+	AGO(251, "AGO", "AGO"),
+
+	/**
+	 * The '<em><b>AIA</b></em>' literal object.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * <!-- begin-model-doc -->
+	 * Anguilla
+	 * <!-- end-model-doc -->
+	 * @see #AIA_VALUE
+	 * @generated
+	 * @ordered
+	 */
+	AIA(252, "AIA", "AIA"),
+
+	/**
+	 * The '<em><b>ALA</b></em>' literal object.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * <!-- begin-model-doc -->
+	 * Eland Islands
+	 * <!-- end-model-doc -->
+	 * @see #ALA_VALUE
+	 * @generated
+	 * @ordered
+	 */
+	ALA(253, "ALA", "ALA"),
+
+	/**
+	 * The '<em><b>ALB</b></em>' literal object.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * <!-- begin-model-doc -->
+	 * Albania
+	 * <!-- end-model-doc -->
+	 * @see #ALB_VALUE
+	 * @generated
+	 * @ordered
+	 */
+	ALB(254, "ALB", "ALB"),
+
+	/**
+	 * The '<em><b>AND</b></em>' literal object.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * <!-- begin-model-doc -->
+	 * Andorra
+	 * <!-- end-model-doc -->
+	 * @see #AND_VALUE
+	 * @generated
+	 * @ordered
+	 */
+	AND(255, "AND", "AND"),
+
+	/**
+	 * The '<em><b>ARE</b></em>' literal object.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * <!-- begin-model-doc -->
+	 * United Arab Emirates
+	 * <!-- end-model-doc -->
+	 * @see #ARE_VALUE
+	 * @generated
+	 * @ordered
+	 */
+	ARE(256, "ARE", "ARE"),
+
+	/**
+	 * The '<em><b>ARG</b></em>' literal object.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * <!-- begin-model-doc -->
+	 * Argentina
+	 * <!-- end-model-doc -->
+	 * @see #ARG_VALUE
+	 * @generated
+	 * @ordered
+	 */
+	ARG(257, "ARG", "ARG"),
+
+	/**
+	 * The '<em><b>ARM</b></em>' literal object.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * <!-- begin-model-doc -->
+	 * Armenia
+	 * <!-- end-model-doc -->
+	 * @see #ARM_VALUE
+	 * @generated
+	 * @ordered
+	 */
+	ARM(258, "ARM", "ARM"),
+
+	/**
+	 * The '<em><b>ASM</b></em>' literal object.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * <!-- begin-model-doc -->
+	 * American Samoa
+	 * <!-- end-model-doc -->
+	 * @see #ASM_VALUE
+	 * @generated
+	 * @ordered
+	 */
+	ASM(259, "ASM", "ASM"),
+
+	/**
+	 * The '<em><b>ATA</b></em>' literal object.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * <!-- begin-model-doc -->
+	 * Antarctica
+	 * <!-- end-model-doc -->
+	 * @see #ATA_VALUE
+	 * @generated
+	 * @ordered
+	 */
+	ATA(260, "ATA", "ATA"),
+
+	/**
+	 * The '<em><b>ATF</b></em>' literal object.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * <!-- begin-model-doc -->
+	 * French Southern Territories
+	 * <!-- end-model-doc -->
+	 * @see #ATF_VALUE
+	 * @generated
+	 * @ordered
+	 */
+	ATF(261, "ATF", "ATF"),
+
+	/**
+	 * The '<em><b>ATG</b></em>' literal object.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * <!-- begin-model-doc -->
+	 * Antigua and Barbuda
+	 * <!-- end-model-doc -->
+	 * @see #ATG_VALUE
+	 * @generated
+	 * @ordered
+	 */
+	ATG(262, "ATG", "ATG"),
+
+	/**
+	 * The '<em><b>AUS</b></em>' literal object.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * <!-- begin-model-doc -->
+	 * Australia
+	 * <!-- end-model-doc -->
+	 * @see #AUS_VALUE
+	 * @generated
+	 * @ordered
+	 */
+	AUS(263, "AUS", "AUS"),
+
+	/**
+	 * The '<em><b>AUT</b></em>' literal object.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * <!-- begin-model-doc -->
+	 * Austria
+	 * <!-- end-model-doc -->
+	 * @see #AUT_VALUE
+	 * @generated
+	 * @ordered
+	 */
+	AUT(264, "AUT", "AUT"),
+
+	/**
+	 * The '<em><b>AZE</b></em>' literal object.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * <!-- begin-model-doc -->
+	 * Azerbaijan
+	 * <!-- end-model-doc -->
+	 * @see #AZE_VALUE
+	 * @generated
+	 * @ordered
+	 */
+	AZE(265, "AZE", "AZE"),
+
+	/**
+	 * The '<em><b>BDI</b></em>' literal object.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * <!-- begin-model-doc -->
+	 * Burundi
+	 * <!-- end-model-doc -->
+	 * @see #BDI_VALUE
+	 * @generated
+	 * @ordered
+	 */
+	BDI(266, "BDI", "BDI"),
+
+	/**
+	 * The '<em><b>BEL</b></em>' literal object.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * <!-- begin-model-doc -->
+	 * Belgium
+	 * <!-- end-model-doc -->
+	 * @see #BEL_VALUE
+	 * @generated
+	 * @ordered
+	 */
+	BEL(267, "BEL", "BEL"),
+
+	/**
+	 * The '<em><b>BEN</b></em>' literal object.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * <!-- begin-model-doc -->
+	 * Benin
+	 * <!-- end-model-doc -->
+	 * @see #BEN_VALUE
+	 * @generated
+	 * @ordered
+	 */
+	BEN(268, "BEN", "BEN"),
+
+	/**
+	 * The '<em><b>BES</b></em>' literal object.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * <!-- begin-model-doc -->
+	 * Bonaire, Sint Eustatius and Saba
+	 * <!-- end-model-doc -->
+	 * @see #BES_VALUE
+	 * @generated
+	 * @ordered
+	 */
+	BES(269, "BES", "BES"),
+
+	/**
+	 * The '<em><b>BFA</b></em>' literal object.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * <!-- begin-model-doc -->
+	 * Burkina Faso
+	 * <!-- end-model-doc -->
+	 * @see #BFA_VALUE
+	 * @generated
+	 * @ordered
+	 */
+	BFA(270, "BFA", "BFA"),
+
+	/**
+	 * The '<em><b>BGD</b></em>' literal object.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * <!-- begin-model-doc -->
+	 * Bangladesh
+	 * <!-- end-model-doc -->
+	 * @see #BGD_VALUE
+	 * @generated
+	 * @ordered
+	 */
+	BGD(271, "BGD", "BGD"),
+
+	/**
+	 * The '<em><b>BGR</b></em>' literal object.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * <!-- begin-model-doc -->
+	 * Bulgaria
+	 * <!-- end-model-doc -->
+	 * @see #BGR_VALUE
+	 * @generated
+	 * @ordered
+	 */
+	BGR(272, "BGR", "BGR"),
+
+	/**
+	 * The '<em><b>BHR</b></em>' literal object.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * <!-- begin-model-doc -->
+	 * Bahrain
+	 * <!-- end-model-doc -->
+	 * @see #BHR_VALUE
+	 * @generated
+	 * @ordered
+	 */
+	BHR(273, "BHR", "BHR"),
+
+	/**
+	 * The '<em><b>BHS</b></em>' literal object.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * <!-- begin-model-doc -->
+	 * Bahamas
+	 * <!-- end-model-doc -->
+	 * @see #BHS_VALUE
+	 * @generated
+	 * @ordered
+	 */
+	BHS(274, "BHS", "BHS"),
+
+	/**
+	 * The '<em><b>BIH</b></em>' literal object.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * <!-- begin-model-doc -->
+	 * Bosnia and Herzegovina
+	 * <!-- end-model-doc -->
+	 * @see #BIH_VALUE
+	 * @generated
+	 * @ordered
+	 */
+	BIH(275, "BIH", "BIH"),
+
+	/**
+	 * The '<em><b>BLM</b></em>' literal object.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * <!-- begin-model-doc -->
+	 * Saint Barthilemy
+	 * <!-- end-model-doc -->
+	 * @see #BLM_VALUE
+	 * @generated
+	 * @ordered
+	 */
+	BLM(276, "BLM", "BLM"),
+
+	/**
+	 * The '<em><b>BLR</b></em>' literal object.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * <!-- begin-model-doc -->
+	 * Belarus
+	 * <!-- end-model-doc -->
+	 * @see #BLR_VALUE
+	 * @generated
+	 * @ordered
+	 */
+	BLR(277, "BLR", "BLR"),
+
+	/**
+	 * The '<em><b>BLZ</b></em>' literal object.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * <!-- begin-model-doc -->
+	 * Belize
+	 * <!-- end-model-doc -->
+	 * @see #BLZ_VALUE
+	 * @generated
+	 * @ordered
+	 */
+	BLZ(278, "BLZ", "BLZ"),
+
+	/**
+	 * The '<em><b>BMU</b></em>' literal object.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * <!-- begin-model-doc -->
+	 * Bermuda
+	 * <!-- end-model-doc -->
+	 * @see #BMU_VALUE
+	 * @generated
+	 * @ordered
+	 */
+	BMU(279, "BMU", "BMU"),
+
+	/**
+	 * The '<em><b>BOL</b></em>' literal object.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * <!-- begin-model-doc -->
+	 * Bolivia, Plurinational State of
+	 * <!-- end-model-doc -->
+	 * @see #BOL_VALUE
+	 * @generated
+	 * @ordered
+	 */
+	BOL(280, "BOL", "BOL"),
+
+	/**
+	 * The '<em><b>BRA</b></em>' literal object.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * <!-- begin-model-doc -->
+	 * Brazil
+	 * <!-- end-model-doc -->
+	 * @see #BRA_VALUE
+	 * @generated
+	 * @ordered
+	 */
+	BRA(281, "BRA", "BRA"),
+
+	/**
+	 * The '<em><b>BRB</b></em>' literal object.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * <!-- begin-model-doc -->
+	 * Barbados
+	 * <!-- end-model-doc -->
+	 * @see #BRB_VALUE
+	 * @generated
+	 * @ordered
+	 */
+	BRB(282, "BRB", "BRB"),
+
+	/**
+	 * The '<em><b>BRN</b></em>' literal object.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * <!-- begin-model-doc -->
+	 * Brunei Darussalam
+	 * <!-- end-model-doc -->
+	 * @see #BRN_VALUE
+	 * @generated
+	 * @ordered
+	 */
+	BRN(283, "BRN", "BRN"),
+
+	/**
+	 * The '<em><b>BTN</b></em>' literal object.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * <!-- begin-model-doc -->
+	 * Bhutan
+	 * <!-- end-model-doc -->
+	 * @see #BTN_VALUE
+	 * @generated
+	 * @ordered
+	 */
+	BTN(284, "BTN", "BTN"),
+
+	/**
+	 * The '<em><b>BVT</b></em>' literal object.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * <!-- begin-model-doc -->
+	 * Bouvet Island
+	 * <!-- end-model-doc -->
+	 * @see #BVT_VALUE
+	 * @generated
+	 * @ordered
+	 */
+	BVT(285, "BVT", "BVT"),
+
+	/**
+	 * The '<em><b>BWA</b></em>' literal object.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * <!-- begin-model-doc -->
+	 * Botswana
+	 * <!-- end-model-doc -->
+	 * @see #BWA_VALUE
+	 * @generated
+	 * @ordered
+	 */
+	BWA(286, "BWA", "BWA"),
+
+	/**
+	 * The '<em><b>CAF</b></em>' literal object.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * <!-- begin-model-doc -->
+	 * Central African Republic
+	 * <!-- end-model-doc -->
+	 * @see #CAF_VALUE
+	 * @generated
+	 * @ordered
+	 */
+	CAF(287, "CAF", "CAF"),
+
+	/**
+	 * The '<em><b>CAN</b></em>' literal object.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * <!-- begin-model-doc -->
+	 * Canada
+	 * <!-- end-model-doc -->
+	 * @see #CAN_VALUE
+	 * @generated
+	 * @ordered
+	 */
+	CAN(288, "CAN", "CAN"),
+
+	/**
+	 * The '<em><b>CCK</b></em>' literal object.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * <!-- begin-model-doc -->
+	 * Cocos (Keeling) Islands
+	 * <!-- end-model-doc -->
+	 * @see #CCK_VALUE
+	 * @generated
+	 * @ordered
+	 */
+	CCK(289, "CCK", "CCK"),
+
+	/**
+	 * The '<em><b>CHE</b></em>' literal object.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * <!-- begin-model-doc -->
+	 * Switzerland
+	 * <!-- end-model-doc -->
+	 * @see #CHE_VALUE
+	 * @generated
+	 * @ordered
+	 */
+	CHE(290, "CHE", "CHE"),
+
+	/**
+	 * The '<em><b>CHL</b></em>' literal object.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * <!-- begin-model-doc -->
+	 * Chile
+	 * <!-- end-model-doc -->
+	 * @see #CHL_VALUE
+	 * @generated
+	 * @ordered
+	 */
+	CHL(291, "CHL", "CHL"),
+
+	/**
+	 * The '<em><b>CHN</b></em>' literal object.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * <!-- begin-model-doc -->
+	 * China
+	 * <!-- end-model-doc -->
+	 * @see #CHN_VALUE
+	 * @generated
+	 * @ordered
+	 */
+	CHN(292, "CHN", "CHN"),
+
+	/**
+	 * The '<em><b>CIV</b></em>' literal object.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * <!-- begin-model-doc -->
+	 * Ctte d'Ivoire
+	 * <!-- end-model-doc -->
+	 * @see #CIV_VALUE
+	 * @generated
+	 * @ordered
+	 */
+	CIV(293, "CIV", "CIV"),
+
+	/**
+	 * The '<em><b>CMR</b></em>' literal object.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * <!-- begin-model-doc -->
+	 * Cameroon
+	 * <!-- end-model-doc -->
+	 * @see #CMR_VALUE
+	 * @generated
+	 * @ordered
+	 */
+	CMR(294, "CMR", "CMR"),
+
+	/**
+	 * The '<em><b>COD</b></em>' literal object.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * <!-- begin-model-doc -->
+	 * Congo, the Democratic Republic of the
+	 * <!-- end-model-doc -->
+	 * @see #COD_VALUE
+	 * @generated
+	 * @ordered
+	 */
+	COD(295, "COD", "COD"),
+
+	/**
+	 * The '<em><b>COG</b></em>' literal object.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * <!-- begin-model-doc -->
+	 * Congo
+	 * <!-- end-model-doc -->
+	 * @see #COG_VALUE
+	 * @generated
+	 * @ordered
+	 */
+	COG(296, "COG", "COG"),
+
+	/**
+	 * The '<em><b>COK</b></em>' literal object.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * <!-- begin-model-doc -->
+	 * Cook Islands
+	 * <!-- end-model-doc -->
+	 * @see #COK_VALUE
+	 * @generated
+	 * @ordered
+	 */
+	COK(297, "COK", "COK"),
+
+	/**
+	 * The '<em><b>COL</b></em>' literal object.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * <!-- begin-model-doc -->
+	 * Colombia
+	 * <!-- end-model-doc -->
+	 * @see #COL_VALUE
+	 * @generated
+	 * @ordered
+	 */
+	COL(298, "COL", "COL"),
+
+	/**
+	 * The '<em><b>COM</b></em>' literal object.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * <!-- begin-model-doc -->
+	 * Comoros
+	 * <!-- end-model-doc -->
+	 * @see #COM_VALUE
+	 * @generated
+	 * @ordered
+	 */
+	COM(299, "COM", "COM"),
+
+	/**
+	 * The '<em><b>CPV</b></em>' literal object.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * <!-- begin-model-doc -->
+	 * Cabo Verde
+	 * <!-- end-model-doc -->
+	 * @see #CPV_VALUE
+	 * @generated
+	 * @ordered
+	 */
+	CPV(300, "CPV", "CPV"),
+
+	/**
+	 * The '<em><b>CRI</b></em>' literal object.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * <!-- begin-model-doc -->
+	 * Costa Rica
+	 * <!-- end-model-doc -->
+	 * @see #CRI_VALUE
+	 * @generated
+	 * @ordered
+	 */
+	CRI(301, "CRI", "CRI"),
+
+	/**
+	 * The '<em><b>CUB</b></em>' literal object.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * <!-- begin-model-doc -->
+	 * Cuba
+	 * <!-- end-model-doc -->
+	 * @see #CUB_VALUE
+	 * @generated
+	 * @ordered
+	 */
+	CUB(302, "CUB", "CUB"),
+
+	/**
+	 * The '<em><b>CUW</b></em>' literal object.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * <!-- begin-model-doc -->
+	 * Curagao
+	 * <!-- end-model-doc -->
+	 * @see #CUW_VALUE
+	 * @generated
+	 * @ordered
+	 */
+	CUW(303, "CUW", "CUW"),
+
+	/**
+	 * The '<em><b>CXR</b></em>' literal object.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * <!-- begin-model-doc -->
+	 * Christmas Island
+	 * <!-- end-model-doc -->
+	 * @see #CXR_VALUE
+	 * @generated
+	 * @ordered
+	 */
+	CXR(304, "CXR", "CXR"),
+
+	/**
+	 * The '<em><b>CYM</b></em>' literal object.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * <!-- begin-model-doc -->
+	 * Cayman Islands
+	 * <!-- end-model-doc -->
+	 * @see #CYM_VALUE
+	 * @generated
+	 * @ordered
+	 */
+	CYM(305, "CYM", "CYM"),
+
+	/**
+	 * The '<em><b>CYP</b></em>' literal object.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * <!-- begin-model-doc -->
+	 * Cyprus
+	 * <!-- end-model-doc -->
+	 * @see #CYP_VALUE
+	 * @generated
+	 * @ordered
+	 */
+	CYP(306, "CYP", "CYP"),
+
+	/**
+	 * The '<em><b>CZE</b></em>' literal object.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * <!-- begin-model-doc -->
+	 * Czechia
+	 * <!-- end-model-doc -->
+	 * @see #CZE_VALUE
+	 * @generated
+	 * @ordered
+	 */
+	CZE(307, "CZE", "CZE"),
+
+	/**
+	 * The '<em><b>DEU</b></em>' literal object.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * <!-- begin-model-doc -->
+	 * Germany
+	 * <!-- end-model-doc -->
+	 * @see #DEU_VALUE
+	 * @generated
+	 * @ordered
+	 */
+	DEU(308, "DEU", "DEU"),
+
+	/**
+	 * The '<em><b>DJI</b></em>' literal object.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * <!-- begin-model-doc -->
+	 * Djibouti
+	 * <!-- end-model-doc -->
+	 * @see #DJI_VALUE
+	 * @generated
+	 * @ordered
+	 */
+	DJI(309, "DJI", "DJI"),
+
+	/**
+	 * The '<em><b>DMA</b></em>' literal object.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * <!-- begin-model-doc -->
+	 * Dominica
+	 * <!-- end-model-doc -->
+	 * @see #DMA_VALUE
+	 * @generated
+	 * @ordered
+	 */
+	DMA(310, "DMA", "DMA"),
+
+	/**
+	 * The '<em><b>DNK</b></em>' literal object.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * <!-- begin-model-doc -->
+	 * Denmark
+	 * <!-- end-model-doc -->
+	 * @see #DNK_VALUE
+	 * @generated
+	 * @ordered
+	 */
+	DNK(311, "DNK", "DNK"),
+
+	/**
+	 * The '<em><b>DOM</b></em>' literal object.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * <!-- begin-model-doc -->
+	 * Dominican Republic
+	 * <!-- end-model-doc -->
+	 * @see #DOM_VALUE
+	 * @generated
+	 * @ordered
+	 */
+	DOM(312, "DOM", "DOM"),
+
+	/**
+	 * The '<em><b>DZA</b></em>' literal object.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * <!-- begin-model-doc -->
+	 * Algeria
+	 * <!-- end-model-doc -->
+	 * @see #DZA_VALUE
+	 * @generated
+	 * @ordered
+	 */
+	DZA(313, "DZA", "DZA"),
+
+	/**
+	 * The '<em><b>ECU</b></em>' literal object.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * <!-- begin-model-doc -->
+	 * Ecuador
+	 * <!-- end-model-doc -->
+	 * @see #ECU_VALUE
+	 * @generated
+	 * @ordered
+	 */
+	ECU(314, "ECU", "ECU"),
+
+	/**
+	 * The '<em><b>EGY</b></em>' literal object.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * <!-- begin-model-doc -->
+	 * Egypt
+	 * <!-- end-model-doc -->
+	 * @see #EGY_VALUE
+	 * @generated
+	 * @ordered
+	 */
+	EGY(315, "EGY", "EGY"),
+
+	/**
+	 * The '<em><b>ERI</b></em>' literal object.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * <!-- begin-model-doc -->
+	 * Eritrea
+	 * <!-- end-model-doc -->
+	 * @see #ERI_VALUE
+	 * @generated
+	 * @ordered
+	 */
+	ERI(316, "ERI", "ERI"),
+
+	/**
+	 * The '<em><b>ESH</b></em>' literal object.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * <!-- begin-model-doc -->
+	 * Western Sahara
+	 * <!-- end-model-doc -->
+	 * @see #ESH_VALUE
+	 * @generated
+	 * @ordered
+	 */
+	ESH(317, "ESH", "ESH"),
+
+	/**
+	 * The '<em><b>ESP</b></em>' literal object.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * <!-- begin-model-doc -->
+	 * Spain
+	 * <!-- end-model-doc -->
+	 * @see #ESP_VALUE
+	 * @generated
+	 * @ordered
+	 */
+	ESP(318, "ESP", "ESP"),
+
+	/**
+	 * The '<em><b>EST</b></em>' literal object.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * <!-- begin-model-doc -->
+	 * Estonia
+	 * <!-- end-model-doc -->
+	 * @see #EST_VALUE
+	 * @generated
+	 * @ordered
+	 */
+	EST(319, "EST", "EST"),
+
+	/**
+	 * The '<em><b>ETH</b></em>' literal object.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * <!-- begin-model-doc -->
+	 * Ethiopia
+	 * <!-- end-model-doc -->
+	 * @see #ETH_VALUE
+	 * @generated
+	 * @ordered
+	 */
+	ETH(320, "ETH", "ETH"),
+
+	/**
+	 * The '<em><b>FIN</b></em>' literal object.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * <!-- begin-model-doc -->
+	 * Finland
+	 * <!-- end-model-doc -->
+	 * @see #FIN_VALUE
+	 * @generated
+	 * @ordered
+	 */
+	FIN(321, "FIN", "FIN"),
+
+	/**
+	 * The '<em><b>FJI</b></em>' literal object.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * <!-- begin-model-doc -->
+	 * Fiji
+	 * <!-- end-model-doc -->
+	 * @see #FJI_VALUE
+	 * @generated
+	 * @ordered
+	 */
+	FJI(322, "FJI", "FJI"),
+
+	/**
+	 * The '<em><b>FLK</b></em>' literal object.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * <!-- begin-model-doc -->
+	 * Falkland Islands (Malvinas)
+	 * <!-- end-model-doc -->
+	 * @see #FLK_VALUE
+	 * @generated
+	 * @ordered
+	 */
+	FLK(323, "FLK", "FLK"),
+
+	/**
+	 * The '<em><b>FRA</b></em>' literal object.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * <!-- begin-model-doc -->
+	 * France
+	 * <!-- end-model-doc -->
+	 * @see #FRA_VALUE
+	 * @generated
+	 * @ordered
+	 */
+	FRA(324, "FRA", "FRA"),
+
+	/**
+	 * The '<em><b>FRO</b></em>' literal object.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * <!-- begin-model-doc -->
+	 * Faroe Islands
+	 * <!-- end-model-doc -->
+	 * @see #FRO_VALUE
+	 * @generated
+	 * @ordered
+	 */
+	FRO(325, "FRO", "FRO"),
+
+	/**
+	 * The '<em><b>FSM</b></em>' literal object.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * <!-- begin-model-doc -->
+	 * Micronesia, Federated States of
+	 * <!-- end-model-doc -->
+	 * @see #FSM_VALUE
+	 * @generated
+	 * @ordered
+	 */
+	FSM(326, "FSM", "FSM"),
+
+	/**
+	 * The '<em><b>GAB</b></em>' literal object.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * <!-- begin-model-doc -->
+	 * Gabon
+	 * <!-- end-model-doc -->
+	 * @see #GAB_VALUE
+	 * @generated
+	 * @ordered
+	 */
+	GAB(327, "GAB", "GAB"),
+
+	/**
+	 * The '<em><b>GBR</b></em>' literal object.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * <!-- begin-model-doc -->
+	 * United Kingdom
+	 * <!-- end-model-doc -->
+	 * @see #GBR_VALUE
+	 * @generated
+	 * @ordered
+	 */
+	GBR(328, "GBR", "GBR"),
+
+	/**
+	 * The '<em><b>GEO</b></em>' literal object.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * <!-- begin-model-doc -->
+	 * Georgia
+	 * <!-- end-model-doc -->
+	 * @see #GEO_VALUE
+	 * @generated
+	 * @ordered
+	 */
+	GEO(329, "GEO", "GEO"),
+
+	/**
+	 * The '<em><b>GGY</b></em>' literal object.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * <!-- begin-model-doc -->
+	 * Guernsey
+	 * <!-- end-model-doc -->
+	 * @see #GGY_VALUE
+	 * @generated
+	 * @ordered
+	 */
+	GGY(330, "GGY", "GGY"),
+
+	/**
+	 * The '<em><b>GHA</b></em>' literal object.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * <!-- begin-model-doc -->
+	 * Ghana
+	 * <!-- end-model-doc -->
+	 * @see #GHA_VALUE
+	 * @generated
+	 * @ordered
+	 */
+	GHA(331, "GHA", "GHA"),
+
+	/**
+	 * The '<em><b>GIB</b></em>' literal object.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * <!-- begin-model-doc -->
+	 * Gibraltar
+	 * <!-- end-model-doc -->
+	 * @see #GIB_VALUE
+	 * @generated
+	 * @ordered
+	 */
+	GIB(332, "GIB", "GIB"),
+
+	/**
+	 * The '<em><b>GIN</b></em>' literal object.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * <!-- begin-model-doc -->
+	 * Guinea
+	 * <!-- end-model-doc -->
+	 * @see #GIN_VALUE
+	 * @generated
+	 * @ordered
+	 */
+	GIN(333, "GIN", "GIN"),
+
+	/**
+	 * The '<em><b>GLP</b></em>' literal object.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * <!-- begin-model-doc -->
+	 * Guadeloupe
+	 * <!-- end-model-doc -->
+	 * @see #GLP_VALUE
+	 * @generated
+	 * @ordered
+	 */
+	GLP(334, "GLP", "GLP"),
+
+	/**
+	 * The '<em><b>GMB</b></em>' literal object.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * <!-- begin-model-doc -->
+	 * Gambia
+	 * <!-- end-model-doc -->
+	 * @see #GMB_VALUE
+	 * @generated
+	 * @ordered
+	 */
+	GMB(335, "GMB", "GMB"),
+
+	/**
+	 * The '<em><b>GNB</b></em>' literal object.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * <!-- begin-model-doc -->
+	 * Guinea-Bissau
+	 * <!-- end-model-doc -->
+	 * @see #GNB_VALUE
+	 * @generated
+	 * @ordered
+	 */
+	GNB(336, "GNB", "GNB"),
+
+	/**
+	 * The '<em><b>GNQ</b></em>' literal object.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * <!-- begin-model-doc -->
+	 * Equatorial Guinea
+	 * <!-- end-model-doc -->
+	 * @see #GNQ_VALUE
+	 * @generated
+	 * @ordered
+	 */
+	GNQ(337, "GNQ", "GNQ"),
+
+	/**
+	 * The '<em><b>GRC</b></em>' literal object.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * <!-- begin-model-doc -->
+	 * Greece
+	 * <!-- end-model-doc -->
+	 * @see #GRC_VALUE
+	 * @generated
+	 * @ordered
+	 */
+	GRC(338, "GRC", "GRC"),
+
+	/**
+	 * The '<em><b>GRD</b></em>' literal object.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * <!-- begin-model-doc -->
+	 * Grenada
+	 * <!-- end-model-doc -->
+	 * @see #GRD_VALUE
+	 * @generated
+	 * @ordered
+	 */
+	GRD(339, "GRD", "GRD"),
+
+	/**
+	 * The '<em><b>GRL</b></em>' literal object.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * <!-- begin-model-doc -->
+	 * Greenland
+	 * <!-- end-model-doc -->
+	 * @see #GRL_VALUE
+	 * @generated
+	 * @ordered
+	 */
+	GRL(340, "GRL", "GRL"),
+
+	/**
+	 * The '<em><b>GTM</b></em>' literal object.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * <!-- begin-model-doc -->
+	 * Guatemala
+	 * <!-- end-model-doc -->
+	 * @see #GTM_VALUE
+	 * @generated
+	 * @ordered
+	 */
+	GTM(341, "GTM", "GTM"),
+
+	/**
+	 * The '<em><b>GUF</b></em>' literal object.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * <!-- begin-model-doc -->
+	 * French Guiana
+	 * <!-- end-model-doc -->
+	 * @see #GUF_VALUE
+	 * @generated
+	 * @ordered
+	 */
+	GUF(342, "GUF", "GUF"),
+
+	/**
+	 * The '<em><b>GUM</b></em>' literal object.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * <!-- begin-model-doc -->
+	 * Guam
+	 * <!-- end-model-doc -->
+	 * @see #GUM_VALUE
+	 * @generated
+	 * @ordered
+	 */
+	GUM(343, "GUM", "GUM"),
+
+	/**
+	 * The '<em><b>GUY</b></em>' literal object.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * <!-- begin-model-doc -->
+	 * Guyana
+	 * <!-- end-model-doc -->
+	 * @see #GUY_VALUE
+	 * @generated
+	 * @ordered
+	 */
+	GUY(344, "GUY", "GUY"),
+
+	/**
+	 * The '<em><b>HKG</b></em>' literal object.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * <!-- begin-model-doc -->
+	 * Hong Kong
+	 * <!-- end-model-doc -->
+	 * @see #HKG_VALUE
+	 * @generated
+	 * @ordered
+	 */
+	HKG(345, "HKG", "HKG"),
+
+	/**
+	 * The '<em><b>HMD</b></em>' literal object.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * <!-- begin-model-doc -->
+	 * Heard Island and McDonald Islands
+	 * <!-- end-model-doc -->
+	 * @see #HMD_VALUE
+	 * @generated
+	 * @ordered
+	 */
+	HMD(346, "HMD", "HMD"),
+
+	/**
+	 * The '<em><b>HND</b></em>' literal object.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * <!-- begin-model-doc -->
+	 * Honduras
+	 * <!-- end-model-doc -->
+	 * @see #HND_VALUE
+	 * @generated
+	 * @ordered
+	 */
+	HND(347, "HND", "HND"),
+
+	/**
+	 * The '<em><b>HRV</b></em>' literal object.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * <!-- begin-model-doc -->
+	 * Croatia
+	 * <!-- end-model-doc -->
+	 * @see #HRV_VALUE
+	 * @generated
+	 * @ordered
+	 */
+	HRV(348, "HRV", "HRV"),
+
+	/**
+	 * The '<em><b>HTI</b></em>' literal object.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * <!-- begin-model-doc -->
+	 * Haiti
+	 * <!-- end-model-doc -->
+	 * @see #HTI_VALUE
+	 * @generated
+	 * @ordered
+	 */
+	HTI(349, "HTI", "HTI"),
+
+	/**
+	 * The '<em><b>HUN</b></em>' literal object.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * <!-- begin-model-doc -->
+	 * Hungary
+	 * <!-- end-model-doc -->
+	 * @see #HUN_VALUE
+	 * @generated
+	 * @ordered
+	 */
+	HUN(350, "HUN", "HUN"),
+
+	/**
+	 * The '<em><b>IDN</b></em>' literal object.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * <!-- begin-model-doc -->
+	 * Indonesia
+	 * <!-- end-model-doc -->
+	 * @see #IDN_VALUE
+	 * @generated
+	 * @ordered
+	 */
+	IDN(351, "IDN", "IDN"),
+
+	/**
+	 * The '<em><b>IMN</b></em>' literal object.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * <!-- begin-model-doc -->
+	 * Isle of Man
+	 * <!-- end-model-doc -->
+	 * @see #IMN_VALUE
+	 * @generated
+	 * @ordered
+	 */
+	IMN(352, "IMN", "IMN"),
+
+	/**
+	 * The '<em><b>IND</b></em>' literal object.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * <!-- begin-model-doc -->
+	 * India
+	 * <!-- end-model-doc -->
+	 * @see #IND_VALUE
+	 * @generated
+	 * @ordered
+	 */
+	IND(353, "IND", "IND"),
+
+	/**
+	 * The '<em><b>IOT</b></em>' literal object.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * <!-- begin-model-doc -->
+	 * British Indian Ocean Territory
+	 * <!-- end-model-doc -->
+	 * @see #IOT_VALUE
+	 * @generated
+	 * @ordered
+	 */
+	IOT(354, "IOT", "IOT"),
+
+	/**
+	 * The '<em><b>IRL</b></em>' literal object.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * <!-- begin-model-doc -->
+	 * Ireland
+	 * <!-- end-model-doc -->
+	 * @see #IRL_VALUE
+	 * @generated
+	 * @ordered
+	 */
+	IRL(355, "IRL", "IRL"),
+
+	/**
+	 * The '<em><b>IRN</b></em>' literal object.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * <!-- begin-model-doc -->
+	 * Iran, Islamic Republic of
+	 * <!-- end-model-doc -->
+	 * @see #IRN_VALUE
+	 * @generated
+	 * @ordered
+	 */
+	IRN(356, "IRN", "IRN"),
+
+	/**
+	 * The '<em><b>IRQ</b></em>' literal object.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * <!-- begin-model-doc -->
+	 * Iraq
+	 * <!-- end-model-doc -->
+	 * @see #IRQ_VALUE
+	 * @generated
+	 * @ordered
+	 */
+	IRQ(357, "IRQ", "IRQ"),
+
+	/**
+	 * The '<em><b>ISL</b></em>' literal object.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * <!-- begin-model-doc -->
+	 * Iceland
+	 * <!-- end-model-doc -->
+	 * @see #ISL_VALUE
+	 * @generated
+	 * @ordered
+	 */
+	ISL(358, "ISL", "ISL"),
+
+	/**
+	 * The '<em><b>ISR</b></em>' literal object.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * <!-- begin-model-doc -->
+	 * Israel
+	 * <!-- end-model-doc -->
+	 * @see #ISR_VALUE
+	 * @generated
+	 * @ordered
+	 */
+	ISR(359, "ISR", "ISR"),
+
+	/**
+	 * The '<em><b>ITA</b></em>' literal object.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * <!-- begin-model-doc -->
+	 * Italy
+	 * <!-- end-model-doc -->
+	 * @see #ITA_VALUE
+	 * @generated
+	 * @ordered
+	 */
+	ITA(360, "ITA", "ITA"),
+
+	/**
+	 * The '<em><b>JAM</b></em>' literal object.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * <!-- begin-model-doc -->
+	 * Jamaica
+	 * <!-- end-model-doc -->
+	 * @see #JAM_VALUE
+	 * @generated
+	 * @ordered
+	 */
+	JAM(361, "JAM", "JAM"),
+
+	/**
+	 * The '<em><b>JEY</b></em>' literal object.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * <!-- begin-model-doc -->
+	 * Jersey
+	 * <!-- end-model-doc -->
+	 * @see #JEY_VALUE
+	 * @generated
+	 * @ordered
+	 */
+	JEY(362, "JEY", "JEY"),
+
+	/**
+	 * The '<em><b>JOR</b></em>' literal object.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * <!-- begin-model-doc -->
+	 * Jordan
+	 * <!-- end-model-doc -->
+	 * @see #JOR_VALUE
+	 * @generated
+	 * @ordered
+	 */
+	JOR(363, "JOR", "JOR"),
+
+	/**
+	 * The '<em><b>JPN</b></em>' literal object.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * <!-- begin-model-doc -->
+	 * Japan
+	 * <!-- end-model-doc -->
+	 * @see #JPN_VALUE
+	 * @generated
+	 * @ordered
+	 */
+	JPN(364, "JPN", "JPN"),
+
+	/**
+	 * The '<em><b>KAZ</b></em>' literal object.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * <!-- begin-model-doc -->
+	 * Kazakhstan
+	 * <!-- end-model-doc -->
+	 * @see #KAZ_VALUE
+	 * @generated
+	 * @ordered
+	 */
+	KAZ(365, "KAZ", "KAZ"),
+
+	/**
+	 * The '<em><b>KEN</b></em>' literal object.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * <!-- begin-model-doc -->
+	 * Kenya
+	 * <!-- end-model-doc -->
+	 * @see #KEN_VALUE
+	 * @generated
+	 * @ordered
+	 */
+	KEN(366, "KEN", "KEN"),
+
+	/**
+	 * The '<em><b>KGZ</b></em>' literal object.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * <!-- begin-model-doc -->
+	 * Kyrgyzstan
+	 * <!-- end-model-doc -->
+	 * @see #KGZ_VALUE
+	 * @generated
+	 * @ordered
+	 */
+	KGZ(367, "KGZ", "KGZ"),
+
+	/**
+	 * The '<em><b>KHM</b></em>' literal object.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * <!-- begin-model-doc -->
+	 * Cambodia
+	 * <!-- end-model-doc -->
+	 * @see #KHM_VALUE
+	 * @generated
+	 * @ordered
+	 */
+	KHM(368, "KHM", "KHM"),
+
+	/**
+	 * The '<em><b>KIR</b></em>' literal object.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * <!-- begin-model-doc -->
+	 * Kiribati
+	 * <!-- end-model-doc -->
+	 * @see #KIR_VALUE
+	 * @generated
+	 * @ordered
+	 */
+	KIR(369, "KIR", "KIR"),
+
+	/**
+	 * The '<em><b>KNA</b></em>' literal object.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * <!-- begin-model-doc -->
+	 * Saint Kitts and Nevis
+	 * <!-- end-model-doc -->
+	 * @see #KNA_VALUE
+	 * @generated
+	 * @ordered
+	 */
+	KNA(370, "KNA", "KNA"),
+
+	/**
+	 * The '<em><b>KOR</b></em>' literal object.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * <!-- begin-model-doc -->
+	 * Korea, Republic of
+	 * <!-- end-model-doc -->
+	 * @see #KOR_VALUE
+	 * @generated
+	 * @ordered
+	 */
+	KOR(371, "KOR", "KOR"),
+
+	/**
+	 * The '<em><b>KWT</b></em>' literal object.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * <!-- begin-model-doc -->
+	 * Kuwait
+	 * <!-- end-model-doc -->
+	 * @see #KWT_VALUE
+	 * @generated
+	 * @ordered
+	 */
+	KWT(372, "KWT", "KWT"),
+
+	/**
+	 * The '<em><b>LAO</b></em>' literal object.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * <!-- begin-model-doc -->
+	 * Lao People's Democratic Republic
+	 * <!-- end-model-doc -->
+	 * @see #LAO_VALUE
+	 * @generated
+	 * @ordered
+	 */
+	LAO(373, "LAO", "LAO"),
+
+	/**
+	 * The '<em><b>LBN</b></em>' literal object.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * <!-- begin-model-doc -->
+	 * Lebanon
+	 * <!-- end-model-doc -->
+	 * @see #LBN_VALUE
+	 * @generated
+	 * @ordered
+	 */
+	LBN(374, "LBN", "LBN"),
+
+	/**
+	 * The '<em><b>LBR</b></em>' literal object.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * <!-- begin-model-doc -->
+	 * Liberia
+	 * <!-- end-model-doc -->
+	 * @see #LBR_VALUE
+	 * @generated
+	 * @ordered
+	 */
+	LBR(375, "LBR", "LBR"),
+
+	/**
+	 * The '<em><b>LBY</b></em>' literal object.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * <!-- begin-model-doc -->
+	 * Libya
+	 * <!-- end-model-doc -->
+	 * @see #LBY_VALUE
+	 * @generated
+	 * @ordered
+	 */
+	LBY(376, "LBY", "LBY"),
+
+	/**
+	 * The '<em><b>LCA</b></em>' literal object.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * <!-- begin-model-doc -->
+	 * Saint Lucia
+	 * <!-- end-model-doc -->
+	 * @see #LCA_VALUE
+	 * @generated
+	 * @ordered
+	 */
+	LCA(377, "LCA", "LCA"),
+
+	/**
+	 * The '<em><b>LIE</b></em>' literal object.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * <!-- begin-model-doc -->
+	 * Liechtenstein
+	 * <!-- end-model-doc -->
+	 * @see #LIE_VALUE
+	 * @generated
+	 * @ordered
+	 */
+	LIE(378, "LIE", "LIE"),
+
+	/**
+	 * The '<em><b>LKA</b></em>' literal object.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * <!-- begin-model-doc -->
+	 * Sri Lanka
+	 * <!-- end-model-doc -->
+	 * @see #LKA_VALUE
+	 * @generated
+	 * @ordered
+	 */
+	LKA(379, "LKA", "LKA"),
+
+	/**
+	 * The '<em><b>LSO</b></em>' literal object.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * <!-- begin-model-doc -->
+	 * Lesotho
+	 * <!-- end-model-doc -->
+	 * @see #LSO_VALUE
+	 * @generated
+	 * @ordered
+	 */
+	LSO(380, "LSO", "LSO"),
+
+	/**
+	 * The '<em><b>LTU</b></em>' literal object.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * <!-- begin-model-doc -->
+	 * Lithuania
+	 * <!-- end-model-doc -->
+	 * @see #LTU_VALUE
+	 * @generated
+	 * @ordered
+	 */
+	LTU(381, "LTU", "LTU"),
+
+	/**
+	 * The '<em><b>LUX</b></em>' literal object.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * <!-- begin-model-doc -->
+	 * Luxembourg
+	 * <!-- end-model-doc -->
+	 * @see #LUX_VALUE
+	 * @generated
+	 * @ordered
+	 */
+	LUX(382, "LUX", "LUX"),
+
+	/**
+	 * The '<em><b>LVA</b></em>' literal object.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * <!-- begin-model-doc -->
+	 * Latvia
+	 * <!-- end-model-doc -->
+	 * @see #LVA_VALUE
+	 * @generated
+	 * @ordered
+	 */
+	LVA(383, "LVA", "LVA"),
+
+	/**
+	 * The '<em><b>MAC</b></em>' literal object.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * <!-- begin-model-doc -->
+	 * Macao
+	 * <!-- end-model-doc -->
+	 * @see #MAC_VALUE
+	 * @generated
+	 * @ordered
+	 */
+	MAC(384, "MAC", "MAC"),
+
+	/**
+	 * The '<em><b>MAF</b></em>' literal object.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * <!-- begin-model-doc -->
+	 * Saint Martin (French part)
+	 * <!-- end-model-doc -->
+	 * @see #MAF_VALUE
+	 * @generated
+	 * @ordered
+	 */
+	MAF(385, "MAF", "MAF"),
+
+	/**
+	 * The '<em><b>MAR</b></em>' literal object.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * <!-- begin-model-doc -->
+	 * Morocco
+	 * <!-- end-model-doc -->
+	 * @see #MAR_VALUE
+	 * @generated
+	 * @ordered
+	 */
+	MAR(386, "MAR", "MAR"),
+
+	/**
+	 * The '<em><b>MCO</b></em>' literal object.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * <!-- begin-model-doc -->
+	 * Monaco
+	 * <!-- end-model-doc -->
+	 * @see #MCO_VALUE
+	 * @generated
+	 * @ordered
+	 */
+	MCO(387, "MCO", "MCO"),
+
+	/**
+	 * The '<em><b>MDA</b></em>' literal object.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * <!-- begin-model-doc -->
+	 * Moldova, Republic of
+	 * <!-- end-model-doc -->
+	 * @see #MDA_VALUE
+	 * @generated
+	 * @ordered
+	 */
+	MDA(388, "MDA", "MDA"),
+
+	/**
+	 * The '<em><b>MDG</b></em>' literal object.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * <!-- begin-model-doc -->
+	 * Madagascar
+	 * <!-- end-model-doc -->
+	 * @see #MDG_VALUE
+	 * @generated
+	 * @ordered
+	 */
+	MDG(389, "MDG", "MDG"),
+
+	/**
+	 * The '<em><b>MDV</b></em>' literal object.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * <!-- begin-model-doc -->
+	 * Maldives
+	 * <!-- end-model-doc -->
+	 * @see #MDV_VALUE
+	 * @generated
+	 * @ordered
+	 */
+	MDV(390, "MDV", "MDV"),
+
+	/**
+	 * The '<em><b>MEX</b></em>' literal object.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * <!-- begin-model-doc -->
+	 * Mexico
+	 * <!-- end-model-doc -->
+	 * @see #MEX_VALUE
+	 * @generated
+	 * @ordered
+	 */
+	MEX(391, "MEX", "MEX"),
+
+	/**
+	 * The '<em><b>MHL</b></em>' literal object.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * <!-- begin-model-doc -->
+	 * Marshall Islands
+	 * <!-- end-model-doc -->
+	 * @see #MHL_VALUE
+	 * @generated
+	 * @ordered
+	 */
+	MHL(392, "MHL", "MHL"),
+
+	/**
+	 * The '<em><b>MKD</b></em>' literal object.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * <!-- begin-model-doc -->
+	 * Macedonia, the former Yugoslav Republic of
+	 * <!-- end-model-doc -->
+	 * @see #MKD_VALUE
+	 * @generated
+	 * @ordered
+	 */
+	MKD(393, "MKD", "MKD"),
+
+	/**
+	 * The '<em><b>MLI</b></em>' literal object.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * <!-- begin-model-doc -->
+	 * Mali
+	 * <!-- end-model-doc -->
+	 * @see #MLI_VALUE
+	 * @generated
+	 * @ordered
+	 */
+	MLI(394, "MLI", "MLI"),
+
+	/**
+	 * The '<em><b>MLT</b></em>' literal object.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * <!-- begin-model-doc -->
+	 * Malta
+	 * <!-- end-model-doc -->
+	 * @see #MLT_VALUE
+	 * @generated
+	 * @ordered
+	 */
+	MLT(395, "MLT", "MLT"),
+
+	/**
+	 * The '<em><b>MMR</b></em>' literal object.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * <!-- begin-model-doc -->
+	 * Myanmar
+	 * <!-- end-model-doc -->
+	 * @see #MMR_VALUE
+	 * @generated
+	 * @ordered
+	 */
+	MMR(396, "MMR", "MMR"),
+
+	/**
+	 * The '<em><b>MNE</b></em>' literal object.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * <!-- begin-model-doc -->
+	 * Montenegro
+	 * <!-- end-model-doc -->
+	 * @see #MNE_VALUE
+	 * @generated
+	 * @ordered
+	 */
+	MNE(397, "MNE", "MNE"),
+
+	/**
+	 * The '<em><b>MNG</b></em>' literal object.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * <!-- begin-model-doc -->
+	 * Mongolia
+	 * <!-- end-model-doc -->
+	 * @see #MNG_VALUE
+	 * @generated
+	 * @ordered
+	 */
+	MNG(398, "MNG", "MNG"),
+
+	/**
+	 * The '<em><b>MNP</b></em>' literal object.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * <!-- begin-model-doc -->
+	 * Northern Mariana Islands
+	 * <!-- end-model-doc -->
+	 * @see #MNP_VALUE
+	 * @generated
+	 * @ordered
+	 */
+	MNP(399, "MNP", "MNP"),
+
+	/**
+	 * The '<em><b>MOZ</b></em>' literal object.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * <!-- begin-model-doc -->
+	 * Mozambique
+	 * <!-- end-model-doc -->
+	 * @see #MOZ_VALUE
+	 * @generated
+	 * @ordered
+	 */
+	MOZ(400, "MOZ", "MOZ"),
+
+	/**
+	 * The '<em><b>MRT</b></em>' literal object.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * <!-- begin-model-doc -->
+	 * Mauritania
+	 * <!-- end-model-doc -->
+	 * @see #MRT_VALUE
+	 * @generated
+	 * @ordered
+	 */
+	MRT(401, "MRT", "MRT"),
+
+	/**
+	 * The '<em><b>MSR</b></em>' literal object.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * <!-- begin-model-doc -->
+	 * Montserrat
+	 * <!-- end-model-doc -->
+	 * @see #MSR_VALUE
+	 * @generated
+	 * @ordered
+	 */
+	MSR(402, "MSR", "MSR"),
+
+	/**
+	 * The '<em><b>MTQ</b></em>' literal object.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * <!-- begin-model-doc -->
+	 * Martinique
+	 * <!-- end-model-doc -->
+	 * @see #MTQ_VALUE
+	 * @generated
+	 * @ordered
+	 */
+	MTQ(403, "MTQ", "MTQ"),
+
+	/**
+	 * The '<em><b>MUS</b></em>' literal object.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * <!-- begin-model-doc -->
+	 * Mauritius
+	 * <!-- end-model-doc -->
+	 * @see #MUS_VALUE
+	 * @generated
+	 * @ordered
+	 */
+	MUS(404, "MUS", "MUS"),
+
+	/**
+	 * The '<em><b>MWI</b></em>' literal object.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * <!-- begin-model-doc -->
+	 * Malawi
+	 * <!-- end-model-doc -->
+	 * @see #MWI_VALUE
+	 * @generated
+	 * @ordered
+	 */
+	MWI(405, "MWI", "MWI"),
+
+	/**
+	 * The '<em><b>MYS</b></em>' literal object.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * <!-- begin-model-doc -->
+	 * Malaysia
+	 * <!-- end-model-doc -->
+	 * @see #MYS_VALUE
+	 * @generated
+	 * @ordered
+	 */
+	MYS(406, "MYS", "MYS"),
+
+	/**
+	 * The '<em><b>MYT</b></em>' literal object.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * <!-- begin-model-doc -->
+	 * Mayotte
+	 * <!-- end-model-doc -->
+	 * @see #MYT_VALUE
+	 * @generated
+	 * @ordered
+	 */
+	MYT(407, "MYT", "MYT"),
+
+	/**
+	 * The '<em><b>NAM</b></em>' literal object.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * <!-- begin-model-doc -->
+	 * Namibia
+	 * <!-- end-model-doc -->
+	 * @see #NAM_VALUE
+	 * @generated
+	 * @ordered
+	 */
+	NAM(408, "NAM", "NAM"),
+
+	/**
+	 * The '<em><b>NCL</b></em>' literal object.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * <!-- begin-model-doc -->
+	 * New Caledonia
+	 * <!-- end-model-doc -->
+	 * @see #NCL_VALUE
+	 * @generated
+	 * @ordered
+	 */
+	NCL(409, "NCL", "NCL"),
+
+	/**
+	 * The '<em><b>NER</b></em>' literal object.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * <!-- begin-model-doc -->
+	 * Niger
+	 * <!-- end-model-doc -->
+	 * @see #NER_VALUE
+	 * @generated
+	 * @ordered
+	 */
+	NER(410, "NER", "NER"),
+
+	/**
+	 * The '<em><b>NFK</b></em>' literal object.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * <!-- begin-model-doc -->
+	 * Norfolk Island
+	 * <!-- end-model-doc -->
+	 * @see #NFK_VALUE
+	 * @generated
+	 * @ordered
+	 */
+	NFK(411, "NFK", "NFK"),
+
+	/**
+	 * The '<em><b>NGA</b></em>' literal object.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * <!-- begin-model-doc -->
+	 * Nigeria
+	 * <!-- end-model-doc -->
+	 * @see #NGA_VALUE
+	 * @generated
+	 * @ordered
+	 */
+	NGA(412, "NGA", "NGA"),
+
+	/**
+	 * The '<em><b>NIC</b></em>' literal object.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * <!-- begin-model-doc -->
+	 * Nicaragua
+	 * <!-- end-model-doc -->
+	 * @see #NIC_VALUE
+	 * @generated
+	 * @ordered
+	 */
+	NIC(413, "NIC", "NIC"),
+
+	/**
+	 * The '<em><b>NIU</b></em>' literal object.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * <!-- begin-model-doc -->
+	 * Niue
+	 * <!-- end-model-doc -->
+	 * @see #NIU_VALUE
+	 * @generated
+	 * @ordered
+	 */
+	NIU(414, "NIU", "NIU"),
+
+	/**
+	 * The '<em><b>NLD</b></em>' literal object.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * <!-- begin-model-doc -->
+	 * Netherlands
+	 * <!-- end-model-doc -->
+	 * @see #NLD_VALUE
+	 * @generated
+	 * @ordered
+	 */
+	NLD(415, "NLD", "NLD"),
+
+	/**
+	 * The '<em><b>NOR</b></em>' literal object.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * <!-- begin-model-doc -->
+	 * Norway
+	 * <!-- end-model-doc -->
+	 * @see #NOR_VALUE
+	 * @generated
+	 * @ordered
+	 */
+	NOR(416, "NOR", "NOR"),
+
+	/**
+	 * The '<em><b>NPL</b></em>' literal object.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * <!-- begin-model-doc -->
+	 * Nepal
+	 * <!-- end-model-doc -->
+	 * @see #NPL_VALUE
+	 * @generated
+	 * @ordered
+	 */
+	NPL(417, "NPL", "NPL"),
+
+	/**
+	 * The '<em><b>NRU</b></em>' literal object.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * <!-- begin-model-doc -->
+	 * Nauru
+	 * <!-- end-model-doc -->
+	 * @see #NRU_VALUE
+	 * @generated
+	 * @ordered
+	 */
+	NRU(418, "NRU", "NRU"),
+
+	/**
+	 * The '<em><b>NZL</b></em>' literal object.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * <!-- begin-model-doc -->
+	 * New Zealand
+	 * <!-- end-model-doc -->
+	 * @see #NZL_VALUE
+	 * @generated
+	 * @ordered
+	 */
+	NZL(419, "NZL", "NZL"),
+
+	/**
+	 * The '<em><b>OMN</b></em>' literal object.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * <!-- begin-model-doc -->
+	 * Oman
+	 * <!-- end-model-doc -->
+	 * @see #OMN_VALUE
+	 * @generated
+	 * @ordered
+	 */
+	OMN(420, "OMN", "OMN"),
+
+	/**
+	 * The '<em><b>PAK</b></em>' literal object.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * <!-- begin-model-doc -->
+	 * Pakistan
+	 * <!-- end-model-doc -->
+	 * @see #PAK_VALUE
+	 * @generated
+	 * @ordered
+	 */
+	PAK(421, "PAK", "PAK"),
+
+	/**
+	 * The '<em><b>PAN</b></em>' literal object.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * <!-- begin-model-doc -->
+	 * Panama
+	 * <!-- end-model-doc -->
+	 * @see #PAN_VALUE
+	 * @generated
+	 * @ordered
+	 */
+	PAN(422, "PAN", "PAN"),
+
+	/**
+	 * The '<em><b>PCN</b></em>' literal object.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * <!-- begin-model-doc -->
+	 * Pitcairn
+	 * <!-- end-model-doc -->
+	 * @see #PCN_VALUE
+	 * @generated
+	 * @ordered
+	 */
+	PCN(423, "PCN", "PCN"),
+
+	/**
+	 * The '<em><b>PER</b></em>' literal object.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * <!-- begin-model-doc -->
+	 * Peru
+	 * <!-- end-model-doc -->
+	 * @see #PER_VALUE
+	 * @generated
+	 * @ordered
+	 */
+	PER(424, "PER", "PER"),
+
+	/**
+	 * The '<em><b>PHL</b></em>' literal object.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * <!-- begin-model-doc -->
+	 * Philippines
+	 * <!-- end-model-doc -->
+	 * @see #PHL_VALUE
+	 * @generated
+	 * @ordered
+	 */
+	PHL(425, "PHL", "PHL"),
+
+	/**
+	 * The '<em><b>PLW</b></em>' literal object.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * <!-- begin-model-doc -->
+	 * Palau
+	 * <!-- end-model-doc -->
+	 * @see #PLW_VALUE
+	 * @generated
+	 * @ordered
+	 */
+	PLW(426, "PLW", "PLW"),
+
+	/**
+	 * The '<em><b>PNG</b></em>' literal object.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * <!-- begin-model-doc -->
+	 * Papua New Guinea
+	 * <!-- end-model-doc -->
+	 * @see #PNG_VALUE
+	 * @generated
+	 * @ordered
+	 */
+	PNG(427, "PNG", "PNG"),
 
 	/**
 	 * The '<em><b>POL</b></em>' literal object.
@@ -42283,22 +44623,130 @@ public enum JurisdictionValueSetEnum implements Enumerator {
 	 */
 	public static final int _150_VALUE = 1766;
 
+	/**
+	 * The '<em><b>151</b></em>' literal value.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * <!-- begin-model-doc -->
+	 * Eastern Europe
+	 * <!-- end-model-doc -->
+	 * @see #_151
+	 * @model literal="151"
+	 * @generated
+	 * @ordered
+	 */
 	public static final int _151_VALUE = 1767;
 
+	/**
+	 * The '<em><b>154</b></em>' literal value.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * <!-- begin-model-doc -->
+	 * Northern Europe
+	 * <!-- end-model-doc -->
+	 * @see #_154
+	 * @model literal="154"
+	 * @generated
+	 * @ordered
+	 */
 	public static final int _154_VALUE = 1768;
 
+	/**
+	 * The '<em><b>039</b></em>' literal value.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * <!-- begin-model-doc -->
+	 * Southern Europe
+	 * <!-- end-model-doc -->
+	 * @see #_039
+	 * @model literal="039"
+	 * @generated
+	 * @ordered
+	 */
 	public static final int _039_VALUE = 1769;
 
+	/**
+	 * The '<em><b>155</b></em>' literal value.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * <!-- begin-model-doc -->
+	 * Western Europe
+	 * <!-- end-model-doc -->
+	 * @see #_155
+	 * @model literal="155"
+	 * @generated
+	 * @ordered
+	 */
 	public static final int _155_VALUE = 1770;
 
+	/**
+	 * The '<em><b>009</b></em>' literal value.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * <!-- begin-model-doc -->
+	 * Oceania
+	 * <!-- end-model-doc -->
+	 * @see #_009
+	 * @model literal="009"
+	 * @generated
+	 * @ordered
+	 */
 	public static final int _009_VALUE = 1771;
 
+	/**
+	 * The '<em><b>053</b></em>' literal value.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * <!-- begin-model-doc -->
+	 * Australia and New Zealand
+	 * <!-- end-model-doc -->
+	 * @see #_053
+	 * @model literal="053"
+	 * @generated
+	 * @ordered
+	 */
 	public static final int _053_VALUE = 1772;
 
+	/**
+	 * The '<em><b>054</b></em>' literal value.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * <!-- begin-model-doc -->
+	 * Melanesia
+	 * <!-- end-model-doc -->
+	 * @see #_054
+	 * @model literal="054"
+	 * @generated
+	 * @ordered
+	 */
 	public static final int _054_VALUE = 1773;
 
+	/**
+	 * The '<em><b>057</b></em>' literal value.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * <!-- begin-model-doc -->
+	 * Micronesia
+	 * <!-- end-model-doc -->
+	 * @see #_057
+	 * @model literal="057"
+	 * @generated
+	 * @ordered
+	 */
 	public static final int _057_VALUE = 1774;
 
+	/**
+	 * The '<em><b>061</b></em>' literal value.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * <!-- begin-model-doc -->
+	 * Polynesia
+	 * <!-- end-model-doc -->
+	 * @see #_061
+	 * @model literal="061"
+	 * @generated
+	 * @ordered
+	 */
 	public static final int _061_VALUE = 1775;
 
 	/**
@@ -42309,6 +44757,186 @@ public enum JurisdictionValueSetEnum implements Enumerator {
 	 */
 	private static final JurisdictionValueSetEnum[] VALUES_ARRAY =
 		new JurisdictionValueSetEnum[] {
+			AD,
+			ABW,
+			AFG,
+			AGO,
+			AIA,
+			ALA,
+			ALB,
+			AND,
+			ARE,
+			ARG,
+			ARM,
+			ASM,
+			ATA,
+			ATF,
+			ATG,
+			AUS,
+			AUT,
+			AZE,
+			BDI,
+			BEL,
+			BEN,
+			BES,
+			BFA,
+			BGD,
+			BGR,
+			BHR,
+			BHS,
+			BIH,
+			BLM,
+			BLR,
+			BLZ,
+			BMU,
+			BOL,
+			BRA,
+			BRB,
+			BRN,
+			BTN,
+			BVT,
+			BWA,
+			CAF,
+			CAN,
+			CCK,
+			CHE,
+			CHL,
+			CHN,
+			CIV,
+			CMR,
+			COD,
+			COG,
+			COK,
+			COL,
+			COM,
+			CPV,
+			CRI,
+			CUB,
+			CUW,
+			CXR,
+			CYM,
+			CYP,
+			CZE,
+			DEU,
+			DJI,
+			DMA,
+			DNK,
+			DOM,
+			DZA,
+			ECU,
+			EGY,
+			ERI,
+			ESH,
+			ESP,
+			EST,
+			ETH,
+			FIN,
+			FJI,
+			FLK,
+			FRA,
+			FRO,
+			FSM,
+			GAB,
+			GBR,
+			GEO,
+			GGY,
+			GHA,
+			GIB,
+			GIN,
+			GLP,
+			GMB,
+			GNB,
+			GNQ,
+			GRC,
+			GRD,
+			GRL,
+			GTM,
+			GUF,
+			GUM,
+			GUY,
+			HKG,
+			HMD,
+			HND,
+			HRV,
+			HTI,
+			HUN,
+			IDN,
+			IMN,
+			IND,
+			IOT,
+			IRL,
+			IRN,
+			IRQ,
+			ISL,
+			ISR,
+			ITA,
+			JAM,
+			JEY,
+			JOR,
+			JPN,
+			KAZ,
+			KEN,
+			KGZ,
+			KHM,
+			KIR,
+			KNA,
+			KOR,
+			KWT,
+			LAO,
+			LBN,
+			LBR,
+			LBY,
+			LCA,
+			LIE,
+			LKA,
+			LSO,
+			LTU,
+			LUX,
+			LVA,
+			MAC,
+			MAF,
+			MAR,
+			MCO,
+			MDA,
+			MDG,
+			MDV,
+			MEX,
+			MHL,
+			MKD,
+			MLI,
+			MLT,
+			MMR,
+			MNE,
+			MNG,
+			MNP,
+			MOZ,
+			MRT,
+			MSR,
+			MTQ,
+			MUS,
+			MWI,
+			MYS,
+			MYT,
+			NAM,
+			NCL,
+			NER,
+			NFK,
+			NGA,
+			NIC,
+			NIU,
+			NLD,
+			NOR,
+			NPL,
+			NRU,
+			NZL,
+			OMN,
+			PAK,
+			PAN,
+			PCN,
+			PER,
+			PHL,
+			PLW,
+			PNG,
 			POL,
 			PRI,
 			PRK,
@@ -43713,6 +46341,186 @@ public enum JurisdictionValueSetEnum implements Enumerator {
 	 */
 	public static JurisdictionValueSetEnum get(int value) {
 		switch (value) {
+			case AD_VALUE: return AD;
+			case ABW_VALUE: return ABW;
+			case AFG_VALUE: return AFG;
+			case AGO_VALUE: return AGO;
+			case AIA_VALUE: return AIA;
+			case ALA_VALUE: return ALA;
+			case ALB_VALUE: return ALB;
+			case AND_VALUE: return AND;
+			case ARE_VALUE: return ARE;
+			case ARG_VALUE: return ARG;
+			case ARM_VALUE: return ARM;
+			case ASM_VALUE: return ASM;
+			case ATA_VALUE: return ATA;
+			case ATF_VALUE: return ATF;
+			case ATG_VALUE: return ATG;
+			case AUS_VALUE: return AUS;
+			case AUT_VALUE: return AUT;
+			case AZE_VALUE: return AZE;
+			case BDI_VALUE: return BDI;
+			case BEL_VALUE: return BEL;
+			case BEN_VALUE: return BEN;
+			case BES_VALUE: return BES;
+			case BFA_VALUE: return BFA;
+			case BGD_VALUE: return BGD;
+			case BGR_VALUE: return BGR;
+			case BHR_VALUE: return BHR;
+			case BHS_VALUE: return BHS;
+			case BIH_VALUE: return BIH;
+			case BLM_VALUE: return BLM;
+			case BLR_VALUE: return BLR;
+			case BLZ_VALUE: return BLZ;
+			case BMU_VALUE: return BMU;
+			case BOL_VALUE: return BOL;
+			case BRA_VALUE: return BRA;
+			case BRB_VALUE: return BRB;
+			case BRN_VALUE: return BRN;
+			case BTN_VALUE: return BTN;
+			case BVT_VALUE: return BVT;
+			case BWA_VALUE: return BWA;
+			case CAF_VALUE: return CAF;
+			case CAN_VALUE: return CAN;
+			case CCK_VALUE: return CCK;
+			case CHE_VALUE: return CHE;
+			case CHL_VALUE: return CHL;
+			case CHN_VALUE: return CHN;
+			case CIV_VALUE: return CIV;
+			case CMR_VALUE: return CMR;
+			case COD_VALUE: return COD;
+			case COG_VALUE: return COG;
+			case COK_VALUE: return COK;
+			case COL_VALUE: return COL;
+			case COM_VALUE: return COM;
+			case CPV_VALUE: return CPV;
+			case CRI_VALUE: return CRI;
+			case CUB_VALUE: return CUB;
+			case CUW_VALUE: return CUW;
+			case CXR_VALUE: return CXR;
+			case CYM_VALUE: return CYM;
+			case CYP_VALUE: return CYP;
+			case CZE_VALUE: return CZE;
+			case DEU_VALUE: return DEU;
+			case DJI_VALUE: return DJI;
+			case DMA_VALUE: return DMA;
+			case DNK_VALUE: return DNK;
+			case DOM_VALUE: return DOM;
+			case DZA_VALUE: return DZA;
+			case ECU_VALUE: return ECU;
+			case EGY_VALUE: return EGY;
+			case ERI_VALUE: return ERI;
+			case ESH_VALUE: return ESH;
+			case ESP_VALUE: return ESP;
+			case EST_VALUE: return EST;
+			case ETH_VALUE: return ETH;
+			case FIN_VALUE: return FIN;
+			case FJI_VALUE: return FJI;
+			case FLK_VALUE: return FLK;
+			case FRA_VALUE: return FRA;
+			case FRO_VALUE: return FRO;
+			case FSM_VALUE: return FSM;
+			case GAB_VALUE: return GAB;
+			case GBR_VALUE: return GBR;
+			case GEO_VALUE: return GEO;
+			case GGY_VALUE: return GGY;
+			case GHA_VALUE: return GHA;
+			case GIB_VALUE: return GIB;
+			case GIN_VALUE: return GIN;
+			case GLP_VALUE: return GLP;
+			case GMB_VALUE: return GMB;
+			case GNB_VALUE: return GNB;
+			case GNQ_VALUE: return GNQ;
+			case GRC_VALUE: return GRC;
+			case GRD_VALUE: return GRD;
+			case GRL_VALUE: return GRL;
+			case GTM_VALUE: return GTM;
+			case GUF_VALUE: return GUF;
+			case GUM_VALUE: return GUM;
+			case GUY_VALUE: return GUY;
+			case HKG_VALUE: return HKG;
+			case HMD_VALUE: return HMD;
+			case HND_VALUE: return HND;
+			case HRV_VALUE: return HRV;
+			case HTI_VALUE: return HTI;
+			case HUN_VALUE: return HUN;
+			case IDN_VALUE: return IDN;
+			case IMN_VALUE: return IMN;
+			case IND_VALUE: return IND;
+			case IOT_VALUE: return IOT;
+			case IRL_VALUE: return IRL;
+			case IRN_VALUE: return IRN;
+			case IRQ_VALUE: return IRQ;
+			case ISL_VALUE: return ISL;
+			case ISR_VALUE: return ISR;
+			case ITA_VALUE: return ITA;
+			case JAM_VALUE: return JAM;
+			case JEY_VALUE: return JEY;
+			case JOR_VALUE: return JOR;
+			case JPN_VALUE: return JPN;
+			case KAZ_VALUE: return KAZ;
+			case KEN_VALUE: return KEN;
+			case KGZ_VALUE: return KGZ;
+			case KHM_VALUE: return KHM;
+			case KIR_VALUE: return KIR;
+			case KNA_VALUE: return KNA;
+			case KOR_VALUE: return KOR;
+			case KWT_VALUE: return KWT;
+			case LAO_VALUE: return LAO;
+			case LBN_VALUE: return LBN;
+			case LBR_VALUE: return LBR;
+			case LBY_VALUE: return LBY;
+			case LCA_VALUE: return LCA;
+			case LIE_VALUE: return LIE;
+			case LKA_VALUE: return LKA;
+			case LSO_VALUE: return LSO;
+			case LTU_VALUE: return LTU;
+			case LUX_VALUE: return LUX;
+			case LVA_VALUE: return LVA;
+			case MAC_VALUE: return MAC;
+			case MAF_VALUE: return MAF;
+			case MAR_VALUE: return MAR;
+			case MCO_VALUE: return MCO;
+			case MDA_VALUE: return MDA;
+			case MDG_VALUE: return MDG;
+			case MDV_VALUE: return MDV;
+			case MEX_VALUE: return MEX;
+			case MHL_VALUE: return MHL;
+			case MKD_VALUE: return MKD;
+			case MLI_VALUE: return MLI;
+			case MLT_VALUE: return MLT;
+			case MMR_VALUE: return MMR;
+			case MNE_VALUE: return MNE;
+			case MNG_VALUE: return MNG;
+			case MNP_VALUE: return MNP;
+			case MOZ_VALUE: return MOZ;
+			case MRT_VALUE: return MRT;
+			case MSR_VALUE: return MSR;
+			case MTQ_VALUE: return MTQ;
+			case MUS_VALUE: return MUS;
+			case MWI_VALUE: return MWI;
+			case MYS_VALUE: return MYS;
+			case MYT_VALUE: return MYT;
+			case NAM_VALUE: return NAM;
+			case NCL_VALUE: return NCL;
+			case NER_VALUE: return NER;
+			case NFK_VALUE: return NFK;
+			case NGA_VALUE: return NGA;
+			case NIC_VALUE: return NIC;
+			case NIU_VALUE: return NIU;
+			case NLD_VALUE: return NLD;
+			case NOR_VALUE: return NOR;
+			case NPL_VALUE: return NPL;
+			case NRU_VALUE: return NRU;
+			case NZL_VALUE: return NZL;
+			case OMN_VALUE: return OMN;
+			case PAK_VALUE: return PAK;
+			case PAN_VALUE: return PAN;
+			case PCN_VALUE: return PCN;
+			case PER_VALUE: return PER;
+			case PHL_VALUE: return PHL;
+			case PLW_VALUE: return PLW;
+			case PNG_VALUE: return PNG;
 			case POL_VALUE: return POL;
 			case PRI_VALUE: return PRI;
 			case PRK_VALUE: return PRK;

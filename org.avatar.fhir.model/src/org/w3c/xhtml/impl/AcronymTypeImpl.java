@@ -199,7 +199,7 @@ public class AcronymTypeImpl extends InlineImpl implements AcronymType {
 	 */
 	@Override
 	protected EClass eStaticClass() {
-		return XHTMLPackage.eINSTANCE.getAcronymType();
+		return XHTMLPackage.Literals.ACRONYM_TYPE;
 	}
 
 	/**

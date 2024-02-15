@@ -199,7 +199,7 @@ public class H6TypeImpl extends InlineImpl implements H6Type {
 	 */
 	@Override
 	protected EClass eStaticClass() {
-		return XHTMLPackage.eINSTANCE.getH6Type();
+		return XHTMLPackage.Literals.H6_TYPE;
 	}
 
 	/**

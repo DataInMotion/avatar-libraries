@@ -199,7 +199,7 @@ public class CodeTypeImpl extends InlineImpl implements CodeType {
 	 */
 	@Override
 	protected EClass eStaticClass() {
-		return XHTMLPackage.eINSTANCE.getCodeType();
+		return XHTMLPackage.Literals.CODE_TYPE;
 	}
 
 	/**

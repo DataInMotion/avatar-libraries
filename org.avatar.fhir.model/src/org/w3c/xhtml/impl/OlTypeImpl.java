@@ -220,7 +220,7 @@ public class OlTypeImpl extends MinimalEObjectImpl.Container implements OlType {
 	 */
 	@Override
 	protected EClass eStaticClass() {
-		return XHTMLPackage.eINSTANCE.getOlType();
+		return XHTMLPackage.Literals.OL_TYPE;
 	}
 
 	/**

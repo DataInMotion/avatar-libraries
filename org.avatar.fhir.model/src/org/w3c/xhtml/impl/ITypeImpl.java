@@ -199,7 +199,7 @@ public class ITypeImpl extends InlineImpl implements IType {
 	 */
 	@Override
 	protected EClass eStaticClass() {
-		return XHTMLPackage.eINSTANCE.getIType();
+		return XHTMLPackage.Literals.ITYPE;
 	}
 
 	/**
