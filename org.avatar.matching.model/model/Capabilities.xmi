@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<matching:Capabilities
+    xmi:version="2.0"
+    xmlns:xmi="http://www.omg.org/XMI"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:matching="http://example.de/example/1.0"
+    xsi:schemaLocation="http://example.de/example/1.0 matching.ecore">
+  <caps purpose="MEDICAL"
+      name="EEG">
+    <properties
+        xsi:type="matching:SingleValueParameter"
+        name="description"
+        value="Test"/>
+    <properties
+        xsi:type="matching:IntParameter"
+        name="kAnonymity"
+        value="2"/>
+    <properties
+        xsi:type="matching:IntParameter"
+        name="reidentifcationSteps"
+        value="3"/>
+  </caps>
+  <caps purpose="MEDICAL"
+      name="IRIS-Data">
+    <properties
+        xsi:type="matching:SingleValueParameter"
+        name="algorythm"
+        value="ABC"/>
+    <properties
+        xsi:type="matching:IntParameter"
+        name="inputSamples"
+        value="6"/>
+  </caps>
+  <caps purpose="MEDICAL"
+      name="K-Anonymity">
+    <properties
+        xsi:type="matching:SingleValueParameter"
+        name="test"
+        value="test"/>
+  </caps>
+  <caps name="GDPR-01">
+    <properties
+        xsi:type="matching:IntParameter"
+        name="a"
+        value="42"/>
+  </caps>
+  <caps name="GDPR-02">
+    <properties
+        xsi:type="matching:IntParameter"
+        name="a"
+        value="24"/>
+    <properties
+        xsi:type="matching:IntParameter"
+        name="b"
+        value="10"/>
+  </caps>
+  <caps purpose="DATA"
+      name="MyData">
+    <properties
+        xsi:type="matching:SingleValueParameter"
+        name="structured"
+        value="true"/>
+    <properties
+        xsi:type="matching:SingleValueParameter"
+        name="format"
+        value="sql,csv"/>
+    <properties
+        xsi:type="matching:SingleValueParameter"/>
+    <capabilities
+        purpose="SCHEMA"
+        name="MyData-Model">
+      <properties
+          xsi:type="matching:SingleValueParameter"
+          name="source"
+          value="https://models.avatar.org/model/MyData"/>
+    </capabilities>
+    <capabilities
+        purpose="ATTRIBUTE"
+        name="NAME">
+      <properties
+          xsi:type="matching:SingleValueParameter"
+          name="column"
+          value="firstName"/>
+      <properties
+          xsi:type="matching:SingleValueParameter"
+          name="anonymize"
+          value="K,Arx"/>
+    </capabilities>
+    <capabilities
+        purpose="DATA"
+        name="EEG-Data">
+      <properties
+          xsi:type="matching:SingleValueParameter"
+          name="format"
+          value="TIFF"/>
+      <properties
+          xsi:type="matching:SingleValueParameter"
+          name="anonymize"
+          value="EEG-Anonym"/>
+    </capabilities>
+  </caps>
+</matching:Capabilities>

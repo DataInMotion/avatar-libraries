@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<genmodel:GenModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore"
+    xmlns:genmodel="http://www.eclipse.org/emf/2002/GenModel" modelDirectory="/org.avatar.matching.model/src" modelPluginID="org.avatar.matching.model"
+    modelName="Matching" rootExtendsClass="org.eclipse.emf.ecore.impl.MinimalEObjectImpl$Container"
+    importerID="org.eclipse.emf.importer.ecore" complianceLevel="17.0" copyrightFields="false"
+    operationReflection="true" importOrganizing="true" oSGiCompatible="true">
+  <foreignModel>matching.ecore</foreignModel>
+  <genPackages prefix="Matching" basePackage="org.avatar.matching" resource="XMI"
+      disposableProviderFactory="true" fileExtensions="matching" ecorePackage="matching.ecore#/">
+    <genEnums typeSafeEnumCompatible="false" ecoreEnum="matching.ecore#//Purpose">
+      <genEnumLiterals ecoreEnumLiteral="matching.ecore#//Purpose/LEGAL"/>
+    </genEnums>
+    <genClasses ecoreClass="matching.ecore#//Example"/>
+    <genClasses ecoreClass="matching.ecore#//Capability">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute matching.ecore#//Capability/purpose"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute matching.ecore#//Capability/name"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference matching.ecore#//Capability/properties"/>
+    </genClasses>
+    <genClasses ecoreClass="matching.ecore#//QueryCapabilities"/>
+    <genClasses ecoreClass="matching.ecore#//EvaluationCriteria"/>
+    <genClasses ecoreClass="matching.ecore#//Algorithm">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute matching.ecore#//Algorithm/id"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute matching.ecore#//Algorithm/name"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference matching.ecore#//Algorithm/description"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference matching.ecore#//Algorithm/input"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference matching.ecore#//Algorithm/output"/>
+    </genClasses>
+    <genClasses ecoreClass="matching.ecore#//AlgorithmDescription"/>
+    <genClasses ecoreClass="matching.ecore#//Input">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference matching.ecore#//Input/parameters"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference matching.ecore#//Input/inputChecks"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference matching.ecore#//Input/inputMetric"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference matching.ecore#//Input/dataSet"/>
+    </genClasses>
+    <genClasses ecoreClass="matching.ecore#//Output">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference matching.ecore#//Output/outputChecks"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference matching.ecore#//Output/outputMetric"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference matching.ecore#//Output/dataSet"/>
+    </genClasses>
+    <genClasses ecoreClass="matching.ecore#//Parameter">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute matching.ecore#//Parameter/value"/>
+    </genClasses>
+    <genClasses ecoreClass="matching.ecore#//Check">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute matching.ecore#//Check/name"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute matching.ecore#//Check/id"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute matching.ecore#//Check/priority"/>
+    </genClasses>
+    <genClasses ecoreClass="matching.ecore#//Metric">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute matching.ecore#//Metric/id"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute matching.ecore#//Metric/name"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute matching.ecore#//Metric/internal"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute matching.ecore#//Metric/value"/>
+    </genClasses>
+    <genClasses ecoreClass="matching.ecore#//DataSetDescriptor">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute matching.ecore#//DataSetDescriptor/id"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute matching.ecore#//DataSetDescriptor/source"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute matching.ecore#//DataSetDescriptor/query"/>
+    </genClasses>
+    <genClasses ecoreClass="matching.ecore#//PrivacyMetric"/>
+    <genClasses ecoreClass="matching.ecore#//SingleValueParameter">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute matching.ecore#//SingleValueParameter/value"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute matching.ecore#//SingleValueParameter/%"/>
+    </genClasses>
+    <genClasses ecoreClass="matching.ecore#//ReInditificationCheck"/>
+    <genClasses ecoreClass="matching.ecore#//Capabilities">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference matching.ecore#//Capabilities/caps"/>
+    </genClasses>
+  </genPackages>
+</genmodel:GenModel>

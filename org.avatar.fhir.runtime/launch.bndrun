@@ -35,9 +35,6 @@
 	org.avatar.fhir.rest.example;version=snapshot,\
 	org.avatar.fhir.runtime.config;version=snapshot,\
 	org.avatar.fhir.service.example;version=snapshot,\
-	org.eclipse.emf.common;version='[2.28.0,2.28.1)',\
-	org.eclipse.emf.ecore;version='[2.33.0,2.33.1)',\
-	org.eclipse.emf.ecore.xmi;version='[2.18.0,2.18.1)',\
 	org.eclipse.emfcloud.emfjson-jackson;version='[2.2.0,2.2.1)',\
 	org.eclipse.osgitech.rest;version='[1.2.2,1.2.3)',\
 	org.eclipse.osgitech.rest.servlet.whiteboard;version='[1.2.2,1.2.3)',\
@@ -47,7 +44,6 @@
 	org.gecko.emf.json;version='[1.5.1,1.5.2)',\
 	org.gecko.emf.mongo.component;version='[6.1.0,6.1.1)',\
 	org.gecko.emf.osgi.component;version='[6.0.1,6.0.2)',\
-	org.gecko.emf.osgi.model.info;version='[6.0.1,6.0.2)',\
 	org.gecko.emf.repository.api;version='[9.3.0,9.3.1)',\
 	org.gecko.emf.repository.mongo;version='[3.2.0,3.2.1)',\
 	org.gecko.emf.rest.jakartars;version='[2.3.0,2.3.1)',\
@@ -78,4 +74,8 @@
 	org.yaml.snakeyaml;version='[2.0.0,2.0.1)',\
 	slf4j.api;version='[1.7.36,1.7.37)',\
 	slf4j.jcl;version='[1.7.36,1.7.37)',\
-	org.avatar.fhir.model;version=snapshot
+	org.avatar.fhir.model;version=snapshot,\
+	org.eclipse.emf.common;version='[2.29.0,2.29.1)',\
+	org.eclipse.emf.ecore;version='[2.35.0,2.35.1)',\
+	org.eclipse.emf.ecore.xmi;version='[2.36.0,2.36.1)',\
+	org.gecko.emf.osgi.model.info;version='[6.1.0,6.1.1)'
